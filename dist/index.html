@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>照见荆楚 · 虎座鸟架鼓</title>
+<meta name="description" content="照见虎、鸟与一面鼓。从九连墩二号墓虎座鸟架鼓，探索荆楚的造型、色彩与器物之美。">
+<meta name="theme-color" content="#101312">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%239b382d'/%3E%3Cpath d='M17 17h30v30H17zM22 27h20M22 37h20M32 17v30' stroke='%23f4e7cb' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="./" aria-label="照见荆楚首页"><span class="seal">荆<br>楚</span><span class="brand-name">照见荆楚<small>THE VISIBLE JINGCHU</small></span></a><nav aria-label="展览模式"><button class="nav-item active" data-mode="explore" aria-pressed="true">观原物<span>01</span></button><button class="nav-item" data-mode="relations" aria-pressed="false">读关系<span>02</span></button><button class="nav-item" data-action="source">查依据<span>↗</span></button></nav><span class="collection">视觉文化交互档案 <i></i> 第一辑</span></header>
+<main>
+<section class="exhibit" aria-label="虎座鸟架鼓互动展台">
+<div class="exhibit-heading"><div class="eyebrow"><span class="short-line"></span> 战国 · 九连墩二号墓</div><h1>虎座<span>鸟架</span>鼓</h1><p class="subtitle">从形与色，读懂虎、鸟与鼓的组合。</p></div>
+<div class="edition">NO. 001 <span>湖北省博物馆藏</span></div>
+<div class="stage" id="stage"><div class="stage-grid" aria-hidden="true"></div><div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div><div class="artwork" id="artwork"><img id="artifact-image" src="assets/drum.jpeg" alt="黑漆红黄彩绘的虎座鸟架鼓：两侧凤鸟立于卧虎背上，中间悬挂一面大鼓" draggable="false"><canvas id="artifact-canvas" aria-hidden="true"></canvas><div id="hotspots" class="hotspots"></div></div><div class="artifact-caption"><span>木 · 漆 · 彩绘</span><span>通高 135.9 cm</span></div><div class="stage-hint" id="stage-hint"><span class="hint-cross">＋</span> 点击光点，从一处细节开始</div></div>
+<aside class="insight" id="insight" aria-live="polite"><span class="panel-kicker">一器 · 三重关系</span><h2>它们为何<br>在一起？</h2><p>沿着鸟的长颈向上，顺着虎的身体向下。看见形象，也看见它们彼此承托的秩序。</p><div class="part-list" id="part-list"></div><button class="text-action" id="awaken">让器物舒展 <span>↗</span></button><span class="interpretation-note">动态为形式演绎</span></aside>
+<div class="exhibit-bottom"><div class="mode-controls"><button id="light-button" aria-pressed="false"><span class="light-icon" aria-hidden="true">◉</span> 探照细节</button><span class="control-divider"></span><button id="detail-open">⊕ <span>看清细部</span></button><span class="control-divider"></span><button id="reset-button">↺ <span>回到原物</span></button></div><span class="bottom-note">移动光，发现一处未曾留意的细节</span><button class="source-short" data-action="source">档案与出处 <span>↗</span></button></div>
+</section>
+<section class="evidence-strip" aria-label="阅读依据"><span class="evidence-number">01—05</span><p><strong>形态 · 色彩 · 组织 · 意象 · 语境</strong><span>从具体器物出发，理解视觉要素之间的关系。</span></p><button data-action="source">观察有来处，解释有依据 <span>↗</span></button></section>
+<footer><span>视觉荆楚 <em>／</em> 看见形式，也看见来处。</span><span>九连墩 2 号墓出土 · 图文参考：湖北省博物馆</span></footer>
+</main>
+<dialog id="source-dialog"><div class="dialog-top"><span class="eyebrow">OBJECT RECORD / 001</span><button class="close-button" id="close-source" aria-label="关闭档案">×</button></div><h2>一件器物的来处</h2><dl id="source-facts"></dl><div class="evidence-note"><h3>我们看到了什么，演绎了什么</h3><p>器物资料与黑、红、黄色彩描述依据馆方介绍。轮廓走向、承托关系为本页形式观察。空间分层及形态运动为数字演绎，不代表历史原貌、原声或科学复原。</p></div><a class="outlined-button" href="https://m-www.hbww.org.cn/p/6913.html" target="_blank" rel="noopener noreferrer">查看馆方原始资料 ↗</a><a class="secondary-source" href="https://www.hbww.org.cn/hhfz70n/p/9134.html" target="_blank" rel="noopener noreferrer">年代依据：湖北出土音乐文物研究综述 ↗</a><p class="source-rights">图片来源：湖北省博物馆官网。照片色彩受摄影、照明、保存状态与屏幕影响。图片权利归原权利人，本预览未取得公开再利用授权。</p></dialog>
+
+<dialog id="detail-dialog" class="detail-dialog"><div class="detail-header"><div><span class="eyebrow">近看 / LOOK CLOSER</span><h2>从局部，读回整体</h2></div><button class="close-button" id="close-detail" aria-label="关闭细部查看">×</button></div>
+<div class="photo-tabs"><button data-photo="exhibition" class="active" aria-pressed="true">2021 展陈实拍 <span>高清</span></button><button data-photo="official" aria-pressed="false">馆方发布原图</button></div>
+<p class="photo-context" id="photo-context"></p><div id="detail-viewport" class="detail-viewport" aria-label="可拖动和缩放的器物照片"><img id="detail-image" alt="九连墩虎座鸟架鼓的高分辨率展陈照片" draggable="false"><span id="photo-loading" role="status">正在载入高清实拍…</span></div>
+<div class="detail-toolbar"><button id="detail-minus" aria-label="缩小高清照片">−</button><output id="detail-zoom">100%</output><button id="detail-plus" aria-label="放大高清照片">＋</button><button id="detail-fit">完整照片</button><span>拖动平移 · 滚轮或双指缩放</span></div><div class="photo-credit" id="photo-credit"></div></dialog>
+<div class="toast" id="toast" role="status"></div>
+</body></html>

@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 2,
+  "artifacts": [
+    {
+      "id": "jld2-bird-drum",
+      "title": "虎座鸟架鼓",
+      "collection": "湖北省博物馆",
+      "excavatedFrom": "湖北枣阳九连墩2号墓",
+      "excavatedYear": 2002,
+      "heightCm": 135.9,
+      "widthCm": 134,
+      "image": {
+        "src": "assets/drum.jpeg",
+        "width": 700,
+        "height": 600,
+        "sourceUrl": "https://img.cjyun.org/a/10695/202301/9ec9d807de2982637724582a7ce6dcc2.jpeg",
+        "rights": "湖北省博物馆官网原图，未见开放再利用授权；保留来源与原图署名。"
+      },
+      "sources": [
+        {
+          "id": "hbm-6913",
+          "title": "湖北省博物馆 · 虎座鸟架鼓",
+          "url": "https://m-www.hbww.org.cn/p/6913.html",
+          "checked": "2026-09-26"
+        },
+        {
+          "id": "hbm-9134",
+          "title": "湖北省博物馆 · 湖北出土音乐文物研究综述",
+          "url": "https://www.hbww.org.cn/hhfz70n/p/9134.html",
+          "supports": "九连墩1、2号墓的年代及2号墓出土虎座鸟架鼓",
+          "checked": "2026-09-26"
+        },
+        {
+          "id": "commons-2021",
+          "title": "虎座鸟架鼓（九连墩）展陈实拍",
+          "url": "https://commons.wikimedia.org/wiki/File:虎座鸟架鼓（九连墩）.jpg",
+          "creator": "三十三画生",
+          "date": "2021-12-23",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changes": "原始文件未改动；网页中缩放、平移显示。",
+          "sha1": "0f671bde10c8d6aa338302d52b3fefc78b7b372a"
+        }
+      ],
+      "paletteRecord": "器身通体髹黑漆，运用红、黄色彩绘。",
+      "hotspots": [
+        {
+          "id": "bird",
+          "label": "鸟架",
+          "title": "凤鸟向上",
+          "anchor": {
+            "x": 0.325,
+            "y": 0.35
+          },
+          "observation": "细长的鸟腿与上扬的颈部构成纵向线条，将视线从虎座引向凤冠与悬鼓。",
+          "fact": "两只凤鸟各立于一只卧虎背上，彼此背向而立。",
+          "sourceId": "hbm-6913",
+          "region": [
+            0.5,
+            0.34,
+            0.3,
+            0.26
+          ],
+          "photoFocus": {
+            "x": 0.265,
+            "y": 0.435,
+            "zoom": 3.5
+          }
+        },
+        {
+          "id": "drum",
+          "label": "悬鼓",
+          "title": "鼓悬其间",
+          "anchor": {
+            "x": 0.5,
+            "y": 0.42
+          },
+          "observation": "圆鼓位于两鸟之间，与两侧曲折的轮廓相映，形成聚拢视线的中心。",
+          "fact": "鼓悬挂于凤冠，两只小兽以前足托住鼓腔。",
+          "sourceId": "hbm-6913",
+          "region": [
+            0.5,
+            0.29,
+            0.155,
+            0.18
+          ],
+          "photoFocus": {
+            "x": 0.52,
+            "y": 0.365,
+            "zoom": 2.0
+          }
+        },
+        {
+          "id": "tiger",
+          "label": "虎座",
+          "title": "双虎伏地",
+          "anchor": {
+            "x": 0.69,
+            "y": 0.7
+          },
+          "observation": "低伏的虎身展开横向轮廓，与上方细长的鸟腿形成高低对照，使整体显得沉稳。",
+          "fact": "底座由两只朝相反方向踞坐的卧虎组成，虎的四肢屈伏。",
+          "sourceId": "hbm-6913",
+          "region": [
+            0.5,
+            0.7,
+            0.3,
+            0.105
+          ],
+          "photoFocus": {
+            "x": 0.7,
+            "y": 0.75,
+            "zoom": 3.0
+          }
+        }
+      ],
+      "presentation": {
+        "template": "dark-stage",
+        "motionLabel": "数字演绎",
+        "durationSeconds": 6
+      },
+      "period": "战国中期偏晚（约公元前300年）",
+      "images": [
+        {
+          "id": "official",
+          "src": "assets/drum.jpeg",
+          "width": 700,
+          "height": 600,
+          "label": "馆方发布原图",
+          "sourceId": "hbm-6913",
+          "statusNote": "馆方发布的器物照片，中央可见鼓框。"
+        },
+        {
+          "id": "exhibition",
+          "src": "assets/drum-exhibition-2021.jpg",
+          "width": 5504,
+          "height": 8256,
+          "label": "2021年展陈实拍",
+          "sourceId": "commons-2021",
+          "statusNote": "展陈照片可见完整鼓面，与馆方图呈现状态不同。补配或复制状态未获权威说明，不能据此补全文物原貌。"
+        }
+      ],
+      "lenses": [
+        {
+          "id": "form",
+          "label": "形态",
+          "title": "上扬与低伏",
+          "subtitle": "形，生于彼此的关系。",
+          "observation": "鸟颈与鸟腿延伸出上扬的线条；虎身向两侧横展。高与低、曲与直在同一件器物中相互映衬。",
+          "prompt": "分别点选鸟架与虎座，再回到整体。",
+          "claimType": "形式观察",
+          "sourceIds": [
+            "hbm-6913"
+          ],
+          "action": "parts"
+        },
+        {
+          "id": "color",
+          "label": "色彩",
+          "title": "黑为地，红黄为绘",
+          "subtitle": "颜色，要放回具体部位看。",
+          "observation": "馆方记录为黑漆底、红黄彩绘。结合颈部、躯干与装饰线条观察底色和彩绘如何分布，才能讨论明暗、节奏与层次。",
+          "prompt": "选一处彩绘，在高清实拍中核对。",
+          "claimType": "馆藏记录＋形式观察",
+          "sourceIds": [
+            "hbm-6913",
+            "commons-2021"
+          ],
+          "action": "colors"
+        },
+        {
+          "id": "order",
+          "label": "组织",
+          "title": "左右呼应，中间悬置",
+          "subtitle": "繁复之中，如何形成秩序？",
+          "observation": "两侧虎座与鸟架背向展开，悬鼓居中。沿中轴观察左右呼应，再看鸟、兽与鼓之间的承托联系。",
+          "prompt": "开启结构参照，比较整体与局部。",
+          "claimType": "形式观察",
+          "sourceIds": [
+            "hbm-6913"
+          ],
+          "action": "structure"
+        },
+        {
+          "id": "imagery",
+          "label": "意象",
+          "title": "鸟与虎，在这里相遇",
+          "subtitle": "形象的意义，需要语境。",
+          "observation": "馆方将鸟形称为凤鸟，器身还组合了卧虎与托鼓小兽。它们既是形象，也参与承托和悬挂；理解其意义，应先辨认这种具体组合。",
+          "prompt": "鸟、虎的出现，本身不足以证明某一种图腾或生死观念。",
+          "claimType": "馆藏命名＋解释边界",
+          "sourceIds": [
+            "hbm-6913"
+          ],
+          "action": "parts"
+        },
+        {
+          "id": "context",
+          "label": "语境",
+          "title": "把鼓放回乐器群",
+          "subtitle": "器物功能，与出土情境一起读。",
+          "observation": "九连墩2号墓出土多种乐器。将虎座鸟架鼓放回这一组合，能把造型、材料与音乐实践联系起来；墓葬中的发现情境也需与生前使用相区分。",
+          "prompt": "年代及同墓乐器组合见湖北省博物馆研究综述。",
+          "claimType": "研究资料",
+          "sourceIds": [
+            "hbm-9134",
+            "hbm-6913"
+          ],
+          "action": "context"
+        }
+      ],
+      "relations": [
+        {
+          "id": "rel-bird-tiger",
+          "from": "bird",
+          "to": "tiger",
+          "type": "supported_by",
+          "label": "鸟立于虎背",
+          "evidenceType": "馆藏记录",
+          "sourceIds": [
+            "hbm-6913"
+          ]
+        },
+        {
+          "id": "rel-drum-bird",
+          "from": "drum",
+          "to": "bird",
+          "type": "suspended_between",
+          "label": "悬鼓与鸟架",
+          "evidenceType": "馆藏记录",
+          "sourceIds": [
+            "hbm-6913"
+          ]
+        },
+        {
+          "id": "rel-axis",
+          "from": "bird",
+          "to": "tiger",
+          "type": "formal_contrast",
+          "label": "上扬与低伏的对照",
+          "evidenceType": "项目形式观察",
+          "sourceIds": [
+            "hbm-6913"
+          ]
+        }
+      ],
+      "colorDetails": [
+        {
+          "id": "black",
+          "label": "黑漆",
+          "role": "基底",
+          "color": "#202322",
+          "description": "观察虎身与鸟身深色基底，同一黑漆表面的明暗也受展柜照明影响。",
+          "focus": {
+            "x": 0.72,
+            "y": 0.755,
+            "zoom": 4.0
+          }
+        },
+        {
+          "id": "red",
+          "label": "红绘",
+          "role": "分区与线条",
+          "color": "#9a4130",
+          "description": "看鸟颈的红色分区，以及曲折轮廓上的彩绘如何延伸。",
+          "focus": {
+            "x": 0.257,
+            "y": 0.398,
+            "zoom": 4.2
+          }
+        },
+        {
+          "id": "yellow",
+          "label": "黄彩",
+          "role": "局部点饰",
+          "color": "#b79a60",
+          "description": "在鸟颈与躯干的彩绘细部中观察浅色装饰。照片中的色相不等同于颜料检测结果。",
+          "focus": {
+            "x": 0.253,
+            "y": 0.462,
+            "zoom": 5.0
+          }
+        }
+      ]
+    }
+  ]
+}
