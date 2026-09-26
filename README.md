@@ -15,7 +15,8 @@ python3 -m http.server 43187 --bind 127.0.0.1 --directory dist
 ## 项目结构
 
 - `dist/index.html`、`dist/style.css`、`dist/app.js`：页面、样式与 WebGL 交互。
-- `dist/data/artifacts.json`：器物记录、观察点、关系、阅读视角和资料出处；暂不接数据库。
+- `dist/data/artifacts.json`：主展台、延伸器物、母题分组、比较关系和资料出处；暂不接数据库。
+- `dist/motifs.js`、`dist/motifs.css`：母题空间展台、双栏对比及可恢复的分享链接。
 - `dist/assets/`：原始图片与来源说明。
 - `dist/vendor/`：Three.js 与其许可证。
 - `maintenance/README.md`：提案对应关系、内容维护流程与研究约束。
@@ -35,4 +36,8 @@ node scripts/validate-content.mjs
 
 馆方图片保留原始来源，项目不对它另行授予许可。高清展陈照片由三十三画生拍摄，采用 CC BY-SA 4.0；具体署名、来源及许可见 [图片来源](dist/assets/drum-exhibition-source.txt) 和网页资料说明。Three.js 的许可见 [THREE-LICENSE.txt](dist/vendor/THREE-LICENSE.txt)。
 
-当前模板展示首件器物；后续扩充还需对应的交互和目录入口。学生维护 skill 尚未安装，固定流程记录在维护文档中。
+主展台展示虎座鸟架鼓；“循母题”已加入彩绘凤形漆勺和彩绘凤鱼纹漆盂，可两两并置，切换形象位置、轮廓与组织、漆地与彩绘三个视角。可按维护文档继续添加同一母题中的器物与来源关系。学生维护 skill 尚未安装，固定流程记录在维护文档中。
+
+## GitHub Pages
+
+正式网站：<https://roibai.github.io/cultureMuseum/>。推送 `main` 后，`.github/workflows/static.yml` 自动发布 `dist`。

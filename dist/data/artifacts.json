@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "artifacts": [
     {
       "id": "jld2-bird-drum",
@@ -280,6 +280,180 @@
             "y": 0.462,
             "zoom": 5.0
           }
+        }
+      ],
+      "comparison": {
+        "role": "鸟形为架",
+        "subtitle": "两鸟承起一面鼓",
+        "position": "凤鸟立在虎背上，冠部参与悬鼓。鸟的身体成为器物结构的一部分。",
+        "form": "细长的鸟颈向上伸展，与卧虎低伏的横向轮廓相映。",
+        "color": "馆方记载黑漆底、红黄彩绘；彩绘随鸟颈、鸟身和虎座分布。",
+        "focus": {
+          "x": 0.315,
+          "y": 0.38,
+          "scale": 1.75
+        },
+        "sourceIds": [
+          "hbm-6913"
+        ]
+      }
+    }
+  ],
+  "relatedArtifacts": [
+    {
+      "id": "shd9-phoenix-ladle",
+      "title": "彩绘凤形漆勺",
+      "collection": "湖北省博物馆",
+      "period": "秦（公元前221—207年）",
+      "excavatedFrom": "湖北云梦睡虎地9号墓",
+      "excavatedYear": 1975,
+      "dimensions": "高13.3 · 长14.8 · 宽10.6 cm",
+      "medium": "木胎 · 雕制 · 彩绘",
+      "image": {
+        "src": "assets/phoenix-ladle.jpeg",
+        "width": 350,
+        "height": 300,
+        "sourceUrl": "https://img.cjyun.org/a/10695/202301/474d7dbb02060f0bc5cf54f12b5e0636.jpeg",
+        "rights": "湖北省博物馆官网原图；保留完整原图与来源，未见开放再利用授权。"
+      },
+      "sources": [
+        {
+          "id": "hbm-5481",
+          "title": "湖北省博物馆 · 彩绘凤形漆勺",
+          "url": "https://www.hbww.org.cn/qmq/p/5481.html",
+          "checked": "2026-09-26"
+        }
+      ],
+      "record": "勺体挖成凤身，勺柄雕成头颈，以红、褐漆描绘眼、鼻、耳与羽毛。",
+      "comparison": {
+        "role": "鸟形为器",
+        "subtitle": "身体容纳，长颈成柄",
+        "position": "凤身被挖成勺体，头颈成为勺柄。形象与容纳、执握的位置结合。",
+        "form": "上扬的长颈延续到圆曲的躯干。鸟的轮廓同时就是勺的轮廓。",
+        "color": "馆方记载红、褐漆彩绘。照片可见深色外壁与红色内腔，内外形成对照。",
+        "focus": {
+          "x": 0.315,
+          "y": 0.38,
+          "scale": 1.65
+        },
+        "sourceIds": [
+          "hbm-5481"
+        ]
+      }
+    },
+    {
+      "id": "shd11-phoenix-fish-bowl",
+      "title": "彩绘凤鱼纹漆盂",
+      "collection": "湖北省博物馆",
+      "period": "秦（公元前221—207年）",
+      "excavatedFrom": "湖北云梦睡虎地11号墓",
+      "excavatedYear": 1975,
+      "dimensions": "高8.8 · 口径29 · 底径16 cm",
+      "medium": "木胎 · 挖制 · 彩绘",
+      "image": {
+        "src": "assets/phoenix-fish-bowl.jpeg",
+        "width": 350,
+        "height": 300,
+        "sourceUrl": "https://img.cjyun.org/a/10695/202301/35a4e1a376096f2873f3b6ef01621517.jpeg",
+        "rights": "湖北省博物馆官网原图；保留完整原图与来源，未见开放再利用授权。"
+      },
+      "sources": [
+        {
+          "id": "hbm-5461",
+          "title": "湖北省博物馆 · 彩绘凤鱼纹漆盂",
+          "url": "https://hbsbwg.cjyun.org/qmq/p/5461.html",
+          "checked": "2026-09-26"
+        }
+      ],
+      "record": "木胎挖制；内底绘两条游鱼与一只昂首跨步的凤鸟。",
+      "comparison": {
+        "role": "鸟形为纹",
+        "subtitle": "凤与鱼，进入器内画面",
+        "position": "凤鸟与游鱼绘在内底。鸟形存在于装饰画面中，器物本身仍保持圆盂的形制。",
+        "form": "这里可以比较的是图像与器面的关系。斜拍照片未完整展开内底纹样，凤鱼组合依据馆方文字记录。",
+        "color": "照片中红色内壁与深色内底相接，纹样沿器面分区安排。这是照片观察，不是颜料检测结论。",
+        "focus": {
+          "x": 0.5,
+          "y": 0.54,
+          "scale": 1.35
+        },
+        "sourceIds": [
+          "hbm-5461"
+        ]
+      }
+    }
+  ],
+  "motifGroups": [
+    {
+      "id": "bird",
+      "label": "鸟形",
+      "title": "鸟形，在器物之间延伸",
+      "description": "从承起悬鼓的鸟架，到可以执握的凤颈，再到器内的凤鱼纹。沿着一个母题，读它在不同器物中的位置。",
+      "artifactIds": [
+        "jld2-bird-drum",
+        "shd9-phoenix-ladle",
+        "shd11-phoenix-fish-bowl"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "bird-frame-vessel",
+      "from": "jld2-bird-drum",
+      "to": "shd9-phoenix-ladle",
+      "motifIds": [
+        "bird"
+      ],
+      "shared": "两件器物都把鸟的头颈做成立体造型，长颈是鲜明的轮廓线索。",
+      "difference": "鸟架参与承托与悬挂；漆勺把凤身与头颈分别用于容纳和执握。相近的形象承担不同的器物功能。",
+      "sourceRefs": [
+        {
+          "artifactId": "jld2-bird-drum",
+          "sourceId": "hbm-6913"
+        },
+        {
+          "artifactId": "shd9-phoenix-ladle",
+          "sourceId": "hbm-5481"
+        }
+      ]
+    },
+    {
+      "id": "bird-frame-pattern",
+      "from": "jld2-bird-drum",
+      "to": "shd11-phoenix-fish-bowl",
+      "motifIds": [
+        "bird"
+      ],
+      "shared": "馆方都以凤鸟命名其中的鸟形，可以据此展开跨器物的形式比较。",
+      "difference": "鸟架是立体结构；漆盂的凤鸟属于内底画面，需与游鱼及圆形器面一起理解。两者不是同一种组织方式。",
+      "sourceRefs": [
+        {
+          "artifactId": "jld2-bird-drum",
+          "sourceId": "hbm-6913"
+        },
+        {
+          "artifactId": "shd11-phoenix-fish-bowl",
+          "sourceId": "hbm-5461"
+        }
+      ]
+    },
+    {
+      "id": "bird-vessel-pattern",
+      "from": "shd9-phoenix-ladle",
+      "to": "shd11-phoenix-fish-bowl",
+      "motifIds": [
+        "bird"
+      ],
+      "shared": "两件秦代漆木器都出自云梦睡虎地，分别来自9号墓与11号墓，均以凤鸟进入器物设计。",
+      "difference": "漆勺的整体形制借用鸟身与头颈；漆盂保持圆盂形制，把鸟形安排在内底画面。",
+      "sourceRefs": [
+        {
+          "artifactId": "shd9-phoenix-ladle",
+          "sourceId": "hbm-5481"
+        },
+        {
+          "artifactId": "shd11-phoenix-fish-bowl",
+          "sourceId": "hbm-5461"
         }
       ]
     }
