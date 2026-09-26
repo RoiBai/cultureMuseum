@@ -232,7 +232,7 @@ function updateComparison() {
 
 async function init() {
   try {
-    const response = await fetch('data/artifacts.json'); if (!response.ok) throw new Error('Catalogue unavailable');
+    const response = await fetch('data/artifacts.json?v=3', {cache:'no-cache'}); if (!response.ok) throw new Error('Catalogue unavailable');
     const data = await response.json();
     catalogue = [...data.artifacts, ...data.relatedArtifacts]; group = data.motifGroups[0]; relations = data.comparisons;
     buildDialog(); buildAtlas();
