@@ -1,0 +1,12 @@
+{
+  "name": "culture-museum-jingchu-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "python3 scripts/preview.py",
+    "prepare": "python3 scripts/prepare.py",
+    "check": "node scripts/verify.mjs && node scripts/check-layout.mjs",
+    "check:images": "python3 scripts/check-images.py"
+  }
+}

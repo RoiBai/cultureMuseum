@@ -1,0 +1,25 @@
+{
+  "method": "Codex in-app browser",
+  "records": 147,
+  "populatedEras": 15,
+  "cityBackgrounds": 15,
+  "desktopCssWidth": 1200,
+  "mobileCssWidth": 325,
+  "horizontalOverflow": false,
+  "eraNavigationScrollsWithoutFiltering": true,
+  "colourPath": "solid",
+  "motifPath": "sparse symbols, 140 px spacing, curves between artifacts",
+  "craftPath": "8 px / 6 px dashed line with tool symbols",
+  "materialPath": "SVG texture pattern",
+  "combinedPhoenixAndLacquerMatches": 11,
+  "goldPhotoMatches": 4,
+  "pathVisibilityToggle": true,
+  "whitePorcelainSample": {
+    "id": "hb-5016",
+    "color": "#dad6cb",
+    "name": "灰白"
+  },
+  "removedCopyAbsent": true,
+  "browserErrors": [],
+  "checkedAt": "2026-09-30T18:05:31.009920+00:00"
+}

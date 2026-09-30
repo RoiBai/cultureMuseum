@@ -1,71 +1,195 @@
-import * as THREE from './vendor/three.module.js';
-const $=s=>document.querySelector(s);
-const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
-const state={selected:null,spotlight:false,palette:'original',intensity:0,mode:'explore',lens:'form',motion:false,yaw:0,pitch:0,zoom:1,structure:false};
-let data,view,toastTimer,animationTimer;
-const stage=$('#artwork'),image=$('#artifact-image');
-function toast(text){$('#toast').textContent=text;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),2800);}
-function button(className,text,fn){const b=document.createElement('button');b.className=className;b.textContent=text;b.onclick=fn;return b;}
-const createButton=button;
-function sourceLinks(ids){const line=document.createElement('div');line.className='inline-evidence';line.append('依据 ');ids.forEach((id,i)=>{const s=data.sources.find(v=>v.id===id);if(!s)return;const a=document.createElement('a');a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='['+(i+1)+'] '+(id==='commons-2021'?'展陈实拍':id==='hbm-9134'?'研究综述':'馆方记录');line.append(a);});return line;}
-function lensTabs(){const tabs=document.createElement('div');tabs.className='lens-tabs';tabs.setAttribute('aria-label','五个关联的观察维度');for(const l of data.lenses){const b=button('',l.label,()=>selectLens(l.id));b.classList.toggle('active',state.lens===l.id);b.setAttribute('aria-pressed',String(state.lens===l.id));tabs.append(b);}return tabs;}
-function renderPanel(){const lens=data.lenses.find(l=>l.id===state.lens);const panel=$('#insight');panel.replaceChildren(lensTabs());const kicker=document.createElement('span');kicker.className='panel-kicker';kicker.textContent=lens.claimType;const h=document.createElement('h2');h.textContent=lens.title;const p=document.createElement('p');p.textContent=lens.observation;panel.append(kicker,h,p);
- if(lens.action==='parts'){const list=document.createElement('div');list.className='part-list';data.hotspots.forEach((part,i)=>{const b=button('part-button','',()=>selectPart(part.id));b.dataset.part=part.id;b.setAttribute('aria-pressed',String(state.selected===part.id));b.innerHTML='<span>0'+(i+1)+'</span><span>'+part.label+'</span><span class="part-arrow">↗</span>';b.classList.toggle('selected',state.selected===part.id);list.append(b);});panel.append(list);}
- if(lens.action==='colors'){const colors=document.createElement('div');colors.className='color-observations';data.colorDetails.forEach(c=>{const b=button('color-detail','',()=>openDetail(c.focus,'exhibition',c.description));const sw=document.createElement('i');sw.style.background=c.color;const name=document.createElement('span');name.textContent=c.label;const role=document.createElement('small');role.textContent=c.role;const arrow=document.createElement('b');arrow.textContent='↗';b.append(sw,name,role,arrow);colors.append(b);});panel.append(colors);const n=document.createElement('p');n.className='observation-note';n.textContent='色块仅作定位标记；点击查阅照片中的实际部位。';panel.append(n);}
- if(lens.action==='structure'){panel.append(button('outlined-button compact',state.structure?'隐藏结构参照':'显示中轴与承托关系',()=>{state.structure=!state.structure;$('#structure-overlay').hidden=!state.structure;renderPanel();}));panel.append(button('text-action','分层看组合 ↗',awaken));}
- if(lens.action==='context'){const dl=document.createElement('dl');[['年代',data.period],['出土地',data.excavatedFrom],['出土时间',data.excavatedYear+'年']].forEach(([key,value])=>{const row=document.createElement('div');const dt=document.createElement('dt');dt.textContent=key;const dd=document.createElement('dd');dd.textContent=value;row.append(dt,dd);dl.append(row);});panel.append(dl);}
- const active=data.hotspots.find(p=>p.id===state.selected);if(active&&lens.action==='parts'){const detail=document.createElement('div');detail.className='selected-reading';const name=document.createElement('strong');name.textContent='馆藏记录';h.textContent=active.title;p.textContent=active.observation;const desc=document.createElement('p');desc.textContent=active.fact;detail.append(name,desc,button('text-action','查看此处高清 ↗',()=>openDetail(active.photoFocus)));panel.append(detail);}else if(lens.action==='parts'){panel.append(button('text-action','看清细部 ↗',()=>openDetail()));}
- if(state.selected==='bird'||state.lens==='imagery'){panel.append(button('motif-entry','沿鸟形，展开相关器物 ↗',()=>window.dispatchEvent(new CustomEvent('jingchu:open-motif'))));}
- panel.append(sourceLinks(lens.sourceIds));const note=document.createElement('span');note.className='interpretation-note';note.textContent=lens.prompt;panel.append(note);
+import {museumForeground} from './foreground.js';
+import {arrangeArtifacts} from './layout.js';
+import {filterSample, glyphBody, materialPattern, materialSpec} from './visual-language.js';
+
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const paletteColors={'赤红':'#a33e30','漆黑':'#302d2a','赭褐':'#80543b','金黄':'#bcaa4f','青绿':'#56786b','灰绿':'#777965','灰褐':'#8b8070','墨灰':'#62615d','灰白':'#b7b4a9','靛蓝':'#45667c','绛紫':'#785469'};
+const cityTones=['#8b8750','#a66553','#648d7a','#9d7d49','#76739b','#7e9061','#a58345','#618c91','#687d9a','#ad806b','#659481','#8a7696','#a09254','#a46d78','#8c887d'];
+const eraDefs=[
+ ['neolithic','史前','新石器时代','01'],['shang','商','含商至西周早期','02'],['zhou','西周','西周时期','03'],['spring','春秋','春秋时期','04'],
+ ['warring','战国','含春秋末—战国初','05'],['qin','秦','秦代','06'],['han','汉','两汉时期','07'],['jin','魏晋','三国 · 两晋','08'],
+ ['northsouth','南北朝','南北朝时期','09'],['sui','隋','隋代','10'],['tang','唐','唐代','11'],['five','五代十国','五代十国时期','12'],
+ ['song','宋','两宋时期','13'],['yuan','元','元代','14'],['ming','明','明代','15'],['qing','清','清代','16'],['modern','近现代','近现代','17']
+];
+const dims=[
+ {key:'crafts',name:'工艺',english:'CRAFT',open:false,preferred:['髹漆','彩绘','铸造','刺绣','透雕','雕琢','釉下彩','鎏金','贴金','镶嵌','错金','圆雕','浮雕','烧造','书写'],note:'虚线串联工艺图标；具体工艺依据见档案。'},
+ {key:'colors',name:'色彩',english:'COLOUR',open:true,preferred:Object.keys(paletteColors),note:'仅按照片前景取色；馆方文字颜色另列于档案。'},
+ {key:'motifs',name:'纹样 / 母题',english:'MOTIF',open:true,preferred:['凤鸟','龙蛇','虎豹','花卉','云雷','几何','鱼纹','兽面','人像','铭文','鹿角','禽鸟'],note:'同时包含器表纹样与立体造型母题。'},
+ {key:'materialGroup',name:'材质',english:'MATERIAL',open:true},
+ {key:'city',name:'出土地',english:'PLACE',open:false}
+];
+let artifacts=[],cities=[],positions=new Map(),eraRows=[],displayRows=[],selected=Object.fromEntries(dims.map(d=>[d.key,new Set()]));
+let nodes=new Map(),width=0,height=0,matchIds=new Set(),activePaths=[],imageFailures=[];
+const photoCache=new Map();
+const values=(a,key)=>Array.isArray(a[key])?a[key]:[a[key]];
+const label=(key,value)=>key==='era'?(eraDefs.find(e=>e[0]===value)?.[1]||value):value;
+function matches(a,except){return dims.every(d=>d.key===except||selected[d.key].size===0||values(a,d.key).some(v=>selected[d.key].has(v)))}
+function hasFilters(){return dims.some(d=>selected[d.key].size)}
+
+async function picture(a,container){
+  if(container.dataset.loading)return;container.dataset.loading='true';
+  if(!photoCache.has(a.id))photoCache.set(a.id,(async()=>{
+    const photo=new Image();photo.src=a.displayImage||a.image;await photo.decode();
+    if(a.displayForeground&&!a.displayImage){return await museumForeground(a,photo)}
+    photo.className=a.displayImage?'artifact-object':'fallback-photo';photo.alt=a.title;return photo;
+  })().catch(e=>{imageFailures.push({id:a.id,message:e.message});const photo=new Image();photo.src=a.image;photo.className='fallback-photo';photo.alt=a.title;return photo}));
+  const original=await photoCache.get(a.id);let rendered;
+  if(original.tagName==='CANVAS'){rendered=document.createElement('canvas');rendered.width=original.width;rendered.height=original.height;rendered.getContext('2d').drawImage(original,0,0);rendered.className='artifact-object';rendered.setAttribute('role','img');rendered.setAttribute('aria-label',a.title)}
+  else rendered=original.cloneNode();
+  container.replaceChildren(rendered);container.dataset.ready='true';
 }
-function selectLens(id){if(!data.lenses.some(l=>l.id===id))throw new Error('未知观察维度');state.lens=id;state.mode='relations';if(id!=='order'){state.structure=false;$('#structure-overlay').hidden=true;}renderPanel();setNav();return{lens:id};}
-function setNav(){document.querySelectorAll('[data-mode]').forEach(b=>{b.classList.toggle('active',b.dataset.mode===state.mode);b.setAttribute('aria-pressed',String(b.dataset.mode===state.mode));});}
-function selectPart(id){const part=data.hotspots.find(p=>p.id===id);if(!part)throw new Error('未知观察点');state.selected=id;if(!['form','imagery'].includes(state.lens))state.lens='form';document.querySelectorAll('.hotspot').forEach(b=>{b.classList.toggle('selected',b.dataset.part===id);b.setAttribute('aria-pressed',String(b.dataset.part===id));});renderPanel();$('#stage-hint').textContent=part.label+' · 点击“查看此处高清”辨认细节';return{selected:id,title:part.title};}
-function reset(){clearTimeout(animationTimer);Object.assign(state,{selected:null,spotlight:false,motion:false,yaw:0,pitch:0,zoom:1,structure:false});$('#structure-overlay').hidden=true;$('#light-button').setAttribute('aria-pressed','false');document.querySelectorAll('.hotspot').forEach(b=>{b.classList.remove('selected');b.setAttribute('aria-pressed','false');});$('#stage-hint').textContent='拖动调整视角 · 点选局部 · 高清查阅';renderPanel();}
-function setSpotlight(on){state.spotlight=on;$('#light-button').setAttribute('aria-pressed',String(on));$('#stage-hint').textContent=on?'移动或轻触，将光照向器物':'拖动调整视角 · 点选局部 · 高清查阅';}
-function awaken(){if(reducedMotion){toast('已启用减少动态效果，可通过点选查看层次。');return;}state.motion=true;view.motionStart=performance.now();$('#stage-hint').textContent='结构分层示意 · 表现组合关系，不是器物拆解复原';clearTimeout(animationTimer);animationTimer=setTimeout(()=>{state.motion=false;$('#stage-hint').textContent='拖动调整视角 · 点选局部 · 高清查阅';},6200);}
-function setupUI(){data.hotspots.forEach(p=>{const b=button('hotspot','',()=>selectPart(p.id));b.dataset.part=p.id;b.dataset.label=p.label;b.style.left=p.anchor.x*100+'%';b.style.top=p.anchor.y*100+'%';b.setAttribute('aria-label','查看'+p.label+'：'+p.title);b.setAttribute('aria-pressed','false');$('#hotspots').append(b);});const structure=document.createElement('div');structure.id='structure-overlay';structure.className='structure-overlay';structure.hidden=true;structure.innerHTML='<span class="structure-axis"></span><span class="structure-label axis-label">中轴 · 左右呼应</span><span class="structure-label support-label">虎座承鸟，鸟架悬鼓</span>';stage.append(structure);renderPanel();
- const facts=[['器物名称',data.title],['年代',data.period],['出土地点',data.excavatedFrom],['出土时间',data.excavatedYear+' 年'],['收藏机构',data.collection],['尺寸','通高 '+data.heightCm+' 厘米 · 宽 '+data.widthCm+' 厘米'],['色彩记录',data.paletteRecord]];facts.forEach(([key,value])=>{const row=document.createElement('div');const dt=document.createElement('dt');const dd=document.createElement('dd');dt.textContent=key;dd.textContent=value;row.append(dt,dd);$('#source-facts').append(row);});const original=document.createElement('img');original.src=data.image.src;original.alt='馆方完整原图，保留鼓槌及右下角原始署名';original.className='source-image';$('#source-facts').after(original);
- $('#light-button').onclick=()=>setSpotlight(!state.spotlight);$('#detail-open').onclick=()=>openDetail(data.hotspots.find(p=>p.id===state.selected)?.photoFocus);$('#reset-button').onclick=reset;$('#close-source').onclick=()=>$('#source-dialog').close();document.querySelectorAll('[data-action="source"]').forEach(b=>b.onclick=()=>$('#source-dialog').showModal());document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{state.mode=b.dataset.mode;if(state.mode==='explore'){reset();state.lens='form';renderPanel();}else selectLens(state.lens);setNav();$('.exhibit').scrollIntoView({behavior:reducedMotion?'instant':'smooth'});});stage.addEventListener('dblclick',()=>openDetail(data.hotspots.find(p=>p.id===state.selected)?.photoFocus));setupDetail();}
-let photo={id:'exhibition',zoom:1,x:0,y:0,baseW:0,baseH:0,focus:null};const pointers=new Map();let pinchStart=null;
-function paintPhoto(){const img=$('#detail-image');img.style.width=photo.baseW+'px';img.style.height=photo.baseH+'px';img.style.marginLeft=(-photo.baseW/2)+'px';img.style.marginTop=(-photo.baseH/2)+'px';img.style.transform=`translate(${photo.x}px,${photo.y}px) scale(${photo.zoom})`;$('#detail-zoom').textContent=Math.round(photo.zoom*100)+'%';}
-function fitPhoto(focus=null){const v=$('#detail-viewport'),img=$('#detail-image');if(!img.naturalWidth)return;const scale=Math.min(v.clientWidth/img.naturalWidth,v.clientHeight/img.naturalHeight);photo.baseW=img.naturalWidth*scale;photo.baseH=img.naturalHeight*scale;photo.zoom=focus?.zoom||1;photo.x=focus?(.5-focus.x)*photo.baseW*photo.zoom:0;photo.y=focus?(.5-focus.y)*photo.baseH*photo.zoom:0;paintPhoto();}
-function zoomPhoto(amount,cx=0,cy=0){const old=photo.zoom;photo.zoom=THREE.MathUtils.clamp(old*amount,1,8);const ratio=photo.zoom/old;photo.x=cx-(cx-photo.x)*ratio;photo.y=cy-(cy-photo.y)*ratio;paintPhoto();}
-function openDetail(focus=null,id='exhibition',note=''){photo.focus=focus;const d=$('#detail-dialog');if(!d.open)d.showModal();loadPhoto(id,note);}
-function loadPhoto(id,note=''){photo.id=id;const entry=data.images.find(i=>i.id===id);const img=$('#detail-image');img.alt=entry.label+'：九连墩虎座鸟架鼓';$('#photo-loading').hidden=false;img.style.opacity=0;$('#photo-context').textContent=note||entry.statusNote;document.querySelectorAll('[data-photo]').forEach(b=>{b.classList.toggle('active',b.dataset.photo===id);b.setAttribute('aria-pressed',String(b.dataset.photo===id));});const credit=$('#photo-credit');credit.replaceChildren();if(id==='exhibition'){const s=data.sources.find(s=>s.id==='commons-2021');credit.append('摄影：'+s.creator+' · '+s.date+' · 5504 × 8256 · ');for(const [name,href]of[['来源',s.url],['CC BY-SA 4.0',s.licenseUrl]]){const a=document.createElement('a');a.textContent=name;a.href=href;a.target='_blank';a.rel='noopener noreferrer';credit.append(a,' ');}const n=document.createElement('span');n.textContent='未改动原始文件。展陈鼓面状态与馆方图不同，不能据此补全文物原貌。';credit.append(n);}else credit.textContent='湖北省博物馆官网原图 · 700 × 600。此图用于整体查阅，分辨率不足以辨认精细纹样。';
- img.onload=()=>{$('#photo-loading').hidden=true;img.style.opacity=1;fitPhoto(id==='exhibition'?photo.focus:null);};img.onerror=()=>{$('#photo-loading').textContent='图像暂未载入，请切换图片或重试。';};img.src=entry.src;if(img.complete&&img.naturalWidth)img.onload();}
-function setupDetail(){$('#close-detail').onclick=()=>$('#detail-dialog').close();$('#detail-plus').onclick=()=>zoomPhoto(1.4);$('#detail-minus').onclick=()=>zoomPhoto(1/1.4);$('#detail-fit').onclick=()=>fitPhoto();document.querySelectorAll('[data-photo]').forEach(b=>b.onclick=()=>loadPhoto(b.dataset.photo));const v=$('#detail-viewport');v.addEventListener('wheel',e=>{e.preventDefault();const r=v.getBoundingClientRect();zoomPhoto(Math.exp(-e.deltaY*.0015),e.clientX-r.left-r.width/2,e.clientY-r.top-r.height/2);},{passive:false});v.addEventListener('pointerdown',e=>{v.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){const a=[...pointers.values()];pinchStart=Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y);}});v.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const old=pointers.get(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){const a=[...pointers.values()];const distance=Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y);if(pinchStart)zoomPhoto(distance/pinchStart);pinchStart=distance;}else{photo.x+=e.clientX-old.x;photo.y+=e.clientY-old.y;paintPhoto();}});const end=e=>{pointers.delete(e.pointerId);pinchStart=null;};v.addEventListener('pointerup',end);v.addEventListener('pointercancel',end);new ResizeObserver(()=>{if($('#detail-dialog').open)fitPhoto(photo.id==='exhibition'?photo.focus:null);}).observe(v);}
-const fragment=`
-uniform sampler2D uMap; uniform float uLayer; uniform float uSpot; uniform vec2 uPointer; uniform float uSelected; uniform float uPalette; uniform float uIntensity; uniform vec3 uBase; uniform vec3 uRed; uniform vec3 uGold; uniform float uOpacity; varying vec2 vUv;
-float layerAt(vec2 p){
- if(p.y>.59 && p.y<.81)return 4.;
- if(p.y<.50 && p.x>.356 && p.x<.652)return 3.;
- if(p.y<.60 && p.x<.5)return 1.;
- if(p.y<.60 && p.x>=.5)return 2.;
- return 0.;
+let observer;
+function renderFilters(){
+ $('era-nav').innerHTML=eraRows.map(r=>`<button data-jump="${r.id}" aria-label="跳转到${r.title}" title="${r.count} 件（组）">${r.title}</button>`).join('');
+ $('filters').innerHTML=dims.map(d=>{
+   let options=[...new Set(artifacts.flatMap(a=>values(a,d.key)))].filter(Boolean);
+   const preferred=d.preferred||(d.key==='era'?eraDefs.map(e=>e[0]):d.key==='city'?cities.map(c=>c.name):[]);
+   options.sort((a,b)=>(preferred.includes(a)?preferred.indexOf(a):999)-(preferred.includes(b)?preferred.indexOf(b):999));
+   return `<details class="filter-section" ${d.open?'open':''}><summary><span class="filter-title">${d.name}<small>${d.english}</small></span></summary><div class="filter-options options-${d.key}">${options.map(v=>`<button class="filter-chip chip-${d.key}" data-filter="${d.key}" data-value="${esc(v)}" aria-pressed="${selected[d.key].has(v)}">${filterSample(d.key,v,paletteColors)}<span>${esc(label(d.key,v))}</span><em>${artifacts.filter(a=>values(a,d.key).includes(v)).length}</em></button>`).join('')}</div>${d.note?`<p class="filter-note">${d.note}</p>`:''}</details>`;
+ }).join('');
+ updateEraNav();
 }
-void main(){vec2 p=vec2(vUv.x,1.-vUv.y); if(abs(layerAt(p)-uLayer)>.1)discard;
- vec4 src=texture2D(uMap,vUv);float white=min(src.r,min(src.g,src.b));float a=1.-smoothstep(.58,.94,white);if(a<.035)discard;
- vec3 color=clamp((src.rgb-vec3(1.-a))/max(a,.035),0.,1.);float lum=dot(color,vec3(.299,.587,.114));
- if(uPalette>.5){float red=clamp((color.r-max(color.g,color.b))*8.,0.,1.);vec3 toned=mix(uBase*(.55+lum*2.5),uRed*(.7+lum),red);toned=mix(toned,uGold,smoothstep(.28,.72,lum)*.4);color=mix(color,toned,uIntensity);}
- float d=length((vUv-uPointer)*vec2(1.1667,1.));float beam=1.-smoothstep(.055,.27,d);float light=mix(1.,.20+beam*1.25,uSpot);color*=light;
- if(uSelected>.5){color+=vec3(.08,.065,.038)*(1.-lum)*.35;}
- gl_FragColor=vec4(color,a*uOpacity);
-}`;
-async function createScene(){const renderer=new THREE.WebGLRenderer({canvas:$('#artifact-canvas'),alpha:true,antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0,0);const scene=new THREE.Scene();const camera=new THREE.PerspectiveCamera(32,7/6,.1,100);camera.position.set(0,.05,6.1);camera.lookAt(0,0,0);const root=new THREE.Group();scene.add(root);
-const texture=await new THREE.TextureLoader().loadAsync(data.image.src);texture.colorSpace=THREE.NoColorSpace;texture.minFilter=THREE.LinearFilter;
-const uniforms={uMap:{value:texture},uLayer:{value:0},uSpot:{value:0},uPointer:{value:new THREE.Vector2(.5,.55)},uSelected:{value:0},uPalette:{value:0},uIntensity:{value:.65},uBase:{value:new THREE.Color()},uRed:{value:new THREE.Color()},uGold:{value:new THREE.Color()},uOpacity:{value:1}};
-const geo=new THREE.PlaneGeometry(4.55,3.9);const meshes=[];for(let layer=0;layer<5;layer++){const u=THREE.UniformsUtils.clone(uniforms);u.uMap.value=texture;u.uLayer.value=layer;const mat=new THREE.ShaderMaterial({uniforms:u,vertexShader:'varying vec2 vUv; void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:fragment,transparent:true,depthWrite:false,side:THREE.DoubleSide});const mesh=new THREE.Mesh(geo,mat);mesh.renderOrder=layer;root.add(mesh);meshes.push(mesh);}
-const floor=new THREE.Mesh(new THREE.CircleGeometry(2.05,96),new THREE.MeshStandardMaterial({color:0x273429,roughness:.75,metalness:.35,transparent:true,opacity:.62}));floor.rotation.x=-Math.PI/2;floor.position.set(0,-1.22,-.15);scene.add(floor);const ring=new THREE.Mesh(new THREE.RingGeometry(1.88,1.89,128),new THREE.MeshBasicMaterial({color:0x8a7c51,transparent:true,opacity:.32,side:THREE.DoubleSide}));ring.rotation.x=-Math.PI/2;ring.position.set(0,-1.215,-.15);scene.add(ring);const ring2=new THREE.Mesh(new THREE.RingGeometry(1.65,1.654,128),ring.material);ring2.rotation.x=-Math.PI/2;ring2.position.set(0,-1.21,-.15);scene.add(ring2);scene.add(new THREE.AmbientLight(0xd9d5a8,1.8));const light=new THREE.PointLight(0xe1c894,8,15);light.position.set(-2,3,3);scene.add(light);
-const axisPoints=[new THREE.Vector3(0,1.49,.035),new THREE.Vector3(0,-1.2,.035)];const axisLine=new THREE.Line(new THREE.BufferGeometry().setFromPoints(axisPoints),new THREE.LineDashedMaterial({color:0xc2aa72,dashSize:.06,gapSize:.045,transparent:true,opacity:.6}));axisLine.computeLineDistances();root.add(axisLine);axisLine.visible=false;const raycaster=new THREE.Raycaster();const mouse=new THREE.Vector2();let isDown=false,lastX=0,lastY=0;const pointerUV=new THREE.Vector2(.5,.55);const renderState={yaw:0,pitch:0};
-function pointer(e){const r=stage.getBoundingClientRect();mouse.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);raycaster.setFromCamera(mouse,camera);const hit=raycaster.intersectObject(meshes[0])[0];if(hit?.uv)pointerUV.copy(hit.uv);}
-stage.addEventListener('pointerdown',e=>{if(e.target.closest('button'))return;isDown=true;lastX=e.clientX;lastY=e.clientY;stage.setPointerCapture(e.pointerId);pointer(e);});stage.addEventListener('pointermove',e=>{pointer(e);if(isDown&&!state.spotlight){const dx=e.clientX-lastX,dy=e.clientY-lastY;state.yaw=THREE.MathUtils.clamp(state.yaw+dx*.006,-.40,.40);state.pitch=THREE.MathUtils.clamp(state.pitch+dy*.004,-.13,.13);lastX=e.clientX;lastY=e.clientY;}else if(!isDown&&!state.spotlight&&!reducedMotion){renderState.hoverX=mouse.x*.045;renderState.hoverY=-mouse.y*.022;}});const end=e=>{isDown=false;if(stage.hasPointerCapture(e.pointerId))stage.releasePointerCapture(e.pointerId);};stage.addEventListener('pointerup',end);stage.addEventListener('pointercancel',end);stage.addEventListener('pointerleave',()=>{renderState.hoverX=0;renderState.hoverY=0;});
-const rotateControl=document.createElement('div');rotateControl.className='rotation-controls';rotateControl.setAttribute('aria-label','调整观察视角');[['↶','向左转动视角',()=>state.yaw=Math.max(-.4,state.yaw-.15)],['⊕','打开高清细部',()=>openDetail(data.hotspots.find(p=>p.id===state.selected)?.photoFocus)],['↷','向右转动视角',()=>state.yaw=Math.min(.4,state.yaw+.15)]].forEach(([label,aria,fn])=>{const b=createButton('',label,fn);b.setAttribute('aria-label',aria);rotateControl.append(b);});$('#stage').append(rotateControl);
-function resize(){const r=stage.getBoundingClientRect();renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();}new ResizeObserver(resize).observe(stage);resize();stage.classList.add('webgl');$('#stage-hint').innerHTML='<span class="hint-cross">＋</span> 拖动看空间 · 点击光点看细节';const api={renderer,scene,camera,root,meshes,motionStart:0,select(id){},palette(p){const convert=h=>new THREE.Vector3(...h.slice(1).match(/../g).map(v=>parseInt(v,16)/255));for(const mesh of meshes){const u=mesh.material.uniforms;u.uBase.value=convert(p.colors[0]);u.uRed.value=convert(p.colors[1]);u.uGold.value=convert(p.colors[2]);}},capture(){renderer.render(scene,camera);return renderer.domElement;}};
-const partLayer={bird:1,drum:3,tiger:4};const anchorVector=new THREE.Vector3();let lastTime=0;let onScreen=true;new IntersectionObserver(entries=>{onScreen=entries[0].isIntersecting;},{rootMargin:'150px'}).observe(stage);
-function frame(time){requestAnimationFrame(frame);if(!onScreen||document.hidden||time-lastTime<28)return;lastTime=time;const elapsed=state.motion?(time-api.motionStart)/1000:0;const envelope=state.motion?Math.sin(Math.min(elapsed/6,1)*Math.PI):0;root.rotation.y=THREE.MathUtils.lerp(root.rotation.y,state.yaw+(renderState.hoverX||0)+envelope*.12,.07);root.rotation.x=THREE.MathUtils.lerp(root.rotation.x,state.pitch+(renderState.hoverY||0),.07);camera.position.z=THREE.MathUtils.lerp(camera.position.z,6.1/state.zoom,.06);for(let i=0;i<5;i++){const m=meshes[i];const selected=state.selected==='bird'?(i===1||i===2):partLayer[state.selected]===i;const target=selected?.30:0;m.position.z=THREE.MathUtils.lerp(m.position.z,target+envelope*(i===3?.52:i===1||i===2?.34:i===4?.14:0),.08);m.position.x=THREE.MathUtils.lerp(m.position.x,envelope*(i===1?-.15:i===2?.15:0),.08);m.position.y=THREE.MathUtils.lerp(m.position.y,envelope*(i===3?.18:i===1||i===2?.09:0),.08);m.rotation.z=THREE.MathUtils.lerp(m.rotation.z,envelope*(i===1?.028:i===2?-.028:0),.08);const u=m.material.uniforms;u.uSpot.value=THREE.MathUtils.lerp(u.uSpot.value,state.spotlight?1:0,.08);u.uPointer.value.lerp(pointerUV,.15);u.uSelected.value=selected?1:0;u.uPalette.value=state.palette==='original'?0:1;u.uIntensity.value=state.intensity;}
-axisLine.visible=state.structure;root.updateMatrixWorld(true);camera.updateMatrixWorld(true);data.hotspots.forEach(p=>{const mesh=meshes[partLayer[p.id]];anchorVector.set((p.anchor.x-.5)*4.55,(.5-p.anchor.y)*3.9,0);mesh.localToWorld(anchorVector);anchorVector.project(camera);const el=$('.hotspot[data-part="'+p.id+'"]');el.style.left=(anchorVector.x*.5+.5)*100+'%';el.style.top=(-anchorVector.y*.5+.5)*100+'%';});renderer.render(scene,camera);}
-requestAnimationFrame(frame);return api;}
-function registerTools(){const c=document.modelContext;if(!c?.registerTool)return;const abort=new AbortController();const tools=[{name:'read_exhibit_state',description:'读取当前观察点、研究维度和视角。',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute(){return{...state};}},{name:'select_artifact_detail',description:'选中鸟架、悬鼓或虎座，显示局部与整体的关系及出处。',inputSchema:{type:'object',properties:{detail:{type:'string',enum:['bird','drum','tiger']}},required:['detail'],additionalProperties:false},annotations:{readOnlyHint:false},execute(i){if(!i||!['bird','drum','tiger'].includes(i.detail)||Object.keys(i).length!==1)throw new Error('请选择有效观察点');return selectPart(i.detail);}},{name:'select_analysis_lens',description:'以形态、色彩、组织、意象或语境阅读同一件器物。',inputSchema:{type:'object',properties:{lens:{type:'string',enum:['form','color','order','imagery','context']}},required:['lens'],additionalProperties:false},annotations:{readOnlyHint:false},execute(i){if(!i||!data.lenses.some(l=>l.id===i.lens)||Object.keys(i).length!==1)throw new Error('请选择有效维度');return selectLens(i.lens);}}];tools.forEach(t=>{try{Promise.resolve(c.registerTool(t,{signal:abort.signal})).catch(()=>{});}catch{}});window.addEventListener('pagehide',()=>abort.abort(),{once:true});}
-async function init(){try{const r=await fetch('data/artifacts.json?v=3', {cache:'no-cache'});if(!r.ok)throw new Error('资料载入失败');data=(await r.json()).artifacts[0];setupUI();try{view=await createScene();}catch(e){console.error(e);toast('当前设备以完整原图展示；仍可查看高清细部。');}registerTools();}catch(e){console.error(e);$('#stage-hint').textContent='资料暂未载入，请刷新页面。';}}
-init();
+function buildLayout(){
+ const cityOrder=['天门','荆州','荆门','钟祥','襄阳','枣阳','随州','云梦','武汉','崇阳','宜昌','鄂州','黄冈','黄石','十堰','咸宁','出土地待核'];
+ const cityNames=[...new Set(artifacts.map(a=>a.city||'出土地待核'))];
+ cityNames.sort((a,b)=>cityOrder.indexOf(a)-cityOrder.indexOf(b));
+ cities=cityNames.map((name,i)=>({name,color:cityTones[i%cityTones.length]}));
+ width=$('atlas-scroll').clientWidth;
+ const layout=arrangeArtifacts(artifacts,eraDefs,cityNames,width);
+ positions=layout.positions;eraRows=layout.eras;displayRows=layout.rows;height=layout.height;
+ $('atlas').style.width=width+'px';$('chart').style.height=height+'px';
+ $('chart').style.setProperty('--gutter',layout.gutter+'px');
+ $('geography').innerHTML=`<div class="geo-label axis-label" style="width:${layout.gutter}px"><strong>时代 ↓</strong></div><div class="geography-guide"><span>同代成组 · 按地域陈列</span><small>同代分排不表示先后</small></div><span class="geo-direction">出土地 →</span>`;
+ $('regions').innerHTML=layout.bands.map(b=>{const city=cities.find(c=>c.name===b.city);return `<div class="place-band" data-city="${esc(b.city)}" style="left:${b.x}px;top:${b.y}px;width:${b.width}px;height:${b.height}px;--city-tone:${city.color};--city-wash:${city.color}16"><span><i></i>${esc(b.city)}</span></div>`}).join('');
+ $('eras').innerHTML=eraRows.map(r=>`<section class="era-row ${r.id==='warring'?'featured':''}" id="era-${r.id}" style="top:${r.y}px;height:${r.height}px"><div class="era-label"><span class="era-num">${r.num}</span><h3>${r.title}</h3><span>${r.count} 件（组）</span>${r.rowCount>1?`<small>${r.rowCount} 排陈列</small>`:''}</div>${Array.from({length:r.rowCount-1},(_,i)=>`<span class="era-continuation" style="top:${(i+1)*218+100}px">${r.title}<small>${i+2} / ${r.rowCount}</small></span>`).join('')}</section>`).join('');
+ $('objects').innerHTML=artifacts.map(a=>{
+   const p=positions.get(a.id);
+   return `<button class="artifact-group" id="object-${a.id}" data-artifact="${a.id}" style="left:${p.x}px;top:${p.top}px;width:${p.slot-18}px" aria-label="${esc(a.title)}，${esc(a.period)}，${esc(a.city)}，查看器物档案"><span class="object-picture" data-photo="${a.id}"></span><span class="object-name">${esc(a.short||a.title)}</span><span class="node-anchor"></span></button>`;
+ }).join('');nodes=new Map();artifacts.forEach(a=>nodes.set(a.id,$('object-'+a.id)));
+ $('paths').setAttribute('viewBox',`0 0 ${width} ${height}`);
+ observer?.disconnect();observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){picture(artifacts.find(a=>a.id===e.target.dataset.photo),e.target);observer.unobserve(e.target)}},{root:$('atlas-scroll'),rootMargin:'300px'});
+ document.querySelectorAll('#objects [data-photo]').forEach(el=>observer.observe(el));
+ $('city-jump').innerHTML='<option value="">全部地域</option>'+cities.map(c=>`<option value="${c.name}">${c.name}</option>`).join('');
+ $('artifact-jump').innerHTML='<option value="">选择器物查看</option>'+artifacts.map(a=>`<option value="${a.id}">${esc(a.title)} · ${esc(a.period)}</option>`).join('');
+ updateEraNav();
+}
+
+function refresh(){
+ const filtered=hasFilters();matchIds=new Set(artifacts.filter(a=>matches(a)).map(a=>a.id));
+ $('city-jump').value=selected.city.size===1?[...selected.city][0]:'';
+ for(const a of artifacts){const n=nodes.get(a.id);n.classList.toggle('dim',filtered&&!matchIds.has(a.id));n.classList.toggle('lit',filtered&&matchIds.has(a.id))}
+ document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',selected[b.dataset.filter].has(b.dataset.value)));
+ const summary=dims.flatMap(d=>[...selected[d.key]].map(v=>`${d.name} · ${label(d.key,v)}`));
+ $('selection-summary').innerHTML=filtered?`<span class="selected-label">${esc(summary.join(' + '))}</span>　<b>${matchIds.size}</b> / ${artifacts.length} 件（组）${!matchIds.size?' · 无匹配，试试减少条件':''}`:`全景 · <b>${artifacts.length}</b> 件（组） <span class="summary-help"> / 同代成组，逐件陈列</span>`;
+ drawPaths();
+}
+function drawPaths(){
+ activePaths=[];
+ const traces=dims.filter(d=>d.key!=='city').flatMap(d=>[...selected[d.key]].map(value=>({dimension:d.key,value})));
+ if(!traces.length||!$('show-paths').checked){$('paths').innerHTML='';$('path-legend').innerHTML='<span>'+(!$('show-paths').checked?'特征路径已隐藏':'选择色彩、纹样、工艺或材质，显现关联路径')+'</span>';return}
+ const chunks=[],legends=[];
+ traces.forEach(({dimension,value},i)=>{
+   const records=artifacts.filter(a=>matches(a)&&values(a,dimension).includes(value));
+   const color=dimension==='colors'?paletteColors[value]:dimension==='materialGroup'?materialSpec(value).color:dimension==='motifs'?'#964c39':'#75602e';
+   const offset=(i-(traces.length-1)/2)*7;
+   const bands=displayRows.map(row=>({row,points:records.filter(a=>positions.get(a.id).rowKey===row.key).map(a=>({...positions.get(a.id),id:a.id})).sort((a,b)=>a.x-b.x)})).filter(b=>b.points.length);
+   const id='route-'+i,pattern='material-'+i;
+   if(dimension==='materialGroup')chunks.push(`<defs>${materialPattern(pattern,value)}</defs>`);
+   chunks.push(`<g class="route route-${dimension}" data-dimension="${dimension}" data-value="${esc(value)}" style="color:${color}">`);
+   let previous;
+   const addPath=(d,kind)=>{
+     const paint=dimension==='materialGroup'?`url(#${pattern})`:color;
+     if(dimension==='materialGroup')chunks.push(`<path class="material-outline" d="${d}" stroke="${color}"/>`);
+     chunks.push(`<path class="feature-path ${kind}" data-route="${id}" stroke="${paint}" d="${d}"/>`);
+   };
+   bands.forEach(({row,points})=>{
+     const lo=points[0].x,hi=points.at(-1).x,hub=points[Math.floor((points.length-1)/2)].x+offset,y=row.axis+offset;
+     if(previous){
+       const bend=(y-previous.y)*.45;
+       addPath(`M${previous.x},${previous.y} C${previous.x},${previous.y+bend} ${hub},${y-bend} ${hub},${y}`,previous.era===row.era?'continuation':'link');
+     }
+     // A short line keeps the visual language visible even for one match.
+     addPath(`M${points.length>1?lo:lo-22},${y} H${points.length>1?hi:hi+22}`,'peer');
+     points.forEach(p=>{if(offset)chunks.push(`<path class="node-tether" stroke="${color}" d="M${p.x},${p.y} V${y}"/>`);chunks.push(`<circle class="path-node" stroke="${color}" cx="${p.x}" cy="${y}" r="3.5"/>`)});
+     previous={x:hub,y,era:row.era};
+   });
+   chunks.push('</g>');
+   activePaths.push({dimension,value,color,ids:records.map(a=>a.id),eras:[...new Set(bands.map(b=>b.row.era))],style:dimension==='colors'?'solid':dimension==='motifs'?'repeated-motif':dimension==='crafts'?'dashed-icons':'material-texture'});
+   legends.push(`<span class="legend-item">${filterSample(dimension,value,paletteColors)}${esc(value)}<small>${records.length}</small></span>`);
+ });
+ $('paths').innerHTML=chunks.join('');
+ for(const group of $('paths').querySelectorAll('.route-motifs,.route-crafts')){
+   const dimension=group.dataset.dimension,value=group.dataset.value,spacing=dimension==='motifs'?140:104;
+   let decoration='';
+   group.querySelectorAll('.feature-path').forEach(path=>{
+     const length=path.getTotalLength();
+     if(dimension==='motifs'&&length<70)return;
+     for(let distance=Math.min(length/2,spacing/2);distance<length;distance+=spacing){
+       const p=path.getPointAtLength(distance);
+       decoration+=`<g class="route-symbol" transform="translate(${p.x-9},${p.y-9})"><rect x="-2" y="-2" width="22" height="22" rx="11" fill="#f3efe4" opacity="${dimension==='crafts'?'.98':'.86'}"/><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${glyphBody(dimension,value)}</svg></g>`;
+     }
+   });
+   group.insertAdjacentHTML('beforeend',decoration);
+ }
+ $('path-legend').innerHTML=legends.join('');
+}
+
+function choose(key,value,exclusive=false){
+ if(exclusive){selected=Object.fromEntries(dims.map(d=>[d.key,new Set()]));selected[key].add(value)}else if(selected[key].has(value))selected[key].delete(value);else selected[key].add(value);
+ refresh();
+}
+function closeDialog(id){$(id).close()}
+function detail(a){
+ const p=positions.get(a.id);
+ $('detail-content').innerHTML=`<div class="detail-layout"><div class="detail-visual"><div class="object-picture" id="detail-photo"></div><span class="image-caption">${esc(a.collection)} · 馆藏照片<br>${a.displayImage?'原照片前景 · 透明背景展示':a.displayForeground?'原照片前景 · 既有展示遮罩':'馆方原始图像'}</span><a href="${esc(a.image)}" target="_blank" rel="noopener" class="source-link">查看原始照片 ↗</a></div><div class="detail-info"><span class="eyebrow">OBJECT ${String(artifacts.indexOf(a)+1).padStart(3,'0')} / ${esc(a.city)}</span><h2 id="detail-title">${esc(a.title)}</h2><div class="detail-meta"><span>${esc(a.period)}</span><span>${esc(a.material)}</span><span>${esc(a.place)}</span></div><p class="detail-description">${esc(a.description)}</p><section class="feature-section"><h3><span>01</span>纹样与造型母题</h3><div class="tag-list">${a.motifs.length?a.motifs.map(v=>`<button data-trace="motifs" data-value="${v}">${v}</button>`).join(''):'<span class="label-note">现有记录未明确，保留待补证。</span>'}</div><p class="label-note">从器物名称与馆方记录归纳；点击母题追踪其他器物。</p></section><section class="feature-section"><h3><span>02</span>照片色彩提取</h3><div class="palette-list">${a.palette.map(c=>`<button class="palette-tile" data-trace="colors" data-value="${c.name}" style="--swatch:${c.hex}" title="采样像素中约 ${c.share}%"><i></i><span>${c.name}</span><small>${c.hex.toUpperCase()}</small></button>`).join('')}</div><p class="label-note">${esc(a.paletteMethod)}。色值受光照、保存状况影响。${a.documentedColors?.length?'馆方文字另明确：'+a.documentedColors.join('、')+'。':''}</p></section><section class="feature-section"><h3><span>03</span>制作工艺</h3><div class="tag-list">${a.crafts.map(v=>`<button data-trace="crafts" data-value="${v}">${v}</button>`).join('')}</div><ul class="craft-evidence">${a.craftEvidence.map(c=>`<li><b>${c.name}</b> · ${c.kind}${c.kind==='记录明示'?'':' — '+esc(c.basis)}</li>`).join('')}</ul></section>${a.observation?`<p class="label-note observation">观察提示 · ${esc(a.observation)}</p>`:''}<a class="source-link" href="${esc(a.source)}" target="_blank" rel="noopener noreferrer">${esc(a.collection)} · 原始档案 ↗</a><p class="label-note">${esc(a.dateNote||'图上按时代归位，同代器物不区分确切先后。')}${a.city==='出土地待核'?' 所属城市未确认，不以馆藏地代替出土地。':''}</p></div></div>`;
+ picture(a,$('detail-photo'));$('detail-dialog').showModal();
+}
+function jumpEra(id){const row=eraRows.find(r=>r.id===id);if(row){hideHover();$('atlas-scroll').scrollTo({top:row.y,behavior:reducedMotion()?'instant':'smooth'});$('sidebar').classList.remove('open')}}
+function updateEraNav(){const y=$('atlas-scroll').scrollTop+32;const current=[...eraRows].reverse().find(r=>r.y<=y)||eraRows[0];document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===current?.id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}
+function reducedMotion(){return matchMedia('(prefers-reduced-motion: reduce)').matches}
+
+
+document.addEventListener('click',e=>{
+ const b=e.target.closest('button');if(!b)return;
+ if(b.dataset.filter){choose(b.dataset.filter,b.dataset.value);return}
+ if(b.dataset.preset){const [key,val]=b.dataset.preset.split(':');choose(key,val,true);return}
+ if(b.dataset.trace){choose(b.dataset.trace,b.dataset.value,true);closeDialog('detail-dialog');$('sidebar').classList.remove('open');const first=artifacts.find(a=>matches(a));if(first){const p=positions.get(first.id);$('atlas-scroll').scrollTo({top:Math.max(0,p.y-250),behavior:'smooth'})}return}
+ if(b.dataset.artifact){detail(artifacts.find(a=>a.id===b.dataset.artifact));return}
+ if(b.dataset.close){closeDialog(b.dataset.close);return}
+ if(b.dataset.jump)jumpEra(b.dataset.jump);
+});
+$('reset').onclick=()=>{selected=Object.fromEntries(dims.map(d=>[d.key,new Set()]));refresh()};
+$('show-paths').onchange=drawPaths;
+$('about-open').onclick=()=>$('about-dialog').showModal();
+$('filters-open').onclick=()=>{$('sidebar').classList.add('open');$('filters-close').focus()};
+$('filters-close').onclick=()=>{$('sidebar').classList.remove('open');$('filters-open').focus()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')$('sidebar').classList.remove('open')});
+for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
+$('city-jump').onchange=e=>{selected.city=new Set(e.target.value?[e.target.value]:[]);refresh()};
+$('artifact-jump').onchange=e=>{const a=artifacts.find(a=>a.id===e.target.value);if(a){detail(a);e.target.value=''}};
+let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{buildLayout();refresh()},150)});
+let hoveredId=null;
+function showHover(a,target){
+ if(hoveredId===a.id)return;hoveredId=a.id;
+ const tooltip=$('hover-preview');tooltip.innerHTML=`<div class="hover-photo"></div><strong>${esc(a.title)}</strong><span>${esc(a.period)} · ${esc(a.city)}</span><div class="mini-palette">${a.palette.map(c=>`<i style="--swatch:${c.hex}"></i>`).join('')}</div>`;
+ tooltip.hidden=false;picture(a,tooltip.querySelector('.hover-photo'));
+ const r=target.getBoundingClientRect(),main=document.querySelector('main').getBoundingClientRect();
+ let left=Math.max(main.left+5,Math.min(innerWidth-230,r.left+r.width/2-110));
+ let top=r.top-225;if(top<80)top=r.bottom+8;
+ tooltip.style.left=left+'px';tooltip.style.top=Math.min(innerHeight-245,top)+'px';
+}
+function hideHover(){hoveredId=null;$('hover-preview').hidden=true}
+$('objects').addEventListener('pointerover',e=>{if(e.pointerType==='touch')return;const target=e.target.closest('[data-artifact]');if(target)showHover(artifacts.find(a=>a.id===target.dataset.artifact),target)});
+$('objects').addEventListener('pointerout',e=>{if(!e.relatedTarget?.closest?.('[data-artifact]'))hideHover()});
+$('objects').addEventListener('focusin',e=>{const target=e.target.closest('[data-artifact]');if(target)showHover(artifacts.find(a=>a.id===target.dataset.artifact),target)});
+$('objects').addEventListener('focusout',hideHover);$('objects').addEventListener('click',hideHover);$('atlas-scroll').addEventListener('scroll',()=>{hideHover();updateEraNav()},{passive:true});
+
+try{
+ const response=await fetch('data/artifacts.json');if(!response.ok)throw new Error('器物资料读取失败');artifacts=await response.json();
+ buildLayout();renderFilters();refresh();
+ $('total-count').textContent=artifacts.length;$('date-span').textContent='史前 — '+(artifacts.some(a=>a.era==='qing')?'清代':artifacts.some(a=>a.era==='ming')?'明代':'元代');
+ $('archive-count').textContent=artifacts.length;
+ $('loading').hidden=true;document.body.dataset.ready='true';
+ window.jingchuTimeline={getState:()=>({count:artifacts.length,matchedIds:[...matchIds],filters:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),positions:Object.fromEntries(positions),paths:activePaths,imageFailures,cities,width,height,eraRows,displayRows}),artifacts};
+}catch(error){$('loading').textContent=error.message+'，请刷新页面重试。';document.body.dataset.error='true';console.error(error)}

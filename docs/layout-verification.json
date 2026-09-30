@@ -1,0 +1,51 @@
+[
+  {
+    "width": 320,
+    "columns": 2,
+    "imageSlot": 101,
+    "warringRows": 42,
+    "qingRows": 9
+  },
+  {
+    "width": 390,
+    "columns": 3,
+    "imageSlot": 84.66666666666667,
+    "warringRows": 28,
+    "qingRows": 6
+  },
+  {
+    "width": 580,
+    "columns": 5,
+    "imageSlot": 81.6,
+    "warringRows": 17,
+    "qingRows": 4
+  },
+  {
+    "width": 768,
+    "columns": 5,
+    "imageSlot": 114,
+    "warringRows": 17,
+    "qingRows": 4
+  },
+  {
+    "width": 1000,
+    "columns": 7,
+    "imageSlot": 109.71428571428571,
+    "warringRows": 12,
+    "qingRows": 3
+  },
+  {
+    "width": 1200,
+    "columns": 9,
+    "imageSlot": 103.55555555555556,
+    "warringRows": 10,
+    "qingRows": 2
+  },
+  {
+    "width": 1600,
+    "columns": 12,
+    "imageSlot": 106.5,
+    "warringRows": 7,
+    "qingRows": 2
+  }
+]

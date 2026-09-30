@@ -1,35 +1,49 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>照见荆楚 · 虎座鸟架鼓</title>
-<meta name="description" content="照见虎、鸟与一面鼓。从九连墩二号墓虎座鸟架鼓，探索荆楚的造型、色彩与器物之美。">
-<meta name="theme-color" content="#101312">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%239b382d'/%3E%3Cpath d='M17 17h30v30H17zM22 27h20M22 37h20M32 17v30' stroke='%23f4e7cb' stroke-width='3' fill='none'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css">
-<script type="module" src="app.js?v=3"></script>
-<link rel="stylesheet" href="motifs.css?v=3">
-<script type="module" src="motifs.js?v=3"></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f1eddf">
+  <title>荆楚 · 器物经纬</title>
+  <meta name="description" content="沿时代与出土地，追踪荆楚器物的工艺、色彩与纹样。">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header"><a class="brand" href="./" aria-label="照见荆楚首页"><span class="seal">荆<br>楚</span><span class="brand-name">照见荆楚<small>THE VISIBLE JINGCHU</small></span></a><nav aria-label="展览模式"><button class="nav-item active" data-mode="explore" aria-pressed="true">观原物<span>01</span></button><button class="nav-item" data-motif-open aria-controls="motif-atlas">循母题<span>02</span></button><button class="nav-item" data-action="source">查依据<span>↗</span></button></nav><span class="collection">视觉文化交互档案 <i></i> 第一辑</span></header>
-<main>
-<section class="exhibit" aria-label="虎座鸟架鼓互动展台">
-<div class="exhibit-heading"><div class="eyebrow"><span class="short-line"></span> 战国 · 九连墩二号墓</div><h1>虎座<span>鸟架</span>鼓</h1><p class="subtitle">从形与色，读懂虎、鸟与鼓的组合。</p></div>
-<div class="edition">NO. 001 <span>湖北省博物馆藏</span></div>
-<div class="stage" id="stage"><div class="stage-grid" aria-hidden="true"></div><div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div><div class="artwork" id="artwork"><img id="artifact-image" src="assets/drum.jpeg" alt="黑漆红黄彩绘的虎座鸟架鼓：两侧凤鸟立于卧虎背上，中间悬挂一面大鼓" draggable="false"><canvas id="artifact-canvas" aria-hidden="true"></canvas><div id="hotspots" class="hotspots"></div></div><div class="artifact-caption"><span>木 · 漆 · 彩绘</span><span>通高 135.9 cm</span></div><div class="stage-hint" id="stage-hint"><span class="hint-cross">＋</span> 点击光点，从一处细节开始</div></div>
-<aside class="insight" id="insight" aria-live="polite"><span class="panel-kicker">一器 · 三重关系</span><h2>它们为何<br>在一起？</h2><p>沿着鸟的长颈向上，顺着虎的身体向下。看见形象，也看见它们彼此承托的秩序。</p><div class="part-list" id="part-list"></div><button class="text-action" id="awaken">让器物舒展 <span>↗</span></button><span class="interpretation-note">动态为形式演绎</span></aside>
-<div class="exhibit-bottom"><div class="mode-controls"><button id="light-button" aria-pressed="false"><span class="light-icon" aria-hidden="true">◉</span> 探照细节</button><span class="control-divider"></span><button id="detail-open">⊕ <span>看清细部</span></button><span class="control-divider"></span><button id="reset-button">↺ <span>回到原物</span></button></div><span class="bottom-note">移动光，发现一处未曾留意的细节</span><button class="source-short" data-action="source">档案与出处 <span>↗</span></button></div>
-</section>
-<section id="motif-atlas" class="motif-atlas" aria-label="鸟形母题的延伸与对比"><p class="motif-loading" role="status">正在展开母题之间的联系…</p></section>
-<section class="evidence-strip" aria-label="阅读依据"><span class="evidence-number">01—05</span><p><strong>形态 · 色彩 · 组织 · 意象 · 语境</strong><span>从具体器物出发，理解视觉要素之间的关系。</span></p><button data-action="source">观察有来处，解释有依据 <span>↗</span></button></section>
-<footer><span>视觉荆楚 <em>／</em> 看见形式，也看见来处。</span><span>资料与图片：湖北省博物馆 · 各器物出处见页面</span></footer>
-</main>
-<dialog id="source-dialog"><div class="dialog-top"><span class="eyebrow">OBJECT RECORD / 001</span><button class="close-button" id="close-source" aria-label="关闭档案">×</button></div><h2>一件器物的来处</h2><dl id="source-facts"></dl><div class="evidence-note"><h3>我们看到了什么，演绎了什么</h3><p>器物资料与黑、红、黄色彩描述依据馆方介绍。轮廓走向、承托关系为本页形式观察。空间分层及形态运动为数字演绎，不代表历史原貌、原声或科学复原。</p></div><a class="outlined-button" href="https://m-www.hbww.org.cn/p/6913.html" target="_blank" rel="noopener noreferrer">查看馆方原始资料 ↗</a><a class="secondary-source" href="https://www.hbww.org.cn/hhfz70n/p/9134.html" target="_blank" rel="noopener noreferrer">年代依据：湖北出土音乐文物研究综述 ↗</a><p class="source-rights">图片来源：湖北省博物馆官网。照片色彩受摄影、照明、保存状态与屏幕影响。图片权利归原权利人，本预览未取得公开再利用授权。</p></dialog>
-
-<dialog id="detail-dialog" class="detail-dialog"><div class="detail-header"><div><span class="eyebrow">近看 / LOOK CLOSER</span><h2>从局部，读回整体</h2></div><button class="close-button" id="close-detail" aria-label="关闭细部查看">×</button></div>
-<div class="photo-tabs"><button data-photo="exhibition" class="active" aria-pressed="true">2021 展陈实拍 <span>高清</span></button><button data-photo="official" aria-pressed="false">馆方发布原图</button></div>
-<p class="photo-context" id="photo-context"></p><div id="detail-viewport" class="detail-viewport" aria-label="可拖动和缩放的器物照片"><img id="detail-image" alt="九连墩虎座鸟架鼓的高分辨率展陈照片" draggable="false"><span id="photo-loading" role="status">正在载入高清实拍…</span></div>
-<div class="detail-toolbar"><button id="detail-minus" aria-label="缩小高清照片">−</button><output id="detail-zoom">100%</output><button id="detail-plus" aria-label="放大高清照片">＋</button><button id="detail-fit">完整照片</button><span>拖动平移 · 滚轮或双指缩放</span></div><div class="photo-credit" id="photo-credit"></div></dialog>
-<div class="toast" id="toast" role="status"></div>
+<header class="masthead">
+  <a class="brand" href="./" aria-label="荆楚器物经纬首页"><span class="seal">楚</span><span>荆楚<span class="brand-divider">/</span>器物经纬<small>JINGCHU · AN ATLAS OF OBJECTS</small></span></a>
+  <span class="masthead-note">以时间为经，以山河为纬。</span>
+  <button class="text-button" id="about-open">读图说明 <span>↗</span></button>
+</header>
+<div class="workspace">
+  <aside class="sidebar" id="sidebar" aria-label="器物筛选">
+    <nav class="time-navigation" aria-label="时间导航"><div class="nav-heading">时间导航 <small>由古至今 ↓</small></div><div id="era-nav"></div></nav>
+    <div class="filter-heading"><span>筛选线索</span><button id="reset" class="text-button">重置 ↺</button><button id="filters-close" class="mobile-only text-button" aria-label="收起筛选">×</button></div>
+    <div id="filters"></div>
+    <div class="side-foot"><div class="pigments"><i></i><i></i><i></i><i></i><i></i></div><p>同类多选取并集，不同条件取交集。<br>未匹配器物仍留在原处，淡化显示。</p><span>馆藏照片 · 有源可循</span></div>
+  </aside>
+  <main>
+    <section class="intro">
+      <div><div class="eyebrow"><span class="tiny-line"></span>时空图谱 / TEMPORAL ATLAS</div><h1>一器一纹，皆有来路<span>。</span></h1></div>
+      <div class="intro-count"><strong id="total-count">—</strong><span>件（组）馆藏器物</span><small id="date-span">史前 — 明代</small></div>
+    </section>
+    <section class="toolbar" aria-label="图谱工具">
+      <button id="filters-open" class="mobile-only">筛选线索</button>
+      <div class="visual-key" aria-label="四类路径图例"><span><i class="key-colour"></i>色彩</span><span><i class="key-motif">❧ ❧</i>纹样</span><span><i class="key-craft">⌁</i>工艺</span><span><i class="key-material"></i>材质</span></div><small class="toolbar-note">一条线，一种线索</small>
+    </section>
+    <div class="selection-bar"><div id="selection-summary" aria-live="polite">全景 · <b>—</b> 件（组）</div><div class="path-switch"><label><input type="checkbox" id="show-paths" checked> 显示特征路径</label><span class="axis-hint">同代成组 ↓</span></div></div>
+    <div class="pan-toolbar"><span>全幅展卷</span><span class="screen-fit-note">横向适配一屏 · 向下看时代</span><select id="city-jump" aria-label="筛选出土地"></select><select id="artifact-jump" aria-label="选择器物查看档案"></select></div>
+    <div class="atlas-scroll" id="atlas-scroll" tabindex="0" aria-label="器物时空图谱，可上下滚动">
+      <div class="atlas" id="atlas">
+        <div class="geography" id="geography"></div>
+        <div class="chart" id="chart"><div id="regions" class="regions"></div><div id="eras"></div><svg id="paths" aria-label="筛选特征的时间路径"></svg><div id="objects"></div></div>
+        <div class="atlas-colophon"><span>荆楚 · 器物经纬</span><p>各时代内按出土地分组，器物较多时分排陈列；同代各排不表示先后。城市底色贯穿各时代。未收录器物的时代不展示。</p><button class="text-button" data-jump="neolithic">回到卷首 ↑</button></div>
+      </div>
+    </div>
+    <footer class="status-footer"><span id="path-legend"><i class="legend-stroke"></i>选取线索，生成路径</span><span>连线呈现特征关联，不直接代表历史传承。</span></footer>
+  </main>
+</div>
+<dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><button class="icon-button detail-close" data-close="detail-dialog" aria-label="关闭器物详情">×</button><div id="detail-content"></div></dialog>
+<dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><span class="eyebrow">HOW TO READ THE ATLAS</span><button class="icon-button" data-close="about-dialog" aria-label="关闭读图说明">×</button></div><h2 id="about-title">在时间与山河之间读器物</h2><ol><li><b>时代由古至今。</b>点击左侧时间直接跳转。时代内按出土地分组，每座城市使用固定底色；现代城市只帮助定位。</li><li><b>同代成组，逐件陈列。</b>器物按正常尺寸展示，战国、清代等密集时代分排排列，宽度适配屏幕；同代各排不表示时间先后。点击图片打开档案。</li><li><b>筛选让线索浮现。</b>选工艺、色彩、纹样、材质或出土地，匹配项高亮，其余淡化。多选同类条件取并集，跨类条件取交集。</li><li><b>四种线索，四种画法。</b>色彩用实色线，纹样用重复母题，工艺用虚线与工具图标，材质用纹理带。纹样及材质纹理为识别示意。连线表达特征相似，不等同于历史传承。</li><li><b>区分记录与观察。</b>纹样和造型母题从现有馆方记录整理；工艺注明记录明示或材质归类。色值仅取前景有效像素，透明背景不参与统计；仍受光照与保存状况影响，不代表原始颜料测色。</li></ol><p class="source-note">本图收录 <span id="archive-count">—</span> 件器物记录，复用项目照片并从馆方目录扩充。具体来源可在逐件档案中查看；没有收录器物的时代不展示。</p></dialog>
+<div id="hover-preview" class="hover-preview" hidden aria-hidden="true"></div>
+<div class="loading" id="loading" role="status">正在展卷…</div>
+<script type="module" src="app.js"></script>
 </body></html>

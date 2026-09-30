@@ -1,43 +1,73 @@
-# cultureMuseum
+# 荆楚 · 器物经纬
 
-“视觉荆楚”交互网页原型。以九连墩 2 号墓出土的虎座鸟架鼓为首个案例，通过形态、色彩、组织、意象和文化语境五个视角，关联器物原图、高清细部与资料出处。
+荆楚器物的交互式时间图谱，收录 **147 件（组）器物、15 个时代分段、15 个城市/出土地待核分组**，由史前延续至清代。
 
-## 本地运行
+在线访问：<https://roibai.github.io/cultureMuseum/>
 
-这是无需构建的静态网站。安装 Python 3 后，在项目根目录执行：
+- 时代纵向排列，器物在同一时代内按出土地分组。战国、清代等密集时代按正常图片尺寸分排，横向适配屏幕；同代不同排不表示先后。
+- 左侧点击时代直接跳转。每个城市有固定、独立的背景底色。未收录器物的时代不显示。
+- 按工艺、照片色彩、纹样/造型母题、材质和出土地筛选：同类取并集，跨类取交集；匹配器物高亮，其余淡化。
+- 色彩用实色线，纹样用稀疏重复母题，工艺用虚线与工具图标，材质用纹理色带。路径在器物之间转折，表达特征关联，不直接代表历史传承。
+- 点击图片查看原始照片、器物资料、照片色板、工艺依据及馆方来源；档案标签可继续追踪。
 
-```sh
-python3 -m http.server 43187 --bind 127.0.0.1 --directory dist
-```
+## 本地预览
 
-浏览器访问 <http://127.0.0.1:43187/>。Three.js 已保存在项目内，不需要额外安装依赖。
-
-## 项目结构
-
-- `dist/index.html`、`dist/style.css`、`dist/app.js`：页面、样式与 WebGL 交互。
-- `dist/data/artifacts.json`：主展台、延伸器物、母题分组、比较关系和资料出处；暂不接数据库。
-- `dist/motifs.js`、`dist/motifs.css`：母题空间展台、双栏对比及可恢复的分享链接。
-- `dist/assets/`：原始图片与来源说明。
-- `dist/vendor/`：Three.js 与其许可证。
-- `maintenance/README.md`：提案对应关系、内容维护流程与研究约束。
-- `scripts/validate-content.mjs`：内容结构及来源引用校验。
-
-修改内容后，使用 Node.js 执行：
+无需前端构建或联网依赖。安装 Python 3，在仓库根目录执行：
 
 ```sh
-node scripts/validate-content.mjs
+python3 scripts/preview.py
 ```
 
-同时在浏览器检查观察点、高清图片缩放、引用和手机布局。更多维护说明见 [内容维护文档](maintenance/README.md)。
+打开 <http://127.0.0.1:43203/>。也可以使用 `python3 -m http.server 8080 --directory dist`。
 
-## 图像与解释边界
+## 目录
 
-当前 WebGL 展台基于真实照片分层和有限角度透视，并非文物三维扫描模型。高清查看保留展陈实拍与馆方照片的不同呈现状态，不将差异解释为已经证实的文物原貌。
+- `dist/`：完整可部署的静态网站。
+- `dist/data/artifacts.json`：器物元数据、来源、照片路径、筛选特征和色板。
+- `dist/assets/`：未修改的馆方原始照片。
+- `dist/cutouts/`：保留原色的透明前景展示图。
+- `dist/masks/`：沿用的原有器物展示遮罩。
+- `scripts/`：本地预览、抠图、前景取色与数据/布局/图片验证工具。
+- `docs/background-removal.json`：抠图方法、裁切范围与原图 SHA-256。
+- `docs/held-back.json`：没有纳入图谱的候选记录及原因。
+- [维护说明](maintenance/README.md)：内容编辑、图像处理与发布流程。
 
-馆方图片保留原始来源，项目不对它另行授予许可。高清展陈照片由三十三画生拍摄，采用 CC BY-SA 4.0；具体署名、来源及许可见 [图片来源](dist/assets/drum-exhibition-source.txt) 和网页资料说明。Three.js 的许可见 [THREE-LICENSE.txt](dist/vendor/THREE-LICENSE.txt)。
+## 验证与维护
 
-主展台展示虎座鸟架鼓；“循母题”已加入彩绘凤形漆勺和彩绘凤鱼纹漆盂，可两两并置，切换形象位置、轮廓与组织、漆地与彩绘三个视角。可按维护文档继续添加同一母题中的器物与来源关系。学生维护 skill 尚未安装，固定流程记录在维护文档中。
+基础验证只需要 Node.js 20+：
 
-## GitHub Pages
+```sh
+npm run check
+```
 
-正式网站：<https://roibai.github.io/cultureMuseum/>。推送 `main` 后，`.github/workflows/static.yml` 自动发布 `dist`。
+图像处理工具另需 Python 依赖：
+
+```sh
+python3 -m pip install -r requirements.txt
+python3 scripts/check-images.py
+```
+
+更新器物图片后可以重新生成透明前景、取色和检查：
+
+```sh
+python3 scripts/remove-white-background.py
+python3 scripts/prepare.py
+npm run check
+python3 scripts/check-images.py
+```
+
+普通预览和 GitHub Pages 发布直接使用已提交的图像，不会在访问时抠图，也不需要 Python 图像依赖。
+
+## 资料与图像边界
+
+资料来自既有研究记录和荆州博物馆、湖北省博物馆公开目录。每条器物记录保留具体来源与原始图像地址。没有可确认年代的候选不强行归入朝代；20 件的城市暂未确认，显示“出土地待核”，不以馆藏地代替出土地。
+
+纹样与造型母题由馆方名称、记录归纳，工艺区分记录明示与材质/名称归类；缺少依据的工艺保留待补证。图中的母题符号和材质纹理是识别示意。
+
+展示图只处理透明度与裁切，原始照片不变，未使用 AI 补画器物。取色仅使用前景有效像素，透明背景和边缘不参与；白瓷本体的白色仍参与。色名同时检查色相、明度和饱和度，灰绿不误归金黄。馆方文字颜色单独展示，不混入当前照片的颜色筛选。照片色值不是原始颜料测色。
+
+馆方照片作为注明来源的研究原型材料使用，项目不另行授予图片开放许可。
+
+## 发布
+
+推送 `main` 后，现有 `.github/workflows/static.yml` 会先运行数据和布局检查，再将 `dist/` 发布到 GitHub Pages。无需额外构建。旧版网站保留在 Git 提交历史中。
