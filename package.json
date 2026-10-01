@@ -6,7 +6,7 @@
   "scripts": {
     "preview": "python3 scripts/preview.py",
     "prepare": "python3 scripts/prepare.py",
-    "check": "node scripts/verify.mjs && node scripts/check-layout.mjs && node scripts/check-3d.mjs",
+    "check": "node scripts/verify.mjs && node scripts/check-layout.mjs && node scripts/check-3d.mjs && node scripts/check-studies.mjs && node scripts/check-chimes.mjs && node scripts/check-chime-music.mjs",
     "check:images": "python3 scripts/check-images.py"
   }
 }

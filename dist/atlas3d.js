@@ -130,6 +130,18 @@ export class Atlas3D {
     await Promise.all(Array.from({length:6},load));this.host.dataset.textureStatus=failed?'partial':'ready';
   }
 
+  navigationState(){return {focus:this.focusTarget.toArray(),zoom:this.zoomTarget,orbit:{...this.orbitTarget},viewingLift:this.viewingLift,savedArchiveX:this.savedArchiveX}}
+  restoreNavigation(state){
+    if(!state||!Array.isArray(state.focus)||state.focus.length!==3||!state.focus.every(Number.isFinite))return;
+    this.viewingLift=Boolean(state.viewingLift&&this.filtered&&this.liftLayout.positions.size);
+    this.focusTarget.fromArray(state.focus);this.focus.copy(this.focusTarget);
+    if(Number.isFinite(state.savedArchiveX))this.savedArchiveX=state.savedArchiveX;
+    this.zoomTarget=clamp(Number(state.zoom)||this.defaultHeight(),10,40);this.viewHeight=this.zoomTarget;
+    if(state.orbit){this.orbitTarget={yaw:clamp(Number(state.orbit.yaw)||VIEW.yaw,VIEW.minYaw,VIEW.maxYaw),pitch:clamp(Number(state.orbit.pitch)||VIEW.pitch,VIEW.minPitch,VIEW.maxPitch)};this.orbit={...this.orbitTarget}}
+    if(this.transition){this.transition.duration=1;this.transition.cameraFrom.copy(this.focus)}
+    this.updateLayerControls();this.setHover(null);
+  }
+
   setVisible(active) {
     this.active=active;this.setHover(null);
     if(active){this.resize();this.lastFrame=performance.now();if(!this.frameId)this.frameId=requestAnimationFrame(t=>this.frame(t))}

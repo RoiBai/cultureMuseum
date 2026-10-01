@@ -145,10 +145,13 @@ function choose(key,value,exclusive=false){
 }
 function closeDialog(id){$(id).close()}
 function detail(a){
- const p=positions.get(a.id);
- $('detail-content').innerHTML=`<div class="detail-layout"><div class="detail-visual"><div class="object-picture" id="detail-photo"></div><span class="image-caption">${esc(a.collection)} · 馆藏照片<br>${a.displayImage?'原照片前景 · 透明背景展示':a.displayForeground?'原照片前景 · 既有展示遮罩':'馆方原始图像'}</span><a href="${esc(a.image)}" target="_blank" rel="noopener" class="source-link">查看原始照片 ↗</a></div><div class="detail-info"><span class="eyebrow">OBJECT ${String(artifacts.indexOf(a)+1).padStart(3,'0')} / ${esc(a.city)}</span><h2 id="detail-title">${esc(a.title)}</h2><div class="detail-meta"><span>${esc(a.period)}</span><span>${esc(a.material)}</span><span>${esc(a.place)}</span></div><p class="detail-description">${esc(a.description)}</p><section class="feature-section"><h3><span>01</span>纹样与造型母题</h3><div class="tag-list">${a.motifs.length?a.motifs.map(v=>`<button data-trace="motifs" data-value="${v}">${v}</button>`).join(''):'<span class="label-note">现有记录未明确，保留待补证。</span>'}</div><p class="label-note">从器物名称与馆方记录归纳；点击母题追踪其他器物。</p></section><section class="feature-section"><h3><span>02</span>照片色彩提取</h3><div class="palette-list">${a.palette.map(c=>`<button class="palette-tile" data-trace="colors" data-value="${c.name}" style="--swatch:${c.hex}" title="采样像素中约 ${c.share}%"><i></i><span>${c.name}</span><small>${c.hex.toUpperCase()}</small></button>`).join('')}</div><p class="label-note">${esc(a.paletteMethod)}。色值受光照、保存状况影响。${a.documentedColors?.length?'馆方文字另明确：'+a.documentedColors.join('、')+'。':''}</p></section><section class="feature-section"><h3><span>03</span>制作工艺</h3><div class="tag-list">${a.crafts.map(v=>`<button data-trace="crafts" data-value="${v}">${v}</button>`).join('')}</div><ul class="craft-evidence">${a.craftEvidence.map(c=>`<li><b>${c.name}</b> · ${c.kind}${c.kind==='记录明示'?'':' — '+esc(c.basis)}</li>`).join('')}</ul></section>${a.observation?`<p class="label-note observation">观察提示 · ${esc(a.observation)}</p>`:''}<a class="source-link" href="${esc(a.source)}" target="_blank" rel="noopener noreferrer">${esc(a.collection)} · 原始档案 ↗</a><p class="label-note">${esc(a.dateNote||'图上按时代归位，同代器物不区分确切先后。')}${a.city==='出土地待核'?' 所属城市未确认，不以馆藏地代替出土地。':''}</p></div></div>`;
- picture(a,$('detail-photo'));$('detail-dialog').showModal();
+ if(!a)return;
+ const state={view,selected:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),groupDimension,
+   scrollTop:$('atlas-scroll').scrollTop,three:atlas3d?.navigationState()};
+ try{sessionStorage.setItem('jingchu-atlas-return',JSON.stringify(state))}catch{}
+ location.assign('object.html?id='+encodeURIComponent(a.id));
 }
+
 function jumpEra(id){if(view==='3d'){atlas3d?.jumpEra(id);$('sidebar').classList.remove('open');return}const row=eraRows.find(r=>r.id===id);if(row){hideHover();$('atlas-scroll').scrollTo({top:row.y,behavior:reducedMotion()?'instant':'smooth'});$('sidebar').classList.remove('open')}}
 function updateEraNav(){if(view==='3d')return;const y=$('atlas-scroll').scrollTop+32;const current=[...eraRows].reverse().find(r=>r.y<=y)||eraRows[0];document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===current?.id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}
 function reducedMotion(){return matchMedia('(prefers-reduced-motion: reduce)').matches}
@@ -159,7 +162,7 @@ document.addEventListener('click',e=>{
  if(b.dataset.view){switchView(b.dataset.view);return}
  if(b.dataset.filter){choose(b.dataset.filter,b.dataset.value);return}
  if(b.dataset.preset){const [key,val]=b.dataset.preset.split(':');choose(key,val,true);return}
- if(b.dataset.trace){choose(b.dataset.trace,b.dataset.value,true);closeDialog('detail-dialog');$('sidebar').classList.remove('open');const first=artifacts.find(a=>matches(a));if(first&&view==='2d'){const p=positions.get(first.id);$('atlas-scroll').scrollTo({top:Math.max(0,p.y-250),behavior:'smooth'})}return}
+
  if(b.dataset.artifact){detail(artifacts.find(a=>a.id===b.dataset.artifact));return}
  if(b.dataset.close){closeDialog(b.dataset.close);return}
  if(b.dataset.jump)jumpEra(b.dataset.jump);
@@ -228,5 +231,12 @@ try{
  $('total-count').textContent=artifacts.length;$('date-span').textContent='史前 — '+(artifacts.some(a=>a.era==='qing')?'清代':artifacts.some(a=>a.era==='ming')?'明代':'元代');
  $('archive-count').textContent=artifacts.length;
  $('loading').hidden=true;document.body.dataset.ready='true';
+ if(new URLSearchParams(location.search).has('return')){
+  try{const saved=JSON.parse(sessionStorage.getItem('jingchu-atlas-return'));
+   if(saved){selected=Object.fromEntries(dims.map(d=>[d.key,new Set((saved.selected?.[d.key]||[]).filter(v=>artifacts.some(a=>values(a,d.key).includes(v))))]));groupDimension=dims.some(d=>d.key===saved.groupDimension)?saved.groupDimension:'colors';$('three-group').value=groupDimension;
+    refresh();await switchView(saved.view==='3d'?'3d':'2d');if(saved.view==='3d')atlas3d?.restoreNavigation(saved.three);else $('atlas-scroll').scrollTop=saved.scrollTop||0;refresh()}
+  }catch(error){console.warn('Could not restore atlas position',error)}
+ }
+
  window.jingchuTimeline={getState:()=>({count:artifacts.length,matchedIds:[...matchIds],filters:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),positions:Object.fromEntries(positions),paths:activePaths,imageFailures,cities,width,height,eraRows,displayRows}),artifacts};
 }catch(error){$('loading').textContent=error.message+'，请刷新页面重试。';document.body.dataset.error='true';console.error(error)}

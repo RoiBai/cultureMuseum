@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-01",
+  "method": "逐项核对馆方摘录与现有照片；保留花卉及植物纹样，不由花纹、花冠、青花或地名推断纹样。",
+  "corrections": [
+    {
+      "id": "hb-6916",
+      "removed": "花卉",
+      "reason": "花纹、镂空花纹、鸟冠或青花工艺不等同于花卉/植物纹样。",
+      "source": "https://www.hbww.org.cn/zgzb/p/6916.html"
+    },
+    {
+      "id": "hb-4694",
+      "removed": "花卉",
+      "reason": "花纹、镂空花纹、鸟冠或青花工艺不等同于花卉/植物纹样。",
+      "source": "https://www.hbww.org.cn/zgzb/p/4694.html"
+    },
+    {
+      "id": "hb-6911",
+      "removed": "花卉",
+      "reason": "花纹、镂空花纹、鸟冠或青花工艺不等同于花卉/植物纹样。",
+      "source": "https://www.hbww.org.cn/zgzb/p/6911.html"
+    },
+    {
+      "id": "jz-356",
+      "removed": "花卉",
+      "reason": "花纹、镂空花纹、鸟冠或青花工艺不等同于花卉/植物纹样。",
+      "source": "http://www.jzmsm.org/news-356.html"
+    },
+    {
+      "id": "jz-357",
+      "removed": "花卉",
+      "reason": "花纹、镂空花纹、鸟冠或青花工艺不等同于花卉/植物纹样。",
+      "source": "http://www.jzmsm.org/news-357.html"
+    },
+    {
+      "id": "hb-6912",
+      "removed": "虎豹",
+      "reason": "睡虎地为出土地，不是虎纹的证据。",
+      "source": "https://www.hbww.org.cn/zgzb/p/6912.html"
+    },
+    {
+      "id": "jz-354",
+      "removed": "凤鸟",
+      "reason": "凤凰山为出土地；器物记录明确的是鸟纹，保留禽鸟标签。",
+      "source": "http://www.jzmsm.org/news-354.html"
+    },
+    {
+      "id": "hb-5539",
+      "removed": "虎豹",
+      "reason": "睡虎地为出土地，不是虎纹的证据。",
+      "source": "https://www.hbww.org.cn/qmq/p/5539.html"
+    },
+    {
+      "id": "hb-5483",
+      "removed": "虎豹",
+      "reason": "睡虎地为出土地，不是虎纹的证据。",
+      "source": "https://www.hbww.org.cn/qmq/p/5483.html"
+    },
+    {
+      "id": "hb-4805",
+      "removed": "花卉",
+      "reason": "花纹、镂空花纹、鸟冠或青花工艺不等同于花卉/植物纹样。",
+      "source": "https://www.hbww.org.cn/tcq/p/4805.html"
+    },
+    {
+      "id": "hb-4774",
+      "removed": "花卉",
+      "reason": "花纹、镂空花纹、鸟冠或青花工艺不等同于花卉/植物纹样。",
+      "source": "https://www.hbww.org.cn/tcq/p/4774.html"
+    }
+  ],
+  "flowerCount": 12
+}

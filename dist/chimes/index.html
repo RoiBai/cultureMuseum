@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080909">
+  <title>荆楚 · 钟鸣千年</title>
+  <meta name="description" content="从曾侯乙编钟出发，触及荆楚文化的形、色与声。">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%238e3025'/%3E%3Cpath d='M14 10h12l4 19-10-4-10 4zM20 6v5' fill='none' stroke='%23d6c8a2' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <header class="site-header"><a href="../object.html?id=hb-4695" class="brand" aria-label="返回曾侯乙编钟档案"><span class="seal" aria-hidden="true">楚</span><span>荆楚<span class="brand-en">JINGCHU</span></span></a><a class="source-link" href="https://artsandculture.google.com/asset/the-chimes-of-zeng-hou-yi/cAFZ_vTBSwpOoQ?hl=zh-cn" target="_blank" rel="noopener noreferrer">湖北省博物馆 · 资料出处 <span>↗</span></a></header>
+  <nav class="museum-return"><a href="../object.html?id=hb-4695">← 返回曾侯乙编钟档案</a><span>器物细读 / 声音探索</span></nav>
+  <main>
+    <section class="opening" aria-labelledby="page-title">
+      <div class="opening-copy"><p class="eyebrow"><span></span> 礼乐之器 / THE ART OF RESONANCE</p><h1 id="page-title">钟鸣<span>千年</span></h1><p class="intro">从一声青铜的回响，走进荆楚。</p></div>
+      <div class="stage-shell"><div id="stage" class="stage" tabindex="0" aria-label="编钟三维展台。按住鼠标拖动或手指滑动旋转，点击钟体敲击，左右方向键选择钟，回车敲击，Esc取消。"><img id="source-photo" src="assets/chimes-original.png" width="3176" height="1230" alt="黑色背景中，曾侯乙编钟分三层悬挂在朱红色钟架上。" draggable="false"><canvas id="chime-canvas" aria-hidden="true"></canvas><div class="model-loading" id="model-loading" role="status"><span>正在迎入编钟</span><small id="load-progress">载入三维模型…</small></div><div id="bell-tooltip" class="bell-tooltip" hidden></div></div><div class="stage-caption"><span>曾侯乙编钟</span><span class="recording-note">复制件实录 · 演示配声</span><span>战国早期 · 约公元前 433 年</span></div></div>
+      <div class="interaction-bar"><p id="interaction-hint"><span class="hint-star">✧</span> 拖动环看编钟 · 点击钟体敲击</p><button id="reset-view" type="button">回到正面 ↺</button><button id="sound-toggle" type="button" aria-pressed="true" aria-label="关闭钟声">钟声 开</button><span class="view-label">01 / 礼乐</span></div>
+      <div class="music-row" id="music-player" data-state="loading">
+        <div class="music-intro"><span class="music-eyebrow">听一曲古乐</span><button id="play-piece" type="button" disabled aria-pressed="false"><span class="music-icon" aria-hidden="true">▶</span><span id="piece-title">迎候一曲</span></button><p id="piece-subtitle">点击曲名，编钟依次奏响</p></div>
+        <div class="music-progress"><p id="music-status" role="status" aria-live="polite">正在准备曲谱</p><div class="music-track" aria-hidden="true"><span id="music-progress-fill"></span></div><div class="music-meta"><span id="music-time">00:00</span><button id="stop-piece" type="button" disabled>停止演奏</button></div></div>
+      </div>
+      <div class="exhibit-footer"><p>65 件青铜钟，三层八组。<br>礼、乐与工艺，在此相遇。</p><a href="#about" class="scroll-link">读懂这座编钟 <span>↓</span></a></div>
+    </section>
+    <section id="about" class="about"><div><p class="eyebrow">曾侯乙编钟 / THE CHIMES OF ZENG HOU YI</p><h2>有声的青铜。</h2></div><div class="about-body"><p>1978 年，这套编钟出土于湖北随州擂鼓墩 1 号墓。大小不同的钟排列在曲尺形钟架上，青铜与朱漆共同构成它的形与色。</p><p>每件钟的合瓦形钟体能够发出两个不同的音。器物的造型、纹饰与铭文，记录着战国时代对声音的理解。</p><div class="facts"><div><strong>65</strong><span>件编钟</span></div><div><strong>3</strong><span>层钟架</span></div><div><strong>1978</strong><span>年出土</span></div></div><p class="small-note">三维模型：用户提供的 Tripo 生成模型，细节以文物资料为准。文物资料：湖北省博物馆 / Google 艺术与文化。</p><a class="source-link" href="https://artsandculture.google.com/asset/the-chimes-of-zeng-hou-yi/cAFZ_vTBSwpOoQ?hl=zh-cn" target="_blank" rel="noopener noreferrer">查看馆方资料 ↗</a><p class="small-note" id="audio-provenance">编钟复制件实录演示配声，音色与模型位置作演示配对。</p><a class="source-link" href="https://github.com/wizonce9/A-Novel-Physical-Modeling-Approach-for-Sound-Synthesis-of-Chinese-Chime-Bells/tree/master" target="_blank" rel="noopener noreferrer">查看编钟实录来源 ↗</a><span class="small-note"> · </span><a class="source-link" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a></div></section>
+  </main>
+  <footer class="site-footer"><span>荆楚文化</span><span>形 · 色 · 声</span></footer>
+</body>
+</html>

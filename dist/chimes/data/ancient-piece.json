@@ -1,0 +1,99 @@
+{
+  "id": "chuge-1425-opening-bells",
+  "title": "楚歌",
+  "subtitle": "《神奇秘谱》1425 · 楚商调开句 · 编钟改编",
+  "bpm": 60,
+  "sourceUrl": "https://www.silkqin.com/02qnpu/07sqmp/sq61cg.htm",
+  "sourceTitle": "朱权《神奇秘谱》（1425）《楚歌》；John Thompson 开句音序考证",
+  "description": "古琴曲《楚歌》叙写项羽的楚地故事。本段取1425年《神奇秘谱》的开句主题，重复呈现，以简洁节奏改编为约24秒的编钟选段。古琴谱不直接标记节拍，此处节奏为本次编钟演绎安排。",
+  "notes": [
+    {
+      "pitch": "A4",
+      "beats": 1
+    },
+    {
+      "pitch": "A4",
+      "beats": 1
+    },
+    {
+      "pitch": "A4",
+      "beats": 1
+    },
+    {
+      "pitch": "C5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 1
+    },
+    {
+      "pitch": "C5",
+      "beats": 1
+    },
+    {
+      "pitch": "E5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 2
+    },
+    {
+      "pitch": "REST",
+      "beats": 1
+    },
+    {
+      "pitch": "A4",
+      "beats": 1
+    },
+    {
+      "pitch": "A4",
+      "beats": 1
+    },
+    {
+      "pitch": "A4",
+      "beats": 1
+    },
+    {
+      "pitch": "C5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 1
+    },
+    {
+      "pitch": "C5",
+      "beats": 1
+    },
+    {
+      "pitch": "E5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 1
+    },
+    {
+      "pitch": "D5",
+      "beats": 2
+    },
+    {
+      "pitch": "REST",
+      "beats": 1
+    }
+  ]
+}
