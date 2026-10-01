@@ -2,7 +2,8 @@
 // Within an era, arrangement and depth support reading; neither implies chronology.
 export const CARD = {width: 3.6, height: 3.6, step: 5.4, rowStep: 10.8};
 export const LIFT = 15;
-export const featureValues = (a, key) => (Array.isArray(a[key]) ? a[key] : [a[key]]).filter(Boolean);
+import {featureValues} from './feature-values.js';
+export {featureValues};
 
 function placeGroups(items, start, elevation, context) {
   const positions=new Map(), groups=[];
@@ -49,7 +50,8 @@ export function arrangeLift(data, eraDefs, matchedIds, selected, dimension) {
   const selectedValues=[...(selected[dimension]||[])],byValue=new Map();
   for(const a of data.filter(a=>matchedIds.has(a.id))){
     const values=featureValues(a,dimension);
-    const value=selectedValues.find(v=>values.includes(v))||values[0]||'未归类';
+    const value=selectedValues.find(v=>values.includes(v))||values[0];
+    if(!value)continue;
     if(!byValue.has(value))byValue.set(value,[]);
     byValue.get(value).push(a);
   }

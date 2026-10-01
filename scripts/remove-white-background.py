@@ -29,7 +29,7 @@ for a in records:
  rgba=photo.convert('RGBA');rgba.putalpha(alpha)
  left,top,right,bottom=alpha.getbbox();w,h=photo.size
  box=(max(0,left-3),max(0,top-3),min(w,right+3),min(h,bottom+3));rgba=rgba.crop(box)
- dest=f'cutouts/{a["id"]}.webp';rgba.save(DIST/dest,'WEBP',lossless=True,method=4)
+ dest=a.get('displayImage') or f'cutouts/{a["id"]}.webp';rgba.save(DIST/dest,'WEBP',lossless=True,method=4)
  a['displayImage']=dest;a['backgroundRemoval']=method
  report[a['id']]={'source':a['image'],'sourceSha256':source_hash,'status':'foreground-ready','displayImage':dest,'method':method,'crop':list(box),'removedFraction':round(float((np.asarray(alpha)==0).mean()),4)}
  assert hashlib.sha256(source.read_bytes()).hexdigest()==source_hash

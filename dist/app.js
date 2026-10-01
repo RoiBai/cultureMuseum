@@ -1,6 +1,7 @@
 import {museumForeground} from './foreground.js';
 import {arrangeArtifacts} from './layout.js';
 import {filterSample, glyphBody, materialPattern, materialSpec} from './visual-language.js';
+import {featureValues as values,isKnownFeature} from './feature-values.js';
 
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -23,7 +24,6 @@ let artifacts=[],cities=[],positions=new Map(),eraRows=[],displayRows=[],selecte
 let nodes=new Map(),width=0,height=0,matchIds=new Set(),activePaths=[],imageFailures=[];
 let view='2d', atlas3d=null, threeLoading=null, groupDimension='colors';
 const photoCache=new Map();
-const values=(a,key)=>Array.isArray(a[key])?a[key]:[a[key]];
 const label=(key,value)=>key==='era'?(eraDefs.find(e=>e[0]===value)?.[1]||value):value;
 function matches(a,except){return dims.every(d=>d.key===except||selected[d.key].size===0||values(a,d.key).some(v=>selected[d.key].has(v)))}
 function hasFilters(){return dims.some(d=>selected[d.key].size)}
@@ -71,7 +71,7 @@ function buildLayout(){
  $('paths').setAttribute('viewBox',`0 0 ${width} ${height}`);
  observer?.disconnect();observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){picture(artifacts.find(a=>a.id===e.target.dataset.photo),e.target);observer.unobserve(e.target)}},{root:$('atlas-scroll'),rootMargin:'300px'});
  document.querySelectorAll('#objects [data-photo]').forEach(el=>observer.observe(el));
- $('city-jump').innerHTML='<option value="">全部地域</option>'+cities.map(c=>`<option value="${c.name}">${c.name}</option>`).join('');
+ $('city-jump').innerHTML='<option value="">全部地域</option>'+cities.filter(c=>isKnownFeature(c.name)).map(c=>`<option value="${c.name}">${c.name}</option>`).join('');
  $('artifact-jump').innerHTML='<option value="">选择器物查看</option>'+artifacts.map(a=>`<option value="${a.id}">${esc(a.title)} · ${esc(a.period)}</option>`).join('');
  updateEraNav();
 }
@@ -93,7 +93,7 @@ function drawPaths(){
  const chunks=[],legends=[];
  traces.forEach(({dimension,value},i)=>{
    const records=artifacts.filter(a=>matches(a)&&values(a,dimension).includes(value));
-   const color=dimension==='colors'?paletteColors[value]:dimension==='materialGroup'?materialSpec(value).color:dimension==='motifs'?'#964c39':'#75602e';
+   const color=dimension==='colors'?paletteColors[value]:dimension==='materialGroup'?materialSpec(value).color:dimension==='motifs'?'#b2a17b':'#acb6a2';
    const offset=(i-(traces.length-1)/2)*7;
    const bands=displayRows.map(row=>({row,points:records.filter(a=>positions.get(a.id).rowKey===row.key).map(a=>({...positions.get(a.id),id:a.id})).sort((a,b)=>a.x-b.x)})).filter(b=>b.points.length);
    const id='route-'+i,pattern='material-'+i;
@@ -129,7 +129,7 @@ function drawPaths(){
      if(dimension==='motifs'&&length<70)return;
      for(let distance=Math.min(length/2,spacing/2);distance<length;distance+=spacing){
        const p=path.getPointAtLength(distance);
-       decoration+=`<g class="route-symbol" transform="translate(${p.x-9},${p.y-9})"><rect x="-2" y="-2" width="22" height="22" rx="11" fill="#f3efe4" opacity="${dimension==='crafts'?'.98':'.86'}"/><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${glyphBody(dimension,value)}</svg></g>`;
+       decoration+=`<g class="route-symbol" transform="translate(${p.x-9},${p.y-9})"><rect x="-2" y="-2" width="22" height="22" rx="11" fill="#10120e" opacity="${dimension==='crafts'?'.98':'.86'}"/><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${glyphBody(dimension,value)}</svg></g>`;
      }
    });
    group.insertAdjacentHTML('beforeend',decoration);

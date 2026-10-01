@@ -59,8 +59,9 @@ const selected=empty();selected.colors=new Set(['赤红','漆黑']);selected.mat
 const intersection=new Set(data.filter(a=>a.colors.some(c=>selected.colors.has(c))&&a.materialGroup==='漆木').map(a=>a.id));
 for(const dimension of ['colors','materialGroup','motifs']){
   const lifted=arrangeLift(data,eras,intersection,selected,dimension);
-  assert.equal(lifted.positions.size,intersection.size,'Changing group dimension preserves the filtered result');
-  assert.equal(lifted.shelves.reduce((sum,s)=>sum+s.count,0),intersection.size,'Multi-feature artifacts never duplicate');
+  const known=[...intersection].filter(id=>featureValues(data.find(a=>a.id===id),dimension).length);
+  assert.deepEqual([...lifted.positions.keys()].sort(),known.sort(),'Only records with a known grouping feature rise; others remain in the complete archive');
+  assert.equal(lifted.shelves.reduce((sum,s)=>sum+s.count,0),known.length,'Multi-feature artifacts never duplicate');
 }
 assert.equal(arrangeLift(data,eras,new Set(),empty(),'colors').length,0);
 assert.equal(arrangeLift(data,eras,new Set(),empty(),'colors').positions.size,0);

@@ -5,5 +5,7 @@
   "opaqueRGBUnchanged": true,
   "palettesMatchForeground": true,
   "goldBrightnessAndChromaChecked": true,
-  "whiteGlazePreserved": true
+  "whiteGlazePreserved": true,
+  "detailAperturesChecked": 449,
+  "minimumForegroundCoverage": 0.13
 }

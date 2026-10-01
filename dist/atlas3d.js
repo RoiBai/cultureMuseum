@@ -3,7 +3,7 @@ import {arrangeArchive, arrangeLift, CARD, LIFT} from './atlas3d-layout.js';
 import {filterSample, materialSpec} from './visual-language.js';
 import {VIEW, positionCamera, DepthOfField} from './atlas3d-camera.js';
 
-const PAPER = '#f3efe4', INK = '#696151', RED = '#9c3c30';
+const PAPER = '#000000', INK = '#acb6a2', RED = '#b2a17b';
 const clamp = THREE.MathUtils.clamp;
 const ease = t => t < .5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -175,17 +175,18 @@ export class Atlas3D {
         entering:!!destination,fromOpacity:c.lift.material.opacity,delay:destination?Math.min(index++*9,210):0};
       c.destination=destination;
     }
-    this.viewingLift=filtered&&matchedIds.size>0;
+    const liftedCount=this.liftLayout.positions.size;
+    this.viewingLift=filtered&&liftedCount>0;
     this.focusTarget.set(this.focusTarget.x,this.viewingLift?LIFT+1.1:1.1,0);
-    const length=filtered&&matchedIds.size?this.liftLayout.length:this.archive.length;
+    const length=filtered&&liftedCount?this.liftLayout.length:this.archive.length;
     this.focusTarget.x=filtered?(this.readingGroups(this.liftLayout)[0]?.x??this.homeX()):this.savedArchiveX??this.homeX();
     this.alignMobileCamera();
-    this.host.dataset.layer=filtered&&matchedIds.size?'lift':'archive';this.host.dataset.matches=matchedIds.size;
+    this.host.dataset.layer=filtered&&liftedCount?'lift':'archive';this.host.dataset.matches=matchedIds.size;
     this.host.dataset.groupBy=dimension;this.host.dataset.motion=this.reduced.matches?'reduced':'lifting';
     this.host.querySelector('.three-layer-title').textContent=filtered?`${dimensionNames[dimension]}浮层`:'器物全谱';
-    this.host.querySelector('.three-layer-meta').textContent=filtered?`${matchedIds.size} 件提取 · 下层保留 ${this.artifacts.length} 件`:`${this.archive.eras.length} 个时代 · ${this.artifacts.length} 件器物`;
-    this.host.querySelector('.three-empty').hidden=!(filtered&&!matchedIds.size);
-    this.host.querySelector('[data-three="ground"]').hidden=!filtered||!matchedIds.size;
+    this.host.querySelector('.three-layer-meta').textContent=filtered?`${liftedCount} 件提取 · 下层保留 ${this.artifacts.length} 件${matchedIds.size>liftedCount?' · '+(matchedIds.size-liftedCount)+' 件暂无该特征':''}`:`${this.archive.eras.length} 个时代 · ${this.artifacts.length} 件器物`;
+    this.host.querySelector('.three-empty').hidden=!(filtered&&!liftedCount);
+    this.host.querySelector('[data-three="ground"]').hidden=!filtered||!liftedCount;
     this.host.querySelector('[data-three="ground"]').textContent='俯看全谱 ↓';
     this.host.querySelector('.three-range').max=Math.max(1,length);
   }

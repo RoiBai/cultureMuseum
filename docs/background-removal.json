@@ -283,12 +283,12 @@
     "source": "assets/jz-462.png",
     "sourceSha256": "e0bbc963b50dbd3c8b144efc9bf0f54c1aae9ae323c19e5666f6d5e3adf444d1",
     "status": "foreground-ready",
-    "displayImage": "cutouts/jz-462.webp",
+    "displayImage": "cutouts/jz-462-r2.webp",
     "method": "existing-reviewed-alpha",
     "crop": [
       397,
-      0,
-      921,
+      213,
+      513,
       1303
     ],
     "removedFraction": 0.9282

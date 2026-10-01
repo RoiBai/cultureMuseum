@@ -1,0 +1,12 @@
+/* Shared with the chime experience: black, patinated bronze and restrained vermilion. */
+:root{
+ color-scheme:dark;
+ --paper:#000;--ink:#e5e0d4;--muted:#9b9d94;
+ --bronze:#acb6a2;--gold:#b2a17b;--red:#b34031;--accent:var(--gold);
+ --rule:#282923;--line:#282923;--sidebar:#0a0c09;
+ --surface:#10120e;--surface-raised:#191c16;--edge:#44483b;
+ --green:#849980;
+ --serif:"Songti SC","STSong","Noto Serif CJK SC",serif;
+ --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+::selection{color:#e5e0d4;background:#514833}

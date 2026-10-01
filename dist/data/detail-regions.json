@@ -1890,14 +1890,15 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-462.html",
         "rect": [
-          0.0,
-          0.47,
-          1.0,
-          0.22
+          0.14,
+          0.66,
+          0.72,
+          0.16
         ],
         "label": "剑身铭文所在区",
         "note": "此图为剑的全景，铭文细节应结合馆方原页核读。",
-        "view": "context"
+        "view": "context",
+        "revision": 2
       },
       {
         "id": "motif-禽鸟",
@@ -1906,62 +1907,66 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-462.html",
         "rect": [
-          0.0,
-          0.47,
-          1.0,
-          0.22
+          0.14,
+          0.66,
+          0.72,
+          0.16
         ],
         "label": "鸟篆文字区",
         "note": "此处归入鸟篆装饰文字，与鸟形器物作形式参照。",
-        "view": "context"
+        "view": "context",
+        "revision": 2
       },
       {
         "id": "craft-铸造",
         "dimension": "crafts",
         "value": "铸造",
         "rect": [
-          0,
-          0.24,
-          1,
-          0.34
+          0.2,
+          0.3,
+          0.6,
+          0.22
         ],
         "label": "铸造 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺按名称或材质归类，不能仅由此照片确认具体制作方法。",
         "view": "surface",
         "basis": "材质归类",
-        "source": "http://www.jzmsm.org/news-462.html"
+        "source": "http://www.jzmsm.org/news-462.html",
+        "revision": 2
       },
       {
         "id": "craft-错金",
         "dimension": "crafts",
         "value": "错金",
         "rect": [
-          0,
-          0.24,
-          1,
-          0.34
+          0.14,
+          0.66,
+          0.72,
+          0.16
         ],
-        "label": "错金 · 器表细节",
-        "note": "观察这一部位的表面、线条与连接。工艺名称来自馆方记录。",
-        "view": "surface",
+        "label": "错金铭文所在器面",
+        "note": "馆方记载剑身近格处有错金铭文；此全景照片仅能观察所在器面，不能辨读文字。",
+        "view": "context",
         "basis": "记录明示",
-        "source": "http://www.jzmsm.org/news-462.html"
+        "source": "http://www.jzmsm.org/news-462.html",
+        "revision": 2
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "漆木",
         "rect": [
-          0,
-          0.24,
-          1,
-          0.34
+          0.2,
+          0.3,
+          0.6,
+          0.22
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "http://www.jzmsm.org/news-462.html"
+        "source": "http://www.jzmsm.org/news-462.html",
+        "revision": 2
       },
       {
         "id": "form",
@@ -5572,16 +5577,17 @@
         "dimension": "surface",
         "value": "玉石",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.04,
+          0.32,
+          0.18,
+          0.3
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/yuqi/p/4878.html"
+        "source": "https://www.hbww.org.cn/yuqi/p/4878.html",
+        "revision": 2
       },
       {
         "id": "form",
@@ -5854,16 +5860,17 @@
         "dimension": "surface",
         "value": "玉石",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.04,
+          0.32,
+          0.18,
+          0.3
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/yuqi/p/4859.html"
+        "source": "https://www.hbww.org.cn/yuqi/p/4859.html",
+        "revision": 2
       },
       {
         "id": "form",
@@ -7178,32 +7185,34 @@
         "dimension": "crafts",
         "value": "铸造",
         "rect": [
-          0.26,
-          0.36,
-          0.47,
-          0.57
+          0.35,
+          0.16,
+          0.13,
+          0.19
         ],
         "label": "铸造 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺按名称或材质归类，不能仅由此照片确认具体制作方法。",
         "view": "surface",
         "basis": "材质归类",
-        "source": "https://hbsbwg.cjyun.org/qmq/p/4967.html"
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4967.html",
+        "revision": 2
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "青铜",
         "rect": [
-          0.26,
-          0.36,
-          0.47,
-          0.57
+          0.35,
+          0.16,
+          0.13,
+          0.19
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "https://hbsbwg.cjyun.org/qmq/p/4967.html"
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4967.html",
+        "revision": 2
       },
       {
         "id": "form",
@@ -7228,32 +7237,34 @@
         "dimension": "crafts",
         "value": "髹漆",
         "rect": [
-          0.2,
-          0.2,
-          0.6,
-          0.55
+          0.11,
+          0.29,
+          0.16,
+          0.25
         ],
         "label": "髹漆 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺按名称或材质归类，不能仅由此照片确认具体制作方法。",
         "view": "surface",
         "basis": "材质归类",
-        "source": "https://hbsbwg.cjyun.org/qmq/p/4964.html"
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4964.html",
+        "revision": 2
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "漆木",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.11,
+          0.29,
+          0.16,
+          0.25
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "https://hbsbwg.cjyun.org/qmq/p/4964.html"
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4964.html",
+        "revision": 2
       },
       {
         "id": "form",

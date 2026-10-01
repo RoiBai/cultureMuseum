@@ -1453,7 +1453,7 @@
     "era": "warring",
     "city": "荆州",
     "displayForeground": true,
-    "displayImage": "cutouts/jz-462.webp",
+    "displayImage": "cutouts/jz-462-r2.webp",
     "backgroundRemoval": "existing-reviewed-alpha",
     "fact": "馆方记录剑身近格处有两行八字错金鸟篆铭文，剑茎缠有丝绳。",
     "observation": "沿剑身观察直线轮廓，再看剑格、圆箍与鸟篆文字怎样构成局部节奏。",
@@ -1482,18 +1482,18 @@
     "palette": [
       {
         "name": "赭褐",
-        "hex": "#5a4d36",
-        "share": 82.2
+        "hex": "#5b4d36",
+        "share": 80.1
       },
       {
         "name": "灰褐",
-        "hex": "#625947",
+        "hex": "#645a49",
         "share": 13.4
       },
       {
         "name": "漆黑",
         "hex": "#2f2d25",
-        "share": 4.4
+        "share": 5.5
       }
     ],
     "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import {comparisonSet,primaryRegions,regionFor,compareURL,hasFeature,validRect,cropOverride} from '../dist/study-data.js';
+import {comparisonSet,primaryRegions,regionFor,compareURL,hasFeature,validRect,cropOverride,featureValues,isKnownFeature} from '../dist/study-data.js';
 const root=new URL('../dist/',import.meta.url);
 const data=JSON.parse(fs.readFileSync(new URL('data/artifacts.json',root)));
 const details=JSON.parse(fs.readFileSync(new URL('data/detail-regions.json',root)));
@@ -21,7 +21,7 @@ for(const a of data){
  const primary=primaryRegions(list);assert(primary.length>0&&primary.length<=3);
  assert.equal(new Set(primary.map(r=>r.rect.join(','))).size,primary.length);
  for(let i=1;i<primary.length;i++)assert(primary[i-1].rect[1]+primary[i-1].rect[3]/2<=primary[i].rect[1]+primary[i].rect[3]/2);
- for(const key of ['motifs','crafts','colors','materialGroup'])for(const value of (Array.isArray(a[key])?a[key]:[a[key]])){
+ for(const key of ['motifs','crafts','colors','materialGroup'])for(const value of featureValues(a,key)){
   const result=comparisonSet(data,regions,a.id,key,value);
   assert.equal(result.current.id,a.id);assert(!result.others.some(o=>o.id===a.id));
   assert.equal(new Set(result.others.map(o=>o.id)).size,result.others.length);
@@ -34,6 +34,7 @@ for(const a of data){
   comparisons++;
  }
 }
+for(const a of data)for(const key of ['motifs','crafts','colors','materialGroup'])for(const value of (Array.isArray(a[key])?a[key]:[a[key]]))if(!isKnownFeature(value)){assert.equal(comparisonSet(data,regions,a.id,key,value),null);assert(!featureValues(a,key).includes(value))}
 const flowers=comparisonSet(data,regions,'dou','motifs','花卉');assert.equal(flowers.count,12);
 for(const id of ['hb-6916','hb-4694','hb-6911','jz-356','jz-357','hb-4805','hb-4774'])assert(!hasFeature(data.find(a=>a.id===id),'motifs','花卉'));
 const birds=comparisonSet(data,regions,'dou','motifs','鸟类');assert.equal(birds.count,30);
@@ -47,6 +48,9 @@ const floral=regionFor(data.find(a=>a.id==='dou'),regions,'motifs','花卉');
 globalThis.sessionStorage={getItem:()=>'{bad json'};assert.deepEqual(cropOverride('dou',floral),floral.rect);
 sessionStorage.getItem=()=>JSON.stringify([0,0,8,8]);assert.deepEqual(cropOverride('dou',floral),floral.rect);
 sessionStorage.getItem=()=>JSON.stringify([.2,.1,.3,.3]);assert.deepEqual(cropOverride('dou',floral),[.2,.1,.3,.3]);
+const revised=regions['jz-462'].find(r=>r.revision===2);
+sessionStorage.getItem=key=>key.endsWith(':v2')?null:JSON.stringify([0,0,.2,.2]);
+assert.deepEqual(cropOverride('jz-462',revised),revised.rect,'Revised image coordinates invalidate only stale overrides');
 delete globalThis.sessionStorage;
 const report={artifacts:data.length,regions:regionCount,comparisonCases:comparisons,flowers:flowers.count,birds:birds.count,passed:true};
 fs.writeFileSync(new URL('../docs/studies-verification.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
