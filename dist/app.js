@@ -61,7 +61,7 @@ function buildLayout(){
  positions=layout.positions;eraRows=layout.eras;displayRows=layout.rows;height=layout.height;
  $('atlas').style.width=width+'px';$('chart').style.height=height+'px';
  $('chart').style.setProperty('--gutter',layout.gutter+'px');
- $('geography').innerHTML=`<div class="geo-label axis-label" style="width:${layout.gutter}px"><strong>时代 ↓</strong></div><div class="geography-guide"><span>同代成组 · 按地域陈列</span><small>同代分排不表示先后</small></div><span class="geo-direction">出土地 →</span>`;
+ $('geography').innerHTML=`<div class="geo-label axis-label" style="width:${layout.gutter}px"><strong>时代 ↓</strong></div><div class="geography-guide"><span>同代成组 · 按地域陈列</span></div><span class="geo-direction">出土地 →</span>`;
  $('regions').innerHTML=layout.bands.map(b=>{const city=cities.find(c=>c.name===b.city);return `<div class="place-band" data-city="${esc(b.city)}" style="left:${b.x}px;top:${b.y}px;width:${b.width}px;height:${b.height}px;--city-tone:${city.color};--city-wash:${city.color}16"><span><i></i>${esc(b.city)}</span></div>`}).join('');
  $('eras').innerHTML=eraRows.map(r=>`<section class="era-row ${r.id==='warring'?'featured':''}" id="era-${r.id}" style="top:${r.y}px;height:${r.height}px"><div class="era-label"><span class="era-num">${r.num}</span><h3>${r.title}</h3><span>${r.count} 件（组）</span>${r.rowCount>1?`<small>${r.rowCount} 排陈列</small>`:''}</div>${Array.from({length:r.rowCount-1},(_,i)=>`<span class="era-continuation" style="top:${(i+1)*218+100}px">${r.title}<small>${i+2} / ${r.rowCount}</small></span>`).join('')}</section>`).join('');
  $('objects').innerHTML=artifacts.map(a=>{

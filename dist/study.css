@@ -10,3 +10,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 
 .study-brand b{background:#852a20;border:1px solid #a54331;color:#e3c2a1}.study-brand small{color:var(--gold)}.solid-action:hover{color:#000}.specimen-photo>img{filter:drop-shadow(0 0 16px #acb6a21a)}.chime-invitation .solid-action{color:#e5e0d4}.chime-invitation .solid-action:hover{background:#a03b2b;color:#fff}
+
+.photo-attribution{font-size:10px;line-height:1.8;color:var(--muted);margin:12px 0}.photo-attribution a{color:var(--gold);border-bottom:1px solid var(--line)}.photo-attribution span{display:block;font-size:9px;margin-top:3px}

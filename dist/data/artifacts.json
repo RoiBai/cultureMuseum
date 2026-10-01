@@ -623,15 +623,15 @@
     "place": "熊家冢墓地",
     "collection": "荆州博物馆",
     "material": "玉",
-    "image": "assets/jz-470.png",
-    "mask": "masks/jz-470.png",
+    "image": "assets/jz-470-hd.jpg",
+    "mask": "masks/jz-470-hd.png",
     "source": "http://www.jzmsm.org/news-470.html",
-    "original": "http://www.jzmsm.org/upload/image/20221204/1670092535135552.png",
+    "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg/1920px-%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "description": "玉佩透雕龙形，龙曲颈蜷身、尾部回卷，下坠一条小螭；凤鸟倒立于龙身，钩喙回首，身体刻有羽纹。",
     "era": "warring",
     "city": "荆州",
     "displayForeground": true,
-    "displayImage": "cutouts/jz-470.webp",
+    "displayImage": "cutouts/jz-470-hd.webp",
     "backgroundRemoval": "existing-reviewed-alpha",
     "fact": "凤鸟位于龙身，龙尾下还有小螭，是多种形象的组合。",
     "observation": "沿龙的曲线寻找回首凤鸟和下垂小螭，观察轮廓如何相接。",
@@ -660,30 +660,47 @@
     "materialGroup": "玉石",
     "palette": [
       {
-        "name": "灰绿",
-        "hex": "#5c573b",
-        "share": 45.6
+        "name": "赭褐",
+        "hex": "#624f36",
+        "share": 45.5
       },
       {
-        "name": "赭褐",
-        "hex": "#796639",
-        "share": 42.9
+        "name": "灰褐",
+        "hex": "#635a4c",
+        "share": 29.8
+      },
+      {
+        "name": "墨灰",
+        "hex": "#5d5b55",
+        "share": 15.2
       },
       {
         "name": "漆黑",
-        "hex": "#322f1d",
-        "share": 9.7
+        "hex": "#2e2215",
+        "share": 8.1
       }
     ],
     "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",
     "colors": [
-      "灰绿",
       "赭褐",
+      "灰褐",
+      "墨灰",
       "漆黑"
     ],
     "documentedColors": [],
     "site": "熊家冢墓地",
-    "evidence": "龙凤形玉佩。玉佩透雕龙形，龙曲颈蜷身、尾部回卷，下坠一条小螭；凤鸟倒立于龙身，钩喙回首，身体刻有羽纹。。凤鸟位于龙身，龙尾下还有小螭，是多种形象的组合。。【龙凤形玉佩】时代：春秋晚期至战国早期（公元前5世纪）来源：熊家冢墓地出土级别：二级文物内涵：透雕龙形，龙作曲颈、蜷躯、卷尾，龙尾下坠有一卷曲的小螭，凤倒立于龙身部，钩喙回首，身刻羽纹，体现楚人尊龙崇凤思想。"
+    "evidence": "龙凤形玉佩。玉佩透雕龙形，龙曲颈蜷身、尾部回卷，下坠一条小螭；凤鸟倒立于龙身，钩喙回首，身体刻有羽纹。。凤鸟位于龙身，龙尾下还有小螭，是多种形象的组合。。【龙凤形玉佩】时代：春秋晚期至战国早期（公元前5世纪）来源：熊家冢墓地出土级别：二级文物内涵：透雕龙形，龙作曲颈、蜷躯、卷尾，龙尾下坠有一卷曲的小螭，凤倒立于龙身部，钩喙回首，身刻羽纹，体现楚人尊龙崇凤思想。",
+    "catalogImage": "assets/jz-470.png",
+    "catalogOriginal": "http://www.jzmsm.org/upload/image/20221204/1670092535135552.png",
+    "imageCredit": {
+      "author": "三十三画生",
+      "provider": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    }
   },
   {
     "id": "hb-4695",
@@ -694,14 +711,14 @@
     "place": "湖北随州曾侯乙墓",
     "collection": "湖北省博物馆",
     "material": "青铜",
-    "image": "assets/hb-4695.jpeg",
+    "image": "assets/hb-4695-hd.jpg",
     "source": "https://www.hbww.org.cn/zgzb/p/4695.html",
-    "original": "https://img.cjyun.org/a/10695/202301/49305c4acb6e8b6b2f4bcdf04097ff0a.jpeg",
+    "original": "https://lh3.googleusercontent.com/ci/AL18g_TYZP8CtEr2V2wFIBjp_JvoyS69ZOe89HWNOkr8tO13L_dkwkZ_mO_3AN_86WGrb3p05rIv50nS=w2400",
     "description": "65件编钟分三层八组悬挂，一钟双音，铭文记录乐律信息。",
     "era": "warring",
     "city": "随州",
     "displayForeground": true,
-    "displayImage": "cutouts/hb-4695.webp",
+    "displayImage": "cutouts/hb-4695-hd.webp",
     "backgroundRemoval": "existing-reviewed-alpha",
     "fact": "",
     "observation": "",
@@ -723,35 +740,45 @@
     "palette": [
       {
         "name": "墨灰",
-        "hex": "#76776c",
-        "share": 39.8
-      },
-      {
-        "name": "赭褐",
-        "hex": "#683730",
-        "share": 18.3
+        "hex": "#7b7e71",
+        "share": 41.2
       },
       {
         "name": "赤红",
-        "hex": "#88433e",
-        "share": 15.1
+        "hex": "#8a433b",
+        "share": 23.0
+      },
+      {
+        "name": "赭褐",
+        "hex": "#6a3531",
+        "share": 16.4
       },
       {
         "name": "灰白",
-        "hex": "#b3b2a7",
-        "share": 13.1
+        "hex": "#acafa2",
+        "share": 13.7
       }
     ],
     "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",
     "colors": [
       "墨灰",
-      "赭褐",
       "赤红",
+      "赭褐",
       "灰白"
     ],
     "documentedColors": [],
     "site": "擂鼓墩曾侯乙墓",
-    "evidence": "曾侯乙编钟。65件编钟分三层八组悬挂，一钟双音，铭文记录乐律信息。。。曾侯乙编钟 曾侯乙编钟，1978年出土于湖北随州曾侯乙墓，年代为战国早期。钟架长7.48米、高2.65米。全套编钟共六十五件，分三层八组悬挂在呈曲尺形的铜木结构钟架上，上层为三组共19件钮钟、中下层五组共45件甬钟，及一件楚惠王赠送给曾侯乙的镈钟所组成。钟及架、钩上共有铭文3755字，内容为编号、记事、标音及乐律理论。每件钟均能奏出呈三度音程的双音，整套编钟音域可跨五个半八度，中心音区十二个半音齐备，能演奏五声、六声或七声音阶的乐曲。 ."
+    "evidence": "曾侯乙编钟。65件编钟分三层八组悬挂，一钟双音，铭文记录乐律信息。。。曾侯乙编钟 曾侯乙编钟，1978年出土于湖北随州曾侯乙墓，年代为战国早期。钟架长7.48米、高2.65米。全套编钟共六十五件，分三层八组悬挂在呈曲尺形的铜木结构钟架上，上层为三组共19件钮钟、中下层五组共45件甬钟，及一件楚惠王赠送给曾侯乙的镈钟所组成。钟及架、钩上共有铭文3755字，内容为编号、记事、标音及乐律理论。每件钟均能奏出呈三度音程的双音，整套编钟音域可跨五个半八度，中心音区十二个半音齐备，能演奏五声、六声或七声音阶的乐曲。 .",
+    "catalogImage": "assets/hb-4695.jpeg",
+    "catalogOriginal": "https://img.cjyun.org/a/10695/202301/49305c4acb6e8b6b2f4bcdf04097ff0a.jpeg",
+    "mask": "masks/hb-4695-hd.png",
+    "imageCredit": {
+      "author": "湖北省博物馆",
+      "provider": "Google 艺术与文化",
+      "page": "https://artsandculture.google.com/asset/曾侯乙编钟/cAFZ_vTBSwpOoQ",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    }
   },
   {
     "id": "hb-6911",
@@ -762,14 +789,14 @@
     "place": "湖北随州曾侯乙墓",
     "collection": "湖北省博物馆",
     "material": "青铜",
-    "image": "assets/hb-6911.jpeg",
+    "image": "assets/hb-6911-hd.jpg",
     "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
-    "original": "https://img.cjyun.org/a/10695/202301/60743a1577e55244beec5481b9b34cfa.jpeg",
+    "original": "https://lh3.googleusercontent.com/ci/AL18g_QMP_Alpqt6FxCRI-cq6TM8Y17vTu0r7Ga9-f8JDekyexvxoZn2_ZtcKL-JHH_2SxUaLqgcJaeC=w2400",
     "description": "尊与盘由两件器物组成，口沿镂空附饰由龙蛇纹相互盘旋。",
     "era": "warring",
     "city": "随州",
     "displayForeground": true,
-    "displayImage": "cutouts/hb-6911.webp",
+    "displayImage": "cutouts/hb-6911-hd.webp",
     "backgroundRemoval": "existing-reviewed-alpha",
     "fact": "",
     "observation": "",
@@ -803,36 +830,40 @@
     "materialGroup": "青铜",
     "palette": [
       {
-        "name": "灰褐",
-        "hex": "#5f544a",
-        "share": 56.5
+        "name": "墨灰",
+        "hex": "#5b5b56",
+        "share": 56.2
       },
       {
         "name": "漆黑",
-        "hex": "#28221b",
-        "share": 21.4
+        "hex": "#20201e",
+        "share": 27.2
       },
       {
-        "name": "墨灰",
-        "hex": "#67615a",
-        "share": 8.4
-      },
-      {
-        "name": "赭褐",
-        "hex": "#4d3f33",
-        "share": 8.4
+        "name": "灰褐",
+        "hex": "#5d544b",
+        "share": 14.8
       }
     ],
     "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",
     "colors": [
-      "灰褐",
-      "漆黑",
       "墨灰",
-      "赭褐"
+      "漆黑",
+      "灰褐"
     ],
     "documentedColors": [],
     "site": "擂鼓墩曾侯乙墓",
-    "evidence": "曾侯乙尊盘。尊与盘由两件器物组成，口沿镂空附饰由龙蛇纹相互盘旋。。。曾侯乙尊盘 曾侯乙尊盘，1978年出土于湖北随州市曾侯乙墓，由尊和盘两件器物组成，尊高30.1厘米，口径25厘米，盘高23.5厘米，口径58厘米。 尊的口沿是多层套合的镂空附饰，远看像云朵，实际是由无数条龙蛇所组成的镂空花纹，它们相互盘旋环绕，宛如在空中游动。尊的颈部攀附四只反首吐舌、向上爬行的豹，豹身也以镂空的龙蛇装饰，尊的腹部和圈足满是蟠螭纹和浮雕的龙。盘的制作更为复杂，除口沿有和尊一样的镂空纹饰外，盘身的四个抠手也是由无数条龙蛇组成的镂空花纹. 曾侯乙尊盘是商周青铜器的巅峰之作。 ."
+    "evidence": "曾侯乙尊盘。尊与盘由两件器物组成，口沿镂空附饰由龙蛇纹相互盘旋。。。曾侯乙尊盘 曾侯乙尊盘，1978年出土于湖北随州市曾侯乙墓，由尊和盘两件器物组成，尊高30.1厘米，口径25厘米，盘高23.5厘米，口径58厘米。 尊的口沿是多层套合的镂空附饰，远看像云朵，实际是由无数条龙蛇所组成的镂空花纹，它们相互盘旋环绕，宛如在空中游动。尊的颈部攀附四只反首吐舌、向上爬行的豹，豹身也以镂空的龙蛇装饰，尊的腹部和圈足满是蟠螭纹和浮雕的龙。盘的制作更为复杂，除口沿有和尊一样的镂空纹饰外，盘身的四个抠手也是由无数条龙蛇组成的镂空花纹. 曾侯乙尊盘是商周青铜器的巅峰之作。 .",
+    "catalogImage": "assets/hb-6911.jpeg",
+    "catalogOriginal": "https://img.cjyun.org/a/10695/202301/60743a1577e55244beec5481b9b34cfa.jpeg",
+    "mask": "masks/hb-6911-hd.png",
+    "imageCredit": {
+      "author": "湖北省博物馆",
+      "provider": "Google 艺术与文化",
+      "page": "https://artsandculture.google.com/asset/曾侯乙铜尊盘/bgH2wWb_3A8Weg",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    }
   },
   {
     "id": "hb-5143",
@@ -2312,15 +2343,15 @@
     "place": "湖北随州曾侯乙墓",
     "collection": "湖北省博物馆",
     "material": "青铜器",
-    "image": "assets/crane.png",
-    "mask": "masks/crane.png",
+    "image": "assets/crane-hd.jpg",
+    "mask": "masks/crane-hd.png",
     "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
-    "original": "https://img.cjyun.org/a/10695/202403/1d3e5940739605a29ebe4af61cb07e9a.png",
+    "original": "https://lh3.googleusercontent.com/ci/AL18g_RYipLJtk48LNXUEXX6Zr8PBhwWtwhOwA5MngQxOIKnONB1zWkyFe0QuJfGyyuvWGF-VHMybl9p=w2400",
     "description": "鸟的身形与鹿角相遇，熟悉的自然形态组合成一个超出日常经验的生命形象。它为观察复合造型与上扬动势提供了具体对象。",
     "era": "warring",
     "city": "随州",
     "displayForeground": true,
-    "displayImage": "cutouts/crane.webp",
+    "displayImage": "cutouts/crane-hd.webp",
     "backgroundRemoval": "existing-reviewed-alpha",
     "fact": "馆方图注命名为“东周曾侯乙铜鹿角立鹤”，藏于湖北省博物馆。",
     "observation": "从细长的腿、颈看到顶端分叉的鹿角：竖向线条在上方展开。复合造型可以直接观察，其确切象征含义仍需专门文献与出土语境。",
@@ -2343,35 +2374,38 @@
     "palette": [
       {
         "name": "墨灰",
-        "hex": "#5d5e54",
-        "share": 46.9
+        "hex": "#5c6760",
+        "share": 54.3
       },
       {
         "name": "灰绿",
-        "hex": "#5b5a4a",
-        "share": 32.6
+        "hex": "#4c5e58",
+        "share": 28.9
       },
       {
         "name": "漆黑",
-        "hex": "#2d2d25",
-        "share": 11.5
-      },
-      {
-        "name": "灰褐",
-        "hex": "#595344",
-        "share": 7.7
+        "hex": "#1f2621",
+        "share": 15.6
       }
     ],
     "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",
     "colors": [
       "墨灰",
       "灰绿",
-      "漆黑",
-      "灰褐"
+      "漆黑"
     ],
     "documentedColors": [],
     "site": "擂鼓墩曾侯乙墓",
-    "evidence": "鹿角立鹤。鸟的身形与鹿角相遇，熟悉的自然形态组合成一个超出日常经验的生命形象。它为观察复合造型与上扬动势提供了具体对象。。馆方图注命名为“东周曾侯乙铜鹿角立鹤”，藏于湖北省博物馆。。"
+    "evidence": "鹿角立鹤。鸟的身形与鹿角相遇，熟悉的自然形态组合成一个超出日常经验的生命形象。它为观察复合造型与上扬动势提供了具体对象。。馆方图注命名为“东周曾侯乙铜鹿角立鹤”，藏于湖北省博物馆。。",
+    "catalogImage": "assets/crane.png",
+    "catalogOriginal": "https://img.cjyun.org/a/10695/202403/1d3e5940739605a29ebe4af61cb07e9a.png",
+    "imageCredit": {
+      "author": "湖北省博物馆",
+      "provider": "Google 艺术与文化",
+      "page": "https://artsandculture.google.com/asset/铜鹿角立鹤/OAGeZvvHxp7R1w",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    }
   },
   {
     "id": "drum",
@@ -3763,14 +3797,14 @@
     "collection": "荆州博物馆",
     "description": "器物利用树根原有形态雕成虎头曲身，髹红漆，四肢长短不一，并分别浮雕蛇、蛇噬蛙、蜥蜴噬鸟和蝉。",
     "source": "http://www.jzmsm.org/news-359.html",
-    "original": "http://www.jzmsm.org/upload/image/20221128/1669640333111027.png",
+    "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/%E6%A0%B9%E9%9B%95%E8%BE%9F%E9%82%AA.jpg/1920px-%E6%A0%B9%E9%9B%95%E8%BE%9F%E9%82%AA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "dateNote": "馆方断代到战国；数值为战国全期排序边界，非器物精确年。 出土地来自馆方档案。",
     "material": "待核",
-    "image": "assets/jz-359.png",
-    "displayForeground": false,
+    "image": "assets/jz-359-hd.jpg",
+    "displayForeground": true,
     "site": "马山一号楚墓",
-    "displayImage": "cutouts/jz-359.webp",
-    "backgroundRemoval": "edge-seeded-grabcut-v2",
+    "displayImage": "cutouts/jz-359-hd.webp",
+    "backgroundRemoval": "existing-reviewed-alpha",
     "fact": "根枝原状参与造型，四肢并不对称；官网记录其根雕胎及红漆。",
     "observation": "沿弯曲根枝看身体如何形成，比较自然材料的不规则与人工雕刻的动物细节。",
     "sourceExtract": "【根雕辟邪】时代：战国（公元前475—221年）来源：马山一号楚墓出土级别：国家一级文物内涵：根雕胎，髹红漆，是目前我国发现的时代最早的根雕作品之一。辟邪虎头曲身，四肢长短不一，利用根枝原状而求四肢不对称之美，四肢上分别浮雕蛇、蛇噬蛙、蜥蜴噬鸟和蝉。奇特的造型与装饰，向人们展示出楚人的某种宗教、哲学思想。它是一件休息时倚靠的凭几，下葬时也兼作个性化的镇墓兽。",
@@ -3792,37 +3826,43 @@
     "materialGroup": "待核",
     "palette": [
       {
-        "name": "赭褐",
-        "hex": "#5b1815",
-        "share": 47.8
-      },
-      {
-        "name": "赤红",
-        "hex": "#8c2422",
-        "share": 29.5
-      },
-      {
         "name": "漆黑",
-        "hex": "#231412",
-        "share": 13.9
+        "hex": "#17100e",
+        "share": 82.8
       },
       {
-        "name": "绛紫",
-        "hex": "#975a71",
-        "share": 5.0
+        "name": "赭褐",
+        "hex": "#4f2b22",
+        "share": 12.6
+      },
+      {
+        "name": "灰褐",
+        "hex": "#493c39",
+        "share": 2.9
       }
     ],
     "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",
     "colors": [
-      "赭褐",
-      "赤红",
       "漆黑",
-      "绛紫"
+      "赭褐",
+      "灰褐"
     ],
     "documentedColors": [
       "赤红"
     ],
-    "evidence": "根雕辟邪。器物利用树根原有形态雕成虎头曲身，髹红漆，四肢长短不一，并分别浮雕蛇、蛇噬蛙、蜥蜴噬鸟和蝉。。根枝原状参与造型，四肢并不对称；官网记录其根雕胎及红漆。。【根雕辟邪】时代：战国（公元前475—221年）来源：马山一号楚墓出土级别：国家一级文物内涵：根雕胎，髹红漆，是目前我国发现的时代最早的根雕作品之一。辟邪虎头曲身，四肢长短不一，利用根枝原状而求四肢不对称之美，四肢上分别浮雕蛇、蛇噬蛙、蜥蜴噬鸟和蝉。奇特的造型与装饰，向人们展示出楚人的某种宗教、哲学思想。它是一件休息时倚靠的凭几，下葬时也兼作个性化的镇墓兽。"
+    "evidence": "根雕辟邪。器物利用树根原有形态雕成虎头曲身，髹红漆，四肢长短不一，并分别浮雕蛇、蛇噬蛙、蜥蜴噬鸟和蝉。。根枝原状参与造型，四肢并不对称；官网记录其根雕胎及红漆。。【根雕辟邪】时代：战国（公元前475—221年）来源：马山一号楚墓出土级别：国家一级文物内涵：根雕胎，髹红漆，是目前我国发现的时代最早的根雕作品之一。辟邪虎头曲身，四肢长短不一，利用根枝原状而求四肢不对称之美，四肢上分别浮雕蛇、蛇噬蛙、蜥蜴噬鸟和蝉。奇特的造型与装饰，向人们展示出楚人的某种宗教、哲学思想。它是一件休息时倚靠的凭几，下葬时也兼作个性化的镇墓兽。",
+    "catalogImage": "assets/jz-359.png",
+    "catalogOriginal": "http://www.jzmsm.org/upload/image/20221128/1669640333111027.png",
+    "mask": "masks/jz-359-hd.png",
+    "imageCredit": {
+      "author": "三十三画生",
+      "provider": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%E6%A0%B9%E9%9B%95%E8%BE%9F%E9%82%AA.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    }
   },
   {
     "id": "hb-4865",

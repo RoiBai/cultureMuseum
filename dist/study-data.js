@@ -6,6 +6,10 @@ export const birdMotifs=['凤鸟','禽鸟'];
 export const hasFeature=(a,key,value)=>isKnownFeature(value)&&(key==='motifs'&&value==='鸟类'?a.motifs.some(v=>birdMotifs.includes(v)):featureValues(a,key).includes(value));
 export const objectURL=id=>'object.html?id='+encodeURIComponent(id);
 export const compareURL=(id,key,value)=>`compare.html?id=${encodeURIComponent(id)}&by=${encodeURIComponent(key)}&value=${encodeURIComponent(value)}`;
+export function photoCredit(a){
+ const c=a.imageCredit;if(!c)return '';
+ return `<p class="photo-attribution">图像：${esc(c.author)} · <a href="${esc(c.page)}" target="_blank" rel="noopener noreferrer">${esc(c.provider)} ↗</a>${c.licenseURL?` · <a href="${esc(c.licenseURL)}" target="_blank" rel="noopener noreferrer">${esc(c.license)}</a>`:''}<span>展示图经背景透明化与裁切</span></p>`;
+}
 export const wholeRegion={id:'whole',rect:[0,0,1,1],label:'整件器物',note:'保留整体形制、色彩与材质的观感。',view:'form'};
 export function regionFor(a,regions,key,value){
  if(key==='colors'||key==='materialGroup')return {...wholeRegion,value};

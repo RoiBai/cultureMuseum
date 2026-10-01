@@ -764,14 +764,15 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-470.html",
         "rect": [
-          0.05,
-          0.02,
-          0.45,
-          0.47
+          0.27,
+          0.055,
+          0.22,
+          0.27
         ],
         "label": "凤鸟轮廓",
         "note": "观察鸟首、长颈和镂空轮廓。",
-        "view": "detail"
+        "view": "detail",
+        "revision": 3
       },
       {
         "id": "motif-龙蛇",
@@ -780,14 +781,15 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-470.html",
         "rect": [
-          0.46,
-          0.01,
-          0.5,
-          0.6
+          0.58,
+          0.045,
+          0.31,
+          0.34
         ],
         "label": "龙形轮廓",
         "note": "观察右侧龙形及卷曲、镂空关系。",
-        "view": "detail"
+        "view": "detail",
+        "revision": 3
       },
       {
         "id": "motif-禽鸟",
@@ -796,62 +798,66 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-470.html",
         "rect": [
-          0.05,
-          0.02,
-          0.45,
-          0.47
+          0.27,
+          0.055,
+          0.22,
+          0.27
         ],
         "label": "鸟首与颈部",
         "note": "鸟形与龙形共同构成玉佩的透雕轮廓。",
-        "view": "detail"
+        "view": "detail",
+        "revision": 3
       },
       {
         "id": "craft-雕琢",
         "dimension": "crafts",
         "value": "雕琢",
         "rect": [
-          0.05,
-          0.02,
-          0.45,
-          0.47
+          0.2,
+          0.68,
+          0.27,
+          0.26
         ],
         "label": "雕琢 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺按名称或材质归类，不能仅由此照片确认具体制作方法。",
         "view": "surface",
         "basis": "材质归类",
-        "source": "http://www.jzmsm.org/news-470.html"
+        "source": "http://www.jzmsm.org/news-470.html",
+        "revision": 3
       },
       {
         "id": "craft-透雕",
         "dimension": "crafts",
         "value": "透雕",
         "rect": [
-          0.05,
-          0.02,
-          0.45,
-          0.47
+          0.27,
+          0.35,
+          0.29,
+          0.21
         ],
         "label": "透雕 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺名称来自馆方记录。",
         "view": "surface",
         "basis": "记录明示",
-        "source": "http://www.jzmsm.org/news-470.html"
+        "source": "http://www.jzmsm.org/news-470.html",
+        "revision": 3
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "玉石",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.35,
+          0.82,
+          0.35,
+          0.15
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "http://www.jzmsm.org/news-470.html"
+        "source": "http://www.jzmsm.org/news-470.html",
+        "revision": 3
       },
       {
         "id": "form",
@@ -867,7 +873,8 @@
         "note": "保留整件器物的外形、比例与各部位关系。",
         "view": "form",
         "basis": "照片观察",
-        "source": "http://www.jzmsm.org/news-470.html"
+        "source": "http://www.jzmsm.org/news-470.html",
+        "revision": 3
       }
     ],
     "hb-4695": [
@@ -878,46 +885,49 @@
         "basis": "馆方记录与照片观察",
         "source": "https://www.hbww.org.cn/zgzb/p/4695.html",
         "rect": [
-          0.36,
-          0.47,
-          0.27,
-          0.37
+          0.46,
+          0.62,
+          0.13,
+          0.3
         ],
         "label": "钟体与铭文所在面",
         "note": "馆方记录钟及架、钩上有铭文；此全景照片不能辨读铭文，局部用于定位。",
-        "view": "context"
+        "view": "context",
+        "revision": 3
       },
       {
         "id": "craft-铸造",
         "dimension": "crafts",
         "value": "铸造",
         "rect": [
-          0.25,
-          0.4,
-          0.35,
-          0.52
+          0.76,
+          0.63,
+          0.13,
+          0.3
         ],
         "label": "铸造 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺按名称或材质归类，不能仅由此照片确认具体制作方法。",
         "view": "surface",
         "basis": "材质归类",
-        "source": "https://www.hbww.org.cn/zgzb/p/4695.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/4695.html",
+        "revision": 3
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "青铜",
         "rect": [
-          0.25,
-          0.4,
-          0.35,
-          0.52
+          0.46,
+          0.62,
+          0.13,
+          0.3
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/zgzb/p/4695.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/4695.html",
+        "revision": 3
       },
       {
         "id": "form",
@@ -933,7 +943,8 @@
         "note": "保留整件器物的外形、比例与各部位关系。",
         "view": "form",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/zgzb/p/4695.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/4695.html",
+        "revision": 3
       }
     ],
     "hb-6911": [
@@ -944,14 +955,15 @@
         "basis": "馆方记录与照片观察",
         "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
         "rect": [
-          0.24,
-          0.02,
-          0.56,
-          0.28
+          0.3,
+          0.005,
+          0.43,
+          0.19
         ],
         "label": "镂空口沿",
         "note": "馆方记载口沿附饰由盘绕的龙蛇组成；观察多层镂空与交叠。",
-        "view": "detail"
+        "view": "detail",
+        "revision": 3
       },
       {
         "id": "motif-虎豹",
@@ -960,78 +972,83 @@
         "basis": "馆方记录与照片观察",
         "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
         "rect": [
-          0.35,
-          0.21,
           0.3,
-          0.39
+          0.16,
+          0.35,
+          0.32
         ],
         "label": "尊颈攀附饰",
         "note": "馆方记载尊颈攀附反首吐舌的豹，此处保留颈部与附饰。",
-        "view": "context"
+        "view": "context",
+        "revision": 3
       },
       {
         "id": "craft-铸造",
         "dimension": "crafts",
         "value": "铸造",
         "rect": [
-          0.24,
-          0.02,
-          0.56,
-          0.28
+          0.3,
+          0.005,
+          0.43,
+          0.19
         ],
         "label": "铸造 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺按名称或材质归类，不能仅由此照片确认具体制作方法。",
         "view": "surface",
         "basis": "材质归类",
-        "source": "https://www.hbww.org.cn/zgzb/p/6911.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+        "revision": 3
       },
       {
         "id": "craft-透雕",
         "dimension": "crafts",
         "value": "透雕",
         "rect": [
-          0.24,
-          0.02,
-          0.56,
-          0.28
+          0.3,
+          0.005,
+          0.43,
+          0.19
         ],
         "label": "口沿镂空结构",
         "note": "多层套合的龙蛇附饰形成透空的口沿。",
         "view": "detail",
         "basis": "记录明示",
-        "source": "https://www.hbww.org.cn/zgzb/p/6911.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+        "revision": 3
       },
       {
         "id": "craft-浮雕",
         "dimension": "crafts",
         "value": "浮雕",
         "rect": [
-          0.24,
-          0.02,
-          0.56,
-          0.28
+          0.35,
+          0.38,
+          0.3,
+          0.24
         ],
         "label": "浮雕 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺名称来自馆方记录。",
         "view": "surface",
         "basis": "记录明示",
-        "source": "https://www.hbww.org.cn/zgzb/p/6911.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+        "revision": 3
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "青铜",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.35,
+          0.38,
+          0.3,
+          0.24
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/zgzb/p/6911.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+        "revision": 3
       },
       {
         "id": "form",
@@ -1047,7 +1064,8 @@
         "note": "保留整件器物的外形、比例与各部位关系。",
         "view": "form",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/zgzb/p/6911.html"
+        "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+        "revision": 3
       }
     ],
     "hb-5143": [
@@ -2977,14 +2995,15 @@
         "basis": "馆方记录与照片观察",
         "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
         "rect": [
-          0.2,
-          0.01,
-          0.6,
-          0.39
+          0.035,
+          0.09,
+          0.4,
+          0.19
         ],
-        "label": "鹤首上的鹿角",
-        "note": "近看鸟与鹿角相组合的造型。",
-        "view": "form"
+        "label": "鹿角分枝",
+        "note": "近看鹿角的分叉及与鸟形组合的造型。",
+        "view": "form",
+        "revision": 3
       },
       {
         "id": "motif-禽鸟",
@@ -2993,46 +3012,49 @@
         "basis": "馆方记录与照片观察",
         "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
         "rect": [
-          0.12,
           0.34,
-          0.64,
-          0.39
+          0.63,
+          0.3,
+          0.18
         ],
-        "label": "鹤首与鸟身",
-        "note": "观察长颈、喙与鸟身的转折。",
-        "view": "form"
+        "label": "鸟身与双翼",
+        "note": "观察鸟身、双翼与长颈相接的造型。",
+        "view": "form",
+        "revision": 3
       },
       {
         "id": "craft-铸造",
         "dimension": "crafts",
         "value": "铸造",
         "rect": [
-          0.2,
-          0.01,
-          0.6,
-          0.39
+          0.34,
+          0.63,
+          0.3,
+          0.18
         ],
         "label": "铸造 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺按名称或材质归类，不能仅由此照片确认具体制作方法。",
         "view": "surface",
         "basis": "材质归类",
-        "source": "https://www.hbww.org.cn/xwdt/p/9632.html"
+        "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
+        "revision": 3
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "青铜",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.34,
+          0.63,
+          0.3,
+          0.18
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/xwdt/p/9632.html"
+        "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
+        "revision": 3
       },
       {
         "id": "form",
@@ -3048,7 +3070,8 @@
         "note": "保留整件器物的外形、比例与各部位关系。",
         "view": "form",
         "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/xwdt/p/9632.html"
+        "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
+        "revision": 3
       }
     ],
     "drum": [
@@ -4587,14 +4610,15 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-359.html",
         "rect": [
-          0.45,
-          0.41,
-          0.47,
-          0.55
+          0.6,
+          0.24,
+          0.19,
+          0.25
         ],
         "label": "肢部浮雕",
         "note": "馆方记载四肢上有蛇等浮雕；当前角度不能逐一确认，保留肢部组合。",
-        "view": "context"
+        "view": "context",
+        "revision": 3
       },
       {
         "id": "motif-虎豹",
@@ -4603,14 +4627,15 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-359.html",
         "rect": [
-          0.01,
-          0.17,
-          0.33,
-          0.36
+          0.015,
+          0.2,
+          0.24,
+          0.28
         ],
         "label": "辟邪头部",
         "note": "馆方记载虎头曲身，近看头部与根木的转折。",
-        "view": "form"
+        "view": "form",
+        "revision": 3
       },
       {
         "id": "motif-禽鸟",
@@ -4619,46 +4644,49 @@
         "basis": "馆方记录与照片观察",
         "source": "http://www.jzmsm.org/news-359.html",
         "rect": [
-          0.45,
-          0.41,
-          0.47,
-          0.55
+          0.6,
+          0.24,
+          0.19,
+          0.25
         ],
         "label": "鸟纹所在肢部",
         "note": "馆方记载蜥蜴噬鸟浮雕，当前照片未清楚呈现单只鸟，不作推绘。",
-        "view": "context"
+        "view": "context",
+        "revision": 3
       },
       {
         "id": "craft-浮雕",
         "dimension": "crafts",
         "value": "浮雕",
         "rect": [
-          0.45,
-          0.41,
-          0.47,
-          0.55
+          0.6,
+          0.24,
+          0.19,
+          0.25
         ],
         "label": "浮雕 · 器表细节",
         "note": "观察这一部位的表面、线条与连接。工艺名称来自馆方记录。",
         "view": "surface",
         "basis": "记录明示",
-        "source": "http://www.jzmsm.org/news-359.html"
+        "source": "http://www.jzmsm.org/news-359.html",
+        "revision": 3
       },
       {
         "id": "surface",
         "dimension": "surface",
         "value": "待核",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.31,
+          0.215,
+          0.26,
+          0.15
         ],
         "label": "器表与色彩",
         "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
         "view": "surface",
         "basis": "照片观察",
-        "source": "http://www.jzmsm.org/news-359.html"
+        "source": "http://www.jzmsm.org/news-359.html",
+        "revision": 3
       },
       {
         "id": "form",
@@ -4674,7 +4702,8 @@
         "note": "保留整件器物的外形、比例与各部位关系。",
         "view": "form",
         "basis": "照片观察",
-        "source": "http://www.jzmsm.org/news-359.html"
+        "source": "http://www.jzmsm.org/news-359.html",
+        "revision": 3
       }
     ],
     "hb-4865": [

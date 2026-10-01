@@ -1,0 +1,181 @@
+[
+  {
+    "id": "jz-470",
+    "title": "龙凤形玉佩",
+    "previousImage": "assets/jz-470.png",
+    "previousOriginal": "http://www.jzmsm.org/upload/image/20221204/1670092535135552.png",
+    "previousSize": [
+      235,
+      305
+    ],
+    "previousCutoutSize": [
+      215,
+      304
+    ],
+    "image": "assets/jz-470-hd.jpg",
+    "size": [
+      1920,
+      2880
+    ],
+    "displayImage": "cutouts/jz-470-hd.webp",
+    "cutoutSize": [
+      993,
+      1198
+    ],
+    "imageCredit": {
+      "author": "三十三画生",
+      "provider": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    },
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg/1920px-%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceSha256": "67a0b558d48900cd845956b9416d75eafbef26b2b19e4c08a6f376fa2aa4c709",
+    "matchingBasis": "馆方题名、出土记录及原照片器形核对",
+    "processing": "仅透明度和裁切，保留器物 RGB；未使用 AI 补画或插值放大。"
+  },
+  {
+    "id": "hb-4695",
+    "title": "曾侯乙编钟",
+    "previousImage": "assets/hb-4695.jpeg",
+    "previousOriginal": "https://img.cjyun.org/a/10695/202301/49305c4acb6e8b6b2f4bcdf04097ff0a.jpeg",
+    "previousSize": [
+      350,
+      300
+    ],
+    "previousCutoutSize": [
+      350,
+      121
+    ],
+    "image": "assets/hb-4695-hd.jpg",
+    "size": [
+      1200,
+      766
+    ],
+    "displayImage": "cutouts/hb-4695-hd.webp",
+    "cutoutSize": [
+      1098,
+      384
+    ],
+    "imageCredit": {
+      "author": "湖北省博物馆",
+      "provider": "Google 艺术与文化",
+      "page": "https://artsandculture.google.com/asset/曾侯乙编钟/cAFZ_vTBSwpOoQ",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    },
+    "downloadURL": "https://lh3.googleusercontent.com/ci/AL18g_TYZP8CtEr2V2wFIBjp_JvoyS69ZOe89HWNOkr8tO13L_dkwkZ_mO_3AN_86WGrb3p05rIv50nS=w2400",
+    "sourceSha256": "b7e8b939b9e3cb7b50a53e4f02175a919cf26cbe68531d51a32b7b4a4c759be7",
+    "matchingBasis": "馆方题名、出土记录及原照片器形核对",
+    "processing": "仅透明度和裁切，保留器物 RGB；未使用 AI 补画或插值放大。"
+  },
+  {
+    "id": "hb-6911",
+    "title": "曾侯乙尊盘",
+    "previousImage": "assets/hb-6911.jpeg",
+    "previousOriginal": "https://img.cjyun.org/a/10695/202301/60743a1577e55244beec5481b9b34cfa.jpeg",
+    "previousSize": [
+      350,
+      300
+    ],
+    "previousCutoutSize": [
+      267,
+      244
+    ],
+    "image": "assets/hb-6911-hd.jpg",
+    "size": [
+      1200,
+      820
+    ],
+    "displayImage": "cutouts/hb-6911-hd.webp",
+    "cutoutSize": [
+      736,
+      695
+    ],
+    "imageCredit": {
+      "author": "湖北省博物馆",
+      "provider": "Google 艺术与文化",
+      "page": "https://artsandculture.google.com/asset/曾侯乙铜尊盘/bgH2wWb_3A8Weg",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    },
+    "downloadURL": "https://lh3.googleusercontent.com/ci/AL18g_QMP_Alpqt6FxCRI-cq6TM8Y17vTu0r7Ga9-f8JDekyexvxoZn2_ZtcKL-JHH_2SxUaLqgcJaeC=w2400",
+    "sourceSha256": "4a625920d393a3385c4a7f9eabc0cfc5b221b76abc7cbfcb591d52a127850b77",
+    "matchingBasis": "馆方题名、出土记录及原照片器形核对",
+    "processing": "仅透明度和裁切，保留器物 RGB；未使用 AI 补画或插值放大。"
+  },
+  {
+    "id": "crane",
+    "title": "鹿角立鹤",
+    "previousImage": "assets/crane.png",
+    "previousOriginal": "https://img.cjyun.org/a/10695/202403/1d3e5940739605a29ebe4af61cb07e9a.png",
+    "previousSize": [
+      589,
+      830
+    ],
+    "previousCutoutSize": [
+      305,
+      785
+    ],
+    "image": "assets/crane-hd.jpg",
+    "size": [
+      567,
+      1200
+    ],
+    "displayImage": "cutouts/crane-hd.webp",
+    "cutoutSize": [
+      423,
+      1096
+    ],
+    "imageCredit": {
+      "author": "湖北省博物馆",
+      "provider": "Google 艺术与文化",
+      "page": "https://artsandculture.google.com/asset/铜鹿角立鹤/OAGeZvvHxp7R1w",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    },
+    "downloadURL": "https://lh3.googleusercontent.com/ci/AL18g_RYipLJtk48LNXUEXX6Zr8PBhwWtwhOwA5MngQxOIKnONB1zWkyFe0QuJfGyyuvWGF-VHMybl9p=w2400",
+    "sourceSha256": "603517551961e33cd11cc5bff3ec68aa3118a7a06cef2729f0680922691e3c2b",
+    "matchingBasis": "馆方题名、出土记录及原照片器形核对",
+    "processing": "仅透明度和裁切，保留器物 RGB；未使用 AI 补画或插值放大。"
+  },
+  {
+    "id": "jz-359",
+    "title": "根雕辟邪",
+    "previousImage": "assets/jz-359.png",
+    "previousOriginal": "http://www.jzmsm.org/upload/image/20221128/1669640333111027.png",
+    "previousSize": [
+      562,
+      310
+    ],
+    "previousCutoutSize": [
+      425,
+      251
+    ],
+    "image": "assets/jz-359-hd.jpg",
+    "size": [
+      1920,
+      1280
+    ],
+    "displayImage": "cutouts/jz-359-hd.webp",
+    "cutoutSize": [
+      1355,
+      844
+    ],
+    "imageCredit": {
+      "author": "三十三画生",
+      "provider": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%E6%A0%B9%E9%9B%95%E8%BE%9F%E9%82%AA.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+      "retrieved": "2026-10-01"
+    },
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/%E6%A0%B9%E9%9B%95%E8%BE%9F%E9%82%AA.jpg/1920px-%E6%A0%B9%E9%9B%95%E8%BE%9F%E9%82%AA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sourceSha256": "4ca90d3aebd5a631d70bcbed0f5fdaec86920e60a90dce1c43f9a6bee74611d7",
+    "matchingBasis": "馆方题名、出土记录及原照片器形核对",
+    "processing": "仅透明度和裁切，保留器物 RGB；未使用 AI 补画或插值放大。"
+  }
+]
