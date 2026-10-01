@@ -31,3 +31,23 @@ html,body{overscroll-behavior-x:none}body[data-view="3d"]{overflow:hidden;oversc
 @media(max-width:760px){.three-object-tip{width:190px;padding:10px 12px}.three-object-tip strong{font-size:16px}.three-era-label button{font-size:22px}.three-heading h2{font-size:20px}}
 
 .three-heading{top:16px;padding:0 14px 9px 0}.three-kicker{display:none}.three-heading h2{font-size:18px;margin:0 0 5px;letter-spacing:2px}.three-heading p{font-size:9px}.three-instructions{top:auto;bottom:18px;padding:8px 0 0 18px;background:linear-gradient(100deg,#f3efe400,#f3efe4e6 40%)}.three-stage:has(.three-ground:not([hidden])) .three-instructions{bottom:62px}
+
+/* Upright museum captions are rendered in screen space, never on a tilted photo. */
+.three-object-label{position:absolute;left:0;top:0;transform:translateX(-50%);width:184px;padding:9px 5px 4px;border:0;border-radius:0;text-align:left;background:transparent;pointer-events:auto;line-height:1.4;transition:color .18s,opacity .18s;z-index:2}
+.three-object-label:before{content:'';position:absolute;left:5px;top:0;width:22px;height:1px;background:var(--object-tone);opacity:.8}
+.three-object-name{display:block;color:#3c352a;font:16px/1.4 var(--serif);letter-spacing:.3px;overflow-wrap:anywhere}
+.three-object-place{display:block;color:#847965;font:10px/1.5 var(--sans);letter-spacing:1px;margin-top:4px}
+.three-object-label:hover,.three-object-label.is-current{background:linear-gradient(100deg,#f3efe4ed,#f3efe400)}
+.three-object-label.is-current:before{width:42px;background:var(--red)}.three-object-label.is-current .three-object-name{color:var(--red)}
+.three-object-label:focus-visible{outline:1px solid var(--red);outline-offset:4px;background:var(--paper)}
+.three-group-index{font:10px/1.2 Georgia,serif;white-space:nowrap;color:#8e7a5b;border-left:1px solid #c7b99e;padding-left:9px;margin-right:4px;letter-spacing:1px}
+.three-travel{gap:8px}.three-object-tip{border-left:1px solid var(--red);box-shadow:0 6px 22px #5d452b13}.three-object-tip strong{font-size:18px}.three-instructions small{font-size:10px}.three-instructions{background:#f3efe4d9;padding:9px 12px;right:15px;bottom:15px}
+@media(max-width:760px){.three-object-label{width:152px;padding:8px 4px 3px}.three-object-name{font-size:15px;line-height:1.4}.three-object-place{font-size:10px}.three-group-index{padding-left:5px;letter-spacing:0;font-size:9px;margin-right:0}.three-travel{gap:4px}.three-navigation{gap:5px}.three-instructions small{font-size:9px;max-width:180px}.three-instructions{right:10px;bottom:10px}.three-zoom [data-three="home"]{font-size:10px}}
+.three-object-name{text-wrap:balance}
+
+.three-orbit{position:absolute;right:18px;top:17px;z-index:3;font-size:11px;padding:8px 11px;border-color:#c5b99f;background:#f3efe4df;backdrop-filter:blur(8px)}
+.three-orbit[aria-pressed=true]{color:var(--red);border-color:var(--red);background:#eee1cd}.three-stage:has(.three-orbit[aria-pressed=true]) .three-canvas{cursor:move}
+.three-instructions small{max-width:none}.three-object-label{transition:color .18s;}
+@media(max-width:760px){.three-orbit{right:12px;top:17px;font-size:10px}.three-instructions small{max-width:205px}}
+
+.three-caption-leaders{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}.three-caption-leaders path{fill:none;stroke:#b2a38a;stroke-width:.7;opacity:.55}

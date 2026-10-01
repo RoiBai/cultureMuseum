@@ -43,7 +43,8 @@
       <div class="three-stage">
         <div class="three-labels"></div>
         <div class="three-heading"><span class="three-kicker">SPATIAL ARCHIVE / 立体展卷</span><h2 class="three-layer-title">器物全谱</h2><p class="three-layer-meta">正在展陈器物…</p></div>
-        <div class="three-instructions"><span>早期 ↗ 晚期</span><small>拖动浏览 · 悬停翻阅 · 点击查看</small></div>
+        <button class="three-orbit" data-three="orbit" aria-pressed="false" title="切换拖动方式，也可按住 Shift 拖动">转动视角 ⤢</button>
+        <div class="three-instructions"><span>早期 ↗ 晚期</span><small>拖动漫游 · Shift 拖动转视角 · 悬停对焦</small></div>
         <div class="three-object-tip" aria-live="polite" hidden></div>
         <div class="three-empty" hidden><strong>这一组条件暂无器物</strong><p>减少一个筛选条件，继续寻找。</p></div>
         <div class="three-error" role="status" hidden><strong>三维展卷暂时无法显示</strong><p>当前设备未能启动 WebGL，请返回二维图谱浏览。</p><button data-view="2d">返回二维图谱</button></div>
@@ -51,17 +52,17 @@
         <button class="three-ground" data-three="ground" hidden>俯看全谱 ↓</button>
       </div>
       <div class="three-navigation">
-        <div class="three-travel"><button data-three="previous" aria-label="向较早时代移动">←</button><span class="three-current-era">史前</span><button data-three="next" aria-label="向较晚时代移动">→</button></div>
+        <div class="three-travel"><button data-three="previous" aria-label="上一组器物">←</button><span class="three-current-era">史前</span><small class="three-group-index">01 / 01</small><button data-three="next" aria-label="下一组器物">→</button></div>
         <span class="three-range-label">早</span><input class="three-range" type="range" min="0" max="160" step=".1" value="11" aria-label="左右浏览三维时间轴"><span class="three-range-label">晚</span>
         <div class="three-zoom"><button data-three="farther" aria-label="缩小三维时间轴">−</button><button data-three="home" aria-label="恢复三维初始视角">复位</button><button data-three="closer" aria-label="放大三维时间轴">＋</button></div>
       </div>
-      <div class="three-footnote"><span>下层全谱 · 上层提取</span><span>同代高低不表示先后 · 等大展示不代表实物比例</span></div>
+      <div class="three-footnote"><span>下层全谱 · 上层提取</span><span>同代分组仅为浏览 · 透视远小近大 · 非实物比例</span></div>
     </section>
     <footer class="status-footer"><span id="path-legend"><i class="legend-stroke"></i>选取线索，生成路径</span><span>连线呈现特征关联，不直接代表历史传承。</span></footer>
   </main>
 </div>
 <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><button class="icon-button detail-close" data-close="detail-dialog" aria-label="关闭器物详情">×</button><div id="detail-content"></div></dialog>
-<dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><span class="eyebrow">HOW TO READ THE ATLAS</span><button class="icon-button" data-close="about-dialog" aria-label="关闭读图说明">×</button></div><h2 id="about-title">在时间与山河之间读器物</h2><ol><li><b>时代由古至今。</b>点击左侧时间直接跳转。时代内按出土地分组，每座城市使用固定底色；现代城市只帮助定位。</li><li><b>同代成组，逐件陈列。</b>器物按正常尺寸展示，战国、清代等密集时代分排排列，宽度适配屏幕；同代各排不表示时间先后。点击图片打开档案。</li><li><b>筛选让线索浮现。</b>选工艺、色彩、纹样、材质或出土地，匹配项高亮，其余淡化。多选同类条件取并集，跨类条件取交集。</li><li><b>四种线索，四种画法。</b>色彩用实色线，纹样用重复母题，工艺用虚线与工具图标，材质用纹理带。纹样及材质纹理为识别示意。连线表达特征相似，不等同于历史传承。</li><li><b>三维展卷。</b>切换「3D 时间轴」后，从左下早期向右上晚期浏览。拖动或使用底部滑块移动，悬停器物翻正，点击查看档案。选择线索后，匹配器物从下层升到上层，按所选特征分组，各组内按时代排列；图标与材质表面仅作识别示意。系统的减少动态效果设置会关闭升降过渡。</li><li><b>区分记录与观察。</b>纹样和造型母题从现有馆方记录整理；工艺注明记录明示或材质归类。色值仅取前景有效像素，透明背景不参与统计；仍受光照与保存状况影响，不代表原始颜料测色。</li></ol><p class="source-note">本图收录 <span id="archive-count">—</span> 件器物记录，复用项目照片并从馆方目录扩充。具体来源可在逐件档案中查看；没有收录器物的时代不展示。</p></dialog>
+<dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><span class="eyebrow">HOW TO READ THE ATLAS</span><button class="icon-button" data-close="about-dialog" aria-label="关闭读图说明">×</button></div><h2 id="about-title">在时间与山河之间读器物</h2><ol><li><b>时代由古至今。</b>点击左侧时间直接跳转。时代内按出土地分组，每座城市使用固定底色；现代城市只帮助定位。</li><li><b>同代成组，逐件陈列。</b>器物按正常尺寸展示，战国、清代等密集时代分排排列，宽度适配屏幕；同代各排不表示时间先后。点击图片打开档案。</li><li><b>筛选让线索浮现。</b>选工艺、色彩、纹样、材质或出土地，匹配项高亮，其余淡化。多选同类条件取并集，跨类条件取交集。</li><li><b>四种线索，四种画法。</b>色彩用实色线，纹样用重复母题，工艺用虚线与工具图标，材质用纹理带。纹样及材质纹理为识别示意。连线表达特征相似，不等同于历史传承。</li><li><b>三维展卷。</b>切换「3D 时间轴」后，从左下早期向右上晚期浏览。拖动或使用底部滑块连续浏览，左右按钮逐组停靠。器物名称始终水平，悬停时器物向前浮出，点击查看档案。选择线索后，匹配器物从下层升到上层，按所选特征分组，各组内按时代排列；图标与材质表面仅作识别示意。系统的减少动态效果设置会关闭升降过渡。</li><li><b>区分记录与观察。</b>纹样和造型母题从现有馆方记录整理；工艺注明记录明示或材质归类。色值仅取前景有效像素，透明背景不参与统计；仍受光照与保存状况影响，不代表原始颜料测色。</li></ol><p class="source-note">本图收录 <span id="archive-count">—</span> 件器物记录，复用项目照片并从馆方目录扩充。具体来源可在逐件档案中查看；没有收录器物的时代不展示。</p></dialog>
 <div id="hover-preview" class="hover-preview" hidden aria-hidden="true"></div>
 <div class="loading" id="loading" role="status">正在展卷…</div>
 <script type="module" src="app.js"></script>

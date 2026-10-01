@@ -4,6 +4,10 @@
   "eras": 15,
   "featureCases": 70,
   "diagonal": "earliest lower-left to latest upper-right",
-  "warringRows": 4,
-  "qingRows": 3
+  "warringGroups": 21,
+  "qingGroups": 5,
+  "maxGroupSize": 4,
+  "projection": "perspective",
+  "nearFarSizeRatio": 1.37,
+  "orbitLimitsVerified": true
 }
