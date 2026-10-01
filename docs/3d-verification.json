@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "records": 147,
+  "eras": 15,
+  "featureCases": 70,
+  "diagonal": "earliest lower-left to latest upper-right",
+  "warringRows": 4,
+  "qingRows": 3
+}
