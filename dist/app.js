@@ -22,7 +22,7 @@ const dims=[
 ];
 let artifacts=[],cities=[],positions=new Map(),eraRows=[],displayRows=[],selected=Object.fromEntries(dims.map(d=>[d.key,new Set()]));
 let nodes=new Map(),width=0,height=0,matchIds=new Set(),activePaths=[],imageFailures=[];
-let view='2d', atlas3d=null, threeLoading=null, groupDimension='colors';
+let view='2d', atlas3d=null, threeLoading=null, culturalMap=null, mapLoading=null, groupDimension='colors';
 const photoCache=new Map();
 const label=(key,value)=>key==='era'?(eraDefs.find(e=>e[0]===value)?.[1]||value):value;
 function matches(a,except){return dims.every(d=>d.key===except||selected[d.key].size===0||values(a,d.key).some(v=>selected[d.key].has(v)))}
@@ -85,6 +85,7 @@ function refresh(){
  $('selection-summary').innerHTML=filtered?`<span class="selected-label">${esc(summary.join(' + '))}</span>　<b>${matchIds.size}</b> / ${artifacts.length} 件（组）${!matchIds.size?' · 无匹配，试试减少条件':''}`:`全景 · <b>${artifacts.length}</b> 件（组） <span class="summary-help"> / 同代成组，逐件陈列</span>`;
  drawPaths();
  syncThree();
+ if(view==='map')culturalMap?.setFilter({matchedIds:matchIds});
 }
 function drawPaths(){
  activePaths=[];
@@ -144,16 +145,18 @@ function choose(key,value,exclusive=false){
  refresh();
 }
 function closeDialog(id){$(id).close()}
-function detail(a){
- if(!a)return;
+function rememberAtlas(){
  const state={view,selected:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),groupDimension,
-   scrollTop:$('atlas-scroll').scrollTop,three:atlas3d?.navigationState()};
+   scrollTop:$('atlas-scroll').scrollTop,three:atlas3d?.navigationState(),map:culturalMap?.navigationState()};
  try{sessionStorage.setItem('jingchu-atlas-return',JSON.stringify(state))}catch{}
+}
+function detail(a){
+ if(!a)return;rememberAtlas();
  location.assign('object.html?id='+encodeURIComponent(a.id));
 }
 
-function jumpEra(id){if(view==='3d'){atlas3d?.jumpEra(id);$('sidebar').classList.remove('open');return}const row=eraRows.find(r=>r.id===id);if(row){hideHover();$('atlas-scroll').scrollTo({top:row.y,behavior:reducedMotion()?'instant':'smooth'});$('sidebar').classList.remove('open')}}
-function updateEraNav(){if(view==='3d')return;const y=$('atlas-scroll').scrollTop+32;const current=[...eraRows].reverse().find(r=>r.y<=y)||eraRows[0];document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===current?.id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}
+function jumpEra(id){if(view==='map'){culturalMap?.jumpEra(id);$('sidebar').classList.remove('open');return}if(view==='3d'){atlas3d?.jumpEra(id);$('sidebar').classList.remove('open');return}const row=eraRows.find(r=>r.id===id);if(row){hideHover();$('atlas-scroll').scrollTo({top:row.y,behavior:reducedMotion()?'instant':'smooth'});$('sidebar').classList.remove('open')}}
+function updateEraNav(){if(view!=='2d')return;const y=$('atlas-scroll').scrollTop+32;const current=[...eraRows].reverse().find(r=>r.y<=y)||eraRows[0];document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===current?.id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}
 function reducedMotion(){return matchMedia('(prefers-reduced-motion: reduce)').matches}
 
 
@@ -201,10 +204,18 @@ $('three-group').onchange=e=>{groupDimension=e.target.value;atlas3d?.setFilter({
 async function switchView(next){
  view=next;hideHover();document.body.dataset.view=next;
  document.querySelectorAll('[role="tab"][data-view]').forEach(b=>{const active=b.dataset.view===next;b.setAttribute('aria-selected',String(active));b.tabIndex=active?0:-1});
- $('atlas-scroll').hidden=next!=='2d';$('atlas-3d').hidden=next!=='3d';
+ $('atlas-scroll').hidden=next!=='2d';$('atlas-3d').hidden=next!=='3d';$('atlas-map').hidden=next!=='map';
+ culturalMap?.setVisible(next==='map');atlas3d?.setVisible(next==='3d');
  document.querySelector('.three-group-control').hidden=next!=='3d';
  document.querySelector('.nav-heading small').textContent=next==='3d'?'由古至今 ↗':'由古至今 ↓';
  if(next==='2d'){atlas3d?.setVisible(false);buildLayout();refresh();return}
+ if(next==='map'){
+  if(!mapLoading)mapLoading=(async()=>{
+   try{const {CulturalMap}=await import('./cultural-map.js');culturalMap=new CulturalMap($('atlas-map'),{artifacts,onDetail:detail,onEra:id=>{if(view==='map')document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}});await culturalMap.initialize()}
+   catch(error){console.error(error);culturalMap=null;$('atlas-map').innerHTML='<div class="map-loading">地图暂时无法显示，请刷新重试，或返回二维图谱。</div>'}
+  })();
+  await mapLoading;if(view==='map'){culturalMap?.setVisible(true);culturalMap?.setFilter({matchedIds:matchIds})}return;
+ }
  if(!threeLoading){
    threeLoading=(async()=>{
      try{
@@ -222,7 +233,7 @@ async function switchView(next){
 }
 document.querySelector('.view-tabs').addEventListener('keydown',e=>{
  if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();
- const next=e.key==='Home'?'2d':e.key==='End'?'3d':view==='2d'?'3d':'2d';$('view-'+next).focus();switchView(next);
+ const views=['2d','3d','map'],next=e.key==='Home'?'2d':e.key==='End'?'map':views[(views.indexOf(view)+(e.key==='ArrowRight'?1:2))%3];$('view-'+next).focus();switchView(next);
 });
 
 try{
@@ -234,9 +245,11 @@ try{
  if(new URLSearchParams(location.search).has('return')){
   try{const saved=JSON.parse(sessionStorage.getItem('jingchu-atlas-return'));
    if(saved){selected=Object.fromEntries(dims.map(d=>[d.key,new Set((saved.selected?.[d.key]||[]).filter(v=>artifacts.some(a=>values(a,d.key).includes(v))))]));groupDimension=dims.some(d=>d.key===saved.groupDimension)?saved.groupDimension:'colors';$('three-group').value=groupDimension;
-    refresh();await switchView(saved.view==='3d'?'3d':'2d');if(saved.view==='3d')atlas3d?.restoreNavigation(saved.three);else $('atlas-scroll').scrollTop=saved.scrollTop||0;refresh()}
+    refresh();await switchView(['2d','3d','map'].includes(saved.view)?saved.view:'2d');if(saved.view==='map')culturalMap?.restore(saved.map);else if(saved.view==='3d')atlas3d?.restoreNavigation(saved.three);else $('atlas-scroll').scrollTop=saved.scrollTop||0;refresh()}
   }catch(error){console.warn('Could not restore atlas position',error)}
  }
 
+ if(new URLSearchParams(location.search).get('view')==='map')await switchView('map');
+ document.querySelector('.workshop-link').addEventListener('click',rememberAtlas);
  window.jingchuTimeline={getState:()=>({count:artifacts.length,matchedIds:[...matchIds],filters:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),positions:Object.fromEntries(positions),paths:activePaths,imageFailures,cities,width,height,eraRows,displayRows}),artifacts};
 }catch(error){$('loading').textContent=error.message+'，请刷新页面重试。';document.body.dataset.error='true';console.error(error)}

@@ -5,7 +5,7 @@
   <meta name="theme-color" content="#000000">
   <title>荆楚 · 器物经纬</title>
   <meta name="description" content="沿时代与出土地，追踪荆楚器物的工艺、色彩与纹样。">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="map.css">
 </head>
 <body>
 <header class="masthead">
@@ -26,7 +26,7 @@
       <div class="intro-count"><strong id="total-count">—</strong><span>件（组）馆藏器物</span><small id="date-span">史前 — 明代</small></div>
     </section>
     <section class="toolbar" aria-label="图谱工具">
-      <div class="view-tabs" role="tablist" aria-label="时间轴视图"><button id="view-2d" role="tab" aria-selected="true" aria-controls="atlas-scroll" data-view="2d">二维图谱</button><button id="view-3d" role="tab" aria-selected="false" aria-controls="atlas-3d" tabindex="-1" data-view="3d"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m10 2 8 4.5v7L10 18l-8-4.5v-7Zm0 9L2 6.5m8 4.5 8-4.5M10 11v7M6 4.2l8 4.6v7"/></svg>3D 时间轴</button></div>
+      <div class="view-tabs" role="tablist" aria-label="时间轴视图"><button id="view-2d" role="tab" aria-selected="true" aria-controls="atlas-scroll" data-view="2d">二维图谱</button><button id="view-3d" role="tab" aria-selected="false" aria-controls="atlas-3d" tabindex="-1" data-view="3d"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m10 2 8 4.5v7L10 18l-8-4.5v-7Zm0 9L2 6.5m8 4.5 8-4.5M10 11v7M6 4.2l8 4.6v7"/></svg>3D 时间轴</button><button id="view-map" role="tab" aria-selected="false" aria-controls="atlas-map" tabindex="-1" data-view="map">荆楚地图</button></div><a class="workshop-link" href="workshop.html">纹样工坊 ↗</a>
       <button id="filters-open" class="mobile-only">筛选线索</button>
       <div class="visual-key" aria-label="四类路径图例"><span><i class="key-colour"></i>色彩</span><span><i class="key-motif">❧ ❧</i>纹样</span><span><i class="key-craft">⌁</i>工艺</span><span><i class="key-material"></i>材质</span></div><small class="toolbar-note">一条线，一种线索</small>
     </section>
@@ -58,6 +58,7 @@
       </div>
       <div class="three-footnote"><span>下层全谱 · 上层提取</span><span>同代分组仅为浏览 · 透视远小近大 · 非实物比例</span></div>
     </section>
+    <section id="atlas-map" class="atlas-map" role="tabpanel" aria-labelledby="view-map" hidden><div class="map-loading">正在展开荆楚山河…</div></section>
     <footer class="status-footer"><span id="path-legend"><i class="legend-stroke"></i>选取线索，生成路径</span><span>连线呈现特征关联，不直接代表历史传承。</span></footer>
   </main>
 </div>

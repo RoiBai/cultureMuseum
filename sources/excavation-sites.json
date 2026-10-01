@@ -1,0 +1,965 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-30",
+  "coordinatePolicy": "coordinate 用于 WGS84 地形视图的范围示意。原始坐标基准另见 sourceCoordinateSystem；基准未声明的文保坐标只近似使用，不能作为墓坑实测位置。资料不足的记录 coordinate=null；不得通过随机偏移或馆藏位置伪造出土点。",
+  "sites": [
+    {
+      "id": "xiaojiawuji",
+      "name": "肖家屋脊遗址",
+      "city": "天门",
+      "coordinate": [
+        113.08231,
+        30.76651
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "使用 OpenStreetMap 的肖家屋脊遗址地名节点，示意遗址范围中心，非玉器出土探方或瓮棺坐标。",
+      "artifactIds": [
+        "jz-474",
+        "jz-475"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：玉飞鹰",
+          "url": "http://www.jzmsm.org/news-474.html"
+        },
+        {
+          "title": "馆方器物记录：玉头人像",
+          "url": "http://www.jzmsm.org/news-475.html"
+        },
+        {
+          "title": "OpenStreetMap：肖家屋脊遗址 node 10675727620",
+          "url": "https://www.openstreetmap.org/node/10675727620"
+        },
+        {
+          "title": "地图节点坐标转录页：肖家屋脊遗址",
+          "url": "https://mapcarta.com/N10675727620"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        113.08231,
+        30.76651
+      ],
+      "approximateRadiusMeters": 500
+    },
+    {
+      "id": "shijiahe",
+      "name": "石家河遗址群",
+      "city": "天门",
+      "coordinate": [
+        113.07972,
+        30.77527
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "器物记录只到石家河遗址群；使用公开遗址群地理参考点，约数公里范围。不能据此确定玉人像所出具体子遗址/探方。",
+      "artifactIds": [
+        "hb-6915"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：石家河玉人像",
+          "url": "https://www.hbww.org.cn/zgzb/p/6915.html"
+        },
+        {
+          "title": "天门市政府：石家河遗址",
+          "url": "https://www.tianmen.gov.cn/zwgk/bmhxzxxgkml/xzbcy/sjhz/zfxxgk/fdzdgknr/gzdt/201802/t20180213_1964903.shtml"
+        },
+        {
+          "title": "石家河遗址地理坐标参考（非考古实测）",
+          "url": "https://zh.wikipedia.org/wiki/石家河遗址"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        113.07972,
+        30.77527
+      ],
+      "approximateRadiusMeters": 2500
+    },
+    {
+      "id": "chongyang-baini",
+      "name": "崇阳白霓铜鼓发现地",
+      "city": "崇阳",
+      "coordinate": [
+        114.131323,
+        29.537405
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "政府报道补证发现于白霓镇大市村（旧新堰四队）；使用白霓镇地名点示意镇域，未查得当年河堤发现点坐标。高德 GCJ-02 地名点迭代反算至 WGS84。",
+      "artifactIds": [
+        "hb-6916"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：崇阳铜鼓",
+          "url": "https://www.hbww.org.cn/zgzb/p/6916.html"
+        },
+        {
+          "title": "湖北省农业农村厅：崇阳乡村发现铜鼓",
+          "url": "https://nyt.hubei.gov.cn/bmdt/yw/mtksn/202112/t20211228_3934866.shtml"
+        },
+        {
+          "title": "高德地图：白霓镇地名点",
+          "url": "https://www.amap.com/place/B02CB0N70Z"
+        }
+      ],
+      "sourceCoordinateSystem": "GCJ02",
+      "sourceCoordinate": [
+        114.13692,
+        29.53495
+      ],
+      "approximateRadiusMeters": 10000
+    },
+    {
+      "id": "miaoxing",
+      "name": "庙兴遗址",
+      "city": "荆州",
+      "coordinate": null,
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "record-insufficient",
+      "positionNote": "已补证旧江陵岑河庙兴村，现荆州经开区鱼农桥街道；尚无可核对的遗址地理坐标，暂不落点。",
+      "artifactIds": [
+        "jz-473"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：牺首栖鸟兽面纹铜尊",
+          "url": "http://www.jzmsm.org/news-473.html"
+        },
+        {
+          "title": "湖北省博物馆相关出土记录",
+          "url": "https://hbww.org.cn/xlkd/p/5661.html"
+        },
+        {
+          "title": "湖北省人民政府公报2023年12月文保地址",
+          "url": "https://www.hubei.gov.cn/xxgk/gb/202312/W020231229619715338963.pdf"
+        }
+      ]
+    },
+    {
+      "id": "panlongcheng",
+      "name": "盘龙城遗址（采集）",
+      "city": "武汉",
+      "coordinate": [
+        114.255518,
+        30.696505
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "馆方记为盘龙城采集；使用遗址公园西入口作为遗址范围参考，采集点未记录。不是馆藏博物馆位置，也不代表具体探方。高德 GCJ-02 点反算至 WGS84。",
+      "artifactIds": [
+        "hb-5520"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：铜面具",
+          "url": "https://www.hbww.org.cn/qtq/p/5520.html"
+        },
+        {
+          "title": "黄陂区政府：文物名录（盘龙城遗址）",
+          "url": "https://www.huangpi.gov.cn/fbjd_33/xxgkml/gysyjs/whty/ggwh/202405/P020240613582253966466.pdf"
+        },
+        {
+          "title": "高德地图：盘龙城国家考古遗址公园西1门",
+          "url": "https://ditu.amap.com/place/B0FFK3GCGE"
+        }
+      ],
+      "sourceCoordinateSystem": "GCJ02",
+      "sourceCoordinate": [
+        114.260942,
+        30.694088
+      ],
+      "approximateRadiusMeters": 1800
+    },
+    {
+      "id": "jiangbei-farm",
+      "name": "江北农场发现地",
+      "city": "荆州",
+      "coordinate": null,
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "record-insufficient",
+      "positionNote": "已核实为荆州江陵县江北农场，未查得当年虎形铜尊发现点或可信地理参考坐标，暂不落点。",
+      "artifactIds": [
+        "jz-472"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：虎形铜尊",
+          "url": "http://www.jzmsm.org/news-472.html"
+        },
+        {
+          "title": "湖北省农业农村厅：江北农场",
+          "url": "https://nyt.hubei.gov.cn/bmdt/yw/zbzh/202304/t20230428_4644695.shtml"
+        }
+      ]
+    },
+    {
+      "id": "wangshan",
+      "name": "望山楚墓群",
+      "city": "荆州",
+      "coordinate": [
+        112.115778,
+        30.498944
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "同墓群 1、3 号墓合并；坐标对应望山村墓群参考位置。坐标据省政府文保范围文件 86-51 换算；原文件未声明测地基准，作为近似 WGS84 范围标记使用，预留约 1000 米不确定范围，不代表墓坑实测 GPS。",
+      "artifactIds": [
+        "hb-4694",
+        "hb-5151"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：越王勾践剑",
+          "url": "https://www.hbww.org.cn/zgzb/p/4694.html"
+        },
+        {
+          "title": "馆方器物记录：鎏金铜带钩",
+          "url": "https://www.hbww.org.cn/qtq/p/5151.html"
+        },
+        {
+          "title": "湖北省人民政府公报2015年第13号：鄂政办发〔2015〕29号文保范围",
+          "url": "https://www.hubei.gov.cn/gbhis/2015/2015-13.pdf"
+        },
+        {
+          "title": "湖北省文物考古研究院：湖北简牍地理",
+          "url": "https://www.hbww.org.cn/yjy_mtbd/p/8892.html"
+        }
+      ],
+      "sourceCoordinateSystem": "unspecified-geographic",
+      "sourceCoordinate": [
+        112.11577777777777,
+        30.498944444444444
+      ],
+      "approximateRadiusMeters": 1000
+    },
+    {
+      "id": "xiangyang-shanwan",
+      "name": "襄阳山湾发现地",
+      "city": "襄阳",
+      "coordinate": null,
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "record-insufficient",
+      "positionNote": "原馆方记录为1972年襄阳山湾出土，尚无可核对的遗址/发现点坐标；不以现代同名村或馆藏地替代。",
+      "artifactIds": [
+        "hb-5113"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：龙柄铜匜",
+          "url": "https://www.hbww.org.cn/qtq/p/5113.html"
+        }
+      ]
+    },
+    {
+      "id": "xiongjiazhong",
+      "name": "熊家冢墓地",
+      "city": "荆州",
+      "coordinate": [
+        112.004917,
+        30.616833
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "使用文保文件熊家冢主冢中心的范围参考，器物具体殉葬墓坑未定位。坐标据省政府文保范围文件 86-89 换算；原文件未声明测地基准，作为近似 WGS84 范围标记使用，预留约 1000 米不确定范围，不代表墓坑实测 GPS。",
+      "artifactIds": [
+        "jz-470"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：龙凤形玉佩",
+          "url": "http://www.jzmsm.org/news-470.html"
+        },
+        {
+          "title": "湖北省人民政府公报2015年第13号：鄂政办发〔2015〕29号文保范围",
+          "url": "https://www.hubei.gov.cn/gbhis/2015/2015-13.pdf"
+        }
+      ],
+      "sourceCoordinateSystem": "unspecified-geographic",
+      "sourceCoordinate": [
+        112.00491666666667,
+        30.616833333333332
+      ],
+      "approximateRadiusMeters": 1000
+    },
+    {
+      "id": "zenghouyi-leigudun",
+      "name": "擂鼓墩曾侯乙墓",
+      "city": "随州",
+      "coordinate": [
+        113.344785,
+        31.730936
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "使用曾侯乙墓遗址地名 POI，表示擂鼓墩遗址范围，非编钟原摆放位置。高德 GCJ-02 点迭代反算至 WGS84。",
+      "artifactIds": [
+        "hb-4695",
+        "hb-6911",
+        "crane"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：曾侯乙编钟",
+          "url": "https://www.hbww.org.cn/zgzb/p/4695.html"
+        },
+        {
+          "title": "馆方器物记录：曾侯乙尊盘",
+          "url": "https://www.hbww.org.cn/zgzb/p/6911.html"
+        },
+        {
+          "title": "馆方器物记录：鹿角立鹤",
+          "url": "https://www.hbww.org.cn/xwdt/p/9632.html"
+        },
+        {
+          "title": "湖北省文物考古研究院：湖北简牍地理",
+          "url": "https://www.hbww.org.cn/yjy_mtbd/p/8892.html"
+        },
+        {
+          "title": "高德地图：曾侯乙墓遗址",
+          "url": "https://www.amap.com/place/B0FFGHPH00"
+        }
+      ],
+      "sourceCoordinateSystem": "GCJ02",
+      "sourceCoordinate": [
+        113.350947,
+        31.729006
+      ],
+      "approximateRadiusMeters": 500
+    },
+    {
+      "id": "baoshan",
+      "name": "包山楚墓地",
+      "city": "荆门",
+      "coordinate": [
+        112.18202,
+        30.60948
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "武汉大学简帛研究中心明确包山2号墓在荆门十里铺王场村。使用 OpenStreetMap 十里铺镇地名节点示意镇域，未取得王场村墓地中心坐标，不能将此点当作包山墓坑位置。约15公里范围。",
+      "artifactIds": [
+        "hb-5143",
+        "hb-4979",
+        "hb-5118"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：鸟首形杯",
+          "url": "https://www.hbww.org.cn/qtq/p/5143.html"
+        },
+        {
+          "title": "馆方器物记录：彩绘凤纹竹筒",
+          "url": "https://www.hbww.org.cn/qmq/p/4979.html"
+        },
+        {
+          "title": "馆方器物记录：双提链盘",
+          "url": "https://www.hbww.org.cn/qtq/p/5118.html"
+        },
+        {
+          "title": "武汉大学历史学院：包山楚墓竹简出版及出土地说明",
+          "url": "https://news.whu.edu.cn/info/1015/454957.htm"
+        },
+        {
+          "title": "OpenStreetMap：沙洋十里铺镇 node 5570657994",
+          "url": "https://www.openstreetmap.org/node/5570657994"
+        },
+        {
+          "title": "十里铺镇 OSM 地名点坐标转录",
+          "url": "https://mapcarta.com/15936078"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        112.18202,
+        30.60948
+      ],
+      "approximateRadiusMeters": 15000
+    },
+    {
+      "id": "tianxingguan",
+      "name": "天星观楚墓地",
+      "city": "荆州",
+      "coordinate": [
+        112.448778,
+        30.414361
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "同场地 1、2 号楚墓归并，保留各器物原墓号。坐标据省政府文保范围文件 63-1 换算；原文件未声明测地基准，作为近似 WGS84 范围标记使用，预留约 1000 米不确定范围，不代表墓坑实测 GPS。",
+      "artifactIds": [
+        "dou",
+        "winged",
+        "guardian",
+        "jz-458",
+        "jz-465",
+        "jz-466",
+        "jz-459"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：漆木彩绘凤鸟莲花盖豆",
+          "url": "http://www.jzmsm.org/news-460.html"
+        },
+        {
+          "title": "馆方器物记录：漆木彩绘蟾座凤鸟羽人",
+          "url": "http://www.jzmsm.org/news-461.html"
+        },
+        {
+          "title": "馆方器物记录：漆木彩绘双头镇墓兽",
+          "url": "http://www.jzmsm.org/news-457.html"
+        },
+        {
+          "title": "馆方器物记录：漆木彩绘猪形酒具盒",
+          "url": "http://www.jzmsm.org/news-458.html"
+        },
+        {
+          "title": "馆方器物记录：铜编钟",
+          "url": "http://www.jzmsm.org/news-465.html"
+        },
+        {
+          "title": "馆方器物记录：铜升鼎",
+          "url": "http://www.jzmsm.org/news-466.html"
+        },
+        {
+          "title": "馆方器物记录：漆木彩绘虎座凤鸟悬鼓",
+          "url": "http://www.jzmsm.org/news-459.html"
+        },
+        {
+          "title": "湖北省人民政府公报2015年第13号：鄂政办发〔2015〕29号文保范围",
+          "url": "https://www.hubei.gov.cn/gbhis/2015/2015-13.pdf"
+        },
+        {
+          "title": "湖北省文物考古研究院：湖北简牍地理",
+          "url": "https://www.hbww.org.cn/yjy_mtbd/p/8892.html"
+        }
+      ],
+      "sourceCoordinateSystem": "unspecified-geographic",
+      "sourceCoordinate": [
+        112.44877777777778,
+        30.41436111111111
+      ],
+      "approximateRadiusMeters": 1000
+    },
+    {
+      "id": "mashan",
+      "name": "马山一号楚墓",
+      "city": "荆州",
+      "coordinate": [
+        112.00466,
+        30.48926
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "原发掘报告记江陵马山公社沙冢大队砖瓦厂取土场；现代报道将马山1号墓列入跨马山镇、川店镇的马山墓群。仅使用马山镇地名参考点示意历史马山地区，范围约18公里；不是取土场或1号墓坐标。",
+      "artifactIds": [
+        "jz-358",
+        "jz-356",
+        "jz-357"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：凤鸟花卉纹绣浅黄绢面绵袍",
+          "url": "http://www.jzmsm.org/news-358.html"
+        },
+        {
+          "title": "馆方器物记录：蟠龙飞凤纹绣浅黄绢面衾",
+          "url": "http://www.jzmsm.org/news-356.html"
+        },
+        {
+          "title": "馆方器物记录：龙凤虎纹绣罗单衣",
+          "url": "http://www.jzmsm.org/news-357.html"
+        },
+        {
+          "title": "湖北省人民政府公报2015年第13号：鄂政办发〔2015〕29号文保范围",
+          "url": "https://www.hubei.gov.cn/gbhis/2015/2015-13.pdf"
+        },
+        {
+          "title": "湖北日报：马山墓群考古发掘报道",
+          "url": "https://news.hubeidaily.net/pc/c_2145144.html"
+        },
+        {
+          "title": "马山镇公开地理参考坐标（乡镇示意，非考古实测）",
+          "url": "https://zh.wikipedia.org/wiki/马山镇_(荆州市)"
+        },
+        {
+          "title": "楚天都市报：马山墓群分布与马山1号墓",
+          "url": "https://ctdsbepaper.hubeidaily.net/pc/content/202401/15/content_260025.html"
+        },
+        {
+          "title": "荆州地区博物馆《江陵马山一号楚墓》（1985，发掘报告转录；非官方托管）",
+          "url": "https://www.hanfubaodian.com/wiki/江陵马山一号楚墓"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        112.00466,
+        30.48926
+      ],
+      "approximateRadiusMeters": 18000
+    },
+    {
+      "id": "tengdian",
+      "name": "藤店一号楚墓",
+      "city": "荆州",
+      "coordinate": [
+        112.1165,
+        30.512861
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "仅使用藤店村街道墓区作为村域示意；未确认 1 号楚墓与该保护区内墓号的对应关系。坐标据省政府文保范围文件 86-60 换算；原文件未声明测地基准，作为近似 WGS84 范围标记使用，预留约 2500 米不确定范围，不代表墓坑实测 GPS。",
+      "artifactIds": [
+        "jz-462"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：“越王州句”铜剑",
+          "url": "http://www.jzmsm.org/news-462.html"
+        },
+        {
+          "title": "湖北省人民政府公报2015年第13号：鄂政办发〔2015〕29号文保范围",
+          "url": "https://www.hubei.gov.cn/gbhis/2015/2015-13.pdf"
+        },
+        {
+          "title": "故宫博物院：江陵藤店1号墓研究",
+          "url": "https://www.dpm.org.cn/Uploads/pdf/3967/T00040_00.pdf"
+        }
+      ],
+      "sourceCoordinateSystem": "unspecified-geographic",
+      "sourceCoordinate": [
+        112.11649999999999,
+        30.51286111111111
+      ],
+      "approximateRadiusMeters": 2500
+    },
+    {
+      "id": "cheqiao",
+      "name": "荆门车桥楚墓地",
+      "city": "荆门",
+      "coordinate": null,
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "record-insufficient",
+      "positionNote": "省政府公报和故宫研究记录为荆门车桥楚墓；原馆方只列墓地名，现代场地坐标仍待核实。",
+      "artifactIds": [
+        "jz-463"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：“兵闢太岁”铜戈",
+          "url": "http://www.jzmsm.org/news-463.html"
+        },
+        {
+          "title": "湖北省人民政府公报2009年第2·3号（荆门车桥出土铜戈）",
+          "url": "https://www.hubei.gov.cn/gbhis/2009/2009-2%C2%B73.pdf"
+        },
+        {
+          "title": "故宫博物院：湖北荆门车桥墓地出土记录",
+          "url": "https://www.dpm.org.cn/Uploads/file/2025/02/13/1739432308DfTwrZWyO260.pdf"
+        }
+      ]
+    },
+    {
+      "id": "qinjiazui",
+      "name": "秦家咀（秦家嘴）楚墓地",
+      "city": "荆州",
+      "coordinate": [
+        112.214439,
+        30.417556
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "使用荆州博物馆《湖北荆州秦家嘴墓地M1093发掘简报》（江汉考古2024年第2期）刊载的墓地中心坐标；仅示意庙湖村秦家嘴墓地范围，不是本件器物所出2号墓坐标。所读为发掘报告网络转录，原测地基准未声明，因此近似按WGS84使用并保留约1公里不确定范围。",
+      "artifactIds": [
+        "jz-464"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：连发铜木弩",
+          "url": "http://www.jzmsm.org/news-464.html"
+        },
+        {
+          "title": "湖北省文化和旅游厅：秦家嘴楚墓考古报道",
+          "url": "https://wlt.hubei.gov.cn/bmdt/szyw/jz/202601/t20260123_5862230.shtml"
+        },
+        {
+          "title": "荆州博物馆：湖北荆州秦家嘴墓地M1093发掘简报（网络转录；非官方托管）",
+          "url": "https://www.sohu.com/a/785360688_121124392"
+        }
+      ],
+      "sourceCoordinateSystem": "unspecified-geographic",
+      "sourceCoordinate": [
+        112.21443888888889,
+        30.417555555555555
+      ],
+      "approximateRadiusMeters": 1000
+    },
+    {
+      "id": "fengjiazhong",
+      "name": "冯家冢墓地",
+      "city": "荆州",
+      "coordinate": [
+        112.104729,
+        30.404149
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "考古地理研究将冯家冢列于八岭山；使用八岭山镇地名点仅示意镇域，非冯家冢中心。高德 GCJ-02 反算至 WGS84。",
+      "artifactIds": [
+        "jz-467"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：组玉佩",
+          "url": "http://www.jzmsm.org/news-467.html"
+        },
+        {
+          "title": "中国博物馆协会：荆州冯家冢墓地文物",
+          "url": "https://www.chinamuseum.org.cn/detail.html?contentId=1032&id=14"
+        },
+        {
+          "title": "历史地理研究：楚都纪南城探析",
+          "url": "https://www.lsdlyj.com.cn/CN/PDF/47117"
+        },
+        {
+          "title": "高德地图：八岭山镇",
+          "url": "https://ditu.amap.com/place/B02CC0NZRI"
+        }
+      ],
+      "sourceCoordinateSystem": "GCJ02",
+      "sourceCoordinate": [
+        112.110679,
+        30.401784
+      ],
+      "approximateRadiusMeters": 9000
+    },
+    {
+      "id": "qinjiashan",
+      "name": "秦家山二号墓",
+      "city": "荆州",
+      "coordinate": [
+        112.00466,
+        30.48926
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "王明钦《湖北荆州秦家山二号墓清理简报》（文物1999年第4期）记墓地在马山镇濠林村。使用马山镇地名参考点示意镇域，尚无濠林村墓地数字坐标；约18公里范围。与院墙湾共享乡镇示意点，不表示二墓位置相同。",
+      "artifactIds": [
+        "jz-468"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：玉覆面",
+          "url": "http://www.jzmsm.org/news-468.html"
+        },
+        {
+          "title": "湖北日报：马山墓群与秦家山2号墓",
+          "url": "https://news.hubeidaily.net/pc/c_2145144.html"
+        },
+        {
+          "title": "马山镇公开地理参考坐标（乡镇示意，非考古实测）",
+          "url": "https://zh.wikipedia.org/wiki/马山镇_(荆州市)"
+        },
+        {
+          "title": "秦家山二号墓原发掘简报摘要",
+          "url": "https://history.alljournals.cn/relate_search.aspx?aid=D4AAB0975F88AB626466165EB6177338&ctl=9&etl=0&language=0&pcid=B105980C46742988AA264212B4BA36DE578B761D73696550"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        112.00466,
+        30.48926
+      ],
+      "approximateRadiusMeters": 18000
+    },
+    {
+      "id": "jiudian-yutai",
+      "name": "九店楚墓地（雨台村）",
+      "city": "荆州",
+      "coordinate": [
+        112.241083,
+        30.439333
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "考古记录九店墓地位于今纪南镇雨台村施家洼东岗；使用雨台山墓群参考点，非九店13号墓中心。坐标据省政府文保范围文件 62 换算；原文件未声明测地基准，作为近似 WGS84 范围标记使用，预留约 2000 米不确定范围，不代表墓坑实测 GPS。",
+      "artifactIds": [
+        "hb-5155"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：凤纹铜镜",
+          "url": "https://www.hbww.org.cn/qtq/p/5155.html"
+        },
+        {
+          "title": "湖北省人民政府公报2015年第13号：鄂政办发〔2015〕29号文保范围",
+          "url": "https://www.hubei.gov.cn/gbhis/2015/2015-13.pdf"
+        },
+        {
+          "title": "湖北省文物考古研究院：湖北简牍地理",
+          "url": "https://www.hbww.org.cn/yjy_mtbd/p/8892.html"
+        }
+      ],
+      "sourceCoordinateSystem": "unspecified-geographic",
+      "sourceCoordinate": [
+        112.24108333333334,
+        30.439333333333334
+      ],
+      "approximateRadiusMeters": 2000
+    },
+    {
+      "id": "yuanqiangwan",
+      "name": "院墙湾一号楚墓",
+      "city": "荆州",
+      "coordinate": [
+        112.00466,
+        30.48926
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "荆州博物馆《湖北荆州院墙湾一号楚墓》（文物2008年第4期）记马山镇濠林村四组。使用马山镇地名参考点示意镇域，未取得墓地数字坐标；约18公里范围。与秦家山共享乡镇示意点，不表示二墓位置相同。",
+      "artifactIds": [
+        "jz-469"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：人执龙形玉佩",
+          "url": "http://www.jzmsm.org/news-469.html"
+        },
+        {
+          "title": "湖北荆州院墙湾一号楚墓（文物2008年第4期，报告引用）",
+          "url": "https://www.sciengine.com/doi/pdfView/2C0BE91054C44F93B6BDE715A6643D01"
+        },
+        {
+          "title": "马山镇公开地理参考坐标（乡镇示意，非考古实测）",
+          "url": "https://zh.wikipedia.org/wiki/马山镇_(荆州市)"
+        },
+        {
+          "title": "湖北荆州院墙湾一号楚墓发掘报告转录（非官方托管）",
+          "url": "https://www.sohu.com/a/772113590_121124389"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        112.00466,
+        30.48926
+      ],
+      "approximateRadiusMeters": 18000
+    },
+    {
+      "id": "jiuliandun",
+      "name": "九连墩楚墓群",
+      "city": "枣阳",
+      "coordinate": [
+        112.841667,
+        31.983333
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "site-range",
+      "positionNote": "使用文保文件经纬范围的中点；只示意吴店镇东赵湖村与兴隆镇乌金村墓群范围，非2号墓墓坑中心。坐标据省政府文保范围文件 32 换算；原文件未声明测地基准，作为近似 WGS84 范围标记使用，预留约 2000 米不确定范围，不代表墓坑实测 GPS。",
+      "artifactIds": [
+        "drum",
+        "hb-4853",
+        "hb-4963"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：虎座鸟架鼓",
+          "url": "https://www.hbww.org.cn/zgzb/p/6913.html"
+        },
+        {
+          "title": "馆方器物记录：漆木扁壶",
+          "url": "https://www.hbww.org.cn/qmq/p/4853.html"
+        },
+        {
+          "title": "馆方器物记录：漆木升鼎",
+          "url": "https://www.hbww.org.cn/qmq/p/4963.html"
+        },
+        {
+          "title": "湖北省人民政府公报2015年第13号：鄂政办发〔2015〕29号文保范围",
+          "url": "https://www.hubei.gov.cn/gbhis/2015/2015-13.pdf"
+        }
+      ],
+      "sourceCoordinateSystem": "unspecified-geographic",
+      "sourceCoordinate": [
+        112.84166666666667,
+        31.983333333333334
+      ],
+      "approximateRadiusMeters": 2000
+    },
+    {
+      "id": "shuihudi",
+      "name": "睡虎地秦墓地",
+      "city": "云梦",
+      "coordinate": [
+        113.74532,
+        31.03484
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "考古参与者回忆确认1975年发现地在云梦城关西郊肖李大队。使用云梦县城关镇公开地名参考点示意镇域，尚无可核对的睡虎地墓区中心坐标，约8公里范围；未使用云梦博物馆坐标。",
+      "artifactIds": [
+        "spoon",
+        "hb-6912"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：彩绘凤形漆勺",
+          "url": "https://www.hbww.org.cn/qmq/p/5481.html"
+        },
+        {
+          "title": "馆方器物记录：云梦睡虎地秦简",
+          "url": "https://www.hbww.org.cn/zgzb/p/6912.html"
+        },
+        {
+          "title": "湖北文旅厅：睡虎地秦简出土地调研",
+          "url": "https://wlt.hubei.gov.cn/bmdt/dtyw/202412/t20241218_5466915.shtml"
+        },
+        {
+          "title": "武汉政协《武汉文史资料》2024年第7期：刘俊明回忆睡虎地秦简发现",
+          "url": "https://www.whzx.gov.cn/zxzl/wsl/whwszl/202408/P020240802585268171666.pdf"
+        },
+        {
+          "title": "湖北省博物馆：睡虎地原址秦简纪念园参观",
+          "url": "https://hbww.org.cn/xwdt/p/10467.html"
+        },
+        {
+          "title": "云梦县城关镇公开地理参考坐标（非考古实测）",
+          "url": "https://zh.wikipedia.org/wiki/城关镇_(云梦县)"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        113.74532,
+        31.03484
+      ],
+      "approximateRadiusMeters": 8000
+    },
+    {
+      "id": "fenghuangshan",
+      "name": "凤凰山168号汉墓",
+      "city": "荆州",
+      "coordinate": [
+        112.1984,
+        30.44408
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "荆州地区博物馆原发掘报告记凤凰山岗南端连接楚纪南城南城垣，168号墓在岗中部偏东。使用纪南镇地名点示意该历史地区，约9公里范围；不是168号墓的数字坐标，不能与沙市现代凤凰森林公园混同。",
+      "artifactIds": [
+        "jz-354",
+        "jz-353"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：漆木彩绘七豹大扁壶",
+          "url": "http://www.jzmsm.org/news-354.html"
+        },
+        {
+          "title": "馆方器物记录：漆木彩绘三鱼纹耳杯",
+          "url": "http://www.jzmsm.org/news-353.html"
+        },
+        {
+          "title": "科学出版社：荆州凤凰山一六八号汉墓考古报告",
+          "url": "https://www.ecsponline.com/goods.php?id=236615"
+        },
+        {
+          "title": "纪南镇公开地理参考坐标（乡镇示意，非考古实测）",
+          "url": "https://zh.wikipedia.org/wiki/纪南镇"
+        },
+        {
+          "title": "荆州地区博物馆《江陵凤凰山一六八号汉墓》原发掘报告转录（非官方托管）",
+          "url": "https://www.hanfubaodian.com/wiki/江陵凤凰山一六八号汉墓"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        112.1984,
+        30.44408
+      ],
+      "approximateRadiusMeters": 9000
+    },
+    {
+      "id": "zhangjiashan",
+      "name": "张家山汉墓地",
+      "city": "荆州",
+      "coordinate": null,
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "record-insufficient",
+      "positionNote": "馆方确定荆州张家山西汉墓，出土墓号与地面范围仍需进一步核对；尚无可信数字坐标，暂不落点。",
+      "artifactIds": [
+        "jz-355"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：张家山汉简",
+          "url": "http://www.jzmsm.org/news-355.html"
+        },
+        {
+          "title": "湖北省文物考古研究院：湖北简牍地理",
+          "url": "https://www.hbww.org.cn/yjy_mtbd/p/8892.html"
+        }
+      ]
+    },
+    {
+      "id": "jingzhou-brickworks",
+      "name": "荆州砖瓦厂发现地",
+      "city": "荆州",
+      "coordinate": null,
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "record-insufficient",
+      "positionNote": "馆方仅写荆州砖瓦厂，未给厂址、地块或墓葬位置；未定位。不能据现代同名企业地址或博物馆位置落点。",
+      "artifactIds": [
+        "jz-351"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：釉里红凤舞缠枝菊花纹盖罐",
+          "url": "http://www.jzmsm.org/news-351.html"
+        }
+      ]
+    },
+    {
+      "id": "yingjingwang",
+      "name": "郢靖王墓",
+      "city": "钟祥",
+      "coordinate": [
+        112.646389,
+        31.166389
+      ],
+      "coordinateSystem": "WGS84",
+      "positionAccuracy": "town-range",
+      "positionNote": "文保地址为钟祥九里回族乡三岔河村四组皇城湾；使用九里回族乡公开地名坐标示意乡域，非王墓中心。",
+      "artifactIds": [
+        "hb-4696"
+      ],
+      "sources": [
+        {
+          "title": "馆方器物记录：元青花四爱图梅瓶",
+          "url": "https://www.hbww.org.cn/zgzb/p/4696.html"
+        },
+        {
+          "title": "钟祥市博物馆：明代帝王文化",
+          "url": "https://www.zxbwg.cn/clzl/mddwwh"
+        },
+        {
+          "title": "2017省文保范围原件（第501项）",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/省人民政府办公厅关于公布湖北省文物保护单位保护范围和建设控制地带的通知（鄂政办发〔2017〕68号）.pdf"
+        },
+        {
+          "title": "九里回族乡地理坐标参考",
+          "url": "https://zh.wikipedia.org/wiki/九里回族乡"
+        }
+      ],
+      "sourceCoordinateSystem": "WGS84",
+      "sourceCoordinate": [
+        112.6463888888889,
+        31.16638888888889
+      ],
+      "approximateRadiusMeters": 8000
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-09-30",
+  "purpose": "本地荆楚文物地图的现代行政区划底图、位置证据与示意锚点。现代湖北边界不代表古代楚国疆域。",
+  "boundary": {
+    "file": "dist/data/hubei.geojson",
+    "source": "阿里云 DataV.GeoAtlas 公开行政区划 GeoJSON",
+    "url": "https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json",
+    "coordinateSystem": "GCJ-02",
+    "coordinateOrder": ["longitude", "latitude"],
+    "coordinateSystemEvidence": "https://help.aliyun.com/en/datav/datav-7-0/user-guide/map-data-format-1",
+    "coordinateSystemNote": "源文件未带 crs 字段；依据提供方官方 DataV 地图数据格式文档，采用 GCJ-02。与 WGS84 地形瓦片拼合须统一坐标系。",
+    "type": "FeatureCollection",
+    "featureCount": 17,
+    "coverage": "湖北省地级行政区与省直辖县级行政单元",
+    "licenseNote": "公开下载接口；本次未找到接口数据单独的再分发许可声明，保留来源归属。"
+  },
+  "countyCenterSources": [
+    {"file": "data/420600_full.geojson", "url": "https://geo.datav.aliyun.com/areas_v3/bound/420600_full.json", "coordinateSystem": "GCJ-02"},
+    {"file": "data/420800_full.geojson", "url": "https://geo.datav.aliyun.com/areas_v3/bound/420800_full.json", "coordinateSystem": "GCJ-02"},
+    {"file": "data/420900_full.geojson", "url": "https://geo.datav.aliyun.com/areas_v3/bound/420900_full.json", "coordinateSystem": "GCJ-02"},
+    {"file": "data/421200_full.geojson", "url": "https://geo.datav.aliyun.com/areas_v3/bound/421200_full.json", "coordinateSystem": "GCJ-02"}
+  ],
+  "positionPolicy": {
+    "site_approx": "由现代遗址入口或遗址范围附近的位置表示遗址群；不是出土墓坑或采集点坐标。",
+    "city": "仅核到城市；复用 DataV properties.center 作城市示意点。",
+    "county": "仅核到县级辖区；复用 DataV properties.center 作县级示意点。",
+    "unknown": "地点或城市无法可靠确认，不生成地理点。",
+    "museumLocation": "馆藏机构位置不得充当出土地。"
+  },
+  "anchors": [
+    {"id": "suizhou-leigudun", "name": "随州擂鼓墩", "coordinates": [113.350947,31.729006], "coordinateSystem": "GCJ-02", "precision": "site_approx", "coordinateSource": "https://www.amap.com/place/B0FFGHPH00", "note": "高德曾侯乙墓遗址现代 POI；代表擂鼓墩遗址范围，不能用作具体墓葬坐标。", "locationSources": ["https://www.hbww.org.cn/yjy_mtbd/p/8892.html"]},
+    {"id": "jingzhou", "name": "荆州", "coordinates": [112.23813,30.326857], "coordinateSystem": "GCJ-02", "precision": "city", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json", "note": "荆州出土地聚合展示用城市示意锚点。"},
+    {"id": "jingmen", "name": "荆门", "coordinates": [112.204251,31.03542], "coordinateSystem": "GCJ-02", "precision": "city", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json", "note": "包山、车桥等具体墓坑坐标未核实；采用荆门城市示意点。"},
+    {"id": "zhongxiang", "name": "钟祥", "coordinates": [112.587267,31.165573], "coordinateSystem": "GCJ-02", "precision": "county", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/420800_full.json", "note": "梁庄王墓与郢靖王墓均在钟祥；这是县级市示意点。", "locationSources": ["https://www.zxbwg.cn/clzl/mddwwh", "https://wlt.hubei.gov.cn/zfxxgk/fdzdgknr/qtzdgknr/jytabl/rddbjy/202008/t20200805_2742115.shtml"]},
+    {"id": "zaoyang", "name": "枣阳", "coordinates": [112.765268,32.123083], "coordinateSystem": "GCJ-02", "precision": "county", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/420600_full.json", "note": "九连墩出土地在枣阳市吴店镇；坐标仅代表枣阳辖区。", "locationSources": ["https://www.wuchang.gov.cn/zjwc/wcly/you/zmjd/202005/t20200507_1241530.html"]},
+    {"id": "xiangyang", "name": "襄阳", "coordinates": [112.144146,32.042426], "coordinateSystem": "GCJ-02", "precision": "city", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json", "note": "山湾地点用襄阳市示意点；具体采集点未核。"},
+    {"id": "tianmen", "name": "天门石家河", "coordinates": [113.165862,30.653061], "coordinateSystem": "GCJ-02", "precision": "city", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json", "note": "石家河与肖家屋脊属天门石家河遗址群；未使用馆址代表文物出土位置。", "locationSources": ["https://www.tianmen.gov.cn/zwgk/bmhxzxxgkml/xzbcy/sjhz/zfxxgk/fdzdgknr/gzdt/201802/t20180213_1964903.shtml"]},
+    {"id": "yunmeng", "name": "云梦睡虎地", "coordinates": [113.750616,31.021691], "coordinateSystem": "GCJ-02", "precision": "county", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/420900_full.json", "note": "云梦县示意点；不表示睡虎地11号墓的精确位置。", "locationSources": ["https://www.hbww.org.cn/xwdt/p/6909.html"]},
+    {"id": "panlongcheng", "name": "武汉盘龙城", "coordinates": [114.260942,30.694088], "coordinateSystem": "GCJ-02", "precision": "site_approx", "coordinateSource": "https://ditu.amap.com/place/B0FFK3GCGE", "note": "高德盘龙城国家考古遗址公园西1门位置，仅为遗址范围示意，具体采集点未核。", "locationSources": ["https://www.huangpi.gov.cn/fbjd_33/xxgkml/gysyjs/whty/ggwh/202405/P020240613582253966466.pdf", "https://www.plcsmuseum.com.cn/"]},
+    {"id": "chongyang", "name": "崇阳白霓", "coordinates": [114.049958,29.54101], "coordinateSystem": "GCJ-02", "precision": "county", "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/421200_full.json", "note": "崇阳县示意点；商代铜鼓出土于白霓镇大市一带，未核出土河岸坐标。", "locationSources": ["https://nyt.hubei.gov.cn/bmdt/yw/mtksn/202112/t20211228_3934866.shtml"]}
+  ],
+  "siteLocationEvidence": [
+    {"site": "熊家冢、马山、雨台山、天星观", "modernCity": "荆州市", "evidenceLevel": "official", "sourceTitle": "湖北省文化和旅游厅对第20170645号提案的答复", "url": "https://wlt.hubei.gov.cn/zfxxgk/fdzdgknr/qtzdgknr/jytabl/zxwyta/202008/t20200805_2742190.shtml", "supports": "答复明确这些墓群属于荆州市大遗址片区；不支持具体墓坑经纬度。"},
+    {"site": "冯家冢", "modernCity": "荆州市", "evidenceLevel": "museum_association", "sourceTitle": "中国博物馆协会：南方霸主——庄蹻故国楚文物大展", "url": "https://www.chinamuseum.org.cn/detail.html?contentId=1032&id=14", "supports": "列冯家冢墓地为荆州地区考古发现。"},
+    {"site": "藤店1号墓", "modernCity": "荆州市", "evidenceLevel": "museum_journal", "sourceTitle": "故宫博物院院刊2002年第6期第40页", "url": "https://www.dpm.org.cn/Uploads/pdf/3967/T00040_00.pdf", "supports": "表中列江陵藤店M1；正文说明原江陵相关区域现属湖北荆州市荆州区。"},
+    {"site": "望山、天星观、九店、张家山", "modernCity": "荆州市", "evidenceLevel": "official_archaeology", "sourceTitle": "湖北省文物考古研究院：湖北简牍地理", "url": "https://www.hbww.org.cn/yjy_mtbd/p/8892.html", "supports": "官方考古院网页在荆州条目下列出各地；望山在纪南城西北、九店在雨台村、张家山为荆州江陵。"},
+    {"site": "秦家咀", "modernCity": "荆州市", "evidenceLevel": "official", "sourceTitle": "湖北省文化和旅游厅：建功支点建设 践行文旅担当", "url": "https://wlt.hubei.gov.cn/bmdt/szyw/jz/202601/t20260123_5862230.shtml", "supports": "秦家嘴墓地在楚纪南城东约1公里；城市荆州。", "nameNote": "咀、嘴为来源间的字形差异，核对时须保持器物原始出土字段。"},
+    {"site": "秦家山2号墓", "modernCity": "荆州市", "evidenceLevel": "primary_reporting", "sourceTitle": "湖北日报：荆楚地理马山镇实地采访", "url": "https://news.hubeidaily.net/pc/c_2145144.html", "supports": "文中实地采访确认秦家山二号墓在荆州区马山镇；同文确认藤店、马山、望山墓群。", "bibliography": "荆州博物馆：《湖北荆州秦家山二号墓清理简报》，文物1999年第4期。"},
+    {"site": "院墙湾1号墓", "modernCity": "荆州市", "evidenceLevel": "archaeological_report_title_verified", "bibliography": "荆州博物馆：《湖北荆州院墙湾一号楚墓》，文物2008年第4期，第4—23页。", "url": "https://www.sciengine.com/doi/pdfView/2C0BE91054C44F93B6BDE715A6643D01", "supports": "学术文献参考文献核到发掘报告题名与荆州归属；未取得发掘报告坐标页，不宣称墓坑精确位置。"},
+    {"site": "凤凰山168号汉墓", "modernCity": "荆州市", "evidenceLevel": "official", "sourceTitle": "湖北省政府公报2009年第2—3期荆州博物馆馆藏介绍", "url": "https://www.hubei.gov.cn/gbhis/2009/2009-2%C2%B73.pdf", "supports": "介绍江陵凤凰山168号汉墓展；结合考古院同址凤凰山西汉简牍条目，归荆州江陵地区。", "supplementaryUrl": "https://www.hbww.org.cn/yjy_mtbd/p/8892.html"},
+    {"site": "车桥楚墓 / 兵辟太岁铜戈", "modernCity": "荆门市", "evidenceLevel": "official_and_museum", "sourceTitle": "湖北省政府公报与故宫文物介绍", "urls": ["https://www.hubei.gov.cn/gbhis/2009/2009-2%C2%B73.pdf", "https://www.dpm.org.cn/Uploads/file/2025/02/13/1739432308DfTwrZWyO260.pdf"], "supports": "两个来源均明确兵辟太岁铜戈出土于湖北荆门车桥墓地。", "correction": "荆州博物馆收藏、jz资产前缀均不能推断出土地在荆州。"},
+    {"site": "梁庄王墓", "modernCity": "荆门市钟祥市", "evidenceLevel": "official_museum", "sourceTitle": "钟祥市博物馆明代帝王文化展厅", "url": "https://www.zxbwg.cn/clzl/mddwwh", "supports": "梁庄王墓在钟祥文化与考古体系；明确与郢靖王墓并列。", "correction": "湖北省博物馆的武汉馆址不是梁庄王墓出土地；不可标成武昌/江夏。"}
+  ],
+  "remainingUnverified": ["庙兴遗址、江北农场、荆州砖瓦厂等须逐件保留原始来源字段；尚无墓坑坐标。", "山湾、包山的逐件城市归属由现有博物馆器物条目支撑时，可采用城市示意；本文件不补造精确地点。"]
+}
