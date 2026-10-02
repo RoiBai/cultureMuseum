@@ -1,9 +1,10 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000"><title>荆楚 · 器物经纬</title><link rel="icon" href="favicon.svg"><link rel="stylesheet" href="treasures.css"></head><body>
-<!-- The treasure experiments are temporarily hidden. Their implementation remains for later revision. -->
+<!-- Two revised experiences live in the object lab; the other legacy experiments remain hidden. -->
 <header class="treasure-header"><a class="return-atlas" href="index.html?return=1">← 返回时间轴</a><a class="treasure-brand" href="chimes/">编钟音乐 ↗</a></header>
 <main><p class="treasure-loading">正在返回器物档案。<a href="chimes/">探索编钟音乐 ↗</a></p></main>
 <script>
 const treasureId=new URLSearchParams(location.search).get('treasure');
+const laboratoryObjects=new Set(['drum','hb-6911']);
 const archivedObjects=new Set(['hb-4694','hb-6911','drum','hb-4696','hb-6912','hb-6915','hb-6916','hb-6914']);
-location.replace(!treasureId||treasureId==='hb-4695'?'chimes/':archivedObjects.has(treasureId)?'object.html?id='+encodeURIComponent(treasureId):'index.html?return=1');
+location.replace(laboratoryObjects.has(treasureId)?'object-lab.html?object='+encodeURIComponent(treasureId):!treasureId||treasureId==='hb-4695'?'chimes/':archivedObjects.has(treasureId)?'object.html?id='+encodeURIComponent(treasureId):'index.html?return=1');
 </script></body></html>

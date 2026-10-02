@@ -1,0 +1,861 @@
+{
+  "format": "glTF 2.0 GLB; float32 attributes, uint32 indices, embedded JPEG/PNG",
+  "source": "User-provided Tripo generated models; not measured artifact scans.",
+  "dependencyVersions": {
+    "meshoptimizer": "1.1.1",
+    "Pillow": "11.3.0",
+    "numpy": "1.26.4"
+  },
+  "method": {
+    "targetTriangles": 200000,
+    "maximumRelativeError": 0.01,
+    "attributes": [
+      "NORMAL",
+      "TEXCOORD_0"
+    ],
+    "attributeWeights": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "simplificationFlags": [],
+    "textureMaximumDimension": 2048,
+    "notes": "Preserves attribute seams and connected features using topology-aware attribute simplification; no aggressive component pruning. Normals and UVs retain original values at surviving vertices. Error is the simplifier estimate, not a scan-accuracy metric."
+  },
+  "models": [
+    {
+      "id": "dragon-ring",
+      "sourceFile": "dragon ring stand 3d model.glb",
+      "sourceGenerator": "Tripo",
+      "provenance": "User-provided Tripo image-generated model; not a measured artifact scan. The filename is not an authenticated artifact identification.",
+      "outputFile": "models/dragon-ring.glb",
+      "sourceSha256": "0fe15f9d05a8044daaf1c8f4441bfcdda4acdb82dba1d569ec869428be839a51",
+      "outputSha256": "1d1d5c46cd8873d0a7f28b25fdf9ff07dcc5bf36dfdfb1e9d4b3cd05febc653b",
+      "sourceBytes": 64714004,
+      "outputBytes": 10152208,
+      "sourceTriangles": 1852881,
+      "outputTriangles": 200000,
+      "sourceVertices": 968185,
+      "outputVertices": 117152,
+      "relativeSimplificationError": 0.0010040788911283016,
+      "absoluteSimplificationError": 0.0009766236089490121,
+      "sourceBounds": {
+        "min": [
+          -0.4274139404296875,
+          0,
+          -0.08305740356445312
+        ],
+        "max": [
+          0.4274139404296875,
+          0.97265625,
+          0.08305740356445312
+        ],
+        "size": [
+          0.854827880859375,
+          0.97265625,
+          0.16611480712890625
+        ],
+        "center": [
+          0,
+          0.486328125,
+          0
+        ],
+        "normalizationScale": 1.0281124497991967,
+        "centeredUnitBounds": {
+          "min": [
+            -0.43942959337349397,
+            -0.5,
+            -0.08539235065261044
+          ],
+          "max": [
+            0.43942959337349397,
+            0.5,
+            0.08539235065261044
+          ]
+        },
+        "groundUnitBounds": {
+          "min": [
+            -0.43942959337349397,
+            0,
+            -0.08539235065261044
+          ],
+          "max": [
+            0.43942959337349397,
+            1,
+            0.08539235065261044
+          ]
+        }
+      },
+      "outputBounds": {
+        "min": [
+          -0.4272003173828125,
+          0,
+          -0.08298873901367188
+        ],
+        "max": [
+          0.4272918701171875,
+          0.97265625,
+          0.08294296264648438
+        ],
+        "size": [
+          0.8544921875,
+          0.97265625,
+          0.16593170166015625
+        ],
+        "center": [
+          0.0000457763671875,
+          0.486328125,
+          -0.00002288818359375
+        ],
+        "normalizationScale": 1.0281124497991967,
+        "centeredUnitBounds": {
+          "min": [
+            -0.4392570281124498,
+            -0.5,
+            -0.08529822414658635
+          ],
+          "max": [
+            0.4392570281124498,
+            0.5,
+            0.08529822414658635
+          ]
+        },
+        "groundUnitBounds": {
+          "min": [
+            -0.4392570281124498,
+            0,
+            -0.08529822414658635
+          ],
+          "max": [
+            0.4392570281124498,
+            1,
+            0.08529822414658635
+          ]
+        }
+      },
+      "radialProfileByHeight": [
+        {
+          "heightFraction": [
+            0,
+            0.03125
+          ],
+          "vertices": 769,
+          "maximumRadius": 0.3202211810011822
+        },
+        {
+          "heightFraction": [
+            0.03125,
+            0.0625
+          ],
+          "vertices": 1884,
+          "maximumRadius": 0.3248625356547517
+        },
+        {
+          "heightFraction": [
+            0.0625,
+            0.09375
+          ],
+          "vertices": 1559,
+          "maximumRadius": 0.3208640731729353
+        },
+        {
+          "heightFraction": [
+            0.09375,
+            0.125
+          ],
+          "vertices": 1202,
+          "maximumRadius": 0.3690211754011371
+        },
+        {
+          "heightFraction": [
+            0.125,
+            0.15625
+          ],
+          "vertices": 2047,
+          "maximumRadius": 0.42388305041059277
+        },
+        {
+          "heightFraction": [
+            0.15625,
+            0.1875
+          ],
+          "vertices": 8247,
+          "maximumRadius": 0.42382862176754554
+        },
+        {
+          "heightFraction": [
+            0.1875,
+            0.21875
+          ],
+          "vertices": 8500,
+          "maximumRadius": 0.4016243538610688
+        },
+        {
+          "heightFraction": [
+            0.21875,
+            0.25
+          ],
+          "vertices": 6467,
+          "maximumRadius": 0.3797889716803622
+        },
+        {
+          "heightFraction": [
+            0.25,
+            0.28125
+          ],
+          "vertices": 5213,
+          "maximumRadius": 0.2985908267080947
+        },
+        {
+          "heightFraction": [
+            0.28125,
+            0.3125
+          ],
+          "vertices": 6093,
+          "maximumRadius": 0.3291135477148392
+        },
+        {
+          "heightFraction": [
+            0.3125,
+            0.34375
+          ],
+          "vertices": 3325,
+          "maximumRadius": 0.3390199423150256
+        },
+        {
+          "heightFraction": [
+            0.34375,
+            0.375
+          ],
+          "vertices": 2522,
+          "maximumRadius": 0.34320150949470596
+        },
+        {
+          "heightFraction": [
+            0.375,
+            0.40625
+          ],
+          "vertices": 2753,
+          "maximumRadius": 0.33800421973888456
+        },
+        {
+          "heightFraction": [
+            0.40625,
+            0.4375
+          ],
+          "vertices": 3128,
+          "maximumRadius": 0.3105064133887483
+        },
+        {
+          "heightFraction": [
+            0.4375,
+            0.46875
+          ],
+          "vertices": 5647,
+          "maximumRadius": 0.3275183501371956
+        },
+        {
+          "heightFraction": [
+            0.46875,
+            0.5
+          ],
+          "vertices": 5029,
+          "maximumRadius": 0.33566377995703267
+        },
+        {
+          "heightFraction": [
+            0.5,
+            0.53125
+          ],
+          "vertices": 4846,
+          "maximumRadius": 0.3369518918881227
+        },
+        {
+          "heightFraction": [
+            0.53125,
+            0.5625
+          ],
+          "vertices": 3221,
+          "maximumRadius": 0.3387867476319088
+        },
+        {
+          "heightFraction": [
+            0.5625,
+            0.59375
+          ],
+          "vertices": 1540,
+          "maximumRadius": 0.336396079654129
+        },
+        {
+          "heightFraction": [
+            0.59375,
+            0.625
+          ],
+          "vertices": 2378,
+          "maximumRadius": 0.3227771356860914
+        },
+        {
+          "heightFraction": [
+            0.625,
+            0.65625
+          ],
+          "vertices": 5487,
+          "maximumRadius": 0.31211712938671826
+        },
+        {
+          "heightFraction": [
+            0.65625,
+            0.6875
+          ],
+          "vertices": 4935,
+          "maximumRadius": 0.2985176558792629
+        },
+        {
+          "heightFraction": [
+            0.6875,
+            0.71875
+          ],
+          "vertices": 3253,
+          "maximumRadius": 0.2822840511091704
+        },
+        {
+          "heightFraction": [
+            0.71875,
+            0.75
+          ],
+          "vertices": 3117,
+          "maximumRadius": 0.27405638374902047
+        },
+        {
+          "heightFraction": [
+            0.75,
+            0.78125
+          ],
+          "vertices": 1594,
+          "maximumRadius": 0.2688297453729845
+        },
+        {
+          "heightFraction": [
+            0.78125,
+            0.8125
+          ],
+          "vertices": 1845,
+          "maximumRadius": 0.2780766480623138
+        },
+        {
+          "heightFraction": [
+            0.8125,
+            0.84375
+          ],
+          "vertices": 2453,
+          "maximumRadius": 0.3124249149748258
+        },
+        {
+          "heightFraction": [
+            0.84375,
+            0.875
+          ],
+          "vertices": 3757,
+          "maximumRadius": 0.347170896207419
+        },
+        {
+          "heightFraction": [
+            0.875,
+            0.90625
+          ],
+          "vertices": 2978,
+          "maximumRadius": 0.376310641989215
+        },
+        {
+          "heightFraction": [
+            0.90625,
+            0.9375
+          ],
+          "vertices": 4164,
+          "maximumRadius": 0.42368465455051446
+        },
+        {
+          "heightFraction": [
+            0.9375,
+            0.96875
+          ],
+          "vertices": 5129,
+          "maximumRadius": 0.4272504736208579
+        },
+        {
+          "heightFraction": [
+            0.96875,
+            1
+          ],
+          "vertices": 2070,
+          "maximumRadius": 0.40731888263377813
+        }
+      ],
+      "textures": [
+        {
+          "index": 0,
+          "mimeType": "image/jpeg",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            2048,
+            2048
+          ],
+          "sourceBytes": 4043570,
+          "bytes": 1257671,
+          "normalVectorsRenormalized": false
+        },
+        {
+          "index": 1,
+          "mimeType": "image/jpeg",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            2048,
+            2048
+          ],
+          "sourceBytes": 1836555,
+          "bytes": 715996,
+          "normalVectorsRenormalized": false
+        },
+        {
+          "index": 2,
+          "mimeType": "image/png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            2048,
+            2048
+          ],
+          "sourceBytes": 5615357,
+          "bytes": 2027864,
+          "normalVectorsRenormalized": true
+        }
+      ]
+    },
+    {
+      "id": "bronze-vessel",
+      "sourceFile": "ancient bronze vessel 3d model.glb",
+      "sourceGenerator": "Tripo",
+      "provenance": "User-provided Tripo image-generated model; not a measured artifact scan. The filename is not an authenticated artifact identification.",
+      "outputFile": "models/bronze-vessel.glb",
+      "sourceSha256": "f8c1488f13c187f10785dd5bdfedbf5581a475e96901e432a0313613d8de37e8",
+      "outputSha256": "f8c51204262ed073fbed6624fe50f9fb903f4fddf5ed8fdb77e18bdb0df8a811",
+      "sourceBytes": 63471812,
+      "outputBytes": 10707824,
+      "sourceTriangles": 1743386,
+      "outputTriangles": 199985,
+      "sourceVertices": 995015,
+      "outputVertices": 150592,
+      "relativeSimplificationError": 0.003844727063551545,
+      "absoluteSimplificationError": 0.0037657627900600232,
+      "sourceBounds": {
+        "min": [
+          -0.4897308349609375,
+          0,
+          -0.4895782470703125
+        ],
+        "max": [
+          0.4897308349609375,
+          0.752288818359375,
+          0.4895782470703125
+        ],
+        "size": [
+          0.979461669921875,
+          0.752288818359375,
+          0.979156494140625
+        ],
+        "center": [
+          0,
+          0.3761444091796875,
+          0
+        ],
+        "normalizationScale": 1.0209689982863375,
+        "centeredUnitBounds": {
+          "min": [
+            -0.5,
+            -0.38403178065119176,
+            -0.49984421249415795
+          ],
+          "max": [
+            0.5,
+            0.38403178065119176,
+            0.49984421249415795
+          ]
+        },
+        "groundUnitBounds": {
+          "min": [
+            -0.5,
+            0,
+            -0.49984421249415795
+          ],
+          "max": [
+            0.5,
+            0.7680635613023835,
+            0.49984421249415795
+          ]
+        }
+      },
+      "outputBounds": {
+        "min": [
+          -0.4897308349609375,
+          0.000091552734375,
+          -0.4889373779296875
+        ],
+        "max": [
+          0.4896087646484375,
+          0.751678466796875,
+          0.4894866943359375
+        ],
+        "size": [
+          0.979339599609375,
+          0.7515869140625,
+          0.978424072265625
+        ],
+        "center": [
+          -0.00006103515625,
+          0.375885009765625,
+          0.000274658203125
+        ],
+        "normalizationScale": 1.021096257517684,
+        "centeredUnitBounds": {
+          "min": [
+            -0.5,
+            -0.383721292574242,
+            -0.4995325792278209
+          ],
+          "max": [
+            0.5,
+            0.383721292574242,
+            0.4995325792278209
+          ]
+        },
+        "groundUnitBounds": {
+          "min": [
+            -0.5,
+            0,
+            -0.4995325792278209
+          ],
+          "max": [
+            0.5,
+            0.767442585148484,
+            0.4995325792278209
+          ]
+        }
+      },
+      "radialProfileByHeight": [
+        {
+          "heightFraction": [
+            0,
+            0.03125
+          ],
+          "vertices": 1047,
+          "maximumRadius": 0.4639368801719402
+        },
+        {
+          "heightFraction": [
+            0.03125,
+            0.0625
+          ],
+          "vertices": 2390,
+          "maximumRadius": 0.47383370815987735
+        },
+        {
+          "heightFraction": [
+            0.0625,
+            0.09375
+          ],
+          "vertices": 830,
+          "maximumRadius": 0.4624377732738278
+        },
+        {
+          "heightFraction": [
+            0.09375,
+            0.125
+          ],
+          "vertices": 158,
+          "maximumRadius": 0.4062465000201464
+        },
+        {
+          "heightFraction": [
+            0.125,
+            0.15625
+          ],
+          "vertices": 1345,
+          "maximumRadius": 0.4910639200103204
+        },
+        {
+          "heightFraction": [
+            0.15625,
+            0.1875
+          ],
+          "vertices": 5533,
+          "maximumRadius": 0.4912092713342475
+        },
+        {
+          "heightFraction": [
+            0.1875,
+            0.21875
+          ],
+          "vertices": 5796,
+          "maximumRadius": 0.48143290165962005
+        },
+        {
+          "heightFraction": [
+            0.21875,
+            0.25
+          ],
+          "vertices": 3352,
+          "maximumRadius": 0.47954891609323125
+        },
+        {
+          "heightFraction": [
+            0.25,
+            0.28125
+          ],
+          "vertices": 3606,
+          "maximumRadius": 0.4814230141990401
+        },
+        {
+          "heightFraction": [
+            0.28125,
+            0.3125
+          ],
+          "vertices": 2828,
+          "maximumRadius": 0.4813133314990807
+        },
+        {
+          "heightFraction": [
+            0.3125,
+            0.34375
+          ],
+          "vertices": 5635,
+          "maximumRadius": 0.4872026645521875
+        },
+        {
+          "heightFraction": [
+            0.34375,
+            0.375
+          ],
+          "vertices": 3635,
+          "maximumRadius": 0.4862927920020007
+        },
+        {
+          "heightFraction": [
+            0.375,
+            0.40625
+          ],
+          "vertices": 4543,
+          "maximumRadius": 0.48599215690805353
+        },
+        {
+          "heightFraction": [
+            0.40625,
+            0.4375
+          ],
+          "vertices": 2435,
+          "maximumRadius": 0.4872026534281125
+        },
+        {
+          "heightFraction": [
+            0.4375,
+            0.46875
+          ],
+          "vertices": 5417,
+          "maximumRadius": 0.49465894022550294
+        },
+        {
+          "heightFraction": [
+            0.46875,
+            0.5
+          ],
+          "vertices": 14842,
+          "maximumRadius": 0.5085417098338996
+        },
+        {
+          "heightFraction": [
+            0.5,
+            0.53125
+          ],
+          "vertices": 14293,
+          "maximumRadius": 0.5089817435419465
+        },
+        {
+          "heightFraction": [
+            0.53125,
+            0.5625
+          ],
+          "vertices": 9619,
+          "maximumRadius": 0.5100474707217478
+        },
+        {
+          "heightFraction": [
+            0.5625,
+            0.59375
+          ],
+          "vertices": 5285,
+          "maximumRadius": 0.5107136591807296
+        },
+        {
+          "heightFraction": [
+            0.59375,
+            0.625
+          ],
+          "vertices": 523,
+          "maximumRadius": 0.18116244819794905
+        },
+        {
+          "heightFraction": [
+            0.625,
+            0.65625
+          ],
+          "vertices": 531,
+          "maximumRadius": 0.1601258480562948
+        },
+        {
+          "heightFraction": [
+            0.65625,
+            0.6875
+          ],
+          "vertices": 758,
+          "maximumRadius": 0.16374067121499025
+        },
+        {
+          "heightFraction": [
+            0.6875,
+            0.71875
+          ],
+          "vertices": 724,
+          "maximumRadius": 0.1563591138073481
+        },
+        {
+          "heightFraction": [
+            0.71875,
+            0.75
+          ],
+          "vertices": 555,
+          "maximumRadius": 0.14877418636496975
+        },
+        {
+          "heightFraction": [
+            0.75,
+            0.78125
+          ],
+          "vertices": 841,
+          "maximumRadius": 0.21841951018290676
+        },
+        {
+          "heightFraction": [
+            0.78125,
+            0.8125
+          ],
+          "vertices": 1067,
+          "maximumRadius": 0.2008370132014579
+        },
+        {
+          "heightFraction": [
+            0.8125,
+            0.84375
+          ],
+          "vertices": 1329,
+          "maximumRadius": 0.20570221865633362
+        },
+        {
+          "heightFraction": [
+            0.84375,
+            0.875
+          ],
+          "vertices": 2091,
+          "maximumRadius": 0.20608692731935901
+        },
+        {
+          "heightFraction": [
+            0.875,
+            0.90625
+          ],
+          "vertices": 2408,
+          "maximumRadius": 0.23155516566629455
+        },
+        {
+          "heightFraction": [
+            0.90625,
+            0.9375
+          ],
+          "vertices": 9262,
+          "maximumRadius": 0.23242446578898496
+        },
+        {
+          "heightFraction": [
+            0.9375,
+            0.96875
+          ],
+          "vertices": 8606,
+          "maximumRadius": 0.23331779562021432
+        },
+        {
+          "heightFraction": [
+            0.96875,
+            1
+          ],
+          "vertices": 29308,
+          "maximumRadius": 0.23276039833194698
+        }
+      ],
+      "textures": [
+        {
+          "index": 0,
+          "mimeType": "image/jpeg",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            2048,
+            2048
+          ],
+          "sourceBytes": 4815093,
+          "bytes": 1365979,
+          "normalVectorsRenormalized": false
+        },
+        {
+          "index": 1,
+          "mimeType": "image/jpeg",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            2048,
+            2048
+          ],
+          "sourceBytes": 2188876,
+          "bytes": 810555,
+          "normalVectorsRenormalized": false
+        },
+        {
+          "index": 2,
+          "mimeType": "image/png",
+          "sourceSize": [
+            4096,
+            4096
+          ],
+          "size": [
+            2048,
+            2048
+          ],
+          "sourceBytes": 3704685,
+          "bytes": 1310677,
+          "normalVectorsRenormalized": true
+        }
+      ]
+    }
+  ]
+}

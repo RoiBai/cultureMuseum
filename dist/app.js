@@ -147,13 +147,13 @@ function choose(key,value,exclusive=false){
  refresh();
 }
 function closeDialog(id){$(id).close()}
-function rememberAtlas(){
+function rememberAtlasContext(){
  const state={view,selected:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),groupDimension,
    scrollTop:$('atlas-scroll').scrollTop,three:atlas3d?.navigationState(),map:culturalMap?.navigationState(),xyz:spatialViews.xyz?.navigationState(),particles:spatialViews.particles?.navigationState()};
  try{sessionStorage.setItem('jingchu-atlas-return',JSON.stringify(state))}catch{}
 }
 function detail(a){
- if(!a)return;rememberAtlas();
+ if(!a)return;rememberAtlasContext();
  location.assign('object.html?id='+encodeURIComponent(a.id));
 }
 
@@ -262,6 +262,6 @@ try{
 
  const requestedView=new URLSearchParams(location.search).get('view');if(['map','xyz','particles'].includes(requestedView))await switchView(requestedView);
  const requestedObject=new URLSearchParams(location.search).get('object');if(requestedView==='particles'&&spatialViews.particles&&artifacts.some(a=>a.id===requestedObject)){spatialViews.particles.select.value=requestedObject;spatialViews.particles.summon()}
- document.querySelectorAll('.workshop-link,.treasures-link').forEach(a=>a.addEventListener('click',rememberAtlas));
+ document.querySelectorAll('.workshop-link,.treasures-link,.lab-link').forEach(a=>a.addEventListener('click',rememberAtlasContext));
  window.jingchuTimeline={getState:()=>({count:artifacts.length,matchedIds:[...matchIds],filters:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),positions:Object.fromEntries(positions),paths:activePaths,imageFailures,cities,width,height,eraRows,displayRows}),artifacts};
 }catch(error){$('loading').textContent=error.message+'，请刷新页面重试。';document.body.dataset.error='true';console.error(error)}
