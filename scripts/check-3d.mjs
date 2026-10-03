@@ -8,7 +8,7 @@ const data=JSON.parse(fs.readFileSync(new URL('../dist/data/artifacts.json',impo
 const eraIds=['neolithic','shang','zhou','spring','warring','qin','han','jin','northsouth','sui','tang','five','song','yuan','ming','qing','modern'];
 const eras=eraIds.map(id=>[id,id,id,id]);
 const archive=arrangeArchive(data,eras);
-assert.equal(archive.positions.size,147);
+assert.equal(archive.positions.size,data.length);
 assert.equal(archive.eras.length,15,'Omit eras without records');
 assert(archive.groups.every(g=>g.ids.length>0&&g.ids.length<=4),'Reading groups contain at most four artifacts');
 assert.equal(new Set(archive.groups.flatMap(g=>g.ids)).size,data.length,'Every record belongs to one reading group');

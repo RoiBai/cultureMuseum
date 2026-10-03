@@ -1,0 +1,18 @@
+{
+  "pages": 301,
+  "sourceSHA256": "2efedc9ca0fde052c2dd0d809a9e8722c86981d85394c227df493bc03247d0c4",
+  "objects": 391,
+  "objectKinds": {
+    "artifact": 65,
+    "object-family": 167,
+    "document": 55,
+    "site": 27,
+    "architecture": 30,
+    "contemporary": 47
+  },
+  "motifs": 236,
+  "passages": 889,
+  "textEvidenceChecked": 2658,
+  "visualEvidenceChecked": 21,
+  "quoteFailures": 0
+}

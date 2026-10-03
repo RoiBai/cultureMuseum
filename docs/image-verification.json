@@ -1,11 +1,12 @@
 {
-  "records": 147,
-  "transparentForegrounds": 147,
+  "records": 149,
+  "transparentForegrounds": 146,
+  "retainedOriginalImages": 3,
   "originalHashesUnchanged": true,
   "opaqueRGBUnchanged": true,
-  "palettesMatchForeground": true,
+  "palettesMatchReviewedImageSamples": true,
   "goldBrightnessAndChromaChecked": true,
   "whiteGlazePreserved": true,
-  "detailAperturesChecked": 449,
+  "detailAperturesChecked": 456,
   "minimumForegroundCoverage": 0.137
 }

@@ -7,3 +7,6 @@ body[data-view=xyz] .intro,body[data-view=particles] .intro{display:none}body[da
 @media(prefers-reduced-motion:reduce){.spatial-panel *{transition:none!important;animation:none!important}}
 
 @media(max-width:760px){.cloud-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(112px,.8fr)}.cloud-controls label{max-width:100%;min-width:0}.cloud-controls .summon{height:40px;font-size:11px;padding:10px}.cloud-controls .summon span{margin-left:3px}.xyz-label-city{font-size:8px}.xyz-label-era{font-size:9px}}
+
+/* The book is a separately searchable source archive; unknown dates do not enter the atlas. */
+.book-link{font-size:12px;color:var(--gold,#b2a17b);text-decoration:none;white-space:nowrap;padding:7px 0}.toolbar>.book-link{border-bottom:1px solid #b2a17b75}.book-link:hover,.book-link:focus-visible{color:var(--ink,#e7e5d2)}.book-search-link{margin-right:auto;font-size:11px}@media(max-width:760px){.toolbar>.book-link{font-size:10px}.book-search-link{font-size:9px}.pan-toolbar{flex-wrap:wrap}.pan-toolbar .book-search-link{flex-basis:100%;padding:0}}

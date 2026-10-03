@@ -1,7 +1,7 @@
 {
-  "artifacts": 147,
-  "regions": 613,
-  "comparisonCases": 939,
+  "artifacts": 149,
+  "regions": 623,
+  "comparisonCases": 959,
   "flowers": 12,
   "birds": 30,
   "passed": true

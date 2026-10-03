@@ -262,6 +262,6 @@ try{
 
  const requestedView=new URLSearchParams(location.search).get('view');if(['map','xyz','particles'].includes(requestedView))await switchView(requestedView);
  const requestedObject=new URLSearchParams(location.search).get('object');if(requestedView==='particles'&&spatialViews.particles&&artifacts.some(a=>a.id===requestedObject)){spatialViews.particles.select.value=requestedObject;spatialViews.particles.summon()}
- document.querySelectorAll('.workshop-link,.treasures-link,.lab-link').forEach(a=>a.addEventListener('click',rememberAtlasContext));
+ document.querySelectorAll('.workshop-link,.treasures-link,.lab-link,.book-link').forEach(a=>a.addEventListener('click',rememberAtlasContext));
  window.jingchuTimeline={getState:()=>({count:artifacts.length,matchedIds:[...matchIds],filters:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),positions:Object.fromEntries(positions),paths:activePaths,imageFailures,cities,width,height,eraRows,displayRows}),artifacts};
 }catch(error){$('loading').textContent=error.message+'，请刷新页面重试。';document.body.dataset.error='true';console.error(error)}

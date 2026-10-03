@@ -9,9 +9,9 @@ assert(new Set(data.map(a=>a.id)).size===data.length,'Artifact IDs are unique');
 for(const a of data){
   assert(allowedEras.has(a.era),a.id+' has a supported era');
   for(const k of ['title','period','city','place','collection','source','material','paletteMethod'])assert(a[k],a.id+' missing '+k);
-  assert(/^https?:\/\/(www\.)?(hbww\.org\.cn|jzmsm\.org|hbsbwg\.cjyun\.org)\//.test(a.source),a.id+' has primary museum source');
+  assert(/^https?:\/\/(www\.)?(hbww\.org\.cn|jzmsm\.org|hbsbwg\.cjyun\.org|chnmus\.net|si\.edu)\//.test(a.source),a.id+' has primary museum source');
   assert(fs.existsSync(new URL(a.image,root)),a.id+' image exists');
-  assert(a.displayImage&&fs.existsSync(new URL(a.displayImage,root)),a.id+' transparent foreground exists');
+  assert(a.displayImage&&fs.existsSync(new URL(a.displayImage,root)),a.id+' reviewed display image exists');
   if(a.mask)assert(fs.existsSync(new URL(a.mask,root)),a.id+' mask exists');
   assert(a.palette.length>0&&a.palette.every(c=>/^#[a-f0-9]{6}$/i.test(c.hex)),a.id+' measured photo palette');
   assert(a.crafts.length&&a.craftEvidence.length===a.crafts.length,a.id+' craft provenance');

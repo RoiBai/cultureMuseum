@@ -1,8 +1,8 @@
 {
   "passed": true,
-  "records": 147,
+  "records": 149,
   "eras": 15,
-  "featureCases": 67,
+  "featureCases": 70,
   "diagonal": "earliest lower-left to latest upper-right",
   "warringGroups": 21,
   "qingGroups": 5,

@@ -4541,49 +4541,52 @@
         "id": "motif-车马",
         "dimension": "motifs",
         "value": "车马",
-        "basis": "馆方记录与照片观察",
-        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
         "rect": [
-          0.07,
-          0.25,
-          0.6,
-          0.56
+          0.15,
+          0.46,
+          0.64,
+          0.25
         ],
-        "label": "车马形象",
-        "note": "从车马和人物的位置关系观察漆画叙事。",
-        "view": "detail"
+        "label": "器壁人物叙事",
+        "note": "完整器貌显示器壁连续画带；这一侧可见人物，马车等细节另见保留的原馆方局部图。",
+        "view": "context",
+        "basis": "馆方记录与完整照片对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "revision": 2
       },
       {
         "id": "craft-彩绘",
         "dimension": "crafts",
         "value": "彩绘",
         "rect": [
-          0.07,
-          0.25,
-          0.6,
-          0.56
+          0.23,
+          0.14,
+          0.54,
+          0.31
         ],
-        "label": "彩绘 · 器表细节",
-        "note": "观察这一部位的表面、线条与连接。工艺名称来自馆方记录。",
-        "view": "surface",
-        "basis": "记录明示",
-        "source": "https://www.hbww.org.cn/zgzb/p/6914.html"
+        "label": "盖面彩绘",
+        "note": "观察盖面回旋图形与环带的关系，书中完整图不替代原馆方局部档案。",
+        "view": "detail",
+        "basis": "馆方记录与完整照片对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "revision": 2
       },
       {
         "id": "surface",
         "dimension": "surface",
-        "value": "待核",
+        "value": "漆器",
         "rect": [
-          0.22,
-          0.2,
-          0.56,
-          0.58
+          0.17,
+          0.4,
+          0.64,
+          0.29
         ],
-        "label": "器表与色彩",
-        "note": "观察局部色差、光泽与表面状态；照片颜色受光线与保存状况影响。",
+        "label": "器壁色彩取样区",
+        "note": "仅从器壁内部取样，未将白色摄影背景混入综合色谱。",
         "view": "surface",
-        "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/zgzb/p/6914.html"
+        "basis": "书内图像观察",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "revision": 2
       },
       {
         "id": "form",
@@ -4595,11 +4598,12 @@
           1,
           1
         ],
-        "label": "器形全貌",
-        "note": "保留整件器物的外形、比例与各部位关系。",
+        "label": "图像全貌",
+        "note": "保留书内图像全部内容；图像性质与来源见图注。",
         "view": "form",
-        "basis": "照片观察",
-        "source": "https://www.hbww.org.cn/zgzb/p/6914.html"
+        "basis": "书内图像观察",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "revision": 2
       }
     ],
     "jz-359": [
@@ -10142,6 +10146,180 @@
         "view": "form",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/tcq/p/6170.html"
+      }
+    ],
+    "chu-silk-manuscript": [
+      {
+        "id": "motif-人像",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.38,
+          0.75,
+          0.2,
+          0.24
+        ],
+        "label": "摹本下边神异形象",
+        "note": "观察摹本中形象与文字的相对位置，不能用来判断原件的颜料。",
+        "view": "detail",
+        "basis": "书内图像观察",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "revision": 2
+      },
+      {
+        "id": "craft-书写",
+        "dimension": "crafts",
+        "value": "书写",
+        "rect": [
+          0.47,
+          0.18,
+          0.34,
+          0.53
+        ],
+        "label": "中央文字布局",
+        "note": "这是摹本中的文字布局；字迹笔触与保存状态须回到原件或可靠高清图。",
+        "view": "detail",
+        "basis": "文物部门资料与摹本观察",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "revision": 2
+      },
+      {
+        "id": "craft-彩绘",
+        "dimension": "crafts",
+        "value": "彩绘",
+        "rect": [
+          0.01,
+          0.56,
+          0.2,
+          0.26
+        ],
+        "label": "摹本图色",
+        "note": "展示图文组合中的红黑图形；此处观察对象是摹本。",
+        "view": "detail",
+        "basis": "书内图像观察",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "revision": 2
+      },
+      {
+        "id": "form",
+        "dimension": "form",
+        "value": "全貌",
+        "rect": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "图像全貌",
+        "note": "保留书内图像全部内容；图像性质与来源见图注。",
+        "view": "form",
+        "basis": "书内图像观察",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "revision": 2
+      }
+    ],
+    "wangziwu-ding": [
+      {
+        "id": "motif-龙蛇",
+        "dimension": "motifs",
+        "value": "龙蛇",
+        "rect": [
+          0.4,
+          0.21,
+          0.17,
+          0.4
+        ],
+        "label": "攀附器壁的兽形",
+        "note": "馆方记载六条昂首卷尾的附壁兽形，观察其与器口、器腹的连接。",
+        "view": "detail",
+        "basis": "馆方记录与照片观察",
+        "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+        "revision": 2
+      },
+      {
+        "id": "motif-几何",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.22,
+          0.55,
+          0.49,
+          0.11
+        ],
+        "label": "腹部纹带",
+        "note": "观察器腹的重复纹样与水平分区。",
+        "view": "detail",
+        "basis": "书内图像观察",
+        "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+        "revision": 2
+      },
+      {
+        "id": "motif-铭文",
+        "dimension": "motifs",
+        "value": "铭文",
+        "rect": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "内壁铭文（此图未展示）",
+        "note": "馆方记载内壁及底部有铭文；该展柜照片不呈现器内，不能据此裁取铭文。",
+        "view": "unseen",
+        "basis": "馆方记录",
+        "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+        "revision": 2
+      },
+      {
+        "id": "craft-铸造",
+        "dimension": "crafts",
+        "value": "铸造",
+        "rect": [
+          0.36,
+          0.22,
+          0.26,
+          0.37
+        ],
+        "label": "附兽与器身",
+        "note": "馆方记载附兽使用失蜡法；照片仅用于形态定位，不独立证明工艺。",
+        "view": "context",
+        "basis": "馆方记录",
+        "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+        "revision": 2
+      },
+      {
+        "id": "craft-浮雕",
+        "dimension": "crafts",
+        "value": "浮雕",
+        "rect": [
+          0.19,
+          0.21,
+          0.25,
+          0.13
+        ],
+        "label": "器表起伏纹饰",
+        "note": "观察纹带起伏；工艺名称依据馆方记录。",
+        "view": "detail",
+        "basis": "馆方记录",
+        "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+        "revision": 2
+      },
+      {
+        "id": "form",
+        "dimension": "form",
+        "value": "全貌",
+        "rect": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "图像全貌",
+        "note": "保留书内图像全部内容；图像性质与来源见图注。",
+        "view": "form",
+        "basis": "书内图像观察",
+        "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+        "revision": 2
       }
     ]
   }
