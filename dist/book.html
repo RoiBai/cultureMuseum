@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#080d0b">
   <title>纹样探索 · 荆楚</title>
   <link rel="icon" href="favicon.svg">
-  <link rel="stylesheet" href="book.css">
+  <link rel="stylesheet" href="book.css?v=20261004">
 </head>
 <body>
   <a class="skip-link" href="#catalog">跳到探索内容</a>
@@ -16,7 +16,7 @@
   </header>
   <main>
     <section class="book-opening" aria-labelledby="book-title">
-      <div><p class="eyebrow">纹样 · 器物 · 书中原文</p><h1 id="book-title">循着纹样，<br>回到文字之间。</h1><p class="opening-note">从凤鸟、云气与赤黑的线索出发。<br>点击名字，展开书中的原文，读它如何与器物相连。</p></div>
+      <div><p class="eyebrow">纹样 · 器物 · 书中解读</p><h1 id="book-title">循着纹样，<br>回到文字之间。</h1><p class="opening-note">从凤鸟、云气与赤黑的线索出发。<br>点开一条线索，读一段讲解，看看它与器物的关系。</p></div>
       <div class="book-source"><span class="source-mark" aria-hidden="true">书</span><p class="eyebrow">阅读来源</p><h2 id="source-title">荆楚有色</h2><p id="source-subtitle">大江大湖间的符号、色彩与文化记忆</p><dl class="book-counts"><div><dt>纹样与文化线索</dt><dd id="motif-total">—</dd></div><div><dt>书中对象</dt><dd id="object-total">—</dd></div><div><dt>已核读页数</dt><dd id="page-total">—</dd></div></dl></div>
     </section>
     <section class="explorer" id="catalog" aria-label="纹样与文化线索、书中器物">
@@ -25,7 +25,7 @@
         <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span class="sr-only" id="search-label">检索纹样与文化线索</span><input id="book-search" type="search" placeholder="搜纹样、意象或别名" aria-labelledby="search-label" autocomplete="off"><button type="button" id="clear-search" aria-label="清空搜索" hidden>×</button></label>
       </div>
       <div class="catalog-layout">
-        <aside class="catalog-sidebar"><p class="eyebrow" id="category-title">循一条线索</p><div id="category-filters" class="category-filters" role="group" aria-labelledby="category-title"></div><p class="sidebar-note" id="sidebar-note">每条原文保留书中措辞，<br>页码随文标注。</p></aside>
+        <aside class="catalog-sidebar"><p class="eyebrow" id="category-title">循一条线索</p><div id="category-filters" class="category-filters" role="group" aria-labelledby="category-title"></div><p class="sidebar-note" id="sidebar-note">将书中内容整理成讲解，<br>配图与页码相随。</p></aside>
         <div id="catalog-panel" role="tabpanel" aria-labelledby="tab-motifs">
           <div class="results-heading"><p id="result-count" role="status" aria-live="polite">正在整理书中线索…</p><button type="button" id="reset-filters" hidden>清除筛选 ↺</button></div>
           <div id="catalog-results" class="motif-grid" aria-busy="true"><p class="loading">正在迎入书中文字…</p></div>
@@ -36,6 +36,6 @@
     <details class="coverage" id="coverage"><summary><span><span class="eyebrow">READING INDEX / 逐页索引</span><strong>全书页码核读记录</strong></span><span id="coverage-status">正在读取…</span><i aria-hidden="true">＋</i></summary><div class="coverage-body"><p>下列数字为 PDF 页序；悬停或聚焦可查看对应书内页码。封面、目录、正文和参考文献均保留记录。</p><div class="coverage-legend"><span><i></i>已核读</span><span><i class="reference"></i>参考文献</span><span><i class="frontmatter"></i>封面与目录等</span></div><div class="page-index" id="page-index"></div></div></details>
   </main>
   <footer class="book-footer"><span>荆楚 / 器物经纬</span><p>让一条纹样，带回它的文字与语境。</p><a href="#book-title">回到上方 ↑</a></footer>
-  <script type="module" src="book.js"></script>
+  <script type="module" src="book.js?v=20261004"></script>
 </body>
 </html>

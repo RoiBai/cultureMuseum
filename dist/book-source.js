@@ -1,3 +1,4 @@
+import {loadBookSummaries,readingFor,editorialHTML} from './book-editorial.js';
 let indexPromise;
 const list=value=>Array.isArray(value)?value:[];
 export const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -8,7 +9,7 @@ export function loadBookIndex(){
  if(!indexPromise)indexPromise=fetch(new URL('./data/book-index.json',import.meta.url),{cache:'no-cache'}).then(response=>{if(!response.ok)throw new Error('书籍索引暂时无法载入');return response.json()}).then(index=>{if(!index.source||!Array.isArray(index.objects)||!Array.isArray(index.passages)||!Array.isArray(index.motifs))throw new Error('书籍索引格式不完整');return index}).catch(error=>{indexPromise=undefined;throw error});
  return indexPromise;
 }
-function ensureStyles(){if(!document.querySelector('link[data-book-source-styles]')){const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('./book-source.css',import.meta.url).href;link.dataset.bookSourceStyles='';document.head.append(link)}}
+function ensureStyles(){if(!document.querySelector('link[data-book-source-styles]')){const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('./book-source.css?v=20261004',import.meta.url).href;link.dataset.bookSourceStyles='';document.head.append(link)}}
 export function passagePages(passage){const values=list(passage.sourcePages).length?passage.sourcePages:list(passage.quoteParts).length?passage.quoteParts.map(part=>part.pdfPage):[passage.pdfPage];return [...new Set(values.filter(value=>value!==undefined&&value!==null&&value!==''))]}
 const pageText=values=>values.length?values.map(String).join('、'):'未标注';
 export function pageReference(passage,index){
@@ -58,18 +59,20 @@ export function renderBookFigure(host,object,index,options){
  const caption=document.createElement('figcaption'),title=document.createElement('span');title.textContent=image.caption||image.label;caption.append(title);
  if(image.pdfPage!==undefined){const pages=document.createElement('small');pages.textContent=pageReference(image,index);caption.append(pages)}
  if(image.provenance){const note=document.createElement('small');note.textContent=image.provenance;caption.append(note)}
- picture.addEventListener('error',()=>{picture.remove();const missing=document.createElement('p');missing.className='bk-image-missing';missing.textContent='这张索引配图暂时未能载入。原文与页码仍可在下方阅读。';figure.prepend(missing)},{once:true});figure.append(picture,caption);host.append(figure);return true;
+ picture.addEventListener('error',()=>{picture.remove();const missing=document.createElement('p');missing.className='bk-image-missing';missing.textContent='这张索引配图暂时未能载入。讲解与页码仍可在下方阅读。';figure.prepend(missing)},{once:true});figure.append(picture,caption);host.append(figure);return true;
 }
 /** Append only this source section; never replace an artifact's existing content. */
 export async function renderBookSources(host,artifactId){
  if(!host)return null;ensureStyles();const key=String(artifactId),previous=[...host.children].find(child=>child.dataset?.bookSources===key);previous?.remove();
- const section=document.createElement('section');section.className='book-source';section.dataset.bookSources=key;section.setAttribute('aria-label','书中细读');section.setAttribute('aria-busy','true');section.innerHTML='<p class="bk-loading" role="status">正在整理书中细读…</p>';host.append(section);
+ const section=document.createElement('section');section.className='book-source';section.dataset.bookSources=key;section.setAttribute('aria-label','书中讲解');section.setAttribute('aria-busy','true');section.innerHTML='<p class="bk-loading" role="status">正在载入书中讲解…</p>';host.append(section);
  try{
-  const index=await loadBookIndex();if(!host.contains(section))return null;
+  const [index,summaries]=await Promise.all([loadBookIndex(),loadBookSummaries('object')]);if(!host.contains(section))return null;
   const objects=index.objects.filter(object=>String(object.existingId??'')===key);if(!objects.length){section.remove();return {objects:[],passages:[]}}
   const passages=collectPassages(index,objects),motifs=collectMotifs(index,objects);
-  section.innerHTML=`<header class="bk-section-heading"><div><p class="bk-eyebrow">READING THE BOOK</p><h2>书中细读</h2><p class="bk-source-title">《${esc(index.source.title)}》</p></div><a class="bk-explore" href="book.html">返回纹样探索 ↗</a></header><p class="bk-context">${passages.length} 处原文摘录 · 书中表述作为本书观点呈现，可与本页馆藏资料对照阅读。</p><div class="bk-passage-list"></div>${motifs.length?`<section class="bk-related"><h3>同段文化线索</h3><p>纹样、符号、工艺与配色等关联来自书籍索引；同段提及不等于该器物的纹样实证。</p><div class="bk-motifs">${motifLinks(motifs)}</div></section>`:''}<div class="bk-book-figures"></div><p class="bk-source-note">${esc(index.source.quotationNote||'摘录保留索引中的原文。')} 页码为引用标记，原文直接在本页展开。</p>`;
-  renderPassages(section.querySelector('.bk-passage-list'),passages,index,{openFirst:true});const figures=new Set();for(const object of objects){if(object.bookFigure?.src&&!figures.has(object.bookFigure.src)){figures.add(object.bookFigure.src);renderBookFigure(section.querySelector('.bk-book-figures'),object,index,{preferBookFigure:true})}}
+  const object=objects[0],reading=readingFor(summaries,object,index);
+  section.innerHTML=`<header class="bk-section-heading"><div><p class="bk-eyebrow">READING THE BOOK</p><h2>书中讲解</h2></div><a class="bk-explore" href="book.html">继续纹样探索 ↗</a></header>${editorialHTML(reading,index)}<div class="bk-book-figures"></div>`;
+  if(object.bookFigure?.src)renderBookFigure(section.querySelector('.bk-book-figures'),object,index,{preferBookFigure:true});
+
   section.removeAttribute('aria-busy');return {section,objects,passages,motifs};
- }catch(error){if(!host.contains(section))return null;section.removeAttribute('aria-busy');section.innerHTML='<h2>书中细读</h2><p class="bk-empty">书籍摘录暂时未能载入。器物档案的其他内容仍可阅读。</p><button type="button" class="bk-retry">重新载入摘录</button>';section.querySelector('button').addEventListener('click',()=>renderBookSources(host,artifactId),{once:true});console.warn('Book source unavailable',error);return {section,error}}
+ }catch(error){if(!host.contains(section))return null;section.removeAttribute('aria-busy');section.innerHTML='<h2>书中讲解</h2><p class="bk-empty">书中讲解暂时未能载入。器物档案的其他内容仍可阅读。</p><button type="button" class="bk-retry">重新载入讲解</button>';section.querySelector('button').addEventListener('click',()=>renderBookSources(host,artifactId),{once:true});console.warn('Book source unavailable',error);return {section,error}}
 }

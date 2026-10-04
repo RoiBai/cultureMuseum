@@ -59,7 +59,7 @@ assert.ok(collectPassages(book,chime).length>1,'Chime has original book passages
 assert.equal(report.sourceSHA256,book.source.sha256);
 assert.equal(report.quoteFailures,0);
 assert.equal(report.objects,objects.size);assert.equal(report.motifs,motifs.size);assert.equal(report.passages,passages.size);
-for(const file of ['book.js','book-object.js','book-source.js'])execFileSync(process.execPath,['--check',fileURLToPath(new URL(file,root))]);
+for(const file of ['book.js','book-object.js','book-source.js','book-editorial.js'])execFileSync(process.execPath,['--check',fileURLToPath(new URL(file,root))]);
 for(const file of ['book.html','book.js','book-object.html','book-object.js','book-source.js']){
   const source=fs.readFileSync(new URL(file,root),'utf8');
   assert.ok(!/href=["'][^"']*\.pdf|book\.html\?page=|打开PDF|打开书页/.test(source),`${file}: quotes should stay inline`);
