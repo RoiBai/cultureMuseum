@@ -29,7 +29,8 @@ const args = process.argv.slice(2);
 if (!args.length) throw new Error('Provide the source directory, or the dragon-ring GLB and bronze-vessel GLB paths.');
 const sourceNames = ['dragon ring stand 3d model.glb', 'ancient bronze vessel 3d model.glb'];
 const inputs = args.length === 1 ? sourceNames.map(name => path.join(args[0], name)) : args;
-const ids = ['dragon-ring', 'bronze-vessel'];
+const ids = process.env.TRIPO_MODEL_IDS ? process.env.TRIPO_MODEL_IDS.split(',') : ['dragon-ring', 'bronze-vessel'];
+if(inputs.length!==ids.length)throw Error('Each model needs an output id');
 const outputDir = path.join(root, 'dist/models');
 fs.mkdirSync(outputDir, {recursive: true});
 const sha = data => createHash('sha256').update(data).digest('hex');
@@ -90,14 +91,14 @@ function packGlb(document, chunks) {
 const report = {
   format: 'glTF 2.0 GLB; float32 attributes, uint32 indices, embedded JPEG/PNG',
   source: 'User-provided Tripo generated models; not measured artifact scans.',
-  dependencyVersions: {meshoptimizer: '1.1.1', Pillow: '11.3.0', numpy: '1.26.4'},
+  dependencyVersions: {meshoptimizer: JSON.parse(fs.readFileSync(path.join(meshoptimizer, 'package.json'), 'utf8')).version, ...JSON.parse(execFileSync(process.env.PYTHON || 'python3', ['-c', 'import json,PIL,numpy; print(json.dumps({"Pillow":PIL.__version__,"numpy":numpy.__version__}))'], {encoding: 'utf8'}))},
   method: {targetTriangles: 200000, maximumRelativeError: 0.01, attributes: ['NORMAL', 'TEXCOORD_0'], attributeWeights: [1, 1, 1, 1, 1], simplificationFlags: [], textureMaximumDimension: 2048,
     notes: 'Preserves attribute seams and connected features using topology-aware attribute simplification; no aggressive component pruning. Normals and UVs retain original values at surviving vertices. Error is the simplifier estimate, not a scan-accuracy metric.'},
   models: [],
 };
 
 try {
-  for (let modelIndex = 0; modelIndex < 2; modelIndex++) {
+  for (let modelIndex = 0; modelIndex < ids.length; modelIndex++) {
     const id = ids[modelIndex], sourcePath = path.resolve(inputs[modelIndex]), original = fs.readFileSync(sourcePath);
     const {document, bin} = readGlb(original), primitive = document.meshes[0].primitives[0];
     if (primitive.mode !== 4 || primitive.targets || Object.keys(primitive.attributes).sort().join() !== 'NORMAL,POSITION,TEXCOORD_0') throw new Error('Unexpected Tripo primitive');
@@ -170,7 +171,7 @@ try {
     report.models.push(stats);
     console.log(`${id}: ${(glb.length / 1048576).toFixed(2)} MiB; ${stats.outputTriangles} triangles; ${count} vertices; error ${(relativeError * 100).toFixed(4)}%; ${target}`);
   }
-  fs.writeFileSync(path.join(outputDir, 'optimization-report.json'), JSON.stringify(report, null, 2) + '\n');
+  fs.writeFileSync(path.join(outputDir, process.env.TRIPO_REPORT || 'optimization-report.json'), JSON.stringify(report, null, 2) + '\n');
 } finally {
   fs.rmSync(temp, {recursive: true, force: true});
 }

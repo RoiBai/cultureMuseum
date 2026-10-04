@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "method": "HEX、RGB 均来自本馆器物照片的前景取色。古籍提供色名及语义，不提供 sRGB 色号；关联由本网站按色相、明度和饱和度作宽范围近似，不是古代标准色、国标换算或颜料鉴定。无充分近似关系的色卡仅显示照片色号。",
+  "names": [
+    {
+      "id": "zhu",
+      "name": "朱",
+      "quote": "我朱孔陽，為公子裳。",
+      "work": "《诗经·豳风·七月》",
+      "url": "https://ctext.org/book-of-poetry/qi-yue/zh",
+      "meaning": "诗中染衣的朱色，关联较鲜明的红色。"
+    },
+    {
+      "id": "jiang",
+      "name": "绛",
+      "quote": "絳：大赤也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "古籍中的赤色词，本馆与较深的红色照片样本作近似关联。"
+    },
+    {
+      "id": "hong",
+      "name": "红",
+      "quote": "紅：帛赤白色。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "这里的古义是带白的赤色，与今天泛指红色的用法并不完全相同。"
+    },
+    {
+      "id": "xuan",
+      "name": "玄",
+      "quote": "黑而有赤色者為玄。",
+      "work": "《说文解字·玄部》",
+      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A02550",
+      "meaning": "关联偏赤的深暗色；并非所有黑色都称为玄。"
+    },
+    {
+      "id": "hei",
+      "name": "黑",
+      "quote": "緇：帛黑色。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "黑是古籍中已有的色词。缁指黑色帛，不把漆器材质称为缁。"
+    },
+    {
+      "id": "bai",
+      "name": "白",
+      "quote": "縹：帛青白色也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "白是古籍中已有的色词。这里只关联高明度、低彩度样本，不判定玉器品种或矿物成分。"
+    },
+    {
+      "id": "zhe",
+      "name": "赭",
+      "quote": "赭：赤土也。",
+      "work": "《说文解字·赤部》",
+      "url": "https://ctext.org/dictionary.pl?if=gb&char=赭",
+      "meaning": "由赤土而来的色名，近似关联偏红的土褐色；不表示器物涂有赭石。"
+    },
+    {
+      "id": "ti",
+      "name": "缇",
+      "quote": "緹：帛丹黃色。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "丹黄之间的帛色。对其他材质只作色感类比，不表示染料相同。"
+    },
+    {
+      "id": "huang",
+      "name": "黄",
+      "quote": "黃：地之色也。",
+      "work": "《说文解字·黄部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#黃部",
+      "meaning": "关联黄色色相。照片呈黄不等于金质，也不等于原始表面颜色。"
+    },
+    {
+      "id": "lv",
+      "name": "绿",
+      "quote": "緑：帛青黃色也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "以青黄描述的帛色。铜器照片中的绿还可能来自锈蚀，不作材质或原色判断。"
+    },
+    {
+      "id": "piao",
+      "name": "缥",
+      "quote": "縹：帛青白色也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "青中带白的帛色，与偏浅的青蓝色照片样本作近似关联。"
+    },
+    {
+      "id": "gan",
+      "name": "绀",
+      "quote": "紺：帛深青揚赤色。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "深青且带赤意的帛色，关联较深的蓝紫色域。"
+    },
+    {
+      "id": "zi",
+      "name": "紫",
+      "quote": "紫：帛青赤色。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
+      "meaning": "以青、赤描述的帛色。这里与紫色色域作近似关联。"
+    }
+  ],
+  "core": {
+    "title": "赤黑相生，五色相间。",
+    "body": "赤与黑是理解楚式漆器的重要线索：黑漆铺陈底色，红色勾出轮廓与纹饰。荆楚的颜色却不止这两种。织绣里的黄绿、橘红与灰白，玉石的温润和青铜器今天的斑驳表面，共同扩展了我们看到的色域。下列色条选自本馆照片，展示这种关系；它们不是为荆楚制定的一套固定标准色。",
+    "source": "《荆楚有色：大江大湖间的符号、色彩与文化记忆》",
+    "pages": "正文第 7、163 页（PDF 第 13、169 页）",
+    "museumUrl": "https://intl.dpm.org.cn/Lacquer/46240.html",
+    "museumTitle": "故宫博物院·描彩漆几何纹鹿角形镇墓兽"
+  },
+  "standards": {
+    "name": "GB/T 31430—2015《中国传统色色名及色度特性》",
+    "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=6EE6FE2D911C427227830938D027D447",
+    "note": "这是现代色度标准。本页没有取得其完整数值表，未将照片色号宣称为该标准的色值。"
+  }
+}

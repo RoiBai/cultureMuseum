@@ -5,7 +5,7 @@
   <meta name="theme-color" content="#000000">
   <title>荆楚 · 器物经纬</title>
   <meta name="description" content="沿时代与出土地，追踪荆楚器物的工艺、色彩与纹样。">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="map.css"><link rel="stylesheet" href="spatial.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="map.css"><link rel="stylesheet" href="spatial.css"><link rel="stylesheet" href="colour-cluster.css?v=20261004-final">
 </head>
 <body>
 <header class="masthead">
@@ -26,7 +26,7 @@
       <div class="intro-count"><strong id="total-count">—</strong><span>件（组）馆藏器物</span><small id="date-span">史前 — 明代</small></div>
     </section>
     <section class="toolbar" aria-label="图谱工具">
-      <div class="view-tabs" role="tablist" aria-label="时间轴视图"><button id="view-2d" role="tab" aria-selected="true" aria-controls="atlas-scroll" data-view="2d">二维图谱</button><button id="view-3d" role="tab" aria-selected="false" aria-controls="atlas-3d" tabindex="-1" data-view="3d"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m10 2 8 4.5v7L10 18l-8-4.5v-7Zm0 9L2 6.5m8 4.5 8-4.5M10 11v7M6 4.2l8 4.6v7"/></svg>3D 时间轴</button><button id="view-map" role="tab" aria-selected="false" aria-controls="atlas-map" tabindex="-1" data-view="map">荆楚地图</button><button id="view-xyz" hidden role="tab" aria-selected="false" aria-controls="atlas-xyz" tabindex="-1" data-view="xyz">三维图谱 XYZ</button><button id="view-particles" role="tab" aria-selected="false" aria-controls="atlas-particles" tabindex="-1" data-view="particles">粒子点云</button></div><a class="book-link" href="book.html">纹样探索 ↗</a><a class="treasures-link lab-link" href="object-lab.html">器物实验室 ↗</a><a class="workshop-link" href="workshop.html">纹样工坊 ↗</a>
+      <div class="view-tabs" role="tablist" aria-label="图谱视图"><button id="view-2d" role="tab" aria-selected="true" aria-controls="atlas-scroll" data-view="2d">二维图谱</button><button id="view-3d" role="tab" aria-selected="false" aria-controls="atlas-3d" tabindex="-1" data-view="3d"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m10 2 8 4.5v7L10 18l-8-4.5v-7Zm0 9L2 6.5m8 4.5 8-4.5M10 11v7M6 4.2l8 4.6v7"/></svg>3D 时间轴</button><button id="view-map" role="tab" aria-selected="false" aria-controls="atlas-map" tabindex="-1" data-view="map">荆楚地图</button><button id="view-xyz" hidden role="tab" aria-selected="false" aria-controls="atlas-xyz" tabindex="-1" data-view="xyz">三维图谱 XYZ</button><button id="view-colour" role="tab" aria-selected="false" aria-controls="atlas-colour" tabindex="-1" data-view="colour">三维颜色图谱</button><button id="view-catalogue" role="tab" aria-selected="false" tabindex="-1" data-view="catalogue">颜色图谱</button><button id="view-particles" role="tab" aria-selected="false" aria-controls="atlas-particles" tabindex="-1" data-view="particles">粒子点云</button></div><a class="book-link" href="book.html">纹样探索 ↗</a><a class="treasures-link lab-link" href="object-lab.html">器物实验室 ↗</a><a class="workshop-link" href="workshop.html">纹样工坊 ↗</a>
       <button id="filters-open" class="mobile-only">筛选线索</button>
       <div class="visual-key" aria-label="四类路径图例"><span><i class="key-colour"></i>色彩</span><span><i class="key-motif">❧ ❧</i>纹样</span><span><i class="key-craft">⌁</i>工艺</span><span><i class="key-material"></i>材质</span></div><small class="toolbar-note">一条线，一种线索</small>
     </section>
@@ -59,14 +59,15 @@
       <div class="three-footnote"><span>下层全谱 · 上层提取</span><span>同代分组仅为浏览 · 透视远小近大 · 非实物比例</span></div>
     </section>
     <section id="atlas-map" class="atlas-map" role="tabpanel" aria-labelledby="view-map" hidden><div class="map-loading">正在展开荆楚山河…</div></section>
+    <section id="atlas-colour" class="spatial-panel" role="tabpanel" aria-labelledby="view-colour" hidden></section>
     <section id="atlas-xyz" class="spatial-panel" role="tabpanel" aria-labelledby="view-xyz" hidden></section>
     <section id="atlas-particles" class="spatial-panel particle-panel" role="tabpanel" aria-labelledby="view-particles" hidden></section>
     <footer class="status-footer"><span id="path-legend"><i class="legend-stroke"></i>选取线索，生成路径</span><span>连线呈现特征关联，不直接代表历史传承。</span></footer>
   </main>
 </div>
 
-<dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><span class="eyebrow">HOW TO READ THE ATLAS</span><button class="icon-button" data-close="about-dialog" aria-label="关闭读图说明">×</button></div><h2 id="about-title">在时间与山河之间读器物</h2><ol><li><b>时代由古至今。</b>点击左侧时间直接跳转。时代内按出土地分组，每座城市使用固定底色；现代城市只帮助定位。</li><li><b>同代成组，逐件陈列。</b>器物按正常尺寸展示，战国、清代等密集时代分排排列，宽度适配屏幕。点击图片打开档案。</li><li><b>筛选让线索浮现。</b>选工艺、色彩、纹样、材质或出土地，匹配项高亮，其余淡化。多选同类条件取并集，跨类条件取交集。</li><li><b>四种线索，四种画法。</b>色彩用实色线，纹样用重复母题，工艺用虚线与工具图标，材质用纹理带。纹样及材质纹理为识别示意。连线表达特征相似，不等同于历史传承。</li><li><b>三维展卷。</b>切换「3D 时间轴」后，从左下早期向右上晚期浏览。拖动或使用底部滑块连续浏览，左右按钮逐组停靠。器物名称始终水平，悬停时器物向前浮出，点击查看档案。选择线索后，匹配器物从下层升到上层，按所选特征分组，各组内按时代排列；图标与材质表面仅作识别示意。系统的减少动态效果设置会关闭升降过渡。</li><li><b>从整器进入细节。</b>点击器物进入独立详情页，可以放大细看，按纹样、工艺、色彩或材质横向比对。当前器物固定在左侧。器物实验室可探索编钟音乐、虎座鸟架鼓与曾侯乙尊盘。</li><li><b>区分记录与观察。</b>纹样和造型母题从现有馆方记录整理；工艺注明记录明示或材质归类。色值仅取前景有效像素，透明背景不参与统计；仍受光照与保存状况影响，不代表原始颜料测色。</li></ol><p class="source-note">本图收录 <span id="archive-count">—</span> 件器物记录，复用项目照片并从馆方目录扩充。具体来源可在逐件档案中查看；没有收录器物的时代不展示。</p></dialog>
+<dialog id="about-dialog" class="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><span class="eyebrow">HOW TO READ THE ATLAS</span><button class="icon-button" data-close="about-dialog" aria-label="关闭读图说明">×</button></div><h2 id="about-title">在时间与山河之间读器物</h2><ol><li><b>时代由古至今。</b>点击左侧时间直接跳转。时代内按出土地分组，每座城市使用固定底色；现代城市只帮助定位。</li><li><b>同代成组，逐件陈列。</b>器物按正常尺寸展示，战国、清代等密集时代分排排列，宽度适配屏幕。点击图片打开档案。</li><li><b>筛选让线索浮现。</b>选工艺、色彩、纹样、材质或出土地，匹配项高亮，其余淡化。多选同类条件取并集，跨类条件取交集。</li><li><b>四种线索，四种画法。</b>色彩用实色线，纹样用重复母题，工艺用虚线与工具图标，材质用纹理带。纹样及材质纹理为识别示意。连线表达特征相似，不等同于历史传承。</li><li><b>三维展卷。</b>切换「3D 时间轴」后，从左下早期向右上晚期浏览。拖动或使用底部滑块连续浏览，左右按钮逐组停靠。器物名称始终水平，悬停时器物向前浮出，点击查看档案。选择线索后，匹配器物从下层升到上层，按所选特征分组，各组内按时代排列；图标与材质表面仅作识别示意。系统的减少动态效果设置会关闭升降过渡。</li><li><b>从整器进入细节。</b>点击器物进入独立详情页，可以放大细看，按纹样、工艺、色彩或材质横向比对。当前器物固定在左侧。器物实验室可探索编钟、鼓、尊盘，以及鸳鸯形漆盒、猪形酒具盒与二十八宿图衣箱。</li><li><b>区分记录与观察。</b>纹样和造型母题从现有馆方记录整理；工艺注明记录明示或材质归类。色值仅取前景有效像素，透明背景不参与统计；仍受光照与保存状况影响，不代表原始颜料测色。</li></ol><p class="source-note">本图收录 <span id="archive-count">—</span> 件器物记录，复用项目照片并从馆方目录扩充。具体来源可在逐件档案中查看；没有收录器物的时代不展示。</p></dialog>
 <div id="hover-preview" class="hover-preview" hidden aria-hidden="true"></div>
 <div class="loading" id="loading" role="status">正在展卷…</div>
-<script type="module" src="app.js?v=20261004-xyz-hidden"></script>
+<script type="module" src="app.js?v=20261004-colour"></script>
 </body></html>

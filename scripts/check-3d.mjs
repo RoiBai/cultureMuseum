@@ -55,8 +55,8 @@ for(const dimension of Object.keys(empty())){
     combinations++;
   }
 }
-const selected=empty();selected.colors=new Set(['赤红','漆黑']);selected.materialGroup.add('漆木');
-const intersection=new Set(data.filter(a=>a.colors.some(c=>selected.colors.has(c))&&a.materialGroup==='漆木').map(a=>a.id));
+const selected=empty();selected.colors=new Set(['赤红','漆黑']);selected.materialGroup.add('漆器');
+const intersection=new Set(data.filter(a=>a.colors.some(c=>selected.colors.has(c))&&a.materialGroup==='漆器').map(a=>a.id));
 for(const dimension of ['colors','materialGroup','motifs']){
   const lifted=arrangeLift(data,eras,intersection,selected,dimension);
   const known=[...intersection].filter(id=>featureValues(data.find(a=>a.id===id),dimension).length);

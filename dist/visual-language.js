@@ -32,7 +32,7 @@ export function craftGlyph(value){
   return chisel;
 }
 export const materials = {
-  '漆木':{color:'#754634',base:'#653e30',ink:'#b8895b',type:'wood'},
+  '漆器':{color:'#754634',base:'#653e30',ink:'#b8895b',type:'wood'},
   '青铜':{color:'#4c7565',base:'#527669',ink:'#b1a56d',type:'bronze'},
   '玉石':{color:'#719084',base:'#99b6a0',ink:'#ebead0',type:'jade'},
   '丝织':{color:'#975345',base:'#98554b',ink:'#d8af75',type:'weave'},

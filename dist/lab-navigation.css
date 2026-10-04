@@ -6,7 +6,7 @@
 .lab-header .lab-wordmark{font:19px var(--serif,"Songti SC","SimSun",serif);letter-spacing:3px;white-space:nowrap}
 .lab-wordmark i{font-style:normal;color:#6f795d;margin:0 13px}
 .lab-header-note{color:#829072;font-size:10px;letter-spacing:1px;white-space:nowrap}
-.lab-tabs{height:68px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:0 max(20px,calc((100% - 930px)/2));border-bottom:1px solid #343c2c;background:#080c08;font-family:var(--sans,"PingFang SC","Microsoft YaHei",sans-serif)}
+.lab-tabs{height:68px;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;padding:0 20px;border-bottom:1px solid #343c2c;background:#080c08;font-family:var(--sans,"PingFang SC","Microsoft YaHei",sans-serif)}
 .lab-tabs a{position:relative;display:flex;align-items:center;justify-content:center;gap:14px;min-width:0;height:100%;padding:0 12px;color:#8f9c82;letter-spacing:1px}
 .lab-tabs small{font:11px Georgia,serif;color:#788360}
 .lab-tabs .lab-tab-copy{display:flex;flex-direction:column;gap:5px;font-size:14px;letter-spacing:1px}
@@ -29,3 +29,7 @@
  .lab-tabs .lab-tab-copy>span{display:none}
  .lab-tabs a[aria-current=page]:after{left:12%;right:12%}
 }
+
+@media(max-width:760px){.lab-tabs .lab-tab-copy{font-size:11px}.lab-tabs a{padding:0 2px}}
+
+@media(max-width:950px){.lab-tabs{grid-template-columns:repeat(6,minmax(114px,1fr));overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:0 6px}.lab-tabs .lab-tab-copy{font-size:12px}.lab-tabs small{display:none}}

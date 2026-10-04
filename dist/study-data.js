@@ -22,7 +22,7 @@ export function comparisonSet(data,regions,id,key,value){
  return {current,others:matches.filter(a=>a.id!==id),count:matches.length,region:a=>regionFor(a,regions,key,value)};
 }
 export async function loadArchive(){
- const responses=await Promise.all([fetch('data/artifacts.json',{cache:'no-cache'}),fetch('data/detail-regions.json',{cache:'no-cache'})]);
+ const responses=await Promise.all([fetch('data/artifacts.json?v=20261004',{cache:'no-cache'}),fetch('data/detail-regions.json',{cache:'no-cache'})]);
  if(responses.some(r=>!r.ok))throw new Error('器物资料暂时无法读取，请刷新重试。');
  const [data,details]=await Promise.all(responses.map(r=>r.json()));return {data,regions:details.artifacts};
 }
