@@ -4,7 +4,7 @@ const root=document.querySelector('#study-root');
 try{
  const {data,regions}=await loadArchive();const id=new URLSearchParams(location.search).get('id');const a=data.find(item=>item.id===id);
  if(!a)throw new Error('没有找到这件器物。请返回时间轴重新选择。');
- document.title=a.title+' · 器物细读';document.body.dataset.artifact=a.id;
+ document.title=a.title+' · 器物细读 · 大江大湖间的符号——色彩与文化记忆';document.body.dataset.artifact=a.id;
  const list=regions[id].filter(r=>!['motifs','crafts'].includes(r.dimension)||isKnownFeature(r.value)),primary=primaryRegions(list),index=data.indexOf(a),isChime=id==='hb-4695';
  const lab={'jz-458':{title:'把一席酒具，收进腹中。',intro:'提起盒盖，逐只摆放示意耳杯，再合盖观察动物形轮廓。',action:'打开酒具盒，动手收纳',note:'Tripo 照片生成模型 · 内腔、杯数与摆放为教学示意'},drum:{title:'敲一下，听见鼓面的回应。',intro:'转动三维鼓架，试试中央与边缘的合成音色，录下并回放自己的节奏。',action:'敲鼓，留下一段节奏',note:'Tripo 照片生成模型 · 鼓面、振动与声音为教学示意'},'hb-6911':{title:'冰，在酒之外。',intro:'亲手提起内尊，向外盘添冰，再把酒斟入尊中。看看两件器物怎样配合冰镇。',action:'提起尊，试着冰一杯酒',note:'Tripo 照片生成模型 · 内腔、酒液与冷却为教学示意'}}[id];
  const chip=(key,value)=>`<a class="comparison-chip ${key==='colors'?'color-chip':''}" href="${compareURL(id,key,value)}">${key==='colors'?`<i style="background:${a.palette.find(c=>c.name===value)?.hex||'#ccc'}"></i>`:''}<span>${esc(value==='花卉'?'花卉 / 植物':value)}</span><small>${data.filter(item=>hasFeature(item,key,value)).length} 件</small><b>↗</b></a>`;
