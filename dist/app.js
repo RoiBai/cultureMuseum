@@ -25,6 +25,7 @@ let nodes=new Map(),width=0,height=0,matchIds=new Set(),activePaths=[],imageFail
 let view='2d', atlas3d=null, threeLoading=null, culturalMap=null, mapLoading=null, groupDimension='colors';
 const photoCache=new Map();
 const spatialViews={},spatialLoads={};
+const enabledViews=['2d','3d','map','particles'];
 const label=(key,value)=>key==='era'?(eraDefs.find(e=>e[0]===value)?.[1]||value):value;
 function matches(a,except){return dims.every(d=>d.key===except||selected[d.key].size===0||values(a,d.key).some(v=>selected[d.key].has(v)))}
 function hasFilters(){return dims.some(d=>selected[d.key].size)}
@@ -204,6 +205,7 @@ function syncThree(){
 }
 $('three-group').onchange=e=>{groupDimension=e.target.value;atlas3d?.setFilter({selected,matchedIds:matchIds,dimension:groupDimension})};
 async function switchView(next){
+ if(!enabledViews.includes(next))next='2d';
  view=next;hideHover();document.body.dataset.view=next;
  document.querySelectorAll('[role="tab"][data-view]').forEach(b=>{const active=b.dataset.view===next;b.setAttribute('aria-selected',String(active));b.tabIndex=active?0:-1});
  $('atlas-scroll').hidden=next!=='2d';$('atlas-3d').hidden=next!=='3d';$('atlas-map').hidden=next!=='map';
@@ -244,7 +246,7 @@ async function switchView(next){
 }
 document.querySelector('.view-tabs').addEventListener('keydown',e=>{
  if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();
- const views=['2d','3d','map','xyz','particles'],next=e.key==='Home'?'2d':e.key==='End'?'particles':views[(views.indexOf(view)+(e.key==='ArrowRight'?1:views.length-1))%views.length];$('view-'+next).focus();switchView(next);
+ const views=enabledViews,next=e.key==='Home'?'2d':e.key==='End'?'particles':views[(views.indexOf(view)+(e.key==='ArrowRight'?1:views.length-1))%views.length];$('view-'+next).focus();switchView(next);
 });
 
 try{
@@ -256,11 +258,11 @@ try{
  if(new URLSearchParams(location.search).has('return')){
   try{const saved=JSON.parse(sessionStorage.getItem('jingchu-atlas-return'));
    if(saved){selected=Object.fromEntries(dims.map(d=>[d.key,new Set((saved.selected?.[d.key]||[]).filter(v=>artifacts.some(a=>values(a,d.key).includes(v))))]));groupDimension=dims.some(d=>d.key===saved.groupDimension)?saved.groupDimension:'colors';$('three-group').value=groupDimension;
-    refresh();await switchView(['2d','3d','map','xyz','particles'].includes(saved.view)?saved.view:'2d');if(saved.view==='map')culturalMap?.restore(saved.map);else if(saved.view==='3d')atlas3d?.restoreNavigation(saved.three);else if(saved.view==='xyz')spatialViews.xyz?.restore(saved.xyz);else if(saved.view==='particles')await spatialViews.particles?.restore(saved.particles);else $('atlas-scroll').scrollTop=saved.scrollTop||0;refresh()}
+    refresh();await switchView(enabledViews.includes(saved.view)?saved.view:'2d');if(saved.view==='map')culturalMap?.restore(saved.map);else if(saved.view==='3d')atlas3d?.restoreNavigation(saved.three);else if(saved.view==='particles')await spatialViews.particles?.restore(saved.particles);else $('atlas-scroll').scrollTop=saved.scrollTop||0;refresh()}
   }catch(error){console.warn('Could not restore atlas position',error)}
  }
 
- const requestedView=new URLSearchParams(location.search).get('view');if(['map','xyz','particles'].includes(requestedView))await switchView(requestedView);
+ const requestedView=new URLSearchParams(location.search).get('view');if(requestedView)await switchView(requestedView);
  const requestedObject=new URLSearchParams(location.search).get('object');if(requestedView==='particles'&&spatialViews.particles&&artifacts.some(a=>a.id===requestedObject)){spatialViews.particles.select.value=requestedObject;spatialViews.particles.summon()}
  document.querySelectorAll('.workshop-link,.treasures-link,.lab-link,.book-link').forEach(a=>a.addEventListener('click',rememberAtlasContext));
  window.jingchuTimeline={getState:()=>({count:artifacts.length,matchedIds:[...matchIds],filters:Object.fromEntries(dims.map(d=>[d.key,[...selected[d.key]]])),positions:Object.fromEntries(positions),paths:activePaths,imageFailures,cities,width,height,eraRows,displayRows}),artifacts};
