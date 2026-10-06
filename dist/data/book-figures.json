@@ -63,11 +63,12 @@
     "provenance": "从用户提供PDF的嵌入图像提取；非新拍摄或三维复原。"
   },
   "王子午鼎": {
-    "src": "assets/book/pdf-072-0.webp",
+    "src": "cutouts/wangziwu-ding-book-r1.webp",
     "pdfPage": 72,
     "printedPage": 66,
     "caption": "王子午鼎 · 本书配图",
-    "provenance": "从用户提供PDF的嵌入图像提取；非新拍摄或三维复原。"
+    "provenance": "从用户提供PDF的嵌入图像提取，展示副本仅背景透明化；原图保留，器物像素未重绘。",
+    "originalSrc": "assets/book/pdf-072-0.webp"
   },
   "卷龙纹龙形玉佩": {
     "src": "assets/book/pdf-076-0.webp",
@@ -217,11 +218,12 @@
     "provenance": "从用户提供PDF的嵌入图像提取；非新拍摄或三维复原。"
   },
   "包山二号墓车马纹漆奁": {
-    "src": "assets/book/pdf-061-0.webp",
+    "src": "cutouts/hb-6914-book-r1.webp",
     "pdfPage": 61,
     "printedPage": 55,
     "caption": "包山二号墓车马纹漆奁 · 本书配图",
-    "provenance": "从用户提供PDF的嵌入图像提取；非新拍摄或三维复原。"
+    "provenance": "从用户提供PDF的嵌入图像提取，展示副本仅背景透明化；原图保留，器物像素未重绘。",
+    "originalSrc": "assets/book/pdf-061-0.webp"
   },
   "青铜鹿角立鹤": {
     "src": "assets/book/pdf-010-0.webp",

@@ -744,37 +744,18 @@
   "hb-6914": {
     "source": "assets/hb-6914-whole-book.jpg",
     "sourceSha256": "5c621485af97fe401c7c50477b86fa0e73b6bab1447cab956e1d2f21a8ef5414",
-    "status": "original-image-retained",
-    "displayImage": "assets/hb-6914-whole-book.jpg",
-    "method": "no-background-edit",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-6914-book-r1.webp",
+    "method": "reviewed-book-alpha-v1",
+    "mask": "cutouts/hb-6914-book-mask.png",
     "crop": [
       0,
       0,
       622,
       488
     ],
-    "removedFraction": 0,
-    "paletteSampleRect": [
-      0.17,
-      0.4,
-      0.64,
-      0.29
-    ],
-    "imageRepresentation": "object-photo",
-    "previousImageAudit": {
-      "source": "assets/hb-6914.jpeg",
-      "sourceSha256": "4a6506023600ae93821a5a7fcc3f15d62391ca537746036892d5ac482b091563",
-      "status": "foreground-ready",
-      "displayImage": "cutouts/hb-6914.webp",
-      "method": "surface-detail-crop",
-      "crop": [
-        0,
-        23,
-        700,
-        574
-      ],
-      "removedFraction": 0.0917
-    }
+    "removedFraction": 0.2666,
+    "imageRepresentation": "object-photo"
   },
   "jz-359": {
     "source": "assets/jz-359-hd.jpg",
@@ -2106,22 +2087,17 @@
   "wangziwu-ding": {
     "source": "assets/wangziwu-ding-book.jpg",
     "sourceSha256": "1a1401fe322ceac1f6562a061c76a68f160c9eaa842b0bb23b6c09017317c25c",
-    "status": "original-image-retained",
-    "displayImage": "assets/wangziwu-ding-book.jpg",
-    "method": "no-background-edit",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/wangziwu-ding-book-r1.webp",
+    "method": "reviewed-book-alpha-v1",
+    "mask": "cutouts/wangziwu-ding-book-mask.png",
     "crop": [
       0,
       0,
       713,
       487
     ],
-    "removedFraction": 0,
-    "paletteSampleRect": [
-      0.24,
-      0.38,
-      0.46,
-      0.25
-    ],
+    "removedFraction": 0.6053,
     "imageRepresentation": "object-photo"
   }
 }

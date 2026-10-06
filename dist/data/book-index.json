@@ -20622,17 +20622,18 @@
       "notes": "",
       "existingId": "hb-6914",
       "place": "湖北荆门包山2号楚墓",
-      "image": "assets/hb-6914-whole-book.jpg",
+      "image": "cutouts/hb-6914-book-r1.webp",
       "imageLabel": "书内完整器貌照片",
       "period": "战国",
       "collection": "湖北省博物馆",
       "url": "object.html?id=hb-6914",
       "bookFigure": {
-        "src": "assets/book/pdf-061-0.webp",
+        "src": "cutouts/hb-6914-book-r1.webp",
         "pdfPage": 61,
         "printedPage": 55,
         "caption": "包山二号墓车马纹漆奁 · 本书配图",
-        "provenance": "从用户提供PDF的嵌入图像提取；非新拍摄或三维复原。"
+        "provenance": "从用户提供PDF的嵌入图像提取，展示副本仅背景透明化；原图保留，器物像素未重绘。",
+        "originalSrc": "assets/book/pdf-061-0.webp"
       }
     },
     {
@@ -20845,18 +20846,19 @@
       ],
       "notes": "",
       "existingId": "wangziwu-ding",
-      "image": "assets/wangziwu-ding-book.jpg",
+      "image": "cutouts/wangziwu-ding-book-r1.webp",
       "imageLabel": "书内展柜照片",
       "period": "春秋",
       "place": "河南淅川下寺2号楚墓",
       "collection": "河南博物院",
       "url": "object.html?id=wangziwu-ding",
       "bookFigure": {
-        "src": "assets/book/pdf-072-0.webp",
+        "src": "cutouts/wangziwu-ding-book-r1.webp",
         "pdfPage": 72,
         "printedPage": 66,
         "caption": "王子午鼎 · 本书配图",
-        "provenance": "从用户提供PDF的嵌入图像提取；非新拍摄或三维复原。"
+        "provenance": "从用户提供PDF的嵌入图像提取，展示副本仅背景透明化；原图保留，器物像素未重绘。",
+        "originalSrc": "assets/book/pdf-072-0.webp"
       }
     },
     {

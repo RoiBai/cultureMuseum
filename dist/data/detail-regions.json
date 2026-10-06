@@ -4581,8 +4581,8 @@
           0.64,
           0.29
         ],
-        "label": "器壁色彩取样区",
-        "note": "仅从器壁内部取样，未将白色摄影背景混入综合色谱。",
+        "label": "器壁漆彩",
+        "note": "观察器壁漆彩；综合色谱由去底后的完整器物前景取样。",
         "view": "surface",
         "basis": "书内图像观察",
         "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
@@ -4599,7 +4599,7 @@
           1
         ],
         "label": "图像全貌",
-        "note": "保留书内图像全部内容；图像性质与来源见图注。",
+        "note": "展示图仅去除摄影背景，保留原始器物细节与相对位置；原图见图片来源。",
         "view": "form",
         "basis": "书内图像观察",
         "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
@@ -10315,7 +10315,7 @@
           1
         ],
         "label": "图像全貌",
-        "note": "保留书内图像全部内容；图像性质与来源见图注。",
+        "note": "展示图仅去除摄影背景，保留原始器物细节与相对位置；原图见图片来源。",
         "view": "form",
         "basis": "书内图像观察",
         "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",

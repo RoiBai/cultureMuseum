@@ -3745,10 +3745,10 @@
     "dateNote": "战国；馆方记载1987年包山楚墓出土。完整器貌据书中图3-2，对照合作机构包山2号墓档案。原馆方局部照片与旧拓影继续保留。",
     "material": "漆器",
     "image": "assets/hb-6914-whole-book.jpg",
-    "displayForeground": false,
+    "displayForeground": true,
     "site": "湖北荆门包山楚墓",
-    "displayImage": "assets/hb-6914-whole-book.jpg",
-    "backgroundRemoval": "none-original-image",
+    "displayImage": "cutouts/hb-6914-book-r1.webp",
+    "backgroundRemoval": "reviewed-book-alpha-v1",
     "fact": "湖北省博物馆以“彩绘人物车马出行图”著录漆奁外壁画面。完整漆奁与书中“包山二号墓车马纹漆奁”合并为同一条记录，避免把器物和器表漆画重复计数。",
     "observation": "完整图展示盖面纹饰与器壁人物叙事的关系；旧馆方局部图另行保留，拓影仍对应原局部。",
     "sourceExtract": "彩绘人物车马出行图 彩绘人物车马出行图，1987年出土于湖北荆门包山楚墓，是一件漆奁外壁一周的漆画，展开全长87.4厘米，宽5.2厘米，描绘了战国时期人物车马出行的场景。画中用土黄、桔红、海蓝和棕色等颜色，勾勒出一幅色彩艳丽、生动活泼、富有立体感的图画。最为引人注目的是画师别具匠心地用五棵随风摇曳的柳树，将画面巧妙地分隔成五个画段，强化了故事情节。第一和第二画段表现的是出行场面，在画卷的第三段，只画了一只狗和一只猪，它们跃身急奔的神态为整幅画卷增添了生机，第四段和第五段表现的是迎宾场景。 整幅画人物姿态各异，猪犬腾跃，车马有序，情节首尾连贯、过渡自然，被誉为目前中国现存最早的长卷“连环画”，体现了楚国漆器高超的制作工艺。 .",
@@ -3768,32 +3768,32 @@
     "materialGroup": "漆器",
     "palette": [
       {
-        "name": "漆黑",
-        "hex": "#0d1a1d",
-        "share": 46.4
+        "name": "赭褐",
+        "hex": "#8f6140",
+        "share": 39.2
       },
       {
-        "name": "赭褐",
-        "hex": "#996c4a",
-        "share": 36.9
+        "name": "漆黑",
+        "hex": "#111c1f",
+        "share": 37.3
       },
       {
         "name": "赤红",
-        "hex": "#aa5036",
-        "share": 4.4
+        "hex": "#ad492f",
+        "share": 9.4
       },
       {
-        "name": "灰白",
-        "hex": "#dbc5a5",
-        "share": 3.0
+        "name": "灰绿",
+        "hex": "#4e5546",
+        "share": 4.2
       }
     ],
-    "paletteMethod": "书内完整器貌照片的器壁内部矩形区取样（归一化范围0.17,0.40,0.64,0.29）；排除白色背景，颜色仅代表这张照片。",
+    "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",
     "colors": [
-      "漆黑",
       "赭褐",
+      "漆黑",
       "赤红",
-      "灰白"
+      "灰绿"
     ],
     "documentedColors": [
       "赤红"
@@ -3815,18 +3815,12 @@
     "catalogImage": "assets/hb-6914.jpeg",
     "catalogDisplayImage": "cutouts/hb-6914.webp",
     "catalogOriginal": "https://img.cjyun.org/a/10695/202301/19cf29bf952899dadd708119328a8d1d.jpeg",
-    "paletteSampleRect": [
-      0.17,
-      0.4,
-      0.64,
-      0.29
-    ],
     "imageRepresentation": "object-photo",
     "imageCredit": {
       "author": "书内配图（原作者未署）",
       "provider": "用户提供书稿 · 图3-2",
       "page": "assets/hb-6914-whole-book.jpg",
-      "changes": "从书内提取原始照片；保留原背景，未改动器物像素或生成器形。",
+      "changes": "从书内提取照片，展示副本仅将摄影背景透明化，保留器物RGB与原始照片；未重绘或补画。",
       "retrieved": "2026-10-03"
     },
     "imageBookSource": {
@@ -3836,7 +3830,8 @@
       "figure": "图3-2"
     },
     "imageKind": "书内完整器貌照片",
-    "paletteNote": "保留书内完整器貌照片，仅取器壁内部矩形区域的照片颜色，排除白色背景；旧馆方局部图仍用于已有拓影。"
+    "paletteNote": "色谱取自去底后的完整漆奁前景，排除白色摄影背景；旧馆方局部图仍用于已有拓影。",
+    "mask": "cutouts/hb-6914-book-mask.png"
   },
   {
     "id": "jz-359",
@@ -9849,7 +9844,7 @@
     "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
     "description": "王子午鼎属于下寺二号楚墓出土的七件同组列鼎。束腰器身、外撇立耳和附壁兽形装饰构成鲜明的楚式造型。",
     "fact": "1978年河南淅川下寺2号楚墓出土。馆方记载同组共有七件；书图未标示单件编号，本条不将不同单件的尺寸混入。",
-    "observation": "先看腰腹轮廓与立耳，再观察附壁兽形与器表纹带。图内保留展柜环境；色彩仅从器腹内部矩形区域取样，排除玻璃、展台与背景。",
+    "observation": "先看腰腹轮廓与立耳，再观察附壁兽形与器表纹带。展示图去除展柜和展台背景，保留鼎与附匕；原始照片可从图片来源查看。",
     "sourceExtract": "1978年河南淅川下寺2号楚墓出土。",
     "motifs": [
       "龙蛇",
@@ -9874,24 +9869,18 @@
     ],
     "documentedColors": [],
     "imageRepresentation": "object-photo",
-    "paletteSampleRect": [
-      0.24,
-      0.38,
-      0.46,
-      0.25
-    ],
-    "paletteMethod": "书内原始展柜照片的器腹矩形区取样（归一化范围0.24,0.38,0.46,0.25）；避开玻璃背景和展台，仅描述照片综合色貌。",
+    "paletteMethod": "透明前景内采样；排除背景、半透明边缘与轮廓内侧 1 像素；色名综合色相、明度与饱和度判定",
     "identityNote": "王子午鼎为同组七件列鼎的通行名。书中图3-8未给单件馆藏编号；本条不以照片推断具体编号、尺寸或全部七件的收藏归属。",
     "image": "assets/wangziwu-ding-book.jpg",
-    "displayImage": "assets/wangziwu-ding-book.jpg",
-    "displayForeground": false,
-    "backgroundRemoval": "none-original-image",
+    "displayImage": "cutouts/wangziwu-ding-book-r1.webp",
+    "displayForeground": true,
+    "backgroundRemoval": "reviewed-book-alpha-v1",
     "original": "assets/wangziwu-ding-book.jpg",
     "imageCredit": {
       "author": "书内配图（原作者未署）",
       "provider": "用户提供书稿 · 图3-8",
       "page": "assets/wangziwu-ding-book.jpg",
-      "changes": "从书内提取原始照片；保留原背景，未改动器物像素或生成器形。",
+      "changes": "从书内提取照片，展示副本仅将摄影背景透明化，保留器物RGB与原始照片；未重绘或补画。",
       "retrieved": "2026-10-03"
     },
     "imageBookSource": {
@@ -9903,33 +9892,34 @@
     "palette": [
       {
         "name": "墨灰",
-        "hex": "#60615a",
-        "share": 51.3
+        "hex": "#5e6059",
+        "share": 53.4
       },
       {
         "name": "灰褐",
-        "hex": "#7c7163",
-        "share": 19.7
-      },
-      {
-        "name": "灰绿",
-        "hex": "#5f6252",
-        "share": 11.5
+        "hex": "#72675b",
+        "share": 14.3
       },
       {
         "name": "灰白",
-        "hex": "#aea899",
-        "share": 9.3
+        "hex": "#b7bdb7",
+        "share": 11.6
+      },
+      {
+        "name": "漆黑",
+        "hex": "#2b2d2c",
+        "share": 10.4
       }
     ],
     "colors": [
       "墨灰",
       "灰褐",
-      "灰绿",
-      "灰白"
+      "灰白",
+      "漆黑"
     ],
     "evidence": "王子午鼎属于下寺二号楚墓出土的七件同组列鼎。束腰器身、外撇立耳和附壁兽形装饰构成鲜明的楚式造型。。1978年河南淅川下寺2号楚墓出土。馆方记载同组共有七件；书图未标示单件编号，本条不将不同单件的尺寸混入。。1978年河南淅川下寺2号楚墓出土。",
     "imageKind": "书内展柜照片",
-    "paletteNote": "保留书内展柜照片原背景，仅取器腹内部矩形区域的照片颜色，避开展台、玻璃与背景；不表示原始铜色或颜料。"
+    "paletteNote": "色谱取自去底后的器物前景，排除摄影背景与展台；仅表示照片色貌，不表示原始铜色或颜料。",
+    "mask": "cutouts/wangziwu-ding-book-mask.png"
   }
 ]
