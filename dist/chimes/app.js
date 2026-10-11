@@ -26,7 +26,7 @@ say(hintDefault);
 async function init() {
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: false });
   renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
-  renderer.setClearColor(0x000000);
+  renderer.setClearColor(0x09090b);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.05;

@@ -14,7 +14,7 @@ export class ObjectLabScene {
   this.controls=new OrbitControls(this.camera,this.canvas);this.controls.enableDamping=true;this.controls.dampingFactor=.09;this.controls.enablePan=false;this.controls.minDistance=90;this.controls.maxDistance=370;this.controls.maxPolarAngle=Math.PI*.9;this.controls.rotateSpeed=.65;
   this.ray=new THREE.Raycaster();this.pointer=new THREE.Vector2();this.group=new THREE.Group();this.scene.add(this.group);
   this.pmrem=new THREE.PMREMGenerator(this.renderer);const room=new RoomEnvironment();this.environment=this.pmrem.fromScene(room,.04);room.dispose();this.scene.environment=this.environment.texture;
-  this.scene.add(new THREE.HemisphereLight('#ebeddb','#3c5432',.95));const key=new THREE.DirectionalLight('#fff3d9',2.5);key.position.set(-70,145,110);this.scene.add(key);const rim=new THREE.DirectionalLight('#b6c3a4',1.8);rim.position.set(100,100,-75);this.scene.add(rim);
+  this.scene.add(new THREE.HemisphereLight('#f3eee8','#454047',.95));const key=new THREE.DirectionalLight('#fff3d9',2.5);key.position.set(-70,145,110);this.scene.add(key);const rim=new THREE.DirectionalLight('#e1dce0',1.8);rim.position.set(100,100,-75);this.scene.add(rim);
   this.resizeObserver=new ResizeObserver(()=>this.resize());this.resizeObserver.observe(host);this.resize();this.view('home');this.bind();
   this.visibility=()=>{if(document.hidden){this.events.onPause?.();this.renderer.setAnimationLoop(null)}else if(!this.disposed)this.renderer.setAnimationLoop(t=>this.frame(t))};document.addEventListener('visibilitychange',this.visibility,{signal:this.abort.signal});
   this.renderer.setAnimationLoop(t=>this.frame(t));
@@ -48,7 +48,7 @@ export class ObjectLabScene {
   this.drumCenter=new THREE.Vector3(-.3,81.5,5.8);this.drumRadius=14.0;
   this.skinMaterial=new THREE.ShaderMaterial({side:THREE.DoubleSide,transparent:true,uniforms:{uTime:{value:0},uHit:{value:-20},uStrength:{value:0},uPoint:{value:new THREE.Vector2(.5,.5)}},vertexShader:`varying vec2 vUv;uniform float uTime,uHit,uStrength;uniform vec2 uPoint;void main(){vUv=uv;vec3 p=position;float t=max(0.,uTime-uHit);float d=distance(uv,uPoint);p.z+=sin(d*45.-t*31.)*exp(-t*5.)*uStrength*.42*smoothstep(.5,.35,length(uv-.5));gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);}`,fragmentShader:`varying vec2 vUv;uniform float uTime,uHit,uStrength;uniform vec2 uPoint;float noise(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}void main(){float d=length(vUv-.5);float ring=sin(distance(vUv,uPoint)*62.-max(0.,uTime-uHit)*18.)*exp(-max(0.,uTime-uHit)*4.)*uStrength;vec3 c=mix(vec3(.33,.27,.16),vec3(.63,.55,.35),smoothstep(.51,.07,d));c+=noise(vUv*400.)*.045;c+=ring*.07;gl_FragColor=vec4(c,.96);}`});
   this.skin=new THREE.Mesh(new THREE.CircleGeometry(this.drumRadius,96),this.skinMaterial);this.skin.position.copy(this.drumCenter);this.skin.scale.y=1.08;this.skin.userData.part='membrane';this.group.add(this.skin);this.pickables.unshift(this.skin);
-  this.ripple=new THREE.Mesh(new THREE.RingGeometry(.92,1,64),new THREE.MeshBasicMaterial({color:'#ddcc8e',transparent:true,opacity:0,side:THREE.DoubleSide,depthWrite:false}));this.ripple.position.copy(this.drumCenter);this.ripple.position.z+=.8;this.group.add(this.ripple);
+  this.ripple=new THREE.Mesh(new THREE.RingGeometry(.92,1,64),new THREE.MeshBasicMaterial({color:'#f39b93',transparent:true,opacity:0,side:THREE.DoubleSide,depthWrite:false}));this.ripple.position.copy(this.drumCenter);this.ripple.position.z+=.8;this.group.add(this.ripple);
  }
  makeVessel(){
   // The generated surface is one mesh. Separation and missing inner/base surfaces are teaching aids.
@@ -96,7 +96,7 @@ export class ObjectLabScene {
   if(part==='zun')this.events.onLift?.(this.liftTarget>.5?0:1);
   this.events.onPart?.(part);this.highlight(part);
  }
- highlight(part){this.activePart=part;this.highlightUntil=performance.now()+3800;for(const [name,group] of this.parts)group.traverse(mesh=>{if(mesh.isMesh&&mesh.material.emissive){mesh.material.emissive.set(name===part?'#668945':'#000000');mesh.material.emissiveIntensity=name===part?.26:0}})}
+ highlight(part){this.activePart=part;this.highlightUntil=performance.now()+3800;for(const [name,group] of this.parts)group.traverse(mesh=>{if(mesh.isMesh&&mesh.material.emissive){mesh.material.emissive.set(name===part?'#f39b93':'#000000');mesh.material.emissiveIntensity=name===part?.26:0}})}
  pulse(radius=.3,strength=.7,point){if(!this.skin)return;const t=performance.now()/1000;this.skinMaterial.uniforms.uHit.value=t;this.skinMaterial.uniforms.uStrength.value=strength;const p=point||[radius*this.drumRadius*.9,0];this.skinMaterial.uniforms.uPoint.value.set(p[0]/(this.drumRadius*2)+.5,p[1]/(this.drumRadius*2)+.5);this.ripple.position.copy(this.drumCenter).add(new THREE.Vector3(p[0],p[1],1));this.lastStrike=t;this.ripple.material.opacity=.65;this.highlight('drum')}
  setSkin(v){if(this.skin)this.skin.visible=v}
  setVessel(state){this.liftTarget=state.lift;this.wine=state.wine;this.cooling=state.cooling;while(this.ice.length>state.ice){const m=this.ice.pop();this.iceGroup.remove(m);this.release(m)}while(this.ice.length<state.ice)this.addIce(this.pendingIceAngle);this.pendingIceAngle=undefined;if(this.reduced)this.lift=this.liftTarget}
