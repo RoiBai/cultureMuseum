@@ -1,5 +1,5 @@
-import {collectionLabs,seasons,seasonAt,createCollectionState,updateCollectionState} from './collection-lab-data.js';
-import {CollectionLabScene} from './collection-lab-scene.js';
+import {collectionLabs,seasons,seasonAt,createCollectionState,updateCollectionState} from './collection-lab-data.js?v=20261011-review';
+import {CollectionLabScene} from './collection-lab-scene.js?v=20261011-review';
 const id=new URLSearchParams(location.search).get('object'),config=collectionLabs[id],root=document.getElementById('lab-root');let state=createCollectionState(),scene;
 document.title=config.name+' · 器物实验室 · 大江大湖间的符号——色彩与文化记忆';document.body.dataset.object=id;document.querySelectorAll('[data-lab]').forEach(a=>{if(a.dataset.lab===id){a.setAttribute('aria-current','page');a.parentElement.scrollLeft=Math.max(0,a.offsetLeft-a.parentElement.offsetLeft-20)}});
 const button=(name,label)=>`<button data-action="${name}">${label}</button>`;

@@ -1,0 +1,5668 @@
+{
+  "reviewed": "2026-10-11",
+  "policy": "只有器表纹饰进入纹样分类；整体人物、动物形制不作纹样。仅有文献记载但当前照片不可辨识的，不提供拓影。",
+  "objectsAudited": 386,
+  "newObjectsAudited": 257,
+  "corrections": [
+    {
+      "id": "hb-6915",
+      "title": "石家河玉人像",
+      "before": [
+        "人像"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/zgzb/p/6915.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-474",
+      "title": "玉飞鹰",
+      "before": [
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-474.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-475",
+      "title": "玉头人像",
+      "before": [
+        "人像"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-475.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-478",
+      "title": "陶塑抱鱼人",
+      "before": [
+        "人像"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-478.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5517",
+      "title": "铜爵、斝、觚组合",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5517.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5520",
+      "title": "铜面具",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5520.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-473",
+      "title": "牺首栖鸟兽面纹铜尊",
+      "before": [
+        "龙蛇",
+        "云雷",
+        "兽面",
+        "禽鸟"
+      ],
+      "after": [
+        "龙蛇",
+        "云雷",
+        "兽面"
+      ],
+      "source": "http://www.jzmsm.org/news-473.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-472",
+      "title": "虎形铜尊",
+      "before": [
+        "虎豹",
+        "几何",
+        "禽鸟"
+      ],
+      "after": [
+        "虎豹",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-472.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "wangziwu-ding",
+      "title": "王子午鼎",
+      "before": [
+        "龙蛇",
+        "几何",
+        "铭文"
+      ],
+      "after": [
+        "几何",
+        "铭文"
+      ],
+      "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4694",
+      "title": "越王勾践剑",
+      "before": [
+        "几何",
+        "铭文",
+        "禽鸟"
+      ],
+      "after": [
+        "几何",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/4694.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5113",
+      "title": "龙柄铜匜",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5113.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "drum",
+      "title": "虎座鸟架鼓",
+      "before": [
+        "凤鸟",
+        "虎豹",
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/zgzb/p/6913.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4782",
+      "title": "漆木龙蛇座豆",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4782.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4860",
+      "title": "玉珑",
+      "before": [
+        "虎兽"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4860.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4861",
+      "title": "玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4861.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4865",
+      "title": "玉觽",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4865.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4866",
+      "title": "玉挂饰",
+      "before": [
+        "人像"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4866.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4867",
+      "title": "玉珑",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4867.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4870",
+      "title": "玉珩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4870.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5099",
+      "title": "铜鸮杯",
+      "before": [
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5099.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5422",
+      "title": "玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5422.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5423",
+      "title": "玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5423.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5424",
+      "title": "玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5424.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5425",
+      "title": "玉璜",
+      "before": [
+        "虎兽"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5425.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5426",
+      "title": "玉珩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5426.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5428",
+      "title": "玉璜",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5428.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5429",
+      "title": "玉珑",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5429.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5430",
+      "title": "玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5430.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5431",
+      "title": "玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5431.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "dou",
+      "title": "漆木彩绘凤鸟莲花盖豆",
+      "before": [
+        "凤鸟",
+        "龙蛇",
+        "花卉",
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-460.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "guardian",
+      "title": "漆木彩绘双头镇墓兽",
+      "before": [
+        "鹿角"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-457.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4756",
+      "title": "龙形钮铜敦",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4756.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4978",
+      "title": "彩绘猪形盒",
+      "before": [
+        "虎兽"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4978.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4996",
+      "title": "彩绘鸟兽纹矢箙面板",
+      "before": [
+        "虎兽"
+      ],
+      "after": [
+        "虎兽",
+        "禽鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4996.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5000",
+      "title": "彩绘龙云纹单头镇墓兽",
+      "before": [
+        "云气"
+      ],
+      "after": [
+        "云气",
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5000.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5152",
+      "title": "八叶四花四山纹镜",
+      "before": [],
+      "after": [
+        "花卉",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5152.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5181",
+      "title": "龙形玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5181.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5182",
+      "title": "透雕龙形玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5182.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5186",
+      "title": "龙形玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5186.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-357",
+      "title": "龙凤虎纹绣罗单衣",
+      "before": [
+        "凤鸟",
+        "龙蛇",
+        "虎豹",
+        "几何",
+        "禽鸟"
+      ],
+      "after": [
+        "凤鸟",
+        "龙蛇",
+        "虎豹",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-357.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-358",
+      "title": "凤鸟花卉纹绣浅黄绢面绵袍",
+      "before": [
+        "凤鸟",
+        "龙蛇",
+        "花卉",
+        "几何",
+        "禽鸟"
+      ],
+      "after": [
+        "凤鸟",
+        "龙蛇",
+        "花卉",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-358.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-359",
+      "title": "根雕辟邪",
+      "before": [
+        "龙蛇",
+        "虎豹",
+        "禽鸟"
+      ],
+      "after": [
+        "龙蛇",
+        "禽鸟"
+      ],
+      "source": "http://www.jzmsm.org/news-359.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-458",
+      "title": "漆木彩绘猪形酒具盒",
+      "before": [
+        "凤鸟",
+        "龙蛇",
+        "云雷"
+      ],
+      "after": [
+        "凤鸟",
+        "龙蛇",
+        "云气"
+      ],
+      "source": "http://www.jzmsm.org/news-458.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-459",
+      "title": "漆木彩绘虎座凤鸟悬鼓",
+      "before": [
+        "凤鸟",
+        "虎豹",
+        "禽鸟"
+      ],
+      "after": [
+        "虎豹"
+      ],
+      "source": "http://www.jzmsm.org/news-459.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-462",
+      "title": "“越王州句”铜剑",
+      "before": [
+        "铭文",
+        "禽鸟"
+      ],
+      "after": [
+        "铭文"
+      ],
+      "source": "http://www.jzmsm.org/news-462.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-468",
+      "title": "玉覆面",
+      "before": [
+        "人像"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-468.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-469",
+      "title": "人执龙形玉佩",
+      "before": [
+        "凤鸟",
+        "龙蛇",
+        "人像",
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-469.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-470",
+      "title": "龙凤形玉佩",
+      "before": [
+        "凤鸟",
+        "龙蛇",
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-470.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-471",
+      "title": "人乘龙形玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-471.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "winged",
+      "title": "漆木彩绘蟾座凤鸟羽人",
+      "before": [
+        "凤鸟",
+        "人像",
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "http://www.jzmsm.org/news-461.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4981",
+      "title": "彩绘凤鸟双连杯",
+      "before": [
+        "凤鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4988",
+      "title": "透雕云纹木梳",
+      "before": [
+        "云雷"
+      ],
+      "after": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4988.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5143",
+      "title": "鸟首形杯",
+      "before": [
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5143.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5146",
+      "title": "飞鸟",
+      "before": [
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5146.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4753",
+      "title": "嵌红铜几何纹龙形足铜敦",
+      "before": [
+        "龙蛇",
+        "几何"
+      ],
+      "after": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/4753.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "crane",
+      "title": "鹿角立鹤",
+      "before": [
+        "鹿角",
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5180",
+      "title": "鱼形玉佩",
+      "before": [
+        "鱼纹"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5180.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5183",
+      "title": "龙形玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5183.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5184",
+      "title": "十六节龙形玉佩",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5184.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5185",
+      "title": "玉剑",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5185.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5377",
+      "title": "曾侯乙墓竹签牌",
+      "before": [
+        "铭文"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5377.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-6173",
+      "title": "云纹玉璜",
+      "before": [
+        "云雷"
+      ],
+      "after": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/6173.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-6174",
+      "title": "云纹玉璜",
+      "before": [
+        "云雷"
+      ],
+      "after": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/6174.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-6911",
+      "title": "曾侯乙尊盘",
+      "before": [
+        "龙蛇",
+        "虎豹"
+      ],
+      "after": [
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5382",
+      "title": "龙岗木牍",
+      "before": [
+        "铭文"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5382.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5537",
+      "title": "彩绘变形凤鸟纹漆卮",
+      "before": [
+        "凤鸟",
+        "禽鸟",
+        "铭文"
+      ],
+      "after": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5537.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "spoon",
+      "title": "彩绘凤形漆勺",
+      "before": [
+        "凤鸟",
+        "虎豹",
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5383",
+      "title": "毛家园木牍",
+      "before": [
+        "铭文"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5383.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5459",
+      "title": "彩绘漆豕口形双耳长盒盖",
+      "before": [
+        "凤鸟",
+        "禽鸟",
+        "几何"
+      ],
+      "after": [
+        "凤鸟",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5459.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5468",
+      "title": "彩绘云兽纹漆圆盘",
+      "before": [
+        "铭文"
+      ],
+      "after": [
+        "铭文",
+        "虎兽"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5468.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5471",
+      "title": "彩绘云兽纹漆圆盘",
+      "before": [
+        "铭文"
+      ],
+      "after": [
+        "铭文",
+        "虎兽"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5471.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5483",
+      "title": "彩漆凤形勺",
+      "before": [
+        "凤鸟",
+        "铭文"
+      ],
+      "after": [
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5483.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5457",
+      "title": "彩绘变形凤鸟纹漆耳杯",
+      "before": [
+        "凤鸟",
+        "禽鸟",
+        "铭文"
+      ],
+      "after": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5457.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5458",
+      "title": "彩绘云凤纹漆圆盒",
+      "before": [
+        "凤鸟",
+        "铭文"
+      ],
+      "after": [
+        "凤鸟",
+        "铭文",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5458.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5465",
+      "title": "彩绘变形凤鸟纹漆盂",
+      "before": [
+        "凤鸟",
+        "禽鸟"
+      ],
+      "after": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5465.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5466",
+      "title": "彩绘变形凤鸟纹漆盂",
+      "before": [
+        "凤鸟",
+        "禽鸟"
+      ],
+      "after": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5466.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5480",
+      "title": "彩绘凤鸟纹漆圆盘",
+      "before": [
+        "凤鸟",
+        "禽鸟",
+        "龙蛇"
+      ],
+      "after": [
+        "凤鸟",
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5480.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5536",
+      "title": "彩绘漆案",
+      "before": [],
+      "after": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5536.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-353",
+      "title": "漆木彩绘三鱼纹耳杯",
+      "before": [
+        "凤鸟",
+        "花卉",
+        "鱼纹",
+        "几何",
+        "禽鸟"
+      ],
+      "after": [
+        "凤鸟",
+        "花卉",
+        "鱼纹",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-353.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-354",
+      "title": "漆木彩绘七豹大扁壶",
+      "before": [
+        "虎豹",
+        "花卉",
+        "云雷",
+        "禽鸟"
+      ],
+      "after": [
+        "虎豹",
+        "花卉",
+        "云气",
+        "禽鸟"
+      ],
+      "source": "http://www.jzmsm.org/news-354.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5024",
+      "title": "青瓷褐彩龙首灯",
+      "before": [
+        "龙蛇"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5024.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-5026",
+      "title": "青瓷鸡首壶",
+      "before": [
+        "禽鸟"
+      ],
+      "after": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5026.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "jz-351",
+      "title": "釉里红凤舞缠枝菊花纹盖罐",
+      "before": [
+        "凤鸟",
+        "花卉",
+        "禽鸟"
+      ],
+      "after": [
+        "凤鸟",
+        "花卉"
+      ],
+      "source": "http://www.jzmsm.org/news-351.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    },
+    {
+      "id": "hb-4696",
+      "title": "元青花四爱图梅瓶",
+      "before": [
+        "凤鸟",
+        "花卉",
+        "几何",
+        "禽鸟"
+      ],
+      "after": [
+        "凤鸟",
+        "花卉",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/4696.html",
+      "reason": "剔除整体造型、地名、鸟篆及重复泛鸟类标签；只保留题名、说明或照片可证实的器表装饰。"
+    }
+  ],
+  "records": [
+    {
+      "id": "hb-4693",
+      "title": "郧县人头骨化石",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zgzb/p/4693.html",
+      "sourceText": "1989年和1990年，先后在湖北省郧县青曲镇曲远河口的学堂梁子发现两具头骨化石，保存了完整的脑颅和基本完整的面颅，属于直立人类型，简称“郧县人”。\n“郧县人”的发现有着非同寻常的意义，其材料的全面性、丰富性、可解决的学术问题几乎仅次于周口店“北京人”，引起世界古人类学界的广泛关注，是补写人类发展史的重要物证。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5419",
+      "title": "玉璜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5419.html",
+      "sourceText": "石家河文化，1988年天门肖家屋脊出土，内角间距5、最宽2.2、厚0.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5452",
+      "title": "玉柄形饰",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5452.html",
+      "sourceText": "石家河文化\n1988年天门肖家屋脊出土\n长6.4、宽0.6cm\n玉石受沁，泛枣红色。器身圆雕，有五道凸棱，新石器时代的玉柄形饰或与商代类似器物有联系\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5454",
+      "title": "玉龙",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5454.html",
+      "sourceText": "石家河文化\n1988年天门肖家屋脊出土\n外径3.8、厚0.8cm\n龙体首尾相卷，呈玦形，与红山文化的玉猪龙极为相似\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6915",
+      "title": "石家河玉人像",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zgzb/p/6915.html",
+      "sourceText": "石家河玉人像，出土于天门石家河文化遗址，距今4200至4000年，面庞写实，两眼倾斜呈倒置的八字形，鼻宽阔，口扁方微闭，散发着威严与神秘的气息。\n石家河文化时期，长江中游地区史前玉器的发展达到高峰，形成了具有鲜明特征的玉文化。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-474",
+      "title": "玉飞鹰",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-474.html",
+      "sourceText": "【玉飞鹰】\n时代：新石器时代石家河文化（距今4600—4000年）\n来源：肖家屋脊遗址出土\n级别：国家一级文物\n内涵：玉质温润，造型灵动，圆雕细腻，巧夺天工，弥足珍贵。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-475",
+      "title": "玉头人像",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-475.html",
+      "sourceText": "【玉头人像】\n时代：新石器时代石家河文化时期（距今4600—4000年）\n来源：肖家屋脊遗址出土\n级别：国家一级文物\n内涵：沟通天地人神，弥足珍贵，是文明重要标志之一。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-476",
+      "title": "“荆”纹陶罐",
+      "newCatalogue": true,
+      "motifs": [
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-476.html",
+      "sourceText": "【“荆”纹陶罐】\n时代：新石器时代石家河文化时期（距今4600—4000年）\n来源：邓家湾遗址出土\n级别：国家一级文物\n内涵：夹砂黄褐陶，直颈，鼓腹，圜底内凹。器身饰篮纹，肩部刻划一符号，据研究可能是“荆”字雏形。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "几何",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-477",
+      "title": "陶塑动物",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-477.html",
+      "sourceText": "【陶塑动物】\n时代：新石器时代石家河文化时期（距今4600—4000年）\n来源：邓家湾遗址出土\n级别：三级文物\n内涵：数以万计，种类繁多，主要有鸡、狗、羊、猪、兔、猴、鸟、象、貘、鳖、龟等，栩栩如生，与祈祷、祭祀、宗教等相关。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-478",
+      "title": "陶塑抱鱼人",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-478.html",
+      "sourceText": "【陶塑抱鱼人】\n时代：新石器时代石家河文化时期（距今4600—4000年）\n来源：邓家湾遗址出土\n级别：三级文物\n内涵：坐姿人像，抱鱼。石家河文化遗址出土数以万计陶塑，种类繁多，主要有鸡、狗、羊、猪、兔、猴、鸟、象、貘、鳖、龟、抱鱼陶人等，均为泥质红陶，火候较低，质地细腻，均用手捏塑而成，器形小巧，无彩无衣。惟妙惟肖，栩栩如生，与祈祷、祭祀、宗教等相关。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5581",
+      "title": "陶锅",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5581.html",
+      "sourceText": "1956年京山屈家岭出土\n高33、口径86cm\n这是目前屈家岭文化中发现最大的陶器，容量约0.625立方米，为聚族而局的大家庭所用。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6916",
+      "title": "崇阳铜鼓",
+      "newCatalogue": false,
+      "motifs": [
+        "云雷",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6916.html",
+      "sourceText": "崇阳铜鼓，1977年发现于湖北崇阳县，通高75.5厘米，由铜鼓身、铜鼓座和铜鼓冠三部分组成。圆形仿皮质鼓面无纹饰，鼓身、鼓座和鼓冠上均铸有商代后期流行的具有装饰纹样云雷纹和乳钉纹。这件铜鼓质地厚实古朴，造型奇伟庄重，花纹流畅粗放，代表了我国商代青铜工艺的制作特点与水平。是我国目前所见最早的铜鼓，也是国内保存的唯一一件商代至西周早期的铜鼓。\n.",
+      "readyCrops": [
+        "鼓身纹饰",
+        "重复装饰单元"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5517",
+      "title": "铜爵、斝、觚组合",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5517.html",
+      "sourceText": "铜爵\n通高19.6、流尾长17.2cm\n铜斝\n通高26、口径15.2cm\n铜觚\n通高21.2、口径13.7cm\n盘龙城小贵族或平民墓葬也随葬成组的青铜礼器。该青铜爵、斝、觚组合出自杨家湾4号墓。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5520",
+      "title": "铜面具",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5520.html",
+      "sourceText": "盘龙城采集\n长18.5、宽135.cm\n研究者认为该面具属于马面饰，这在商代还是第一次发现。从面具的功能来看，它的使用范围应该更加广泛。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-473",
+      "title": "牺首栖鸟兽面纹铜尊",
+      "newCatalogue": false,
+      "motifs": [
+        "龙蛇",
+        "云雷",
+        "兽面"
+      ],
+      "source": "http://www.jzmsm.org/news-473.html",
+      "sourceText": "【牺首栖鸟兽面纹铜尊】\n时代：商代（公元前16—11世纪）\n来源：庙兴遗址出土\n级别：国家一级文物\n内涵：礼器。形体厚重，肩饰牺首栖鸟，肩、腹、足饰云雷、夔龙、饕餮纹。\n",
+      "readyCrops": [
+        "足部纹饰带",
+        "腹部兽面"
+      ],
+      "unmade": [
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4714",
+      "title": "曾仲斿父壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4714.html",
+      "sourceText": "西周晚期，通高66，宽23.8cm，1996年湖北京山宋河坪坝苏家垅出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-472",
+      "title": "虎形铜尊",
+      "newCatalogue": false,
+      "motifs": [
+        "虎豹",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-472.html",
+      "sourceText": "【虎形铜尊】\n时代：西周（公元前11世纪—771年）\n来源：江北农场出土\n级别：国家一级文物\n内涵：尊是商周时期盛行的容酒礼器。此尊为牺尊，以虎为造型。尊腹中空，口部有一孔，与腹相通。背上有一盖，钮为一只飞鸟，极为特殊。颈背有一道竖起鬃毛，身、颈、尾部都有大小不一的双线成单线虎斑纹。四足膀部为涡纹，虎头一双大眼，张口呲牙，非常凶猛。足似象足，虎耳内和四足内均残留红沙泥芯。尾、鬃、右耳均有补痕。但器物无使用痕迹，铸纹未打磨，腹底平，有浅阳纹网纹。\n",
+      "readyCrops": [
+        "腿部涡纹"
+      ],
+      "unmade": [
+        {
+          "motif": "虎豹",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5159",
+      "title": "叚氏盘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5159.html",
+      "sourceText": "春秋，1974年天门李场乡黄家店出土，高7.2、口径37.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4742",
+      "title": "簋",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4742.html",
+      "sourceText": "春秋，高18.4,径20.7cm，1975年当阳金家山9号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4745",
+      "title": "素面扁足铜簋",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4745.html",
+      "sourceText": "春秋，高16.6,径11.6cm，1973年当阳赵家塝3号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5114",
+      "title": "寒公孙爿訁父铜匜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5114.html",
+      "sourceText": "春秋，宽14.5cm，1965年枝江百里洲出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5117",
+      "title": "铜盘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5117.html",
+      "sourceText": "春秋（楚国），高12，足高6.5cm，1965年湖北枝江百里洲出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5135",
+      "title": "铜殳",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5135.html",
+      "sourceText": "春秋，长11.6，銎径3cm，1984年当阳曹家岗5号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "wangziwu-ding",
+      "title": "王子午鼎",
+      "newCatalogue": false,
+      "motifs": [
+        "几何",
+        "铭文"
+      ],
+      "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/zpjc/qtq/articlef561d2cdd7db42a192638eb2ed3d1ba3.html",
+      "sourceText": "1978年河南淅川下寺2号楚墓出土。",
+      "readyCrops": [
+        "腹部纹带"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4694",
+      "title": "越王勾践剑",
+      "newCatalogue": false,
+      "motifs": [
+        "几何",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/4694.html",
+      "sourceText": "越王勾践剑，1965年12月出土于湖北江陵望山一号楚墓。剑长55.6厘米，宽5厘米，剑首向外翻卷呈圆盘形，内铸11道精细的同心圆，剑身满饰神秘的黑色菱形花纹，剑格的正面和反面分别用蓝色琉璃和绿松石镶嵌成美丽的纹饰，整个造型显得高贵、典雅。在剑身正面靠近剑格处还写有两行鸟篆铭文，分别是“越王鸠浅 自作用剑”，经专家考证，鸠浅就是勾践，这八字铭文向我们表明了这把剑的身份和地位。这把剑在出土时插在漆木剑鞘里，出鞘时仍然寒光闪闪，耀人眼目。\n越王勾践剑制作精美，历经两千五百余年，仍然纹饰清晰精美，寒光闪闪，毫无锈蚀，被誉为“天下第一剑”。\n.",
+      "readyCrops": [
+        "剑身菱形纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4717",
+      "title": "吴王夫差矛",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4717.html",
+      "sourceText": "春秋晚期，长29.5cm，1983年江陵马山5号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5133",
+      "title": "楚王孙渔戟",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5133.html",
+      "sourceText": "春秋晚期，通长17.8，援长16.2，胡长10.5cm，江陵长湖南边出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4716",
+      "title": "邓公乘鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4716.html",
+      "sourceText": "春秋，高26.6,口径21.4cm，1974年湖北襄阳山湾楚墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4739",
+      "title": "子季嬴青簠",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4739.html",
+      "sourceText": "春秋，高21.5，口径30cm，1972年襄阳山湾出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5113",
+      "title": "龙柄铜匜",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5113.html",
+      "sourceText": "春秋，高11.5，长26.5cm，1972年襄阳山湾出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4740",
+      "title": "楚屈子赤角簠",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4740.html",
+      "sourceText": "春秋，长27.7，宽20.7cm，1975年随州鲢鱼嘴出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4973",
+      "title": "木铲",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4973.html",
+      "sourceText": "春秋，长76，宽10cm，黄石铜绿山矿冶遗址出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4974",
+      "title": "木斗",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4974.html",
+      "sourceText": "春秋，长62，宽21，高13.5cm，黄石铜绿山矿冶遗址出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5529",
+      "title": "彩绘云凤纹漆圆奁",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5529.html",
+      "sourceText": "战国�秦（475-221 BC)\n1978年云梦睡虎地49号墓出土\n高7.7、盖径18.9cm\n木胎，卷制。外底有烙印文字“咸亭”。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        },
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5540",
+      "title": "素漆圆奁",
+      "newCatalogue": true,
+      "motifs": [
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5540.html",
+      "sourceText": "战国�秦（475-221 BC)\n1975年云梦睡虎地3号墓出土\n高10、盖径22cm\n木胎，卷制。盖内有烙印文字“亭”。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5162",
+      "title": "蚁鼻钱",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5162.html",
+      "sourceText": "战国，1963年孝感野猪湖出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4752",
+      "title": "嵌地几何云纹铜敦",
+      "newCatalogue": true,
+      "motifs": [
+        "云气",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/4752.html",
+      "sourceText": "战国，高22.8,口径17.5cm，1974年秭归斑鸠窝出土。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "云气",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        },
+        {
+          "motif": "几何",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5156",
+      "title": "菱形纹铜镜",
+      "newCatalogue": true,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5156.html",
+      "sourceText": "战国，直径21.2cm，1973年宜昌前坪23号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "几何",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "drum",
+      "title": "虎座鸟架鼓",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zgzb/p/6913.html",
+      "sourceText": "",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4773",
+      "title": "漆木圆盒盖",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4773.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号墓出土，盛食器，通高16.1，口径28.1，圆足径14.1，盖径28.4cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4778",
+      "title": "漆木高柄壶形器",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4778.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号墓出土，饮器，通高30.3，口径6.3，盖径7.2，腹径11.9，座径13.9cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4782",
+      "title": "漆木龙蛇座豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4782.html",
+      "sourceText": "战国中晚期（距今约2320年）,九连墩1号墓出土，盛食器，通高19.7，盘口径13.2-15.4，底径11.8-12.4cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4786",
+      "title": "漆木建鼓",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4786.html",
+      "sourceText": "战国中晚期（距今约2320年）,九连墩1号墓出土，打击乐器，通高280.6，鼓身长66.4，口径56cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4788",
+      "title": "漆木俎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4788.html",
+      "sourceText": "战国中晚期（距今约2310年）,九连墩2号墓出土，进食器，通高20，长27，宽12cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4797",
+      "title": "漆木箎",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4797.html",
+      "sourceText": "战国中晚期（距今约2310年）,九连墩2号墓出土，吹奏乐器，通高15，长160，宽43.6cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4799",
+      "title": "漆木尊",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4799.html",
+      "sourceText": "战国中晚期（距今约2310年）,九连墩2号墓出土，通高36，口径27，腹径20.5，底径96cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4804",
+      "title": "漆木方豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4804.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，供食器，通高28.6，口边长17.6，底座11cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4807",
+      "title": "漆木瓒",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4807.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，挹酒器，通长23.5，勺高5.6，口径7.7cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4810",
+      "title": "漆木豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4810.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，供食器，通高27.9，口径21，座径14cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4813",
+      "title": "漆木案",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4813.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，陈食器，通高26，长65.4，宽36cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4816",
+      "title": "漆木方鉴",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4816.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，仿铜冰（温）食器，通高34，口长49.2，口宽47.2，底长29，底宽27.4cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4817",
+      "title": "漆木扇柄",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4817.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，通长27.6，宽3.4，厚2.2cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4819",
+      "title": "漆木勺",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4819.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，挹水器，通长74，勺口径6.8，柄径4.4，勺高7cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4821",
+      "title": "漆木案",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4821.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，陈腥牲器，通高27.4，长65.6，宽35.2cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4825",
+      "title": "漆木臼、杵",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4825.html",
+      "sourceText": "战国中晚期（距今约2310年）,九连墩2号墓出土，臼：通高18.2，长30，宽29.2cm，杵：通长117.8，直径4.4cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4828",
+      "title": "漆木方豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4828.html",
+      "sourceText": "战国中晚期（距今约2310年）,九连墩2号墓出土，盛食器，通高31，长39.4，宽35.4，座径17.6cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4830",
+      "title": "漆木豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4830.html",
+      "sourceText": "战国中晚期（距今约2310年）,九连墩2号墓出土，盛食器，通高26.4，口径17.9，座径14.2cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4832",
+      "title": "漆木盖豆",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+      "sourceText": "战国中晚期（距今约2310年）,九连墩2号墓出土，盛食器，通高24，口径16.6，座径13.6cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4835",
+      "title": "漆木长方形盒",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4835.html",
+      "sourceText": "战国中晚期（距今约2310年),九连墩2号墓出土，通高6.1，长29.4，宽12.4cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4838",
+      "title": "漆木矮足案",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4838.html",
+      "sourceText": "战国中晚期（距今约2310年),九连墩2号墓出土，盛食器，通高11.6，长113，宽55.2cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4840",
+      "title": "漆木酒具盒",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4840.html",
+      "sourceText": "战国中晚期（距今约2310年),九连墩2号墓出土，便携式饮食器具盒，通高22.6，长78，宽23.6cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4849",
+      "title": "漆木小俎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4849.html",
+      "sourceText": "战国中晚期（距今约2310年),九连墩2号墓出土，供食器，通高23.4，面长28.4，宽10，底径12.4cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4850",
+      "title": "漆木弩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4850.html",
+      "sourceText": "战国中晚期（距今约2310年),九连墩2号墓出土，远程兵器，通长53.1，高18.4，厚7.1cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4853",
+      "title": "漆木扁壶",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4853.html",
+      "sourceText": "战国中晚期（距今约2310年),九连墩2号墓出土，仿铜盛酒器，通高29.8，口径8，宽29.6，厚8cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4857",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/4857.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，双凤纹佩，长5，宽2.8，厚0.55 cm\n.",
+      "readyCrops": [
+        "玉佩器表双凤纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4858",
+      "title": "玉璧",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4858.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，小系壁，直径6.1，孔径2.5，厚0.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4859",
+      "title": "玉瑗",
+      "newCatalogue": false,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/4859.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，涡纹瑗，直径11.6，孔径7，厚0.45cm\n.",
+      "readyCrops": [
+        "环上重复纹饰"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4860",
+      "title": "玉珑",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4860.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，虎形佩，对饰，长9.8，厚0.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4861",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4861.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，龙形佩，长10，宽2.3，厚0.45cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4862",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/4862.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，蟠龙纹佩，长4.6，宽3.15，厚0.3cm\n.",
+      "readyCrops": [
+        "玉佩器表蟠龙纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4863",
+      "title": "玉璜",
+      "newCatalogue": true,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/4863.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，卷云纹璜，长8.7，宽2.3，厚0.6cm\n.",
+      "readyCrops": [
+        "玉璜卷云纹单元"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4864",
+      "title": "漆木方壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4864.html",
+      "sourceText": "战国中晚期（距今约2310年),九连墩2号墓出土，仿铜盛酒器，通高44.3，口径10.4，腹径20.2cm。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4865",
+      "title": "玉觽",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4865.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，龙形，长17.3，宽0.9，厚0.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4866",
+      "title": "玉挂饰",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4866.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，羽人角形佩，长13.9，宽3.6，厚0.9cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4867",
+      "title": "玉珑",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4867.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，龙形佩，长3.75，宽3.4，厚0.55cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4868",
+      "title": "玉坠饰",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4868.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，叠人踏豕佩，通高5.1，宽0.3-3.05，厚0.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4870",
+      "title": "玉珩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4870.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，双头龙形佩，长4.7，厚0.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4871",
+      "title": "玉镂空饰",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4871.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，条形佩，长8.42，宽2.3，厚0.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4872",
+      "title": "玉管",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4872.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，双管，高2，直径2，孔径1.3cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4873",
+      "title": "玉瑗",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4873.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，瑗形佩，直径3.4，孔径1.6，厚0.45cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4874",
+      "title": "玉(韦枼)",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4874.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，(韦枼)(钩弦器)形佩，径4.4，高14.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4876",
+      "title": "玉条形饰",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4876.html",
+      "sourceText": "战国中晚期(距今约2320年)，九连墩1号墓出土，条形管饰，长5.65，宽0.7，厚0.52cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4877",
+      "title": "玉管",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4877.html",
+      "sourceText": "战国中晚期(距今约2310年)，九连墩2号墓出土，条形佩，长6.9，宽2，厚0.,6 cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4878",
+      "title": "玛瑙瑗",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/4878.html",
+      "sourceText": "中晚期(距今约2310年)，九连墩2号墓出土，瑗形佩，直径5.7，孔径3.4，厚0.7cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4951",
+      "title": "漆木盒",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4951.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，通高19.1，口径19.6，圈足径11.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4952",
+      "title": "漆木盒",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4952.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，通高12.4，口径15.7，圈足径9.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4953",
+      "title": "漆木匜形杯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4953.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，饮器，通高13.1，长16.2，宽19.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4954",
+      "title": "漆木匜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4954.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，盥洗器，通高16.6，长24.4，宽22.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4955",
+      "title": "漆木盘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4955.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，盥洗器，通高12，口径50，底径24cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4956",
+      "title": "漆木鬲",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4956.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，进食器，通高12.8，口径8，腹径11.1cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4957",
+      "title": "漆木勺",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4957.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，挹水器，通长58.6，勺高7.8，口径19.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4958",
+      "title": "漆木几",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4958.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，安体器，通高48，长47.4，宽16.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4959",
+      "title": "漆木耳杯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4959.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，饮器，通高6.7，长19，宽15cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4960",
+      "title": "漆木樽",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4960.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，通高13.2，口径18.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4961",
+      "title": "漆木卧鹿",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4961.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，陈设器，通高96.8，身高41.2，长56.6，宽,34.9cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4962",
+      "title": "漆木鬲",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4962.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，进食器，通高13.6，口径15.8，腹径16.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4963",
+      "title": "漆木升鼎",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4963.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，仿铜盛牲器，通高36.9，口径40，两耳间距56cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4964",
+      "title": "漆木车",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4964.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，通高65.5，通长239，宽82cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4965",
+      "title": "漆木俎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4965.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，陈腥牲器，通高89.8，面长91.2，宽38cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4967",
+      "title": "编钟",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4967.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，打击乐器，通高89.9，宽283cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4968",
+      "title": "漆木角形器",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4968.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，打击乐器，通长50.7，直径12cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4969",
+      "title": "漆木敦",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4969.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，供食器，通高32，口径20.3cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4970",
+      "title": "漆木簋",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4970.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，供食器，通高27.4，口径23，座宽11.8，宽23cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4971",
+      "title": "漆木簠",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4971.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，盛食器，通高24.6，长30.2，宽24cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4972",
+      "title": "漆木俑",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4972.html",
+      "sourceText": "战国中晚期（距今约2310年）九连墩2号墓出土，通高74.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5074",
+      "title": "铜镬鼎",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5074.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，煮牲器，通高93.8，口径81.2，腹径84，两耳间距109.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5075",
+      "title": "铜镬鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5075.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，煮牲器，通高62.4，口径52.8，腹径55.6，两耳间距60cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5076",
+      "title": "铜升鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5076.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛焖（半生不熟）牲器，通高41.4，口径41，两耳间距57.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5077",
+      "title": "铜升鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5077.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛焖牲器\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5078",
+      "title": "铜鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5078.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛羞（加调料）牲鼎，通高49，口径40，腹径44.8，两耳间距51cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5079",
+      "title": "铜鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5079.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛熟牲鼎，通高32.7，口径25.4，腹径30，两耳间距33.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5080",
+      "title": "铜敦",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5080.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛饭洲器，通高26.2，口径21.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5081",
+      "title": "铜盒",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5081.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛饭洲器，通高28.4，口径36.4，腹径38.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5082",
+      "title": "铜深腹圆盘盖豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5082.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号墓出土，盛食器，通高29，口径13.4，腹径10.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5083",
+      "title": "铜簠",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5083.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛谷物器，通高30.2，长33，宽23.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5084",
+      "title": "铜深腹方盘盖豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5084.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号墓出土，盛食器，通高34.3，口长、宽19.8， 底径11.6，通宽24cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5085",
+      "title": "铜浅腹圆盘豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5085.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛食器，通高28，口径21.4， 底径13.7cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5086",
+      "title": "铜深腹圆盘豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5086.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号墓出土，盛食器，通高24.8-16.6，口径13.1-12.6，底径10.8-8.8\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5087",
+      "title": "铜方壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5087.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛酒器，通高46.1，口宽11.8，腹宽21.8，底宽13.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5088",
+      "title": "铜方壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5088.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛酒器，通高80，最大口宽18.8，最大腹宽30，最大底宽22，冠高29.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5089",
+      "title": "铜高柄壶形杯",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5089.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，饮酒器，通高23.3，口径4.5，腹径8.8，盖径4.8，底径6.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5090",
+      "title": "铜缶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5090.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛酒器，通高35.8，口径15.7，腹径28.4，底径16.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5091",
+      "title": "铜方鉴",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5091.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，冰（温）食器，通高25，边长38.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5092",
+      "title": "铜鬲",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5092.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，饮食器，通高11.4，口径15.3，腹径15.5 cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5093",
+      "title": "铜匕",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5093.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，进食器，通长26.3，宽4.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5094",
+      "title": "铜甗",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5094.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，蒸食器，通高53.4，甑高28.3，口径35，两耳间距40.8，鬲高25.6，口径17.6，腹径22.6 cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5095",
+      "title": "铜尊",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5095.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛明水（露水）器，通高32，口径28.6，腹径20，底径20.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5096",
+      "title": "铜盘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5096.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，盛尊器，通高12.7，口径34，底径28.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5097",
+      "title": "铜矮足案",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5097.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，陈食器，通高12.4，长43.8，宽32.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5098",
+      "title": "铜俎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5098.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，陈食器，通高12.4，长43.8，宽32.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5099",
+      "title": "铜鸮杯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5099.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，供饮器，通高16.55，口径6.4，底径3.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5100",
+      "title": "铜人擎灯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5100.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，照明器，通高24.85，人高12.3，盘口径11.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5101",
+      "title": "铜钮钟",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5101.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，敲击乐器，通高23.9，舞修12，铣间13.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5102",
+      "title": "铜甬钟",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5102.html",
+      "sourceText": "战国中晚期（距今约2320年），九连墩1号幕出土，乐器，通高67.8，舞修21.9，铣间24.6cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5103",
+      "title": "铜镬鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5103.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，煮牲器，通高66，口径79，两耳间距104.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5104",
+      "title": "铜鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5104.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，盛熟牲器\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5105",
+      "title": "铜敦",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5105.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，盛饭粥器，通31.3，口径23cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5106",
+      "title": "铜盖豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5106.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，盛食器，通高32.8，口径18.4，盖径20.4，腹径20.6，底径14cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5107",
+      "title": "铜簋",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5107.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，盛谷物器，通高25.8，口径23.8，座高12.6，长23.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5108",
+      "title": "铜缶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5108.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，盛酒器，通高46.6，口径18，腹径36.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5109",
+      "title": "铜盒",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5109.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，盛饭粥器，通高16.5，口径21.9，腹径22.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5110",
+      "title": "铜壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5110.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，盛酒器，通高51，口径17.8，盖径18.4，腹径35cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5111",
+      "title": "铜圆鉴",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5111.html",
+      "sourceText": "战国中晚期（距今约2310年），九连墩2号幕出土，冰（温）食器，通高32.4，口径67，两耳间距80cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5422",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5422.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩1号墓出土\n龙形佩\n长6.8、宽4、厚0.3cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5423",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5423.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩1号墓出土\n双头龙形佩\n残长6.7、宽3.1、厚0.35cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5424",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5424.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩1号墓出土\n双凤连双身龙形佩\n长8.4、宽6.3、厚0.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5425",
+      "title": "玉璜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5425.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩1号墓出土\n对璜，双头虎形\n长10.7、宽0.95（近端）、厚0.3cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5426",
+      "title": "玉珩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5426.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩1号墓出土\n双头龙形佩\n长13.3、宽1.2、厚0.55cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5427",
+      "title": "玉瑗",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5427.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩2号墓出土\n瑗形佩\n直径9、孔径5.6、厚0.35cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5428",
+      "title": "玉璜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5428.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩2号墓出土\n对首龙形佩\n长8.2、宽2.3、厚0.45、高4.1cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5429",
+      "title": "玉珑",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5429.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩2号墓出土\n龙形佩\n长5.45、厚0.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5430",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5430.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩2号墓出土\n龙形佩，对饰\n长10.9、厚0.65cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5431",
+      "title": "玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5431.html",
+      "sourceText": "战国中晚期(距今约2320年)\n九连墩2号墓出土\n龙形佩，对饰\n长10.5-11、宽6.4-6.9、厚/0.3-0.35cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5469",
+      "title": "铜鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5469.html",
+      "sourceText": "战国中晚期（距今约2310年）\n九连墩2号墓出土\n盛馐（加调料）牲器\n通高41.8、口径42.2、腹径45.2、两耳间距53cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5470",
+      "title": "铜盆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5470.html",
+      "sourceText": "战国中晚期（距今约2310年）\n九连墩2号幕出土\n承接明（露）水器\n通高15.1、口径41cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5472",
+      "title": "铜马",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5472.html",
+      "sourceText": "战国中晚期（距今约2310年）\n九连墩2号幕出土\n玩赏物\n高24.8、身长37、宽10cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5474",
+      "title": "铜炉",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5474.html",
+      "sourceText": "战国中晚期（距今约2310年）\n九连墩2号幕出土\n取暖器\n通高19、长68.6、宽51cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6188",
+      "title": "漆木浅盘豆",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/6188.html",
+      "sourceText": "口径17.5cm，底径13.5cm，高26.7cm，枣阳九连墩M2：219\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "dou",
+      "title": "漆木彩绘凤鸟莲花盖豆",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-460.html",
+      "sourceText": "【漆木彩绘凤鸟莲花盖豆】时代：战国（公元前475—221年）来源：天星观二号楚墓出土级别：国家一级文物内涵：该器物同时使用了三种雕刻手法，豆盘的莲花为浮雕，凤鸟柄为圆雕，蛇形豆座为透雕。豆盘为盛开的莲花状，豆柄为一只羽毛鲜艳的凤鸟，底座为一条盘旋的蛇。凤鸟曲颈昂首，喙衔莲花；展翅蹬足，爪攫蟠蛇。此器物造型极富动感，构思精巧，举世无双。",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "guardian",
+      "title": "漆木彩绘双头镇墓兽",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-457.html",
+      "sourceText": "【漆木彩绘双头镇墓兽】时代：战国（公元前475—221年）来源：天星观一号楚墓出土级别：国家一级文物内涵：镇墓兽头插鹿角，睁目吐舌，狰狞恐怖，是经过夸张或组合而成的形象，显示其引魂升天的神威，镇墓兽这种虚构动物的造像方法，有许多研究者经过研究推测为是将多种动物的某些器官相互拼合而构成的。",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4724",
+      "title": "小口鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4724.html",
+      "sourceText": "战国，高38,口径20.8cm，2000年荆州天星观2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4729",
+      "title": "汤鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4729.html",
+      "sourceText": "战国，通宽29，高26.2，口径12.4cm，1965年江陵望山1号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4749",
+      "title": "盉",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4749.html",
+      "sourceText": "战国，高22.6,口径7.4cm，1986年江陵望山1号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4756",
+      "title": "龙形钮铜敦",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4756.html",
+      "sourceText": "战国，高26，口径20.5，耳距24.8cm，江陵望山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4760",
+      "title": "敦",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4760.html",
+      "sourceText": "战国，高25.5,口径19.6cm，1965年江陵望山1号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4763",
+      "title": "壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4763.html",
+      "sourceText": "战国，高37.3,口径11.5cm，1965年江陵望山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4977",
+      "title": "彩漆豆",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4977.html",
+      "sourceText": "战国，高22.8，口径16.1cm，1986江陵雨台山18号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4978",
+      "title": "彩绘猪形盒",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4978.html",
+      "sourceText": "战国，长43，宽16，通高20cm，1986年江陵雨台山10号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4980",
+      "title": "彩绘三角形纹盏形器",
+      "newCatalogue": false,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4980.html",
+      "sourceText": "战国，通高10.3，腹径10cm，1986年江陵雨台山10号墓出土\n.",
+      "readyCrops": [
+        "红黑三角纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4982",
+      "title": "彩绘勾边连云纹盨形器",
+      "newCatalogue": true,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4982.html",
+      "sourceText": "战国，长28.4，通高22.6cm，1986年江陵雨台山10号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "云气",
+          "reason": "漆面破损严重，现有照片不足以分辨勾边连云纹的完整线条。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4986",
+      "title": "彩绘变形鸟纹圆耳杯",
+      "newCatalogue": false,
+      "motifs": [
+        "禽鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4986.html",
+      "sourceText": "战国，长15.2，通宽11.1，高4.7cm，1966年江陵望山1号墓出土\n.",
+      "readyCrops": [
+        "口沿变形鸟纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4987",
+      "title": "彩绘菱形纹涡纹耳杯",
+      "newCatalogue": true,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4987.html",
+      "sourceText": "战国，长17.2，宽15.2，高6.5cm，1966年江陵望山2号墓出土\n.",
+      "readyCrops": [
+        "耳杯耳部菱形纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4992",
+      "title": "竹席",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4992.html",
+      "sourceText": "战国，长47，宽41cm，1966年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4993",
+      "title": "竹席",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4993.html",
+      "sourceText": "战国，长42，宽23cm，1966年江陵沙冢1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4996",
+      "title": "彩绘鸟兽纹矢箙面板",
+      "newCatalogue": true,
+      "motifs": [
+        "虎兽",
+        "禽鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4996.html",
+      "sourceText": "战国，通高23.5，上宽22，下宽18cm，1965年江陵沙冢1号墓出土\n.",
+      "readyCrops": [
+        "面板上缘兽纹",
+        "面板左侧鸟纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4997",
+      "title": "剑盒、剑鞘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4997.html",
+      "sourceText": "战国，盒长64,宽6.4，高10.8cm，鞘长42.7，宽4.2cm，1986年江陵雨台山6号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4998",
+      "title": "夹纻胎削鞘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4998.html",
+      "sourceText": "战国，长29.5，宽3cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5000",
+      "title": "彩绘龙云纹单头镇墓兽",
+      "newCatalogue": true,
+      "motifs": [
+        "云气",
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5000.html",
+      "sourceText": "战国，高（未记鹿角）17.5cm，1986年江陵雨台山6号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "云气",
+          "reason": "图中器身太小，龙云纹不可辨清。"
+        },
+        {
+          "motif": "龙蛇",
+          "reason": "图中器身太小，龙云纹不可辨清。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5001",
+      "title": "彩绘木雕小座屏",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5001.html",
+      "sourceText": "战国，通长51.8，高15，屏宽3，座宽12cm，1966年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5073",
+      "title": "圆涡纹铜缶",
+      "newCatalogue": false,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5073.html",
+      "sourceText": "战国，通宽32.8，高36，口径15.6cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [
+        "圆涡纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5115",
+      "title": "匜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5115.html",
+      "sourceText": "战国，腹深11，全长25cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5119",
+      "title": "盘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5119.html",
+      "sourceText": "战国，高12，口径43.4cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5123",
+      "title": "提链炉",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5123.html",
+      "sourceText": "战国，高9，口径29.4，链长23.5cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5125",
+      "title": "剑",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5125.html",
+      "sourceText": "战国，通长48.3cm，1965年江陵望山4号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5126",
+      "title": "剑",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5126.html",
+      "sourceText": "战国，宽3.3，全长38.5，剑身长27.5cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5127",
+      "title": "剑",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5127.html",
+      "sourceText": "战国，宽4.8，全长62.7，剑身长53.1cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5128",
+      "title": "矛",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5128.html",
+      "sourceText": "战国，长15.1，銎径2.2cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5129",
+      "title": "矛",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5129.html",
+      "sourceText": "战国，长31，銎径3.2�2.4cm，1965年江陵望山4号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5130",
+      "title": "窄援长内铜戈",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5130.html",
+      "sourceText": "战国，援长16，内长10.3，阑长12.6，胡长10.4cm，1965年江陵望山4号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5131",
+      "title": "戈",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5131.html",
+      "sourceText": "战国，长39，援长20，胡长32cm，1975年江陵雨台山416号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5132",
+      "title": "戈",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5132.html",
+      "sourceText": "战国，全长21.4，援长13，内长8.2，胡长7.6cm，19,86年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5137",
+      "title": "短炳戈",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5137.html",
+      "sourceText": "战国，戈长18.3，柄通长81cm，1986年江陵雨台山10号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5138",
+      "title": "铜镞",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5138.html",
+      "sourceText": "战国，长7cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5139",
+      "title": "三棱形箭镞",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5139.html",
+      "sourceText": "战国，长14.7，宽1.4cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5142",
+      "title": "错银凤纹铜樽",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5142.html",
+      "sourceText": "战国，高17.1，口径24.4，低径21.5cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5144",
+      "title": "熏杯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5144.html",
+      "sourceText": "战国，高10.4，口径8.9，底径7cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5147",
+      "title": "人骑骆驼灯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5147.html",
+      "sourceText": "战国，高19.2，灯盘径8.9cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5150",
+      "title": "错金银龙凤纹铁带钩",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5150.html",
+      "sourceText": "战国，长46.2，宽6.5，厚0.5cm。1965年江陵望山1号墓出土\n.",
+      "readyCrops": [
+        "带钩右侧错金银纹饰",
+        "带钩左侧错金银纹饰"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5151",
+      "title": "鎏金铜带钩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5151.html",
+      "sourceText": "战国，长14.5，头宽1.1，尾宽2.6cm，1966年江陵望山3号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5152",
+      "title": "八叶四花四山纹镜",
+      "newCatalogue": true,
+      "motifs": [
+        "花卉",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5152.html",
+      "sourceText": "战国，直径14.67cm，1982年江陵九店15号墓出土\n.",
+      "readyCrops": [
+        "铜镜花叶纹单元",
+        "铜镜山字纹单元"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5153",
+      "title": "镂空凤纹铜镜",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5153.html",
+      "sourceText": "战国，直径11cm，1985年江陵九店315号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5155",
+      "title": "凤纹铜镜",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5155.html",
+      "sourceText": "战国，直径12.2cm，1982年江陵九店13号墓出土\n.",
+      "readyCrops": [
+        "镜背凤纹区"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5158",
+      "title": "无锋刃箭镞（一组）",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5158.html",
+      "sourceText": "战国，1965年江陵望山号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5173",
+      "title": "谷纹玉环",
+      "newCatalogue": false,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/5173.html",
+      "sourceText": "战国，外径11.5，内径6.1，厚0.4cm，1965年江陵望山1号墓出土\n.",
+      "readyCrops": [
+        "谷纹单元"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5174",
+      "title": "云纹玉璧",
+      "newCatalogue": true,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/5174.html",
+      "sourceText": "战国，直径21.4，内径6.9cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [
+        "玉璧器表卷云纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5177",
+      "title": "玉璜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5177.html",
+      "sourceText": "战国，通高15，中间宽3.3，厚0.6cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5181",
+      "title": "龙形玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5181.html",
+      "sourceText": "战国，通长13.2，宽6，厚0.9cm，1965年江陵望山3号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5182",
+      "title": "透雕龙形玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5182.html",
+      "sourceText": "战国，通长28，宽5.6，厚0.4cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5186",
+      "title": "龙形玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5186.html",
+      "sourceText": "战国，长19，宽12.6cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5187",
+      "title": "水晶串饰",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5187.html",
+      "sourceText": "战国，1982-1986年江陵九店楚墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5188",
+      "title": "琉璃珠",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5188.html",
+      "sourceText": "战国，江陵九店294号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5189",
+      "title": "玉带钩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5189.html",
+      "sourceText": "战国，长4.8，宽2cm，1965年江陵望山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5375",
+      "title": "望山楚墓卜筮祭祷简",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5375.html",
+      "sourceText": "战国（475 BC—221BC）\n均残断，最长52.1cm\n1965年江陵望山1号墓出土\n湖北省博物馆藏\n内容为墓主昭固的卜筮祭祷记录，是我国最早发现的卜筮祭祷竹简。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6169",
+      "title": "绳纹陶鬲",
+      "newCatalogue": false,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/6169.html",
+      "sourceText": "高20.8，口径26.8cm，江陵望山M1头138\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "几何",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-6170",
+      "title": "灰陶长颈壶",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/6170.html",
+      "sourceText": "高24.6，口径13.2，腹径9.8cm，江陵望山M1头125\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6192",
+      "title": "陶簋",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/6192.html",
+      "sourceText": "高25.2，口径22.8cm，江陵望山M1头160\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6197",
+      "title": "“蜻蜓眼”式料管",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/6197.html",
+      "sourceText": "长2.7、直经2.1厘米，江陵九店M703：1\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-356",
+      "title": "蟠龙飞凤纹绣浅黄绢面衾",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟",
+        "龙蛇"
+      ],
+      "source": "http://www.jzmsm.org/news-356.html",
+      "sourceText": "【蟠龙飞凤纹绣浅黄绢面衾】\n时代：战国（公元前475—221年）\n来源：马山一号楚墓出土\n级别：国家一级文物\n内涵：接近正方形，上端中部有凹口，并包有彩条纹绮的被识，衾面由二十五片不同花纹的绣绢拼成，正中是由二十三片绣绢缀成蟠龙飞凤纹，左右两侧各有一片舞凤逐龙纹。绣地为浅黄色绢，绘墨稿。绣线可见棕、深红、土黄、浅黄色。图案上部是一条作反S形盘旋状的大龙口衔一条小龙的尾部，小龙做S形，与大龙回首相顾。图案下部是一只高冠展翅而飞的凤鸟，嘴部与大龙尾部相衔。凤鸟下部是一条卷曲的小龙。中间有花枝和十字形作为对称轴。图案构图紧凑、充实，绣线颜色配置协调，给人以华丽之感。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-357",
+      "title": "龙凤虎纹绣罗单衣",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟",
+        "龙蛇",
+        "虎豹",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-357.html",
+      "sourceText": "【龙凤虎纹绣罗单衣】\n时代：战国（公元前475—221年）\n来源：马山一号楚墓出土\n级别：国家一级文物\n内涵：衣面龙凤虎纹绣，纹样长29.5、宽21厘米。灰白色罗绣地，绣线有红棕、棕、黄绿、土黄、桔红、黑、灰色。纹样中的一侧是一只头顶华丽花冠的凤鸟，作跳跃状，双翅张开，脚踏小龙。小龙无角，头作三角形。另一侧是一只满身布红黑长纹的斑斓猛虎，张牙舞爪朝前方奔逐大龙。大龙反身成S形，作抵御状。领和袖缘用B型大菱形纹锦，大菱形内填以中、小菱形纹、杯形纹、“工”字形纹、曲折纹、回形等纹样。外锦缘和下摆用C型大菱形纹锦，大菱形内填以深红、土黄色小三角形，或对角，或对底，以及杯形纹、“工”字形纹、曲折纹等纹样。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "虎豹",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "几何",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-358",
+      "title": "凤鸟花卉纹绣浅黄绢面绵袍",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟",
+        "龙蛇",
+        "花卉",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-358.html",
+      "sourceText": "【凤鸟花卉纹绣浅黄绢面绵袍】\n时代：战国（公元前475—221年）\n来源：马山一号楚墓出土\n级别：国家一级文物\n内涵：出土于具有我国“古代丝绸宝库”之称的江陵马山一号楚墓。揭取时是处于第七层，袍面为凤鸟花卉纹绣，线黄绢绣地。绘黑稿。图案作长条形，由怪鸟和花枝组成，对角布置。怪鸟张翅作站立状，长颈大腹，头号有四束花冠，垂于左右两边。三束花缨，垂于怪鸟一侧。其凤鸟菱形纹锦、大菱形纹锦、田猎纹绦、龙凤纹绦以及袍面的凤鸟花卉纹绣，构图内容丰富，织造精美，具有极高的艺术价值，对于研究楚国的纺织技术、文化等具有重要的科学价值和历史价值。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "花卉",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "几何",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-359",
+      "title": "根雕辟邪",
+      "newCatalogue": false,
+      "motifs": [
+        "龙蛇",
+        "禽鸟"
+      ],
+      "source": "http://www.jzmsm.org/news-359.html",
+      "sourceText": "【根雕辟邪】\n时代：战国（公元前475—221年）\n来源：马山一号楚墓出土\n级别：国家一级文物\n内涵：根雕胎，髹红漆，是目前我国发现的时代最早的根雕作品之一。辟邪虎头曲身，四肢长短不一，利用根枝原状而求四肢不对称之美，四肢上分别浮雕蛇、蛇噬蛙、蜥蜴噬鸟和蝉。奇特的造型与装饰，向人们展示出楚人的某种宗教、哲学思想。它是一件休息时倚靠的凭几，下葬时也兼作个性化的镇墓兽。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "禽鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-458",
+      "title": "漆木彩绘猪形酒具盒",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟",
+        "龙蛇",
+        "云气"
+      ],
+      "source": "http://www.jzmsm.org/news-458.html",
+      "sourceText": "【漆木彩绘猪形酒具盒】\n时代：战国（公元前475—221年）\n来源：天星观二号楚墓出土\n级别：国家一级文物\n内涵：全器为两怪兽合体，呈长椭圆形，由盖、身两部分组成。盖两端各为一怪兽，形状相同，浮雕猪嘴圆眼，角上盘，耳后立，头部有4个铜环捉手。全器外壁皆以黑漆为地，在其上用红、黄、银灰、棕红等色绘龙纹、凤纹、云气纹以及乐舞、狩猎场景。内壁髹红漆。出土时器内装有数件耳杯。\n",
+      "readyCrops": [
+        "器身卷曲装饰"
+      ],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-459",
+      "title": "漆木彩绘虎座凤鸟悬鼓",
+      "newCatalogue": false,
+      "motifs": [
+        "虎豹"
+      ],
+      "source": "http://www.jzmsm.org/news-459.html",
+      "sourceText": "【漆木彩绘虎座凤鸟悬鼓】\n时代：战国（公元前475—221年）\n来源：天星观二号楚墓出土\n级别：国家一级文物\n内涵：虎座凤鸟悬鼓是战国时期楚国的重要乐器。全器以两只昂首卷尾、四肢屈伏、背向而踞的卧虎为底座，虎背上各站立一只长腿昂首引吭高歌的鸣凤，背向而立的鸣凤中间悬挂一面大鼓。通体用红、黄等色绘虎的斑纹和凤的羽毛。造型别致优美。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "虎豹",
+          "reason": "馆方文字提及该纹饰，当前照片未能单独辨清，不绘制或补全纹样。"
+        }
+      ]
+    },
+    {
+      "id": "jz-462",
+      "title": "“越王州句”铜剑",
+      "newCatalogue": false,
+      "motifs": [
+        "铭文"
+      ],
+      "source": "http://www.jzmsm.org/news-462.html",
+      "sourceText": "【越王州句”铜剑】\n时代：战国（公元前475—221年）\n来源：藤店一号楚墓出土\n级别：国家一级文物\n内涵：圆首，圆茎实心。剑茎上满缠丝绳，有两道带纹饰的圆箍，茎靠首端用木片包夹呈圆形。剑身无纹饰，一面近格处有两行八字错金鸟篆铭文“戉（越）王州（朱）句（勾）自乍（作）用佥（剑）”。刃锋锐利，光泽如新。越王州勾是越王勾践之重孙，在位共计37年之久（公元前448～前412年）。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-464",
+      "title": "连发铜木弩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-464.html",
+      "sourceText": "【连发铜木弩】\n时代：战国（公元前475—221年）\n来源：秦家咀墓地出土\n级别：国家一级文物\n内涵：远射兵器。由木制矢匣（双射孔，储矢20支）、铜质机体组成，双矢并射，连发。机关复杂，设计精巧，杀伤力强，被誉为“手枪鼻祖”。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-465",
+      "title": "铜编钟",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-465.html",
+      "sourceText": "【铜编钟】\n时代：战国（公元前475—221年）\n来源：天星观二号楚墓出土\n级别：国家一级文物\n内涵：礼器，大型悬乐器，主要用于祭祀、宴飱。由钮钟、镈钟编排成序列，形成音律齐全、音域宽广的音阶，体现楚人高超的青铜铸造技术和对音乐的美妙理解。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-466",
+      "title": "铜升鼎",
+      "newCatalogue": false,
+      "motifs": [
+        "龙蛇",
+        "兽面"
+      ],
+      "source": "http://www.jzmsm.org/news-466.html",
+      "sourceText": "【铜升鼎】\n时代：战国（公元前475—221年）\n来源：天星观二号楚墓出土\n级别：国家一级文物\n内涵：平折沿，口微敛，两长方形立耳外撇弧度较大，近平，器身中部束腰，束腰处有一周圆形凸棱，腹部较浅，附有四个精致的爬兽，平底，下接三个兽面蹄足。器物耳部、口沿、束腰凸棱及凸棱以上的器身满饰细密繁缛的蟠螭纹，耳部仅背面无纹饰。凸棱以下的器身满饰蟠虺纹。该器物外底附有较厚的烟炱，器底还可见清晰的铸范痕迹。器物制作精致，装饰繁缛。出土时内附铜匕一件。\n",
+      "readyCrops": [
+        "器腹纹饰"
+      ],
+      "unmade": [
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-467",
+      "title": "组玉佩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-467.html",
+      "sourceText": "【组玉佩】\n时代：战国（公元前475—221年）\n来源：冯家冢墓地出土\n级别：国家一级文物\n内涵：由多件不同种类如璧、环、管、玦、璜、珩、佩、珠等穿缀在一起的玉器组合。《诗•郑风•女曰鸡鸣》：“知子之来之，杂佩以赠之”中的“杂佩”即组玉佩。与身份、君子、淑性、美德相关。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-468",
+      "title": "玉覆面",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-468.html",
+      "sourceText": "【玉覆面】\n时代：战国（公元前475—221年）\n来源：秦家山二号墓出土\n级别：国家一级文物\n内涵：整块玉雕呈人面形，制作独特，工艺精湛，极其罕见。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-469",
+      "title": "人执龙形玉佩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-469.html",
+      "sourceText": "【人执龙形玉佩】\n时代：战国（公元前475—221年）\n来源：院墙湾一号楚墓出土\n级别：国家一级文物\n内涵：由一人、二龙、二凤组成。人着网格纹右衽深衣居中，头顶圆形璧，双臂张开各执一龙。二龙相对，龙身虬曲，龙背各栖一凤鸟。造型独特，寓意深刻，浑然天成，巧夺天工。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-470",
+      "title": "龙凤形玉佩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-470.html",
+      "sourceText": "【龙凤形玉佩】\n时代：春秋晚期至战国早期（公元前5世纪）\n来源：熊家冢墓地出土\n级别：二级文物\n内涵：透雕龙形，龙作曲颈、蜷躯、卷尾，龙尾下坠有一卷曲的小螭，凤倒立于龙身部，钩喙回首，身刻羽纹，体现楚人尊龙崇凤思想。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-471",
+      "title": "人乘龙形玉佩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-471.html",
+      "sourceText": "【人乘龙形玉佩】\n时代：春秋晚期至战国早期（公元前5世纪）\n来源：熊家冢墓地出土\n级别：二级文物\n内涵：造型独特，龙身中部倚立一人，是楚先民御龙遨游思想的反映。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "winged",
+      "title": "漆木彩绘蟾座凤鸟羽人",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-461.html",
+      "sourceText": "【漆木彩绘蟾座凤鸟羽人】时代：战国（公元前475—221年）来源：天星观二号楚墓出土级别：国家一级文物内涵：羽人是楚地巫风最盛时代最具创意的木雕作品。由上部羽人、中部凤鸟和下部蟾蜍状底座三部分组成，其中羽人为人鸟合体，立于凤鸟之上，造型奇特，形象优美，制作精致。羽人被当作天上的神灵，蟾蜍代表月亮之精，凤鸟是飞翔于天地之间的神鸟，羽人又是变化莫测的神人，三者合一，寄托楚人遨游九天，羽化成仙的愿望。收藏...",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4719",
+      "title": "豕鑐鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4719.html",
+      "sourceText": "战国，高42，口径53cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4720",
+      "title": "鼎钩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4720.html",
+      "sourceText": "战国，，通长28.9cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4721",
+      "title": "牛鑐鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4721.html",
+      "sourceText": "战国，高75.2，口径63.4cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4723",
+      "title": "长木柄铜匕",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4723.html",
+      "sourceText": "战国，长144，匕宽14.9cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4725",
+      "title": "平底升鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4725.html",
+      "sourceText": "战国，高38.4,口径39cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4727",
+      "title": "环钮铁足鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4727.html",
+      "sourceText": "战国，高22.1，口径15cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4730",
+      "title": "方耳卧牛钮鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4730.html",
+      "sourceText": "战国，高28.5，口径41.5cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4734",
+      "title": "螭钮鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4734.html",
+      "sourceText": "战国，高27.2，口径41cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4737",
+      "title": "环耳环钮鼎",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/4737.html",
+      "sourceText": "战国，高15.1，口径11cm，1986年荆门包山2号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4976",
+      "title": "方格云纹酒具盒",
+      "newCatalogue": true,
+      "motifs": [
+        "云气",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4976.html",
+      "sourceText": "战国，通长71.5，宽25.6，通高19.6cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "云气",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "几何",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4979",
+      "title": "彩绘凤纹竹筒",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4979.html",
+      "sourceText": "战国，通高28.8，直径6.7cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4981",
+      "title": "彩绘凤鸟双连杯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+      "sourceText": "战国，通长17.6，宽14，通高9.2cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4984",
+      "title": "彩绘凤纹带流杯",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4984.html",
+      "sourceText": "战国，最大口径19.3，高10cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4985",
+      "title": "彩绘龙纹带流杯",
+      "newCatalogue": true,
+      "motifs": [
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4985.html",
+      "sourceText": "战国，最大口径19.3，高10cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "龙蛇",
+          "reason": "器壁反光与磨损遮盖龙纹，无法可靠分离。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4988",
+      "title": "透雕云纹木梳",
+      "newCatalogue": false,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4988.html",
+      "sourceText": "战国，长8.2，宽7.1cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [
+        "透雕云纹梳背"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4989",
+      "title": "篦",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4989.html",
+      "sourceText": "战国，长8.5，宽6.9cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4990",
+      "title": "梳子",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4990.html",
+      "sourceText": "战国，长7.9，宽8.4cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4991",
+      "title": "木篦",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4991.html",
+      "sourceText": "战国，长8.2，宽8.7cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4994",
+      "title": "彩绘龙凤纹漆盾",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4994.html",
+      "sourceText": "战国，长46.8，宽34cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [
+        "漆盾上部凤纹",
+        "漆盾下部盘曲龙纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-4995",
+      "title": "漆盾（正反面）",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4995.html",
+      "sourceText": "战国，长91，宽49cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4999",
+      "title": "彩绘漆棺",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/4999.html",
+      "sourceText": "战国，长184，宽46，高46cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5002",
+      "title": "短颈圆肩壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5002.html",
+      "sourceText": "战国，高21,口径9.9cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5069",
+      "title": "嵌错龙纹铜壶",
+      "newCatalogue": false,
+      "motifs": [
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5069.html",
+      "sourceText": "战国，高22.5,口径9.9cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [
+        "器腹嵌错纹饰"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5071",
+      "title": "铜卵缶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5071.html",
+      "sourceText": "战国，高34，口径21，耳距45cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5072",
+      "title": "迅缶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5072.html",
+      "sourceText": "战国，高50.2,口径24.5cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5112",
+      "title": "四钮缶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5112.html",
+      "sourceText": "战国，高34.3,口径16cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5116",
+      "title": "铺首衔环匜",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5116.html",
+      "sourceText": "战国，腹深12.5，全长36.1cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5118",
+      "title": "双提链盘",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5118.html",
+      "sourceText": "战国，盘深8.8，口径51.6cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5120",
+      "title": "圆鉴",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5120.html",
+      "sourceText": "战国，高24.7，口径51.7cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5121",
+      "title": "大铜勺",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5121.html",
+      "sourceText": "战国，勺径18.8，通长52.2cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5122",
+      "title": "浅腹铜套盒",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5122.html",
+      "sourceText": "战国，高5.8，口径19.4cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5124",
+      "title": "铜箕",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5124.html",
+      "sourceText": "战国，高10，通长29，口宽28.5cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5134",
+      "title": "杖",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5134.html",
+      "sourceText": "战国，通长155.2cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5140",
+      "title": "箭镞（一组）",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5140.html",
+      "sourceText": "战国，1986年金陵包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5143",
+      "title": "鸟首形杯",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5143.html",
+      "sourceText": "战国，高7.5，口径14.3cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5145",
+      "title": "凤纹熏杯",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5145.html",
+      "sourceText": "战国，高7.5，口径14.3cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [
+        "熏杯器壁凤纹镂空"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5146",
+      "title": "飞鸟",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5146.html",
+      "sourceText": "战国，高21.4cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5148",
+      "title": "铜人擎灯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5148.html",
+      "sourceText": "战国，通高16.3，灯盘口径8.6cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5149",
+      "title": "豆形铜灯",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5149.html",
+      "sourceText": "战国，高19.9，口径13.8cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5154",
+      "title": "镂空龙纹夹层铜镜",
+      "newCatalogue": true,
+      "motifs": [
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5154.html",
+      "sourceText": "战国，边长11.1，厚0.25cm，1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "龙蛇",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5157",
+      "title": "错金云纹及错金蟠螭纹器盖",
+      "newCatalogue": true,
+      "motifs": [
+        "龙蛇",
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/5157.html",
+      "sourceText": "战国，左盖高1.9，盖径10.1cm。右盖高1.5，盖径11.1cm。1986年荆门包山2号墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "龙蛇",
+          "reason": "两件器盖纹饰像素过少，腐蚀纹理容易被当作纹样。"
+        },
+        {
+          "motif": "云气",
+          "reason": "两件器盖纹饰像素过少，腐蚀纹理容易被当作纹样。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5366",
+      "title": "郭店竹简《老子》乙",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5366.html",
+      "sourceText": "战国（475 BC—221BC）\n长14.1—29.7cm\n1993年荆门郭店1号墓出土\n原藏荆门博物馆\n郭店楚墓共发现三种《老子》 ，此为第二种。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5367",
+      "title": "郭店楚简《太一生水》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5367.html",
+      "sourceText": "战国（475 BC—221BC）\n长17.6—25.7cm\n1993年荆门郭店1号墓出土\n原藏荆门博物馆\n《太一生水》是首次发现的先秦时期有关宇宙生成的重要文献。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5368",
+      "title": "郭店楚简《淄衣》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5368.html",
+      "sourceText": "战国（475 BC—221BC）\n长31.3—31.6cm\n1993年荆门郭店1号墓出土\n原藏荆门博物馆\n《淄衣》是儒家重要经典《礼记》中的一篇。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5369",
+      "title": "包山楚简",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5369.html",
+      "sourceText": "战国（475 BC—221BC）\n长55—72.6cm\n1987年荆门包山2号墓出土\n湖北省博物馆藏\n该墓出土有字简牍278枚，其中楚国官方司法文书类竹简有278枚，其中楚国官方司法文书类竹简有196枚。文书类竹简是若干独立的事件或案件的记录。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5378",
+      "title": "包山楚墓竹签牌",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5378.html",
+      "sourceText": "战国（475 BC—221BC）\n长7—12.5cm\n1987年荆门包山2号墓出土\n湖北省博物馆藏\n包山楚墓出土了31枚竹签牌，内容是物品名称，属标签一类。所选4枚上书“□此”、“庶鷄”、“葚”、“菻”。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "newCatalogue": false,
+      "motifs": [
+        "车马"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "sourceText": "彩绘人物车马出行图，1987年出土于湖北荆门包山楚墓，是一件漆奁外壁一周的漆画，展开全长87.4厘米，宽5.2厘米，描绘了战国时期人物车马出行的场景。画中用土黄、桔红、海蓝和棕色等颜色，勾勒出一幅色彩艳丽、生动活泼、富有立体感的图画。最为引人注目的是画师别具匠心地用五棵随风摇曳的柳树，将画面巧妙地分隔成五个画段，强化了故事情节。第一和第二画段表现的是出行场面，在画卷的第三段，只画了一只狗和一只猪，它们跃身急奔的神态为整幅画卷增添了生机，第四段和第五段表现的是迎宾场景。\n整幅画人物姿态各异，猪犬腾跃，车马有序，情节首尾连贯、过渡自然，被誉为目前中国现存最早的长卷“连环画”，体现了楚国漆器高超的制作工艺。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "车马",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-463",
+      "title": "“兵闢太岁”铜戈",
+      "newCatalogue": false,
+      "motifs": [
+        "人像",
+        "铭文"
+      ],
+      "source": "http://www.jzmsm.org/news-463.html",
+      "sourceText": "【“兵闢太岁”铜戈】\n时代：战国（公元前475—221年）\n来源：车桥墓地出土\n级别：国家一级文物\n内涵：礼器。内两面阴刻异兽和铭文“兵、闢”、“太、岁”，援两面浅浮雕太岁（木星）神像，寓意用兵不冒犯太岁神，反映古人朴素的军事思想。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "人像",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4753",
+      "title": "嵌红铜几何纹龙形足铜敦",
+      "newCatalogue": true,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qtq/p/4753.html",
+      "sourceText": "战国，高27,口径21.5cm，1973年襄阳蔡坡4号墓出土。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "几何",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5070",
+      "title": "蔡候朱缶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5070.html",
+      "sourceText": "战国，高36,口径24.2cm，1958年宜城安乐坨出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "chu-silk-manuscript",
+      "title": "楚帛书",
+      "newCatalogue": false,
+      "motifs": [
+        "人像"
+      ],
+      "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+      "sourceText": "the primary Eastern Zhou Zidanku Silk Manuscript (Volume I), which is privately owned.",
+      "readyCrops": [
+        "摹本下边神异形象"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "crane",
+      "title": "鹿角立鹤",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/xwdt/p/9632.html",
+      "sourceText": "",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4695",
+      "title": "曾侯乙编钟",
+      "newCatalogue": false,
+      "motifs": [
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/4695.html",
+      "sourceText": "曾侯乙编钟，1978年出土于湖北随州曾侯乙墓，年代为战国早期。钟架长7.48米、高2.65米。全套编钟共六十五件，分三层八组悬挂在呈曲尺形的铜木结构钟架上，上层为三组共19件钮钟、中下层五组共45件甬钟，及一件楚惠王赠送给曾侯乙的镈钟所组成。钟及架、钩上共有铭文3755字，内容为编号、记事、标音及乐律理论。每件钟均能奏出呈三度音程的双音，整套编钟音域可跨五个半八度，中心音区十二个半音齐备，能演奏五声、六声或七声音阶的乐曲。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4975",
+      "title": "彩绘龙凤纹盖豆",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4975.html",
+      "sourceText": "战国早期，通高24.3，长20.8，宽18cm，1978年随州曾侯乙墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        },
+        {
+          "motif": "龙蛇",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5136",
+      "title": "铜殳",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qtq/p/5136.html",
+      "sourceText": "战国，通高17.9，銎径3cm，1978年随州曾侯乙墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5175",
+      "title": "兽面纹玉琮",
+      "newCatalogue": true,
+      "motifs": [
+        "兽面"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/5175.html",
+      "sourceText": "战国，通高5.4，直径6.6，孔径5.5cm，1978年随州曾侯乙墓出土\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "兽面",
+          "reason": "兽面纹刻线淡且有反光，不能生成可辨认拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5176",
+      "title": "玉半琮",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5176.html",
+      "sourceText": "战国，通高4.8，边长6.9，厚0.8cm，1978年随州曾侯乙墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5179",
+      "title": "云纹玉块",
+      "newCatalogue": true,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/5179.html",
+      "sourceText": "战国，直径3.2,孔径1.1，厚0.3cm，直径5，孔径2.4-2.6，厚0.35cm，1978年随州擂鼓墩曾侯乙墓出土\n.",
+      "readyCrops": [
+        "玉玦表面卷云纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5180",
+      "title": "鱼形玉佩",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5180.html",
+      "sourceText": "战国，两端距6.6,孔径0.3-0.4cm，1978年随州擂鼓墩曾侯乙墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5183",
+      "title": "龙形玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5183.html",
+      "sourceText": "战国，长10.6，宽4.7，厚0.5cm，1978年随州曾侯乙墓出土\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5184",
+      "title": "十六节龙形玉佩",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5184.html",
+      "sourceText": "战国，通长48厘米，1978年随州曾侯乙墓出土。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5185",
+      "title": "玉剑",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/yuqi/p/5185.html",
+      "sourceText": "长33.6厘米。本件出自曾侯乙墓内棺中，位于墓主腰腹间。全器分为剑首、剑茎、剑格、剑鞘、剑珌等5节，用金属连接。其中剑首透雕成双龙形。此剑通体用玉，是所见中国最早、最完整的玉剑。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5376",
+      "title": "曾侯乙墓遣策",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5376.html",
+      "sourceText": "战国（475 BC—221BC）\n长70—75cm\n1978年随县擂鼓墩1号墓出土\n湖北省博物馆藏\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5377",
+      "title": "曾侯乙墓竹签牌",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5377.html",
+      "sourceText": "战国（475 BC—221BC）\n长10—11cm\n1978年随县擂鼓墩1号墓出土\n湖北省博物馆藏\n曾侯乙墓出土了两枚竹简牌，均墨书“□轩之马甲”\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6173",
+      "title": "云纹玉璜",
+      "newCatalogue": false,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/6173.html",
+      "sourceText": "通长15.6，通高宽6.8，器身宽4.5，厚0.5cm，随州擂鼓墩M1:E.C.11:103\n.",
+      "readyCrops": [
+        "云纹刻线"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-6174",
+      "title": "云纹玉璜",
+      "newCatalogue": false,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/yuqi/p/6174.html",
+      "sourceText": "通长15.4，通高6.6，器身宽4.6，厚0.6cm，随州擂鼓墩M1:E.C.11:185\n.",
+      "readyCrops": [
+        "云纹刻线"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-6911",
+      "title": "曾侯乙尊盘",
+      "newCatalogue": false,
+      "motifs": [
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+      "sourceText": "曾侯乙尊盘，1978年出土于湖北随州市曾侯乙墓，由尊和盘两件器物组成，尊高30.1厘米，口径25厘米，盘高23.5厘米，口径58厘米。\n尊的口沿是多层套合的镂空附饰，远看像云朵，实际是由无数条龙蛇所组成的镂空花纹，它们相互盘旋环绕，宛如在空中游动。尊的颈部攀附四只反首吐舌、向上爬行的豹，豹身也以镂空的龙蛇装饰，尊的腹部和圈足满是蟠螭纹和浮雕的龙。盘的制作更为复杂，除口沿有和尊一样的镂空纹饰外，盘身的四个抠手也是由无数条龙蛇组成的镂空花纹. 曾侯乙尊盘是商周青铜器的巅峰之作。\n.",
+      "readyCrops": [
+        "镂空口沿"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5370",
+      "title": "睡虎地秦简《秦律十八种》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5370.html",
+      "sourceText": "秦（221 BC—207 BC)\n长27.5cm\n1975年云梦睡虎地11号墓出土\n湖北省博物馆藏\n共计201枚竹简，记录了《田律》、《厩菀律》、《仓律》、《金布律》、《司空律》、《置吏律》等十八种秦律的内容。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5371",
+      "title": "睡虎地秦简《效律》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5371.html",
+      "sourceText": "秦（221 BC—207 BC)\n长27cm\n1975年云梦睡虎地11号墓出土\n湖北省博物馆藏\n共计60枚竹简，详细规定了核验县和都官物资账目的一系列制度。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5372",
+      "title": "睡虎地秦简《为吏之道》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5372.html",
+      "sourceText": "秦（221 BC—207 BC)\n长27.5cm\n1975年云梦睡虎地11号墓出土\n湖北省博物馆藏\n共计51枚竹简，采用分栏书写的方式。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5373",
+      "title": "睡虎地秦简《日书》甲种",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5373.html",
+      "sourceText": "秦（221 BC—207 BC)\n长25cm\n1975年云梦睡虎地11号墓出土\n湖北省博物馆藏\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5379",
+      "title": "睡虎地秦简《日书》甲种《人字图》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5379.html",
+      "sourceText": "秦（221 BC—207 BC)\n长25cm\n1975年云梦睡虎地11号墓出土\n湖北省博物馆藏\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5380",
+      "title": "睡虎地秦简日书甲种：《直室门》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5380.html",
+      "sourceText": "秦（221 BC—207 BC)\n长25cm\n1975年云梦睡虎地11号墓出土\n湖北省博物馆藏\n《直室门》分三栏。上栏画出22处门，中栏、下栏记述自寡门开始，顺时针方向，住房所当各门的吉凶。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5381",
+      "title": "睡虎地秦简墓黑夫“家信”木牍",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5381.html",
+      "sourceText": "秦（221 BC—207 BC)\n长22、宽4cm\n1975年云梦睡虎地4号墓出土\n湖北省博物馆藏\n木牍共计527字，内容为黑夫、惊两人的家信，叙述了他们从军到淮阳一带的情况。秦代家书为首次发现，是我国年代最早的家信实物。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5382",
+      "title": "龙岗木牍",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5382.html",
+      "sourceText": "秦（221 BC—207 BC)\n长36.5、宽3.2cm\n1975年云梦龙岗6号墓出土\n湖北省博物馆藏\n正反二面皆墨书秦隶，计38字。内容纠正误判的法律文书。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5384",
+      "title": "睡虎地秦简《日书》甲种《艮山图》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5384.html",
+      "sourceText": "秦（221 BC—207 BC)\n长25cm\n1975年云梦睡虎地11号墓出土\n湖北省博物馆藏\n《艮山图》是云梦睡虎地秦简《日书》甲种中的一篇，是流行于民间的数术禁忌，其思想来源是《周易》 。该篇《日书》由一幅图和两段文字组成。图绘在简四七正贰 - 六〇正贰之上，文字写在简四七正叁 - 五三正叁之上。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5456",
+      "title": "素漆圆壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5456.html",
+      "sourceText": "秦（221-207 BC)\n1978云梦睡虎地25号墓出土\n高16、口径6.4、腹径12.7cm\n木胎，挖制。通体髹黑漆。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5460",
+      "title": "彩绘凤鱼纹漆盂",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5460.html",
+      "sourceText": "秦（221-207 BC)\n1975云梦睡虎地11号墓出土\n高8.8、口径29、底径16cm\n木胎，挖制。内底绘两条游鱼与一只单足伫立的凤鸟。外底有烙印文字“亭”与针刻文字“上造□”。\n.",
+      "readyCrops": [
+        "盂内壁凤鱼纹局部"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5461",
+      "title": "彩绘凤鱼纹漆盂",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5461.html",
+      "sourceText": "秦（221-207 BC)\n1975云梦睡虎地11号墓出土\n高8.8、口径29、底径16cm\n木胎，挖制。内底绘两条游鱼与一只昂首跨步的凤鸟。器底有烙印文字“亭”与针刻符号“╬”。\n.",
+      "readyCrops": [
+        "盂内底彩绘凤纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5462",
+      "title": "彩绘变形凤鱼纹漆盂",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5462.html",
+      "sourceText": "秦（221-207 BC)\n1977云梦睡虎地11号墓出土\n高11.3、口径28.3cm\n木胎，挖制。外底有烙印文字“亭上”、“包”与针刻文字“朱三”。\n.",
+      "readyCrops": [
+        "盂内壁变形凤鱼纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5484",
+      "title": "彩绘点格纹漆匕",
+      "newCatalogue": true,
+      "motifs": [
+        "花卉",
+        "几何",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5484.html",
+      "sourceText": "秦（221-207 BC)\n1975年云梦睡虎地9号墓出土\n长23.5、匕宽5.2cm\n木胎，削制。匕正面绘菱形与空心十字形交叉组成的几何纹，其间填绘草叶纹。背面有针刻文字。\n.",
+      "readyCrops": [
+        "漆匕点格纹"
+      ],
+      "unmade": [
+        {
+          "motif": "花卉",
+          "reason": "草叶过小；本次只提取可辨认的点格纹。"
+        },
+        {
+          "motif": "铭文",
+          "reason": "草叶过小；本次只提取可辨认的点格纹。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5523",
+      "title": "彩绘云凤纹漆匕",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5523.html",
+      "sourceText": "秦（221-207 BC)\n1977年云梦睡虎地33号墓出土\n长20.5、匕宽4.4cm\n木胎，削制。匕背面有烙印文字“亭”。\n.",
+      "readyCrops": [
+        "漆匕勺部云凤纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5524",
+      "title": "素漆杯",
+      "newCatalogue": true,
+      "motifs": [
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5524.html",
+      "sourceText": "秦（221-207 BC)\n1978年云梦睡虎地27号墓出土\n高17.7、口径11.8、底径6.4cm\n木胎，挖制。外壁有烙印文字。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5528",
+      "title": "彩绘云凤纹漆圆奁",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5528.html",
+      "sourceText": "秦（221-207 BC)\n1977年云梦睡虎地34号墓出土\n高6.7、盖径22.2、底径21.3cm\n木胎，卷制。盖外与器外壁均有针刻文字“大女子小”，出土时，奁内置铜镜、木篦各一件。\n.",
+      "readyCrops": [
+        "奁盖云凤纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5530",
+      "title": "彩绘云凤纹漆圆奁",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5530.html",
+      "sourceText": "秦（221-207 BC)\n1978年云梦睡虎地25号墓出土\n高12、盖径38.3、底径35.5cm\n木胎，卷制。器外、盖内与底内均绘有纹饰。器形特大。出土时已残。\n.",
+      "readyCrops": [
+        "圆奁内壁云凤纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5533",
+      "title": "彩绘云气纹漆椭圆奁",
+      "newCatalogue": true,
+      "motifs": [
+        "云气",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5533.html",
+      "sourceText": "秦（221-207 BC)\n1977年云梦睡虎地31号墓出土\n高8.3、长29.9、宽12.4cm\n木胎，卷制。盖内有漆书的“亭”字二处，内底有烙印文字“亭”和针刻符号。\n.",
+      "readyCrops": [
+        "椭圆奁盖云气纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5537",
+      "title": "彩绘变形凤鸟纹漆卮",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5537.html",
+      "sourceText": "秦（221-207 BC)\n1975年云梦睡虎地11号墓出土\n高12.3、口径12.7、底径11.3cm\n木胎，卷制。单环耳已残，盖已佚。外底与内底均有烙印文字“亭”\n.",
+      "readyCrops": [
+        "漆卮变形凤鸟纹单元"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5539",
+      "title": "素漆长方筒",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5539.html",
+      "sourceText": "秦（221-207 BC)\n1975年云梦睡虎地11号墓出土\n高13.8、长36、宽24cm\n木胎。挖制。通体髹黑漆。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-6912",
+      "title": "云梦睡虎地秦简",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zgzb/p/6912.html",
+      "sourceText": "云梦睡虎地秦简,1975年出土于湖北云梦县，其中包括大量公元前221年秦统一中国前后的法律文献，是首次系统发现的秦律。秦律涉及农业生产、市场交易、徭役征发、官吏职掌、少数民族关系等各个方面，从中可以看出秦法已经达到了十分细密、详备的程度。秦律对汉代以及其后的中国传统法律产生了深远的影响。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "spoon",
+      "title": "彩绘凤形漆勺",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+      "sourceText": "",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5383",
+      "title": "毛家园木牍",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5383.html",
+      "sourceText": "秦（206 BC—8 AD)\n长22.1、宽4.2cm\n1986年江陵毛家园1号汉墓出土\n湖北省博物馆藏\n木牍正面墨书汉隶文字，内容系告地下官吏书。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5459",
+      "title": "彩绘漆豕口形双耳长盒盖",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5459.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1975年云梦睡虎地47号墓出土\n高6.5、长27.1、宽13.7cm\n木胎，挖制。盒身已佚。两端绘出猪头部的眉目嘴鼻，器表绘变形凤鸟纹、波折纹等。\n.",
+      "readyCrops": [
+        "盒盖变形凤鸟纹"
+      ],
+      "unmade": [
+        {
+          "motif": "几何",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5463",
+      "title": "彩绘云兽纹漆盂",
+      "newCatalogue": true,
+      "motifs": [
+        "虎兽",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5463.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1978年云梦睡虎地47号墓出土\n高9、口径37.8cm\n木胎，挖制。外底烙印文字“亭上”。\n.",
+      "readyCrops": [
+        "漆盂外壁云兽纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5464",
+      "title": "彩绘云凤纹漆盂",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5464.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1972年云梦大坟头1号墓出土\n高10、口径30cm\n木胎，挖制。\n.",
+      "readyCrops": [
+        "漆盂内底云凤纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5467",
+      "title": "素漆圆盘",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5467.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1972年云梦大坟头1号墓出土\n高7、口径27、底径11.5cm\n夹纻胎，依模具用漆灰裱麻布制成。通体髹黑漆。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5468",
+      "title": "彩绘云兽纹漆圆盘",
+      "newCatalogue": false,
+      "motifs": [
+        "铭文",
+        "虎兽"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5468.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1972年云梦大坟头1号墓出土\n高4、口径18.5、底径8cm\n木胎，旋制。内底用红、褐漆和金色彩绘纹饰。外底有针刻文字“宦里大女子骜”。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "虎兽",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5471",
+      "title": "彩绘云兽纹漆圆盘",
+      "newCatalogue": false,
+      "motifs": [
+        "铭文",
+        "虎兽"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5471.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1972年云梦大坟头1号墓出土\n高4、口径18、底径8.2cm\n木胎，旋制。内底用红、褐漆和金色彩绘纹饰。外底有针刻文字“宦里大女子骜”。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "虎兽",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5483",
+      "title": "彩漆凤形勺",
+      "newCatalogue": false,
+      "motifs": [
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5483.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1978年云梦睡虎地47号墓出土\n勺身长11.7cm，勺宽9cm，通高10cm，勺高4cm\n木胎，雕制。勺体挖成凤身，勺柄雕成头颈。用红、褐漆绘出凤的眼、鼻、耳及羽毛。外底有烙印文字“郑亭”。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5525",
+      "title": "髹漆陶罐",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5525.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1972年云梦大坟头1号墓出土\n高22、口径13.5、腹径26cm\n陶胎，轮制。出土时在陶罐外套有细竹篾编织物。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5531",
+      "title": "彩绘云气纹漆双层圆奁盖",
+      "newCatalogue": true,
+      "motifs": [
+        "云气"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5531.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1972年云梦大坟头1号墓出土\n高4.4、盖径22.5cm（全器高约7.9cm）\n木胎，卷制。奁身已佚。出土时，奁内放铜镜、玉璧、木梳各1件，木篦3件，木刮刀2件。\n.",
+      "readyCrops": [
+        "奁盖云气纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5532",
+      "title": "素漆圆奁",
+      "newCatalogue": true,
+      "motifs": [
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5532.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1978年云梦睡虎地47号墓出土\n高12.5、盖径22、底径21cm\n木胎，卷制。外底有针刻文字“杜”与烙印文字“亭”。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5535",
+      "title": "双面雕木梳",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5535.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1978年云梦睡虎地47号墓出土\n高9、宽6.3、最大厚1.45cm\n木质，雕制。两面浮雕，一面为鸟首兽身的奔马，另一面为吞食动物的怪兽。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5022",
+      "title": "青瓷人骑狮烛台",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5022.html",
+      "sourceText": "西晋（265-316），武汉武昌钵孟山322号墓出土，高24.2，长20cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5029",
+      "title": "青瓷高足盘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5029.html",
+      "sourceText": "隋（581-618），武汉武昌马坊山23号墓出土，高8.8，口径13，底径9cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5030",
+      "title": "青瓷莲纹钵",
+      "newCatalogue": true,
+      "motifs": [
+        "花卉"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5030.html",
+      "sourceText": "隋（581-618），武汉武昌马坊山23号墓出土，高13.8，口径11.5，底径11.2cm\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "花卉",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5032",
+      "title": "青瓷虎子",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5032.html",
+      "sourceText": "隋（581-618），武汉武昌17号墓出土，高14.5，长11.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5035",
+      "title": "青瓷蛇俑、鼠俑",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5035.html",
+      "sourceText": "唐（618-907），武汉武昌138号墓出土，蛇俑高15.8，底座10.8�6.7cm，鼠俑高16，底座10.2�5.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5036",
+      "title": "青瓷三足托炉",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5036.html",
+      "sourceText": "唐（618-907），武汉武昌185号墓出土，高9，炉口径11，托盘口径15，底径14cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5050",
+      "title": "青白瓷执壶",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5050.html",
+      "sourceText": "北宋（960-1127），武汉武昌土地堂青山瓷窑遗址67号探方出土，高20.2，口径7，底径6.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4855",
+      "title": "彩绘云凤纹漆圆壶",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4855.html",
+      "sourceText": "西汉(206BC-25AD),1986年江陵毛家园1号墓出土，高37.4，口径12.9，腹径26.4。\n.",
+      "readyCrops": [
+        "漆壶颈部云凤纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5457",
+      "title": "彩绘变形凤鸟纹漆耳杯",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5457.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1986年江陵毛家园1号墓出土\n高5.2、口长径17.6、连耳宽13.3cm\n木胎，挖制。外底有烙印文字与针刻符号。\n.",
+      "readyCrops": [
+        "耳杯内沿凤鸟纹"
+      ],
+      "unmade": [
+        {
+          "motif": "铭文",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5458",
+      "title": "彩绘云凤纹漆圆盒",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5458.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1975年江陵凤凰山167号墓出土\n高13.7、盖径16.9、口径14.8cm\n木胎，挖制。器底有烙印文字。\n.",
+      "readyCrops": [
+        "漆盒外壁波折纹"
+      ],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "云凤纹未能可靠分离，只取可见波折纹。"
+        },
+        {
+          "motif": "铭文",
+          "reason": "云凤纹未能可靠分离，只取可见波折纹。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5465",
+      "title": "彩绘变形凤鸟纹漆盂",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5465.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1986年江陵毛家园1号墓出土\n高8.3、口径25.2cm\n木胎，旋制。外底有针刻符号。\n.",
+      "readyCrops": [
+        "漆盂外壁变形凤鸟纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5466",
+      "title": "彩绘变形凤鸟纹漆盂",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5466.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1992年荆州高台28号墓出土\n高8.6、口径22.9cm\n木胎，挖制。\n.",
+      "readyCrops": [
+        "漆盂外壁变形凤鸟纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5473",
+      "title": "彩绘云凤纹漆圆盘",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5473.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1986年江陵毛家园1号墓出土\n高4、口径46.5cm\n木胎，斫制。外底有烙印文字和针刻符号。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "盘心已明显残损，未把斑驳漆面当作凤鸟纹。"
+        },
+        {
+          "motif": "铭文",
+          "reason": "盘心已明显残损，未把斑驳漆面当作凤鸟纹。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5476",
+      "title": "彩绘云凤纹漆圆盘",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "铭文"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5476.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1986年江陵毛家园1号墓出土\n高3.6、口径22.5cm\n木胎，旋制。外底有烙印文字和针刻符号。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "照片为低视角侧面，盘心凤纹不可见。"
+        },
+        {
+          "motif": "铭文",
+          "reason": "照片为低视角侧面，盘心凤纹不可见。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5478",
+      "title": "彩绘云凤纹漆圆盘",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5478.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1975年江陵凤凰山167号墓出土\n高5.5、口径27.9cm\n木胎，旋制。\n.",
+      "readyCrops": [
+        "圆盘内底云凤纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5480",
+      "title": "彩绘凤鸟纹漆圆盘",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5480.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1992年荆州高台28号墓出土\n高6、口径26cm\n木胎，挖制。器内绘三只粉红色身躯、金黄色眼睛的凤鸟，穿行在十条深蓝等色的云龙纹中。\n.",
+      "readyCrops": [
+        "圆盘内底凤鸟云龙组合"
+      ],
+      "unmade": [
+        {
+          "motif": "龙蛇",
+          "reason": "凤鸟与云龙在当前照片互相交叠，保留明确标识的组合局部，不虚构独立龙纹。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5526",
+      "title": "彩绘髹漆陶罐",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/qmq/p/5526.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1991年江陵荆南寺1号墓出土\n高23、口径10.4、腹径33cm\n陶胎，轮制。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5534",
+      "title": "锥画斑豹纹漆长方盒",
+      "newCatalogue": true,
+      "motifs": [
+        "凤鸟",
+        "虎兽"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5534.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1992年荆州高台28号墓出土\n高3.9、长7.4、宽3.7cm\n木胎。盖顶针刻一只斑豹，盖内顶部、盒身的底部各朱绘一只凤鸟。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "虎兽",
+          "reason": "已核对照片并试提取；源图分辨率、磨损或锈蚀使装饰线与表面噪声混淆，本次不提供拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-5536",
+      "title": "彩绘漆案",
+      "newCatalogue": true,
+      "motifs": [
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5536.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1984年江陵龙桥河1号墓出土\n高13.6、长78.8、宽40cm\n木胎，斫制。汉代平民在室内一般皆席地而坐，家具陈设比较简单。其中最多见的是食案。食案又分两种：一种是有足之案，属于家具类。另一种是为承食器的无足或有很低托梁的案，名“棜”案。\n.",
+      "readyCrops": [
+        "漆案面圆形与线框装饰"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5538",
+      "title": "彩绘云凤纹漆樽",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟"
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5538.html",
+      "sourceText": "西汉（206 BC—25 AD)\n1992年荆州高台28号墓出土\n高9.5、口径8.8cm\n木胎，卷制。单环耳已残，腹壁上下两端有铜箍，底部有三个铜蹄足。器表、内壁口沿和内底中部在黑漆地上用红、褐色彩绘次饰。\n.",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-353",
+      "title": "漆木彩绘三鱼纹耳杯",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟",
+        "花卉",
+        "鱼纹",
+        "几何"
+      ],
+      "source": "http://www.jzmsm.org/news-353.html",
+      "sourceText": "【漆木彩绘三鱼纹耳杯】\n时代：西汉初期（公元前3世纪末—前167年）\n来源：凤凰山168号汉墓出土\n级别：国家一级文物\n内涵：窄长圆弧形耳。全器髹黑漆为地，用金、黄、红色在耳及口沿描波折纹、圆圈纹、凤鸟纹，在内底中央描绘四叶纹，其周围环绕三条首尾相逐、口衔草叶、栩栩如生的鱼，是西汉早期漆画艺术中的珍品。\n",
+      "readyCrops": [
+        "内底四叶纹",
+        "游鱼与草叶",
+        "口沿重复纹饰"
+      ],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-354",
+      "title": "漆木彩绘七豹大扁壶",
+      "newCatalogue": false,
+      "motifs": [
+        "虎豹",
+        "花卉",
+        "云气",
+        "禽鸟"
+      ],
+      "source": "http://www.jzmsm.org/news-354.html",
+      "sourceText": "【漆木彩绘七豹大扁壶】\n时代：西汉早期（公元前3世纪末—前167年）\n来源：凤凰山168号汉墓出土\n级别：国家一级文物\n内涵：大型盛酒水器，腹部两面和盖顶彩绘七只呈猎食、回首、狂奔、怒吼等姿态的豹，形神兼备，栩栩如生，间绘鸟纹、云纹、植物纹，更显动静相宜、和谐自然，是我国汉代漆画艺术中的珍品。\n",
+      "readyCrops": [],
+      "unmade": [
+        {
+          "motif": "虎豹",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "花卉",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "云气",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        },
+        {
+          "motif": "禽鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "jz-355",
+      "title": "张家山汉简",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "http://www.jzmsm.org/news-355.html",
+      "sourceText": "【张家山汉简】\n时代：西汉初期（约公元前186年稍后）\n来源：张家山西汉墓出土\n级别：国家一级文物\n内涵：我国考古史上的重要发现，2366枚竹简内容主要有《二年律令》（共27种法律和1种具体管理关塞的制度《津关令》）、《奏谳书》（议罪案22例汇编）、《盖庐》（吴王阖闾与伍子胥问答之兵家著作）、《脉书》（记载人体疾病及脉数等的医学著作）、《引书》（综合引导、养身、治病的著作）、《算数书》（我国迄今发现最早的数学题集，共69个章题，由题文、答案、解法构成，包括分数性质、四则运算、比例、盈不足、体积、面积等，较我国古代最早的数学集成著作《九章算术》早300余年），内容非常丰富，是极其重要的历史文献，对研究西汉社会政治、经济、文化、思想、科学、技术等具有极高的价值。\n",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5374",
+      "title": "孔家坡汉简《日书》",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/zhujian/p/5374.html",
+      "sourceText": "汉（206 BC—220 BC)\n长33.8cm\n2000年随州孔家坡8号墓出土\n原藏随州博物馆\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-4736",
+      "title": "青瓷褐彩猪首壶",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/4736.html",
+      "sourceText": "晋（265-420）\n2001年鄂州周家垴26号墓出土\n高26.3、口径12、低径12.5cm\n壶肩部堆贴二横系，一侧堆贴猪首，对称的一侧堆贴扁尾，平底。灰白胎，青釉，器身有多处褐色点彩。\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5020",
+      "title": "青瓷蛙纹水注",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5020.html",
+      "sourceText": "西晋（265-316），1976年（今鄂城）鄂钢544工地出土，高7.8，口径2.3，底径6.8，腹径10.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5023",
+      "title": "青瓷狮形烛台",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5023.html",
+      "sourceText": "西晋（265-316），鄂州西山出土，高6.7，长11.5，口径2.3cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5024",
+      "title": "青瓷褐彩龙首灯",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5024.html",
+      "sourceText": "西晋（265-316），1958年鄂城（今鄂州）西山20号墓出土，高19，灯口径9.3，盘口径13，底径9cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5026",
+      "title": "青瓷鸡首壶",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5026.html",
+      "sourceText": "南朝（420-589），1958年武汉武昌关山工地汽车轮车间出土，高31.3，口径11，底径15cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5027",
+      "title": "青瓷花卉纹碟",
+      "newCatalogue": false,
+      "motifs": [
+        "花卉"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5027.html",
+      "sourceText": "隋（581-618），武汉武昌350号墓出土，高1.8，口径8.7，底径2.4cm\n.",
+      "readyCrops": [
+        "碟面花卉"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5028",
+      "title": "青瓷莲纹碗",
+      "newCatalogue": false,
+      "motifs": [
+        "花卉"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5028.html",
+      "sourceText": "隋（581-618），武汉武昌马坊山23号墓出土，高8，口径13.3，底径5.3cm\n.",
+      "readyCrops": [
+        "外壁莲瓣纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5031",
+      "title": "青瓷度足砚",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5031.html",
+      "sourceText": "隋（581-618），武汉武昌17号墓出土，高5.2，口径13cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5040",
+      "title": "白瓷四系罐",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5040.html",
+      "sourceText": "唐（618-907），1975年郧县李泰墓出土，高30，口径9.4，底径10.3cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5041",
+      "title": "白瓷四系罐",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5041.html",
+      "sourceText": "唐（618-907），1975年郧县李泰墓出土，高29.8，口径10，底径8.4cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5042",
+      "title": "白瓷镂空圈足砚",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5042.html",
+      "sourceText": "唐（618-907），1985年郧县李徽墓出土，高5.2，口径11.1，底径12.8cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5033",
+      "title": "青瓷六系盘口壶",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5033.html",
+      "sourceText": "唐（618-907），武汉武昌水果湖100号墓出土，高43.6，口径16.5，底径12.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5034",
+      "title": "青瓷五盂砚",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5034.html",
+      "sourceText": "唐（618-907），武汉武昌钵孟山334号墓出土，高2.8，砚口径4.8，盂口径2，盂底径2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5038",
+      "title": "青瓷注子",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5038.html",
+      "sourceText": "唐（618-907），1958年鄂城（今鄂州）西山何田铺村69号墓出土，高22.2，口径7.8，底径14cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5039",
+      "title": "青瓷褐彩罐",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5039.html",
+      "sourceText": "唐（618-907），1958年鄂城（今鄂州）西山何田铺村69号墓出土，高18.5，口径12.1，底径15.2cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5043",
+      "title": "白瓷亭台弈棋枕",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5043.html",
+      "sourceText": "唐（618-907），黄梅出土，高11.8，宽16.6，底径13.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5047",
+      "title": "青白瓷盒",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5047.html",
+      "sourceText": "宋（960-1279），武汉汉阳十里铺宋墓出土，通高4-5，口径6-8.1，盖径7.3-9.2，底径5.6-7.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5044",
+      "title": "青白瓷莲纹温碗酒注",
+      "newCatalogue": false,
+      "motifs": [
+        "花卉"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5044.html",
+      "sourceText": "宋（960-1279），蕲春漕河宋墓出土，注子高16，腹径14，底径8.2cm，碗高13，口径18.5，底径10.9cm\n.",
+      "readyCrops": [
+        "温碗莲瓣"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5045",
+      "title": "青白瓷莲纹钵",
+      "newCatalogue": false,
+      "motifs": [
+        "花卉"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5045.html",
+      "sourceText": "宋（960-1279），1964年麻城阎河刘李湾1号墓出土，高10.3，口径14.5，底径9.7cm\n.",
+      "readyCrops": [
+        "钵壁莲瓣"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5046",
+      "title": "青白瓷碟",
+      "newCatalogue": false,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5046.html",
+      "sourceText": "宋（960-1279），1964年麻城阎河刘李湾11号墓出土，高2.3-2.5，口径10-10.8，底径4.2-4.7cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "hb-5048",
+      "title": "青白瓷托盘",
+      "newCatalogue": true,
+      "motifs": [],
+      "source": "https://www.hbww.org.cn/tcq/p/5048.html",
+      "sourceText": "宋（960-1279），1964年麻城阎河刘李湾1号墓出土，盏高4.2，口径10.8，底径3.7cm，盏盘高3.1，口径14，底径5.5cm\n.",
+      "readyCrops": [],
+      "unmade": []
+    },
+    {
+      "id": "jz-351",
+      "title": "釉里红凤舞缠枝菊花纹盖罐",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟",
+        "花卉"
+      ],
+      "source": "http://www.jzmsm.org/news-351.html",
+      "sourceText": "【釉里红凤舞缠枝菊花纹盖罐】\n时代：元代（公元1279-1368年）\n来源：荆州砖瓦厂出土\n级别：国家一级文物\n内涵：桃钮帽形盖，直口溜肩鼓腹，最大径在腹部，平底，腹中有一周明显的接痕，內施一层较薄影青色釉，器表施较厚一层釉，盖内及器底未施釉，器表主体纹饰为釉里红彩，大部分颜色较鲜艳，但局部纹饰有些发青发灰；主体纹饰为缠枝菊花凤鸟纹；在缠莲的菊花从中有两只对称的凤鸟呈展翅欲飞状，上下陪衬纹为一周变体莲瓣纹。胎质细密洁白，釉面莹润，纹饰精美，色彩鲜艳，工艺极难，极其罕见，可谓凤毛麟角之珍品。\n",
+      "readyCrops": [
+        "缠枝菊花"
+      ],
+      "unmade": [
+        {
+          "motif": "凤鸟",
+          "reason": "当前局部用于定位或形制观察，不能作为可独立辨认的纹样拓影。"
+        }
+      ]
+    },
+    {
+      "id": "hb-4696",
+      "title": "元青花四爱图梅瓶",
+      "newCatalogue": false,
+      "motifs": [
+        "凤鸟",
+        "花卉",
+        "几何"
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/4696.html",
+      "sourceText": "元青花四爱图梅瓶，2006年出土于湖北钟祥郢靖王墓。通高38.7厘米，口径6.4厘米，底径13厘米。这件梅瓶，小口外撇，短颈丰肩，圈足平底。瓶身的肩部饰有凤穿牡丹图，腹部的四个菱形的开光内描绘了这样四个小故事：王羲之爱兰、陶渊明爱菊、林和靖爱梅鹤、周敦颐爱莲。足部绘一圈仰覆莲纹，以卷草纹和锦带纹间隔三层纹饰，层次分明，繁而不乱。整个器物制作精美，优雅精致带给人们以优雅明净的审美享受。\n.",
+      "readyCrops": [
+        "凤穿牡丹图",
+        "肩部凤穿牡丹",
+        "腹部菱形开光"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5053",
+      "title": "青花龙纹梅瓶",
+      "newCatalogue": true,
+      "motifs": [
+        "龙蛇"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5053.html",
+      "sourceText": "元（1271-1368），2006年钟祥郢靖王墓出土，高35.4，口径5.6，底径11.2cm\n.",
+      "readyCrops": [
+        "梅瓶腹部龙纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5051",
+      "title": "青花莲纹玉壶春瓶",
+      "newCatalogue": true,
+      "motifs": [
+        "花卉"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5051.html",
+      "sourceText": "元（1271-1368），1984年黄梅十里村小学出土，高27.4，口径8，底径7.8cm\n.",
+      "readyCrops": [
+        "玉壶春瓶青花莲纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "hb-5052",
+      "title": "青花牡丹纹塔式盖瓶",
+      "newCatalogue": true,
+      "motifs": [
+        "花卉"
+      ],
+      "source": "https://www.hbww.org.cn/tcq/p/5052.html",
+      "sourceText": "元（1271-1368），1975年黄梅西池窑厂出土，高42.2，口径9.3，底径10.3cm\n.",
+      "readyCrops": [
+        "塔式盖瓶牡丹纹"
+      ],
+      "unmade": []
+    },
+    {
+      "id": "jz-350",
+      "title": "湘献王与王妃贴金木“谥宝”“谥册”",
+      "newCatalogue": false,
+      "motifs": [
+        "铭文"
+      ],
+      "source": "http://www.jzmsm.org/news-350.html",
+      "sourceText": "【湘献王与王妃贴金木“谥宝”“谥册”】\n时代：明代洪武三十五年（公元1402年）\n来源：湘献王墓出土\n级别：国家二级文物\n内涵：湘献王谥宝通体贴金，印面雕篆书“湘献王宝”。王与王妃谥册为木板贴金，正面刻楷书文字，简要记载明成祖朱棣哀悼湘献王及王妃，为其平反昭雪，并赐以褒谥。\n",
+      "readyCrops": [
+        "谥宝印面"
+      ],
+      "unmade": []
+    }
+  ]
+}

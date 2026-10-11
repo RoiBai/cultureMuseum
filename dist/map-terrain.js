@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three.module.js';
-import {toWGS,project,contains,polygonsOf,ringsOf} from './map-geography.js';
+import {toWGS,project,contains,polygonsOf,ringsOf} from './map-geography.js?v=20261011-review';
 
 export const SURFACE_Y=.12;
 export const HEIGHT_SCALE=.00105;

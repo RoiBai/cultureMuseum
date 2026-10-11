@@ -15,13 +15,30 @@ export const crafts=[
 export const layouts=[['single','单独一组'],['grid','齐列铺满'],['stagger','错位铺满'],['mirror','交替镜像']];
 export const clamp=(v,min,max)=>Math.max(min,Math.min(max,Number(v)||0));
 export const compatible=(material,craft)=>!craft||crafts.find(c=>c.id===craft)?.materials.includes(material)||false;
-export function defaultProject(){return {version:1,material:'cloth',background:'#354c40',layout:'stagger',size:225,gapX:20,gapY:20,format:'square',craft:null,layers:[{id:'one',rubbing:'hb-4781-1',x:0,y:0,size:.9,rotation:0,flip:false,color:'#d1bf87',opacity:1,weight:1.5}]}}
+export function defaultProject(){return {version:1,material:'cloth',background:'#672d32',layout:'stagger',size:225,gapX:20,gapY:20,format:'square',craft:null,layers:[{id:'one',rubbing:'hb-5459-surface-phoenix',x:0,y:0,size:.9,rotation:0,flip:false,color:'#d1bf87',opacity:1,weight:1.5}]}}
 export function sanitizeProject(raw,entries){
  if(!raw||raw.version!==1)throw new Error('这不是可读取的工坊设计文件。');
  const allowed=new Set(entries.filter(e=>e.available).map(e=>e.id)),base=defaultProject(),hex=v=>/^#[0-9a-f]{6}$/i.test(v||'');
  base.material=materials.some(m=>m.id===raw.material)?raw.material:'cloth';base.background=hex(raw.background)?raw.background:base.background;
  base.layout=layouts.some(([k])=>k===raw.layout)?raw.layout:'single';base.size=clamp(raw.size,90,430);base.gapX=clamp(raw.gapX,-65,130);base.gapY=clamp(raw.gapY,-65,130);base.format=['square','bookmark','landscape'].includes(raw.format)?raw.format:'square';base.craft=compatible(base.material,raw.craft)?raw.craft:null;
  base.layers=(Array.isArray(raw.layers)?raw.layers:[]).filter(l=>l&&allowed.has(l.rubbing)).slice(0,8).map((l,i)=>({id:'layer-'+i,rubbing:l.rubbing,x:clamp(l.x,-.7,.7),y:clamp(l.y,-.7,.7),size:clamp(l.size,.15,1.6),rotation:clamp(l.rotation,-180,180),flip:!!l.flip,color:hex(l.color)?l.color:'#d1bf87',opacity:clamp(l.opacity,.1,1),weight:clamp(l.weight||1.5,1,3)}));return base;
+}
+export const patternPresets=[
+ {id:'paired',name:'凤鸟相向',rubbing:'hb-5459-surface-phoenix',motif:'凤鸟'},
+ {id:'floral',name:'四方团花',rubbing:'jz-351-2',motif:'花卉'},
+ {id:'cloud',name:'云纹连绵',rubbing:'hb-6174-1',motif:'云气'}
+];
+export function presetProject(name,entries,base=defaultProject()){
+ const preset=patternPresets.find(p=>p.id===name);
+ if(!preset)throw new Error('未找到这组排布。');
+ // Prefer the reviewed crop; if catalogue entries change, only fall back to
+ // another available crop in the same motif family. Never invent a layer ID.
+ const available=entries.filter(e=>e.available&&e.image);
+ const rubbing=available.find(e=>e.id===preset.rubbing)||available.find(e=>e.view==='detail'&&e.motif===preset.motif)||available.find(e=>e.motif===preset.motif);
+ if(!rubbing)throw new Error('暂时没有可用的'+preset.motif+'拓影，请先选择其他纹样。');
+ const make=(x,y,rotation=0,flip=false,size=.85,color='#d1bf87')=>({rubbing:rubbing.id,x,y,rotation,flip,size,color,opacity:1,weight:1.5});
+ const layers=name==='paired'?[make(-.21,0,0,false,.72),make(.21,0,0,true,.72)]:name==='floral'?[0,1,2,3].map(i=>make(Math.cos(i*Math.PI/2)*.18,Math.sin(i*Math.PI/2)*.18,i*90,false,.66,i%2?'#b4c49b':'#dbc89a')):[make(0,0,0,false,1.15)];
+ return sanitizeProject({...base,layout:name==='cloud'?'grid':'stagger',size:name==='floral'?225:210,gapX:15,gapY:15,layers},entries);
 }
 export function tilePositions(project,w,h){
  if(project.layout==='single')return [{x:w/2,y:h/2,flip:false}];

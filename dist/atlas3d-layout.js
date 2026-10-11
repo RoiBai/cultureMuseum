@@ -2,7 +2,7 @@
 // Within an era, arrangement and depth support reading; neither implies chronology.
 export const CARD = {width: 3.6, height: 3.6, step: 5.4, rowStep: 10.8};
 export const LIFT = 15;
-import {featureValues} from './feature-values.js';
+import {featureValues} from './feature-values.js?v=20261011-review';
 export {featureValues};
 
 function placeGroups(items, start, elevation, context) {

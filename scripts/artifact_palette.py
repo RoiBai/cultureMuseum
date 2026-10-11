@@ -22,9 +22,15 @@ def measured_palette(artifact, dist):
             photo.thumbnail((220, 220))
         pixels = list(photo.convert('RGB').getdata())
     else:
+        full_resolution = photo.copy()
         photo.thumbnail((220, 220))
         valid = photo.getchannel('A').filter(ImageFilter.MinFilter(3))
         pixels = [p for p, m in zip(photo.convert('RGB').getdata(), valid.getdata()) if m >= 250]
+        if not pixels:
+            # Thin bamboo slips can disappear when reduced to 220px. Sample
+            # the original alpha-eroded foreground instead of the background.
+            valid = full_resolution.getchannel('A').filter(ImageFilter.MinFilter(3))
+            pixels = [p for p, m in zip(full_resolution.convert('RGB').getdata(), valid.getdata()) if m >= 250]
     pixel_filter = artifact.get('palettePixelFilter')
     if pixel_filter is not None:
         assert pixel_filter['method'] == 'luminance-below'

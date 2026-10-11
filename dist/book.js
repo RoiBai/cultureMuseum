@@ -1,4 +1,5 @@
-import {loadBookSummaries,readingFor,editorialHTML} from './book-editorial.js';
+import {mountPatternWorkflow,relatedRubbings,workflowURL} from './pattern-workflow.js?v=20261011-review';
+import {loadBookSummaries,readingFor,editorialHTML} from './book-editorial.js?v=20261011-review';
 const $=id=>document.getElementById(id);
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const normalize=value=>String(value??'').normalize('NFKC').replace(/\s+/g,'').toLocaleLowerCase('zh-CN');
@@ -7,7 +8,8 @@ const objectGroups=[['all','全部对象'],['artifact','文物'],['object-family
 const kindLabels={artifact:'文物','object-family':'器物类别',contemporary:'文创与当代',site:'遗址',architecture:'建筑',document:'文献'};
 const query=new URLSearchParams(location.search);
 const state={tab:query.get('tab')==='objects'?'objects':'motifs',category:query.get('category')||'all',search:query.get('q')||'',page:Number(query.get('page'))||null,limit:36};
-let data,readings,passages,objects,motifs,searchIndex=new Map();
+let data,readings,passages,objects,motifs,rubbings=[],searchIndex=new Map();
+mountPatternWorkflow({view:'reading'});
 
 function getPassages(record){return [...new Set(record.passageIds||[])].map(id=>passages.get(id)).filter(Boolean).sort((a,b)=>a.pdfPage-b.pdfPage);}
 function sourcePages(p){return [...new Set((p.sourcePages?.length?p.sourcePages:[p.pdfPage]).map(Number).filter(Number.isFinite))];}
@@ -51,18 +53,11 @@ function fillReading(detail){
   const reading=readingFor(readings,m,data),named=(m.objectIds||[]).map(id=>objects.get(id)).filter(Boolean).filter(o=>[o.name,...o.aliases||[]].some(name=>name.length>2&&reading.text.includes(name)));
   const related=[...new Set([...(reading.figureObjectIds||[]),...named.map(o=>o.id)])].map(id=>objects.get(id)).filter(Boolean).slice(0,6);
   detail.querySelector('.motif-reading').innerHTML=editorialHTML(reading,data,{figures:true})+(related.length?`<h4 class="related-title">继续看这些器物</h4><div class="related-objects">${related.map(o=>`<a href="${esc(objectURL(o))}">${esc(o.name)}<small>${kindLabel(o)} ↗</small></a>`).join('')}</div>`:'');
+  const available=relatedRubbings(m,rubbings);
+  if(available.length)detail.querySelector('.motif-reading').insertAdjacentHTML('beforeend',`<div class="pattern-making"><div><p>把阅读带入创作</p><small>${available.length} 张相关拓影可选择；保留每件原器物的照片与来源。</small></div><a href="${esc(workflowURL('library',{motifId:m.id}))}">选择相关拓影 →</a></div>`);
   detail.dataset.filled='true';
 }
 
-function renderCoverage(){
-  const audit=data.coverage?.pages||data.pages||[];
-  const reviewed=Array.isArray(data.coverage?.reviewedPages)?data.coverage.reviewedPages.length:Number(data.coverage?.reviewedPages)||audit.filter(p=>p.reviewed).length;
-  $('page-total').textContent=String(reviewed);
-  $('coverage-status').textContent=`${reviewed} / ${data.source.pdfPages||audit.length} 页已核读`;
-  if(!audit.length){$('page-index').innerHTML='<p class="loading">逐页记录暂未载入。</p>';return;}
-  const labels={body:'正文',references:'参考文献',cover:'封面',blank:'空白页',contents:'目录',toc:'目录',frontmatter:'卷首'};
-  $('page-index').innerHTML=audit.map(p=>{const front=p.printedPage==null,ref=p.kind==='references',status=p.reviewed?'已核读':'待核读',title=`PDF 第 ${p.pdfPage} 页 · ${front?(labels[p.kind]||'卷首'): `书内第 ${p.printedPage} 页`} · ${labels[p.kind]||'正文'} · ${status}`;return `<span class="page-marker ${ref?'reference':front?'frontmatter':''} ${p.reviewed?'':'unreviewed'}" tabindex="0" title="${esc(title)}" aria-label="${esc(title)}">${p.pdfPage}</span>`;}).join('');
-}
 
 function reset(){state.category='all';state.search='';state.page=null;state.limit=36;rememberURL();render();}
 $('book-search').addEventListener('input',e=>{state.search=e.target.value;state.limit=36;rememberURL();render();});
@@ -73,16 +68,16 @@ document.querySelector('.catalog-tabs').addEventListener('click',e=>{const b=e.t
 document.querySelector('.catalog-tabs').addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const target=e.key==='Home'?'motifs':e.key==='End'?'objects':state.tab==='motifs'?'objects':'motifs';$(`tab-${target}`).click();$(`tab-${target}`).focus();});
 $('load-more').addEventListener('click',()=>{if(!passages)return;const firstNew=state.limit;state.limit+=36;render();const next=$('catalog-results').children[firstNew];(next?.querySelector('summary')||next)?.focus({preventScroll:true});});
 $('catalog-results').addEventListener('click',e=>{if(e.target.closest('[data-reset]'))reset();});
-$('catalog-results').addEventListener('toggle',e=>{if(e.target.matches('details[data-motif]')&&e.target.open)fillReading(e.target);},true);
+$('catalog-results').addEventListener('toggle',e=>{if(e.target.matches('details[data-motif]')&&e.target.open){fillReading(e.target);const motif=motifs?.get(e.target.dataset.motif);mountPatternWorkflow({view:'reading',motif});}},true);
 
 try{
-  const response=await fetch('data/book-index.json',{cache:'no-cache'});if(!response.ok)throw new Error(`资料未能读取（${response.status}）`);data=await response.json();readings=await loadBookSummaries('motif');
+  const response=await fetch('data/book-index.json',{cache:'no-cache'});if(!response.ok)throw new Error(`资料未能读取（${response.status}）`);data=await response.json();[readings,rubbings]=await Promise.all([loadBookSummaries('motif'),fetch('data/rubbings.json').then(r=>r.ok?r.json():{entries:[]}).then(r=>r.entries||[]).catch(()=>[])]);
   if(!Array.isArray(data.passages)||!Array.isArray(data.objects)||!Array.isArray(data.motifs))throw new Error('资料格式暂不可用');
   passages=new Map(data.passages.map(p=>[p.id,p]));objects=new Map(data.objects.map(o=>[o.id,o]));motifs=new Map(data.motifs.map(m=>[m.id,m]));
   for(const record of [...data.motifs,...data.objects])searchIndex.set(record.id,normalize([record.name,...record.aliases||[],record.period,record.place].filter(Boolean).join(' ')));
   const title=String(data.source.title||'荆楚有色'),split=title.indexOf('：');$('source-title').textContent=split<0?title:title.slice(0,split);$('source-subtitle').textContent=split<0?'':title.slice(split+1);
   $('motif-total').textContent=data.motifs.length;$('object-total').textContent=data.objects.length;$('motif-tab-count').textContent=data.motifs.length;$('object-tab-count').textContent=data.objects.length;
-  renderCoverage();render();
+  render();
   const selected=query.get('motif')||location.hash.slice(1);
   if(selected&&motifs.has(selected)&&state.tab==='motifs'){
     const visible=records().filter(r=>matches(r)),index=visible.findIndex(m=>m.id===selected);

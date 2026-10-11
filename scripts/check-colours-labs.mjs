@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {hueLayout,hueBand} from '../dist/colour-hue.js';
 import {featureValues} from '../dist/feature-values.js';
 import {createHash} from 'node:crypto';
 import {clusterLayout,palettePosition,colourPosition,swatchRecords,nearestTraditional,materialLabel} from '../dist/colour-model.js';
@@ -14,7 +15,14 @@ const mix=palettePosition({palette:[{hex:'#aa2020',share:50},{hex:'#171717',shar
 for(const r of records){const match=nearestTraditional(r.hex,colours.colors);assert(match.name&&match.id);assert(colours.colors.some(c=>c.id===match.id&&c.hex===match.hex));assert(Number.isFinite(match.distance))}
 for(const c of colours.colors)assert.equal(nearestTraditional(c.hex,colours.colors).distance,0);
 assert(!/金|黄/.test(nearestTraditional('#545442',colours.colors).name),'Olive-grey must not acquire a gold/yellow name');
-assert.deepEqual(featureValues({materialGroup:['漆木','漆器']},'materialGroup'),['漆器']);assert(!a.some(x=>x.materialGroup==='漆木'));assert.equal(a.filter(x=>materialLabel(x)==='漆器').length,49);for(const n of sources.names)assert(n.quote&&n.url.startsWith('https://')&&n.work);
+assert.deepEqual(featureValues({materialGroup:['漆木','漆器']},'materialGroup'),['漆器']);assert(!a.some(x=>x.materialGroup==='漆木'));assert(a.some(x=>materialLabel(x)==='漆器')); for(const n of sources.names)assert(n.quote&&n.url.startsWith('https://')&&n.work);
+const hue=hueLayout(a);assert.equal(hue.length,a.length);assert.equal(new Set(hue.map(n=>n.x+':'+n.y)).size,hue.length);
+for(const hex of ['#222222','#bb2020']){const dense=hueLayout(Array.from({length:700},(_,i)=>({id:'test-'+i,palette:[{hex,share:100}]})));assert.equal(dense.length,700);assert.equal(new Set(dense.map(n=>n.x+':'+n.y)).size,700)}
+const primaries=hueLayout(['#ff0000','#ffff00','#00ff00','#0000ff','#777777'].map((hex,i)=>({id:'primary-'+i,palette:[{hex,share:100}]})));assert.deepEqual(primaries.map(n=>n.band),['red','yellow','green','blue','neutral']);assert(primaries[0].x<primaries[1].x&&primaries[1].x<primaries[2].x);
+assert.equal(hueBand('#b7ab57'),'yellow','A muted yellow stays in the yellow column');
+const reversed=new Map(hueLayout([...a].reverse()).map(n=>[n.a.id,n]));for(const n of hue){const r=reversed.get(n.a.id);assert.equal(n.x,r.x);assert.equal(n.y,r.y);assert(n.x>n.bandLeft&&n.x<n.bandLeft+n.bandWidth);assert.equal(n.band,hueBand(n.dominant));}
+for(const width of [390,768,1200]){const stable=hueLayout(a,{width}),byBand=new Map();for(const n of stable){assert(n.y+n.cellHeight<=n.height);const list=byBand.get(n.band)||[];for(const previous of list)assert(Math.abs(previous.x-n.x)>=n.cellWidth-.01||Math.abs(previous.y-n.y)>=n.cellHeight-.01,'Same-band cells must not overlap');list.push(n);byBand.set(n.band,list)}}
+assert(sources.names.length>=30);assert.equal(new Set(sources.names.map(n=>n.id)).size,sources.names.length);
 let s=createCollectionState();s=updateCollectionState(s,{type:'cup',index:0,inside:true});assert.equal(s.cups[0],false,'Closed case prevents cup placement');s=updateCollectionState(s,{type:'lid',value:1});for(let i=0;i<3;i++)s=updateCollectionState(s,{type:'cup',index:i,inside:true});assert.equal(s.cups.filter(Boolean).length,3);const old=s;s=updateCollectionState(s,{type:'cup',index:1,inside:false});assert.equal(old.cups[1],true);assert.equal(s.cups[1],false);assert.deepEqual(updateCollectionState(s,{type:'reset'}),createCollectionState());
 assert.deepEqual([0,90,180,270,360,-90].map(seasonAt),[0,1,2,3,0,3]);assert.equal(updateCollectionState(s,{type:'head',value:900}).head,160);
 const report=read('models/new-lab-optimization.json');assert.equal(report.models.length,3);

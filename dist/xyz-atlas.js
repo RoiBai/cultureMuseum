@@ -1,6 +1,6 @@
-import {SpatialStage,THREE,line} from './spatial-stage.js';
-import {xyzLayout} from './spatial-model.js';
-import {esc} from './study-data.js';
+import {SpatialStage,THREE,line} from './spatial-stage.js?v=20261011-review';
+import {xyzLayout} from './spatial-model.js?v=20261011-review';
+import {esc} from './study-data.js?v=20261011-review';
 export class XYZAtlas extends SpatialStage{
  constructor(host,{artifacts,eraDefs,cities,onDetail,onEra}){
   host.innerHTML=`<div class="spatial-canvas"></div><div class="xyz-labels"></div><div class="spatial-heading"><span class="spatial-kicker">THREE DIMENSIONS / 器物坐标</span><h2>时间，地域，色相。</h2><p>X 时代 · Y 出土地 · Z 照片色相</p></div><div class="spatial-tools"><button data-xyz="home">全景 ⤢</button><button data-xyz="front">正视 XY</button><button data-xyz="top">俯视 XZ</button><button data-xyz="rotate" aria-pressed="false">缓慢旋转</button></div><div class="xyz-tip" hidden></div><div class="xyz-legend"><span><i style="background:#b2a17b"></i>X · 时代分段</span><span><i style="background:#8eaa99"></i>Y · 城市分类</span><span class="hue-scale">Z · HUE <i></i> 0–360°</span></div><div class="spatial-bottom"><p class="spatial-status" role="status">拖动旋转 · 滚轮缩放 · 右键 / 双指平移</p><details><summary>坐标怎么读</summary><p>时代分段等距陈列，不代表真实年份间距；出土地按城市分类，不代表地理距离。色相取照片前景的主要有彩色，无明显色相的器物在独立灰阶列。小幅错位用于避免同坐标重叠，细线指向原始坐标。</p></details></div>`;

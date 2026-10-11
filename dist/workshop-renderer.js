@@ -1,4 +1,4 @@
-import {tilePositions,dimensions} from './workshop-model.js';
+import {tilePositions,dimensions} from './workshop-model.js?v=20261011-review';
 const make=(w,h)=>{const c=document.createElement('canvas');c.width=w;c.height=h;return c};
 const shade=(hex,delta)=>'#'+hex.slice(1).match(/../g).map(v=>Math.max(0,Math.min(255,parseInt(v,16)+delta)).toString(16).padStart(2,'0')).join('');
 function rng(seed=8291){return()=>{seed=(1664525*seed+1013904223)>>>0;return seed/4294967296}}

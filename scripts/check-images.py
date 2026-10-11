@@ -42,7 +42,7 @@ for a in data:
   rgb=tuple(int(p['hex'][i:i+2],16) for i in (1,3,5));assert color_name(rgb)==p['name']
   if p['name']=='金黄':
    h,s,v=colorsys.rgb_to_hsv(*(c/255 for c in rgb));assert 40<=h*360<70 and s>=.50 and v>=.74
-white=next(a for a in data if a['id']=='hb-5016')
+white=next(a for a in data if a['id']=='hb-5046')
 assert any(p['name']=='灰白' and p['share']>70 for p in white['palette']),'White glaze must remain part of the object'
 manuscript=next(a for a in data if a['id']=='chu-silk-manuscript')
 assert {'赤红','漆黑'}<=set(manuscript['colors']) and '灰白' not in manuscript['colors'],'Facsimile palette must retain red and black ink while excluding the pale substrate'

@@ -1,4 +1,4 @@
-import {loadBookSummaries,readingFor,editorialHTML} from './book-editorial.js';
+import {loadBookSummaries,readingFor,editorialHTML} from './book-editorial.js?v=20261011-review';
 let indexPromise;
 const list=value=>Array.isArray(value)?value:[];
 export const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));

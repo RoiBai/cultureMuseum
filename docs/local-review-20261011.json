@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-11",
+  "preview": "http://127.0.0.1:43205/",
+  "publishStatus": "local-only; no commit or push",
+  "records": 386,
+  "unknownFindspots": 0,
+  "checks": [
+    "npm run check passed",
+    "image verification passed (see image-verification.json)",
+    "desktop HUE: no horizontal or vertical document overflow",
+    "mobile layout: no horizontal document overflow",
+    "HUE artifact details and camera/pan restore passed",
+    "workshop: all three presets render valid layers",
+    "map: 386 records available"
+  ],
+  "uiContrast": {
+    "bodyText": 17.25,
+    "redTextOnBlack": 9.4,
+    "mutedTextOnSurface": 8.25,
+    "buttonTextOnRed": 8.72
+  },
+  "screenshots": [
+    "../../output/local-hue-palette-20261011.png",
+    "../../output/pattern-workflow-local.png",
+    "../../output/colour-workbench-20261011.png"
+  ],
+  "limitations": [
+    "New motif labels are based on museum wording; only reviewed available rubbings appear in the workshop.",
+    "Palette colours are measured from photograph foregrounds, not physical pigment measurements.",
+    "The Chu silk manuscript facsimile intentionally retains its paper surface."
+  ]
+}

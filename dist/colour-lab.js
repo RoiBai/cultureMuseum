@@ -1,6 +1,6 @@
-import {palette,oklab,rgb} from './colour-model.js';
+import {palette,oklab,rgb} from './colour-model.js?v=20261011-review';
 const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const [artifacts,literature]=await Promise.all(['data/artifacts.json?v=20261004','data/colour-literature.json'].map(async p=>{const r=await fetch(p);if(!r.ok)throw Error('资料读取失败');return r.json()}));
+const [artifacts,literature]=await Promise.all(['data/artifacts.json?v=20261011-collection','data/colour-literature.json?v=20261011-sources'].map(async p=>{const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw Error('资料读取失败');return r.json()}));
 const byId=new Map(artifacts.map(a=>[a.id,a])),canvas=$('palette-canvas'),ctx=canvas.getContext('2d'),query=new URLSearchParams(location.search);let layout='bands',ground='dark',layers=[],source=query.get('object')||'drum';if(!byId.has(source))source='drum';
 try{const s=JSON.parse(localStorage.getItem('jingchu-colour-composition'));if(s&&Array.isArray(s.layers)){layers=s.layers.filter(c=>byId.get(c.artifact)?.palette.some(p=>p.hex.toLowerCase()===c.hex?.toLowerCase())&&Number.isFinite(c.weight)&&c.weight>=1&&c.weight<=100).slice(0,6);layout=['bands','circles'].includes(s.layout)?s.layout:'bands';ground=s.ground==='light'?'light':'dark'}}catch{}
 if(!layers.length)layers=palette(byId.get('drum')).map(c=>({hex:c.hex,weight:Math.max(1,Math.round(c.weight*100)),artifact:'drum'}));
@@ -9,7 +9,7 @@ const images=new Map();let drawVersion=0;
 function persist(){try{localStorage.setItem('jingchu-colour-composition',JSON.stringify({layers,layout,ground}))}catch{}}
 function imageFor(a){if(!images.has(a.id))images.set(a.id,new Promise(resolve=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>resolve(null);img.src=a.displayImage||a.image}));return images.get(a.id)}
 function percentages(){const total=layers.reduce((s,c)=>s+c.weight,0);return layers.map(c=>c.weight/total)}
-async function draw(){const version=++drawVersion,imgs=await Promise.all(layers.map(c=>imageFor(byId.get(c.artifact))));if(version!==drawVersion)return;const dark=ground==='dark',paper=dark?'#172015':'#e7e1d4',ink=dark?'#e1d7b7':'#414233',muted=dark?'#97a183':'#8c856f';ctx.fillStyle=paper;ctx.fillRect(0,0,1200,1600);
+async function draw(){const version=++drawVersion,imgs=await Promise.all(layers.map(c=>imageFor(byId.get(c.artifact))));if(version!==drawVersion)return;const dark=ground==='dark',paper=dark?'#161215':'#e7e1df',ink=dark?'#f3eee8':'#302327',muted=dark?'#b9a9ac':'#7c666c';ctx.fillStyle=paper;ctx.fillRect(0,0,1200,1600);
  // A subtle paper grain generated for the composition; never modifies source photographs.
  ctx.fillStyle=dark?'#ffffff03':'#51432309';for(let y=0;y<1600;y+=8)for(let x=0;x<1200;x+=8)ctx.fillRect(x+(y%16?3:0),y,1,1);
  ctx.fillStyle=muted;ctx.font='18px sans-serif';ctx.fillText('JINGCHU / MY COLOUR STUDY',85,95);ctx.fillStyle=ink;ctx.font='54px "Songti SC",serif';ctx.fillText('我的荆楚色谱',85,180);ctx.fillStyle=muted;ctx.font='20px sans-serif';ctx.fillText('从器物出发，重新安排颜色的分量。',85,228);

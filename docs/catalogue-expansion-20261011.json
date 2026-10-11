@@ -1,0 +1,3955 @@
+{
+  "date": "2026-10-11",
+  "scope": [
+    "荆州博物馆馆藏精品",
+    "湖北省博物馆10类典藏",
+    "湖北省博物馆镇馆之宝补查"
+  ],
+  "cataloguePages": 43,
+  "catalogueRecords": 761,
+  "priorRecords": 149,
+  "removedUnlocated": [
+    {
+      "id": "jz-352",
+      "title": "青瓷荷叶盖罐",
+      "place": "新桥村墓地",
+      "source": "http://www.jzmsm.org/news-352.html"
+    },
+    {
+      "id": "hb-5064",
+      "title": "仿哥釉碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5064.html"
+    },
+    {
+      "id": "hb-5063",
+      "title": "斗彩折枝花纹碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5063.html"
+    },
+    {
+      "id": "hb-5062",
+      "title": "青花花卉纹诗文茶托",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5062.html"
+    },
+    {
+      "id": "hb-5060",
+      "title": "绿釉暗八宝纹碟",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5060.html"
+    },
+    {
+      "id": "hb-5037",
+      "title": "青瓷人首飞兽",
+      "place": "传世品，原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5037.html"
+    },
+    {
+      "id": "hb-5019",
+      "title": "木纹釉折腰碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5019.html"
+    },
+    {
+      "id": "hb-5016",
+      "title": "白釉碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5016.html"
+    },
+    {
+      "id": "hb-5015",
+      "title": "青瓷男侍俑",
+      "place": "传世品，原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/5015.html"
+    },
+    {
+      "id": "hb-4808",
+      "title": "红彩云龙纹蛊",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4808.html"
+    },
+    {
+      "id": "hb-4805",
+      "title": "东青釉盘",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4805.html"
+    },
+    {
+      "id": "hb-4793",
+      "title": "鳝鱼黄釉绶带耳葫芦瓶",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4793.html"
+    },
+    {
+      "id": "hb-4784",
+      "title": "茄皮紫釉爵",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4784.html"
+    },
+    {
+      "id": "hb-4781",
+      "title": "釉里红团凤纹碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4781.html"
+    },
+    {
+      "id": "hb-4774",
+      "title": "釉里红五蝠纹碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4774.html"
+    },
+    {
+      "id": "hb-4767",
+      "title": "祭红釉碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4767.html"
+    },
+    {
+      "id": "hb-4766",
+      "title": "紫金釉碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4766.html"
+    },
+    {
+      "id": "hb-4762",
+      "title": "米色釉碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4762.html"
+    },
+    {
+      "id": "hb-4759",
+      "title": "黄地绿彩婴戏纹碗",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4759.html"
+    },
+    {
+      "id": "hb-4747",
+      "title": "黄釉云龙纹盘",
+      "place": "原页未列出土地",
+      "source": "https://www.hbww.org.cn/tcq/p/4747.html"
+    }
+  ],
+  "retainedPrior": 129,
+  "added": 257,
+  "finalRecords": 386,
+  "rejected": [
+    {
+      "id": "hb-9261",
+      "title": "国家珍贵古籍名录书影",
+      "source": "https://www.hbww.org.cn/gjsb/p/9261.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9262",
+      "title": "湖北省珍贵古籍名录书影",
+      "source": "https://www.hbww.org.cn/gjsb/p/9262.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9339",
+      "title": "松石雕《诗圣酒仙》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9339.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9340",
+      "title": "蜡染《击鼓》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9340.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9341",
+      "title": "陶艺《鳜—自游》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9341.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9342",
+      "title": "木雕《长袖娇魂》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9342.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9343",
+      "title": "软雕塑《说唱艺术》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9343.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9344",
+      "title": "木雕船",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9344.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9345",
+      "title": "贝雕《雪精龙舟》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9345.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9347",
+      "title": "麦秆画《水浒人物—花荣》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9347.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9348",
+      "title": "彩绘饭瓢—火神",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9348.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9350",
+      "title": "雕塑《自相矛盾》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9350.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9351",
+      "title": "古瑟",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9351.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9361",
+      "title": "蜂花双馨",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9361.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9362",
+      "title": "人发雕：吉尼斯世界纪录",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9362.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9363",
+      "title": "软派平面微雕：《五百罗汉图》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9363.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9364",
+      "title": "软派平面微雕：《水浒一百零八将》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9364.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9366",
+      "title": "微雕：《八仙炉》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9366.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9367",
+      "title": "平面微雕：《孙子兵法链刀》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9367.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9368",
+      "title": "国画《马》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9368.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9369",
+      "title": "国画《铁骨生春》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9369.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9370",
+      "title": "紫砂壶《问天问地》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9370.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9371",
+      "title": "紫砂壶《楚风汉韵》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9371.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9373",
+      "title": "紫砂《始祖壶》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9373.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9374",
+      "title": "报春（20.5cm*15cm*7cm）",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9374.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9375",
+      "title": "犀牛（18cm*11.5cm*6.5cm）",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9375.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9376",
+      "title": "四灵聚瑞（10cm*8cm*2.5cm）",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9376.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9377",
+      "title": "逗（12.5cm*8cm*7cm）",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9377.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9378",
+      "title": "国画《春江水暖》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9378.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9379",
+      "title": "国画《但识琴中趣》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9379.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9380",
+      "title": "巨型绿松石《武当朝圣图》",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9380.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9381",
+      "title": "辟邪",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9381.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9382",
+      "title": "龙马精神",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9382.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9383",
+      "title": "百发百中",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9383.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9384",
+      "title": "射日",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9384.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9385",
+      "title": "哭泣的天使",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9385.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-9386",
+      "title": "龙凤虎纹",
+      "source": "https://www.hbww.org.cn/gymsjp/p/9386.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4757",
+      "title": "金壶、金爵",
+      "source": "https://www.hbww.org.cn/jyq/p/4757.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4765",
+      "title": "金爵、银爵和镀金银托盘",
+      "source": "https://www.hbww.org.cn/jyq/p/4765.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4768",
+      "title": "金盆",
+      "source": "https://www.hbww.org.cn/jyq/p/4768.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4771",
+      "title": "金盂",
+      "source": "https://www.hbww.org.cn/jyq/p/4771.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4775",
+      "title": "金匕、金漏勺、金箸",
+      "source": "https://www.hbww.org.cn/jyq/p/4775.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4779",
+      "title": "金锭",
+      "source": "https://www.hbww.org.cn/jyq/p/4779.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4785",
+      "title": "银锭",
+      "source": "https://www.hbww.org.cn/jyq/p/4785.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4789",
+      "title": "金钱",
+      "source": "https://www.hbww.org.cn/jyq/p/4789.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4795",
+      "title": "银筒形瓶",
+      "source": "https://www.hbww.org.cn/jyq/p/4795.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4803",
+      "title": "金细花",
+      "source": "https://www.hbww.org.cn/jyq/p/4803.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4824",
+      "title": "金凤簪",
+      "source": "https://www.hbww.org.cn/jyq/p/4824.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4831",
+      "title": "金花簪",
+      "source": "https://www.hbww.org.cn/jyq/p/4831.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4843",
+      "title": "金累丝镶宝石带",
+      "source": "https://www.hbww.org.cn/jyq/p/4843.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4845",
+      "title": "金镶青白玉镂空龙穿牡丹纹带",
+      "source": "https://www.hbww.org.cn/jyq/p/4845.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4846",
+      "title": "金法戒",
+      "source": "https://www.hbww.org.cn/jyq/p/4846.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4848",
+      "title": "金刚杵",
+      "source": "https://www.hbww.org.cn/jyq/p/4848.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4851",
+      "title": "金时轮金刚曼茶罗咒牌",
+      "source": "https://www.hbww.org.cn/jyq/p/4851.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4854",
+      "title": "金翅鸟神像",
+      "source": "https://www.hbww.org.cn/jyq/p/4854.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5346",
+      "title": "金累丝镶宝石青玉镂空香瓜簪",
+      "source": "https://www.hbww.org.cn/jyq/p/5346.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5347",
+      "title": "梯形金累丝镶宝石簪",
+      "source": "https://www.hbww.org.cn/jyq/p/5347.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5385",
+      "title": "金镶宝石帽顶",
+      "source": "https://www.hbww.org.cn/jyq/p/5385.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5386",
+      "title": "金镶淡黄蓝宝石帽顶",
+      "source": "https://www.hbww.org.cn/jyq/p/5386.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5387",
+      "title": "金镶蓝宝石帽顶",
+      "source": "https://www.hbww.org.cn/jyq/p/5387.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5388",
+      "title": "金镶宝石白玉镂空云龙纹帽顶",
+      "source": "https://www.hbww.org.cn/jyq/p/5388.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5389",
+      "title": "金雷丝镶宝石帽顶",
+      "source": "https://www.hbww.org.cn/jyq/p/5389.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5390",
+      "title": "冕冠",
+      "source": "https://www.hbww.org.cn/jyq/p/5390.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5391",
+      "title": "皮弁",
+      "source": "https://www.hbww.org.cn/jyq/p/5391.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5392",
+      "title": "金镶宝石带",
+      "source": "https://www.hbww.org.cn/jyq/p/5392.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5393",
+      "title": "白玉鹘捕鹅带",
+      "source": "https://www.hbww.org.cn/jyq/p/5393.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5394",
+      "title": "青龙葵花带",
+      "source": "https://www.hbww.org.cn/jyq/p/5394.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5395",
+      "title": "金镶青白玉龙纹绦环",
+      "source": "https://www.hbww.org.cn/jyq/p/5395.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5396",
+      "title": "金镶青白玉龙纹绦环",
+      "source": "https://www.hbww.org.cn/jyq/p/5396.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5397",
+      "title": "金镶宝石绦环",
+      "source": "https://www.hbww.org.cn/jyq/p/5397.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5398",
+      "title": "金累丝镶宝石青玉镂空双鸾鸟牡丹簪",
+      "source": "https://www.hbww.org.cn/jyq/p/5398.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5399",
+      "title": "云形金累丝镶宝石簪",
+      "source": "https://www.hbww.org.cn/jyq/p/5399.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5400",
+      "title": "桃形金累丝镶宝石簪",
+      "source": "https://www.hbww.org.cn/jyq/p/5400.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5401",
+      "title": "梅花形金镶宝石簪",
+      "source": "https://www.hbww.org.cn/jyq/p/5401.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5402",
+      "title": "梅花形金簪",
+      "source": "https://www.hbww.org.cn/jyq/p/5402.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5403",
+      "title": "玉珠坠饰",
+      "source": "https://www.hbww.org.cn/jyq/p/5403.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5404",
+      "title": "串缀珠宝金耳环",
+      "source": "https://www.hbww.org.cn/jyq/p/5404.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5405",
+      "title": "金环白玉葫芦饰",
+      "source": "https://www.hbww.org.cn/jyq/p/5405.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5406",
+      "title": "云形金镶宝石饰",
+      "source": "https://www.hbww.org.cn/jyq/p/5406.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5407",
+      "title": "金钑花钏、金镶宝石镯",
+      "source": "https://www.hbww.org.cn/jyq/p/5407.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5408",
+      "title": "金镶宝石戒指",
+      "source": "https://www.hbww.org.cn/jyq/p/5408.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5409",
+      "title": "金镂空凤纹坠",
+      "source": "https://www.hbww.org.cn/jyq/p/5409.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5410",
+      "title": "云形头金钩",
+      "source": "https://www.hbww.org.cn/jyq/p/5410.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5411",
+      "title": "金扣",
+      "source": "https://www.hbww.org.cn/jyq/p/5411.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5412",
+      "title": "金镊子、金耳勺、金牙签",
+      "source": "https://www.hbww.org.cn/jyq/p/5412.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5413",
+      "title": "金“大黑天”舞姿神像",
+      "source": "https://www.hbww.org.cn/jyq/p/5413.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5414",
+      "title": "金“大黑天”舞姿神像",
+      "source": "https://www.hbww.org.cn/jyq/p/5414.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5415",
+      "title": "镀金铜龛阿弧陀跏趺神像",
+      "source": "https://www.hbww.org.cn/jyq/p/5415.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5416",
+      "title": "金梵文种子",
+      "source": "https://www.hbww.org.cn/jyq/p/5416.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5417",
+      "title": "骨佛珠",
+      "source": "https://www.hbww.org.cn/jyq/p/5417.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "jz-349",
+      "title": "刘墉行书横幅",
+      "source": "http://www.jzmsm.org/news-349.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "jz-350",
+      "title": "湘献王与王妃贴金木“谥宝”“谥册”",
+      "source": "http://www.jzmsm.org/news-350.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-351",
+      "title": "釉里红凤舞缠枝菊花纹盖罐",
+      "source": "http://www.jzmsm.org/news-351.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-352",
+      "title": "青瓷荷叶盖罐",
+      "source": "http://www.jzmsm.org/news-352.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "jz-353",
+      "title": "漆木彩绘三鱼纹耳杯",
+      "source": "http://www.jzmsm.org/news-353.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-354",
+      "title": "漆木彩绘七豹大扁壶",
+      "source": "http://www.jzmsm.org/news-354.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-355",
+      "title": "张家山汉简",
+      "source": "http://www.jzmsm.org/news-355.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-356",
+      "title": "蟠龙飞凤纹绣浅黄绢面衾",
+      "source": "http://www.jzmsm.org/news-356.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-357",
+      "title": "龙凤虎纹绣罗单衣",
+      "source": "http://www.jzmsm.org/news-357.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-358",
+      "title": "凤鸟花卉纹绣浅黄绢面绵袍",
+      "source": "http://www.jzmsm.org/news-358.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-359",
+      "title": "根雕辟邪",
+      "source": "http://www.jzmsm.org/news-359.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-457",
+      "title": "漆木彩绘双头镇墓兽",
+      "source": "http://www.jzmsm.org/news-457.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-458",
+      "title": "漆木彩绘猪形酒具盒",
+      "source": "http://www.jzmsm.org/news-458.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-459",
+      "title": "漆木彩绘虎座凤鸟悬鼓",
+      "source": "http://www.jzmsm.org/news-459.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-460",
+      "title": "漆木彩绘凤鸟莲花盖豆",
+      "source": "http://www.jzmsm.org/news-460.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-461",
+      "title": "漆木彩绘蟾座凤鸟羽人",
+      "source": "http://www.jzmsm.org/news-461.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-462",
+      "title": "越王州句”铜剑",
+      "source": "http://www.jzmsm.org/news-462.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-463",
+      "title": "“兵闢太岁”铜戈",
+      "source": "http://www.jzmsm.org/news-463.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-464",
+      "title": "连发铜木弩",
+      "source": "http://www.jzmsm.org/news-464.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-465",
+      "title": "铜编钟",
+      "source": "http://www.jzmsm.org/news-465.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-466",
+      "title": "铜升鼎",
+      "source": "http://www.jzmsm.org/news-466.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-467",
+      "title": "组玉佩",
+      "source": "http://www.jzmsm.org/news-467.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-468",
+      "title": "玉覆面",
+      "source": "http://www.jzmsm.org/news-468.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-469",
+      "title": "人执龙形玉佩",
+      "source": "http://www.jzmsm.org/news-469.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-470",
+      "title": "龙凤形玉佩",
+      "source": "http://www.jzmsm.org/news-470.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-471",
+      "title": "人乘龙形玉佩",
+      "source": "http://www.jzmsm.org/news-471.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-472",
+      "title": "虎形铜尊",
+      "source": "http://www.jzmsm.org/news-472.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-473",
+      "title": "牺首栖鸟兽面纹铜尊",
+      "source": "http://www.jzmsm.org/news-473.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-474",
+      "title": "玉飞鹰",
+      "source": "http://www.jzmsm.org/news-474.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "jz-475",
+      "title": "玉头人像",
+      "source": "http://www.jzmsm.org/news-475.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4778",
+      "title": "漆木高柄壶形器",
+      "source": "https://www.hbww.org.cn/qmq/p/4778.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4797",
+      "title": "漆木箎",
+      "source": "https://www.hbww.org.cn/qmq/p/4797.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4799",
+      "title": "漆木尊",
+      "source": "https://www.hbww.org.cn/qmq/p/4799.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4807",
+      "title": "漆木瓒",
+      "source": "https://www.hbww.org.cn/qmq/p/4807.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4813",
+      "title": "漆木案",
+      "source": "https://www.hbww.org.cn/qmq/p/4813.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4821",
+      "title": "漆木案",
+      "source": "https://www.hbww.org.cn/qmq/p/4821.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4825",
+      "title": "漆木臼、杵",
+      "source": "https://www.hbww.org.cn/qmq/p/4825.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4832",
+      "title": "漆木盖豆",
+      "source": "https://www.hbww.org.cn/qmq/p/4832.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4835",
+      "title": "漆木长方形盒",
+      "source": "https://www.hbww.org.cn/qmq/p/4835.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4850",
+      "title": "漆木弩",
+      "source": "https://www.hbww.org.cn/qmq/p/4850.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4853",
+      "title": "漆木扁壶",
+      "source": "https://www.hbww.org.cn/qmq/p/4853.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4951",
+      "title": "漆木盒",
+      "source": "https://www.hbww.org.cn/qmq/p/4951.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4952",
+      "title": "漆木盒",
+      "source": "https://www.hbww.org.cn/qmq/p/4952.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4956",
+      "title": "漆木鬲",
+      "source": "https://www.hbww.org.cn/qmq/p/4956.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4960",
+      "title": "漆木樽",
+      "source": "https://www.hbww.org.cn/qmq/p/4960.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4963",
+      "title": "漆木升鼎",
+      "source": "https://www.hbww.org.cn/qmq/p/4963.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4964",
+      "title": "漆木车",
+      "source": "https://www.hbww.org.cn/qmq/p/4964.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4966",
+      "title": "漆木虎座鸟架鼓",
+      "source": "https://www.hbww.org.cn/qmq/p/4966.html",
+      "reason": "duplicate object; retained drum",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-4967",
+      "title": "编钟",
+      "source": "https://www.hbww.org.cn/qmq/p/4967.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4969",
+      "title": "漆木敦",
+      "source": "https://www.hbww.org.cn/qmq/p/4969.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4970",
+      "title": "漆木簋",
+      "source": "https://www.hbww.org.cn/qmq/p/4970.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4971",
+      "title": "漆木簠",
+      "source": "https://www.hbww.org.cn/qmq/p/4971.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4972",
+      "title": "漆木俑",
+      "source": "https://www.hbww.org.cn/qmq/p/4972.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4973",
+      "title": "木铲",
+      "source": "https://www.hbww.org.cn/qmq/p/4973.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4974",
+      "title": "木斗",
+      "source": "https://www.hbww.org.cn/qmq/p/4974.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4979",
+      "title": "彩绘凤纹竹筒",
+      "source": "https://www.hbww.org.cn/qmq/p/4979.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4980",
+      "title": "彩绘三角形纹盏形器",
+      "source": "https://www.hbww.org.cn/qmq/p/4980.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4983",
+      "title": "彩绘人物车马出行图圆奁",
+      "source": "https://www.hbww.org.cn/qmq/p/4983.html",
+      "reason": "duplicate object; retained hb-6914",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-4986",
+      "title": "彩绘变形鸟纹圆耳杯",
+      "source": "https://www.hbww.org.cn/qmq/p/4986.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4988",
+      "title": "透雕云纹木梳",
+      "source": "https://www.hbww.org.cn/qmq/p/4988.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4989",
+      "title": "篦",
+      "source": "https://www.hbww.org.cn/qmq/p/4989.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4990",
+      "title": "梳子",
+      "source": "https://www.hbww.org.cn/qmq/p/4990.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4991",
+      "title": "木篦",
+      "source": "https://www.hbww.org.cn/qmq/p/4991.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4995",
+      "title": "漆盾（正反面）",
+      "source": "https://www.hbww.org.cn/qmq/p/4995.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5467",
+      "title": "素漆圆盘",
+      "source": "https://www.hbww.org.cn/qmq/p/5467.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5468",
+      "title": "彩绘云兽纹漆圆盘",
+      "source": "https://www.hbww.org.cn/qmq/p/5468.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5471",
+      "title": "彩绘云兽纹漆圆盘",
+      "source": "https://www.hbww.org.cn/qmq/p/5471.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5481",
+      "title": "彩绘凤形漆勺",
+      "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5483",
+      "title": "彩漆凤形勺",
+      "source": "https://www.hbww.org.cn/qmq/p/5483.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5527",
+      "title": "彩绘凤鸟纹漆圆奁",
+      "source": "https://www.hbww.org.cn/qmq/p/5527.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5538",
+      "title": "彩绘云凤纹漆樽",
+      "source": "https://www.hbww.org.cn/qmq/p/5538.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5539",
+      "title": "素漆长方筒",
+      "source": "https://www.hbww.org.cn/qmq/p/5539.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6166",
+      "title": "彩漆龙凤纹竹筒",
+      "source": "https://www.hbww.org.cn/qmq/p/6166.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6176",
+      "title": "漆盂",
+      "source": "https://www.hbww.org.cn/qmq/p/6176.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6177",
+      "title": "漆盘",
+      "source": "https://www.hbww.org.cn/qmq/p/6177.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6178",
+      "title": "彩漆厄",
+      "source": "https://www.hbww.org.cn/qmq/p/6178.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6179",
+      "title": "战国彩绘椭圆漆盒",
+      "source": "https://www.hbww.org.cn/qmq/p/6179.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6180",
+      "title": "彩绘变形形鸟纹圆耳杯",
+      "source": "https://www.hbww.org.cn/qmq/p/6180.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6185",
+      "title": "彩绘云龙纹漆樽",
+      "source": "https://www.hbww.org.cn/qmq/p/6185.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6186",
+      "title": "彩漆耳杯",
+      "source": "https://www.hbww.org.cn/qmq/p/6186.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6187",
+      "title": "漆木圆盒",
+      "source": "https://www.hbww.org.cn/qmq/p/6187.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6188",
+      "title": "漆木浅盘豆",
+      "source": "https://www.hbww.org.cn/qmq/p/6188.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6189",
+      "title": "漆木深盘豆",
+      "source": "https://www.hbww.org.cn/qmq/p/6189.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6190",
+      "title": "彩漆方耳蝶纹耳杯",
+      "source": "https://www.hbww.org.cn/qmq/p/6190.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6193",
+      "title": "彩绘变形鸟圆耳杯",
+      "source": "https://www.hbww.org.cn/qmq/p/6193.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4689",
+      "title": "越王勾践剑",
+      "source": "https://www.hbww.org.cn/qtq/p/4689.html",
+      "reason": "duplicate object; retained hb-4694",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-4691",
+      "title": "曾侯乙编钟",
+      "source": "https://www.hbww.org.cn/qtq/p/4691.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4718",
+      "title": "大铜斧",
+      "source": "https://www.hbww.org.cn/qtq/p/4718.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4731",
+      "title": "环耳卧牛钮鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/4731.html",
+      "reason": "museum photo mismatches title (spoon image on ding page)",
+      "outcome": "wrongPhotograph"
+    },
+    {
+      "id": "hb-4732",
+      "title": "螭钮鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/4732.html",
+      "reason": "duplicate object; retained hb-4734",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-4742",
+      "title": "簋",
+      "source": "https://www.hbww.org.cn/qtq/p/4742.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5069",
+      "title": "嵌错龙纹铜壶",
+      "source": "https://www.hbww.org.cn/qtq/p/5069.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5073",
+      "title": "圆涡纹铜缶",
+      "source": "https://www.hbww.org.cn/qtq/p/5073.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5074",
+      "title": "铜镬鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/5074.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5089",
+      "title": "铜高柄壶形杯",
+      "source": "https://www.hbww.org.cn/qtq/p/5089.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5113",
+      "title": "龙柄铜匜",
+      "source": "https://www.hbww.org.cn/qtq/p/5113.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5118",
+      "title": "双提链盘",
+      "source": "https://www.hbww.org.cn/qtq/p/5118.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5141",
+      "title": "箭镞（一组）",
+      "source": "https://www.hbww.org.cn/qtq/p/5141.html",
+      "reason": "duplicate catalogue text; retained hb-5140",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-5143",
+      "title": "鸟首形杯",
+      "source": "https://www.hbww.org.cn/qtq/p/5143.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5151",
+      "title": "鎏金铜带钩",
+      "source": "https://www.hbww.org.cn/qtq/p/5151.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5155",
+      "title": "凤纹铜镜",
+      "source": "https://www.hbww.org.cn/qtq/p/5155.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5160",
+      "title": "日月天王镜",
+      "source": "https://www.hbww.org.cn/qtq/p/5160.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5161",
+      "title": "七乳七兽镜",
+      "source": "https://www.hbww.org.cn/qtq/p/5161.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5163",
+      "title": "视金一朱铜钱牌",
+      "source": "https://www.hbww.org.cn/qtq/p/5163.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5164",
+      "title": "圜钱",
+      "source": "https://www.hbww.org.cn/qtq/p/5164.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5165",
+      "title": "布币",
+      "source": "https://www.hbww.org.cn/qtq/p/5165.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5166",
+      "title": "刀币",
+      "source": "https://www.hbww.org.cn/qtq/p/5166.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5167",
+      "title": "“之”圆铜印",
+      "source": "https://www.hbww.org.cn/qtq/p/5167.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5168",
+      "title": "“尔”方铜印",
+      "source": "https://www.hbww.org.cn/qtq/p/5168.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5169",
+      "title": "“于政之印”方铜印",
+      "source": "https://www.hbww.org.cn/qtq/p/5169.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5170",
+      "title": "“臣奴”二面穿带方铜印",
+      "source": "https://www.hbww.org.cn/qtq/p/5170.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5171",
+      "title": "“闾丘恭”方铜印",
+      "source": "https://www.hbww.org.cn/qtq/p/5171.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5172",
+      "title": "“军司马”方铜印",
+      "source": "https://www.hbww.org.cn/qtq/p/5172.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5475",
+      "title": "铜鬲",
+      "source": "https://www.hbww.org.cn/qtq/p/5475.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5477",
+      "title": "铜尊",
+      "source": "https://www.hbww.org.cn/qtq/p/5477.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5479",
+      "title": "铜尊",
+      "source": "https://www.hbww.org.cn/qtq/p/5479.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5482",
+      "title": "铜斧、铜斫",
+      "source": "https://www.hbww.org.cn/qtq/p/5482.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5485",
+      "title": "铜凿、铜锛",
+      "source": "https://www.hbww.org.cn/qtq/p/5485.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5486",
+      "title": "铜觚",
+      "source": "https://www.hbww.org.cn/qtq/p/5486.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5487",
+      "title": "铜镞",
+      "source": "https://www.hbww.org.cn/qtq/p/5487.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5488",
+      "title": "铜臿、斨",
+      "source": "https://www.hbww.org.cn/qtq/p/5488.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5489",
+      "title": "铜锛",
+      "source": "https://www.hbww.org.cn/qtq/p/5489.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5490",
+      "title": "铜刀、铜戈",
+      "source": "https://www.hbww.org.cn/qtq/p/5490.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5491",
+      "title": "铜锯、铜刀",
+      "source": "https://www.hbww.org.cn/qtq/p/5491.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5492",
+      "title": "铜爵",
+      "source": "https://www.hbww.org.cn/qtq/p/5492.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5493",
+      "title": "铜斝",
+      "source": "https://www.hbww.org.cn/qtq/p/5493.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5494",
+      "title": "铜尊",
+      "source": "https://www.hbww.org.cn/qtq/p/5494.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5495",
+      "title": "铜盉",
+      "source": "https://www.hbww.org.cn/qtq/p/5495.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5496",
+      "title": "铜鬲",
+      "source": "https://www.hbww.org.cn/qtq/p/5496.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5497",
+      "title": "铜鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/5497.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5498",
+      "title": "铜簋",
+      "source": "https://www.hbww.org.cn/qtq/p/5498.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5499",
+      "title": "铜甗",
+      "source": "https://www.hbww.org.cn/qtq/p/5499.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5500",
+      "title": "铜盘",
+      "source": "https://www.hbww.org.cn/qtq/p/5500.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5501",
+      "title": "铜钺",
+      "source": "https://www.hbww.org.cn/qtq/p/5501.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5502",
+      "title": "铜矛",
+      "source": "https://www.hbww.org.cn/qtq/p/5502.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5503",
+      "title": "铜爵",
+      "source": "https://www.hbww.org.cn/qtq/p/5503.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5504",
+      "title": "铜鬲",
+      "source": "https://www.hbww.org.cn/qtq/p/5504.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5505",
+      "title": "铜卣",
+      "source": "https://www.hbww.org.cn/qtq/p/5505.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5506",
+      "title": "铜尊",
+      "source": "https://www.hbww.org.cn/qtq/p/5506.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5507",
+      "title": "铜盘",
+      "source": "https://www.hbww.org.cn/qtq/p/5507.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5508",
+      "title": "铜簋",
+      "source": "https://www.hbww.org.cn/qtq/p/5508.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5509",
+      "title": "铜觚、爵、斝组合",
+      "source": "https://www.hbww.org.cn/qtq/p/5509.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5510",
+      "title": "铜鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/5510.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5511",
+      "title": "铜簋",
+      "source": "https://www.hbww.org.cn/qtq/p/5511.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5512",
+      "title": "铜钺",
+      "source": "https://www.hbww.org.cn/qtq/p/5512.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5513",
+      "title": "铜雕花钺形刀",
+      "source": "https://www.hbww.org.cn/qtq/p/5513.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5514",
+      "title": "铜铍",
+      "source": "https://www.hbww.org.cn/qtq/p/5514.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5515",
+      "title": "铜戣",
+      "source": "https://www.hbww.org.cn/qtq/p/5515.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5516",
+      "title": "青铜勾刀",
+      "source": "https://www.hbww.org.cn/qtq/p/5516.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5517",
+      "title": "铜爵、斝、觚组合",
+      "source": "https://www.hbww.org.cn/qtq/p/5517.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5518",
+      "title": "铜觚",
+      "source": "https://www.hbww.org.cn/qtq/p/5518.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5519",
+      "title": "铜罍",
+      "source": "https://www.hbww.org.cn/qtq/p/5519.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5520",
+      "title": "铜面具",
+      "source": "https://www.hbww.org.cn/qtq/p/5520.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5521",
+      "title": "铜尊",
+      "source": "https://www.hbww.org.cn/qtq/p/5521.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5522",
+      "title": "铜镜",
+      "source": "https://www.hbww.org.cn/qtq/p/5522.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6158",
+      "title": "蟠螭纹龙形耳铜和",
+      "source": "https://www.hbww.org.cn/qtq/p/6158.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6159",
+      "title": "镶嵌龙凤纹樽",
+      "source": "https://www.hbww.org.cn/qtq/p/6159.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6160",
+      "title": "考叔父铜簠",
+      "source": "https://www.hbww.org.cn/qtq/p/6160.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6161",
+      "title": "方耳卧牛钮盖鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/6161.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6162",
+      "title": "蟠螭纹铜升鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/6162.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6167",
+      "title": "素面铜盘",
+      "source": "https://www.hbww.org.cn/qtq/p/6167.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6168",
+      "title": "素面铜匜",
+      "source": "https://www.hbww.org.cn/qtq/p/6168.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6171",
+      "title": "凹口(骨交）锐本式铜矛",
+      "source": "https://www.hbww.org.cn/qtq/p/6171.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6175",
+      "title": "窃曲纹铜盘",
+      "source": "https://www.hbww.org.cn/qtq/p/6175.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6181",
+      "title": "楚王孙（渔）之用铜矛",
+      "source": "https://www.hbww.org.cn/qtq/p/6181.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6182",
+      "title": "短枚钮钟",
+      "source": "https://www.hbww.org.cn/qtq/p/6182.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6183",
+      "title": "长枚甬钟",
+      "source": "https://www.hbww.org.cn/qtq/p/6183.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6191",
+      "title": "镬鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/6191.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6194",
+      "title": "铁足鼎",
+      "source": "https://www.hbww.org.cn/qtq/p/6194.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4715",
+      "title": "戴进 松下观画图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4715.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4722",
+      "title": "文徵明 荔枝图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4722.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4733",
+      "title": "吕纪 绿竹白鹤图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4733.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4735",
+      "title": "谢时臣 山水图轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4735.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4738",
+      "title": "王锡绶 仿夏禹玉浅绛山图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4738.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4741",
+      "title": "仇英 升仙图 卷",
+      "source": "https://www.hbww.org.cn/shuhua/p/4741.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4743",
+      "title": "丁云鹏 松下纳凉图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4743.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4746",
+      "title": "董其昌 山水图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4746.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4748",
+      "title": "蓝瑛 绛水山图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4748.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4750",
+      "title": "项圣谟 三招隐图 卷",
+      "source": "https://www.hbww.org.cn/shuhua/p/4750.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4754",
+      "title": "傅山 山水图",
+      "source": "https://www.hbww.org.cn/shuhua/p/4754.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4758",
+      "title": "盛茂烨 峨眉雪图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4758.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4761",
+      "title": "沈士充 墨笔山水图 扇",
+      "source": "https://www.hbww.org.cn/shuhua/p/4761.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4764",
+      "title": "吴宽 谢文太仆送匏研诗行书轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4764.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4769",
+      "title": "王世贞 写乐府词行草 册",
+      "source": "https://www.hbww.org.cn/shuhua/p/4769.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4772",
+      "title": "邢侗 草书 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4772.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4776",
+      "title": "米万钟 行书 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4776.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4780",
+      "title": "张瑞图 草书诗 卷",
+      "source": "https://www.hbww.org.cn/shuhua/p/4780.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4783",
+      "title": "倪元璐 行书楚辞句 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4783.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4787",
+      "title": "谭元春 书札",
+      "source": "https://www.hbww.org.cn/shuhua/p/4787.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4791",
+      "title": "王时敏 墨笔山水图 扇",
+      "source": "https://www.hbww.org.cn/shuhua/p/4791.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4792",
+      "title": "王鉴 浅绛山水图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4792.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4796",
+      "title": "程正揆 浅绛山水图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4796.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4800",
+      "title": "查士标 山水图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4800.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4802",
+      "title": "龚贤 墨笔山水图 扇",
+      "source": "https://www.hbww.org.cn/shuhua/p/4802.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4806",
+      "title": "高岑 临刘松年绛山水图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4806.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4809",
+      "title": "徐枋 仿松雪山水图 扇",
+      "source": "https://www.hbww.org.cn/shuhua/p/4809.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4812",
+      "title": "伊秉绶 摹文天祥像 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4812.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4815",
+      "title": "吴石仙 雨景图轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4815.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4818",
+      "title": "王震 画佛图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4818.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4820",
+      "title": "蒋予检 兰花图轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4820.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4822",
+      "title": "陈仁先画松图轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4822.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4823",
+      "title": "张应秋 花卉草虫图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4823.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4827",
+      "title": "罗允夔 人物图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4827.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4829",
+      "title": "李世倬 山水图轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4829.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4833",
+      "title": "童钰 梅花图",
+      "source": "https://www.hbww.org.cn/shuhua/p/4833.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4834",
+      "title": "吴鹤汀 山水人物图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4834.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4836",
+      "title": "苏宜 山水图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4836.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4839",
+      "title": "王翚 仿李营丘山水图 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4839.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4841",
+      "title": "司马锺 花鸟图轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4841.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4842",
+      "title": "方苞 诗 册",
+      "source": "https://www.hbww.org.cn/shuhua/p/4842.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4844",
+      "title": "张照 临米襄阳行书 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4844.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4847",
+      "title": "刘墉 行书 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/4847.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4852",
+      "title": "程瑶田 临祝枝山书 册",
+      "source": "https://www.hbww.org.cn/shuhua/p/4852.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4856",
+      "title": "钱大昕 草隶七言 联",
+      "source": "https://www.hbww.org.cn/shuhua/p/4856.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5351",
+      "title": "焦秉贞 婴戏图 屏",
+      "source": "https://www.hbww.org.cn/shuhua/p/5351.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5352",
+      "title": "张翀 幽谷求音图 扇",
+      "source": "https://www.hbww.org.cn/shuhua/p/5352.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5353",
+      "title": "王铎 手卷 明",
+      "source": "https://www.hbww.org.cn/shuhua/p/5353.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5354",
+      "title": "罗牧 墨笔山水图 册",
+      "source": "https://www.hbww.org.cn/shuhua/p/5354.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5355",
+      "title": "金农 花卉图 册",
+      "source": "https://www.hbww.org.cn/shuhua/p/5355.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5356",
+      "title": "汪洛年 山水图 斗方",
+      "source": "https://www.hbww.org.cn/shuhua/p/5356.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5357",
+      "title": "袁耀 山水图",
+      "source": "https://www.hbww.org.cn/shuhua/p/5357.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5358",
+      "title": "佚款 蚕织图 卷",
+      "source": "https://www.hbww.org.cn/shuhua/p/5358.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5359",
+      "title": "邓石如 隶书",
+      "source": "https://www.hbww.org.cn/shuhua/p/5359.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5360",
+      "title": "奚冈 草书 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/5360.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5361",
+      "title": "莫有芝 篆书韩诗外传语 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/5361.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5362",
+      "title": "唐志契 墨笔山水图 扇",
+      "source": "https://www.hbww.org.cn/shuhua/p/5362.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5363",
+      "title": "叶向高 草书逍遥游篇 卷",
+      "source": "https://www.hbww.org.cn/shuhua/p/5363.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5364",
+      "title": "姚鼐 诗 册",
+      "source": "https://www.hbww.org.cn/shuhua/p/5364.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5365",
+      "title": "姚鼐 行书诗 轴",
+      "source": "https://www.hbww.org.cn/shuhua/p/5365.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4692",
+      "title": "元青花四爱图梅瓶",
+      "source": "https://www.hbww.org.cn/tcq/p/4692.html",
+      "reason": "duplicate object; retained hb-4696",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-4736",
+      "title": "青瓷褐彩猪首壶",
+      "source": "https://www.hbww.org.cn/tcq/p/4736.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4744",
+      "title": "青花人物笔筒",
+      "source": "https://www.hbww.org.cn/tcq/p/4744.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4747",
+      "title": "黄釉云龙纹盘",
+      "source": "https://www.hbww.org.cn/tcq/p/4747.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4751",
+      "title": "斗彩龙凤纹盘",
+      "source": "https://www.hbww.org.cn/tcq/p/4751.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4755",
+      "title": "青花龙纹盘",
+      "source": "https://www.hbww.org.cn/tcq/p/4755.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4759",
+      "title": "黄地绿彩婴戏纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4759.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4762",
+      "title": "米色釉碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4762.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4766",
+      "title": "紫金釉碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4766.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4767",
+      "title": "祭红釉碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4767.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4770",
+      "title": "青花缠枝莲纹杯",
+      "source": "https://www.hbww.org.cn/tcq/p/4770.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4774",
+      "title": "釉里红五蝠纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4774.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4777",
+      "title": "白釉盘",
+      "source": "https://www.hbww.org.cn/tcq/p/4777.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4781",
+      "title": "釉里红团凤纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4781.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4784",
+      "title": "茄皮紫釉爵",
+      "source": "https://www.hbww.org.cn/tcq/p/4784.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4790",
+      "title": "黄地粉彩“佛日常明”碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4790.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4793",
+      "title": "鳝鱼黄釉绶带耳葫芦瓶",
+      "source": "https://www.hbww.org.cn/tcq/p/4793.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4798",
+      "title": "青花诗文盖碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4798.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4801",
+      "title": "粉彩三果纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/4801.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4805",
+      "title": "东青釉盘",
+      "source": "https://www.hbww.org.cn/tcq/p/4805.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4808",
+      "title": "红彩云龙纹蛊",
+      "source": "https://www.hbww.org.cn/tcq/p/4808.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-4811",
+      "title": "黄地粉彩折枝兰纹盘",
+      "source": "https://www.hbww.org.cn/tcq/p/4811.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4814",
+      "title": "霁兰釉渣斗",
+      "source": "https://www.hbww.org.cn/tcq/p/4814.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5014",
+      "title": "青瓷虎子",
+      "source": "https://www.hbww.org.cn/tcq/p/5014.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5015",
+      "title": "青瓷男侍俑",
+      "source": "https://www.hbww.org.cn/tcq/p/5015.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5016",
+      "title": "白釉碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5016.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5017",
+      "title": "青花团菊纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5017.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5018",
+      "title": "青花回纹双耳盖豆",
+      "source": "https://www.hbww.org.cn/tcq/p/5018.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5019",
+      "title": "木纹釉折腰碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5019.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5020",
+      "title": "青瓷蛙纹水注",
+      "source": "https://www.hbww.org.cn/tcq/p/5020.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5021",
+      "title": "青瓷虎子",
+      "source": "https://www.hbww.org.cn/tcq/p/5021.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5023",
+      "title": "青瓷狮形烛台",
+      "source": "https://www.hbww.org.cn/tcq/p/5023.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5024",
+      "title": "青瓷褐彩龙首灯",
+      "source": "https://www.hbww.org.cn/tcq/p/5024.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5025",
+      "title": "青瓷褐彩碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5025.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5026",
+      "title": "青瓷鸡首壶",
+      "source": "https://www.hbww.org.cn/tcq/p/5026.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5027",
+      "title": "青瓷花卉纹碟",
+      "source": "https://www.hbww.org.cn/tcq/p/5027.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5028",
+      "title": "青瓷莲纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5028.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5031",
+      "title": "青瓷度足砚",
+      "source": "https://www.hbww.org.cn/tcq/p/5031.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5033",
+      "title": "青瓷六系盘口壶",
+      "source": "https://www.hbww.org.cn/tcq/p/5033.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5034",
+      "title": "青瓷五盂砚",
+      "source": "https://www.hbww.org.cn/tcq/p/5034.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5037",
+      "title": "青瓷人首飞兽",
+      "source": "https://www.hbww.org.cn/tcq/p/5037.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5038",
+      "title": "青瓷注子",
+      "source": "https://www.hbww.org.cn/tcq/p/5038.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5043",
+      "title": "白瓷亭台弈棋枕",
+      "source": "https://www.hbww.org.cn/tcq/p/5043.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5044",
+      "title": "青白瓷莲纹温碗酒注",
+      "source": "https://www.hbww.org.cn/tcq/p/5044.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5045",
+      "title": "青白瓷莲纹钵",
+      "source": "https://www.hbww.org.cn/tcq/p/5045.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5046",
+      "title": "青白瓷碟",
+      "source": "https://www.hbww.org.cn/tcq/p/5046.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5047",
+      "title": "青白瓷盒",
+      "source": "https://www.hbww.org.cn/tcq/p/5047.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5049",
+      "title": "青白瓷棋子",
+      "source": "https://www.hbww.org.cn/tcq/p/5049.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5054",
+      "title": "青花龙纹梅瓶",
+      "source": "https://www.hbww.org.cn/tcq/p/5054.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5055",
+      "title": "青花十二月令杯",
+      "source": "https://www.hbww.org.cn/tcq/p/5055.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5056",
+      "title": "蓝地黄彩云龙纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5056.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5057",
+      "title": "青花梵文高足碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5057.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5058",
+      "title": "青花勾莲纹烛台",
+      "source": "https://www.hbww.org.cn/tcq/p/5058.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5059",
+      "title": "红彩龙纹高足盖碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5059.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5060",
+      "title": "绿釉暗八宝纹碟",
+      "source": "https://www.hbww.org.cn/tcq/p/5060.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5061",
+      "title": "青花梵文高足碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5061.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5062",
+      "title": "青花花卉纹诗文茶托",
+      "source": "https://www.hbww.org.cn/tcq/p/5062.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5063",
+      "title": "斗彩折枝花纹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5063.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5064",
+      "title": "仿哥釉碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5064.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingUnknownFindspotRemovedPages"
+    },
+    {
+      "id": "hb-5065",
+      "title": "粉彩过枝花果纹盘",
+      "source": "https://www.hbww.org.cn/tcq/p/5065.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5066",
+      "title": "粉彩荷花吸杯",
+      "source": "https://www.hbww.org.cn/tcq/p/5066.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5067",
+      "title": "黄地粉彩开光“万寿无疆”盘",
+      "source": "https://www.hbww.org.cn/tcq/p/5067.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5541",
+      "title": "陶釜",
+      "source": "https://www.hbww.org.cn/tcq/p/5541.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5542",
+      "title": "双耳陶罐",
+      "source": "https://www.hbww.org.cn/tcq/p/5542.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5543",
+      "title": "陶钵",
+      "source": "https://www.hbww.org.cn/tcq/p/5543.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5544",
+      "title": "陶支座",
+      "source": "https://www.hbww.org.cn/tcq/p/5544.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5545",
+      "title": "陶鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5545.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5546",
+      "title": "陶尊形器",
+      "source": "https://www.hbww.org.cn/tcq/p/5546.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5547",
+      "title": "陶盘",
+      "source": "https://www.hbww.org.cn/tcq/p/5547.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5548",
+      "title": "陶盘",
+      "source": "https://www.hbww.org.cn/tcq/p/5548.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5549",
+      "title": "陶盘",
+      "source": "https://www.hbww.org.cn/tcq/p/5549.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5550",
+      "title": "陶壶",
+      "source": "https://www.hbww.org.cn/tcq/p/5550.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5551",
+      "title": "陶釜",
+      "source": "https://www.hbww.org.cn/tcq/p/5551.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5552",
+      "title": "陶簋",
+      "source": "https://www.hbww.org.cn/tcq/p/5552.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5553",
+      "title": "陶碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5553.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5554",
+      "title": "陶盘",
+      "source": "https://www.hbww.org.cn/tcq/p/5554.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5555",
+      "title": "陶器座",
+      "source": "https://www.hbww.org.cn/tcq/p/5555.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5556",
+      "title": "陶鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5556.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5557",
+      "title": "彩陶杯",
+      "source": "https://www.hbww.org.cn/tcq/p/5557.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5558",
+      "title": "彩陶筒形瓶",
+      "source": "https://www.hbww.org.cn/tcq/p/5558.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5559",
+      "title": "陶双腹鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5559.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5560",
+      "title": "陶盖鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5560.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5561",
+      "title": "陶小口鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5561.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5562",
+      "title": "陶鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5562.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5563",
+      "title": "陶簋",
+      "source": "https://www.hbww.org.cn/tcq/p/5563.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5564",
+      "title": "陶簋",
+      "source": "https://www.hbww.org.cn/tcq/p/5564.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5565",
+      "title": "陶罐",
+      "source": "https://www.hbww.org.cn/tcq/p/5565.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5566",
+      "title": "釉陶鼓腹尊",
+      "source": "https://www.hbww.org.cn/tcq/p/5566.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5567",
+      "title": "陶爵和陶斝",
+      "source": "https://www.hbww.org.cn/tcq/p/5567.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5568",
+      "title": "云雷纹陶壶",
+      "source": "https://www.hbww.org.cn/tcq/p/5568.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5569",
+      "title": "陶鼎和陶簋",
+      "source": "https://www.hbww.org.cn/tcq/p/5569.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5570",
+      "title": "陶鬲",
+      "source": "https://www.hbww.org.cn/tcq/p/5570.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5571",
+      "title": "硬陶杯",
+      "source": "https://www.hbww.org.cn/tcq/p/5571.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5572",
+      "title": "硬陶尊",
+      "source": "https://www.hbww.org.cn/tcq/p/5572.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5573",
+      "title": "陶双腹豆",
+      "source": "https://www.hbww.org.cn/tcq/p/5573.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5574",
+      "title": "陶豆",
+      "source": "https://www.hbww.org.cn/tcq/p/5574.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5575",
+      "title": "蛋壳红陶杯",
+      "source": "https://www.hbww.org.cn/tcq/p/5575.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5576",
+      "title": "陶曲腹杯",
+      "source": "https://www.hbww.org.cn/tcq/p/5576.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5577",
+      "title": "陶壶形器",
+      "source": "https://www.hbww.org.cn/tcq/p/5577.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5578",
+      "title": "彩陶壶形器",
+      "source": "https://www.hbww.org.cn/tcq/p/5578.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5579",
+      "title": "陶盖罐",
+      "source": "https://www.hbww.org.cn/tcq/p/5579.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5580",
+      "title": "陶盆",
+      "source": "https://www.hbww.org.cn/tcq/p/5580.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5581",
+      "title": "陶锅",
+      "source": "https://www.hbww.org.cn/tcq/p/5581.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5582",
+      "title": "陶盉",
+      "source": "https://www.hbww.org.cn/tcq/p/5582.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5583",
+      "title": "陶鬶",
+      "source": "https://www.hbww.org.cn/tcq/p/5583.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5584",
+      "title": "陶双腹碗",
+      "source": "https://www.hbww.org.cn/tcq/p/5584.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5585",
+      "title": "陶双腹豆",
+      "source": "https://www.hbww.org.cn/tcq/p/5585.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5586",
+      "title": "陶双腹鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5586.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5587",
+      "title": "陶鼎",
+      "source": "https://www.hbww.org.cn/tcq/p/5587.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5588",
+      "title": "陶钵",
+      "source": "https://www.hbww.org.cn/tcq/p/5588.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5589",
+      "title": "陶壶形器",
+      "source": "https://www.hbww.org.cn/tcq/p/5589.html",
+      "reason": "no explicit object-era evidence",
+      "outcome": "noEra"
+    },
+    {
+      "id": "hb-5590",
+      "title": "青花瓷瓶",
+      "source": "https://www.hbww.org.cn/tcq/p/5590.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5591",
+      "title": "泥金龙纹瓷锺",
+      "source": "https://www.hbww.org.cn/tcq/p/5591.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5592",
+      "title": "青花瑶台赏月图瓷锺",
+      "source": "https://www.hbww.org.cn/tcq/p/5592.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5593",
+      "title": "青花龙纹瓷锺",
+      "source": "https://www.hbww.org.cn/tcq/p/5593.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6169",
+      "title": "绳纹陶鬲",
+      "source": "https://www.hbww.org.cn/tcq/p/6169.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6170",
+      "title": "灰陶长颈壶",
+      "source": "https://www.hbww.org.cn/tcq/p/6170.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6192",
+      "title": "陶簋",
+      "source": "https://www.hbww.org.cn/tcq/p/6192.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4826",
+      "title": "青面素玉圭",
+      "source": "https://www.hbww.org.cn/yuqi/p/4826.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4837",
+      "title": "青面玉谷纹圭",
+      "source": "https://www.hbww.org.cn/yuqi/p/4837.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4859",
+      "title": "玉瑗",
+      "source": "https://www.hbww.org.cn/yuqi/p/4859.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4865",
+      "title": "玉觽",
+      "source": "https://www.hbww.org.cn/yuqi/p/4865.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4866",
+      "title": "玉挂饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4866.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4869",
+      "title": "描金龙纹佩",
+      "source": "https://www.hbww.org.cn/yuqi/p/4869.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4871",
+      "title": "玉镂空饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4871.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4873",
+      "title": "玉瑗",
+      "source": "https://www.hbww.org.cn/yuqi/p/4873.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4874",
+      "title": "玉(韦枼)",
+      "source": "https://www.hbww.org.cn/yuqi/p/4874.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4875",
+      "title": "玉叶组佩",
+      "source": "https://www.hbww.org.cn/yuqi/p/4875.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4876",
+      "title": "玉条形饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4876.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4878",
+      "title": "玛瑙瑗",
+      "source": "https://www.hbww.org.cn/yuqi/p/4878.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4879",
+      "title": "青白玉镂空东升图环饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4879.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4880",
+      "title": "白玉圆雕折枝牡丹佩饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4880.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4881",
+      "title": "青玉镂空荷叶鸳鸯佩饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4881.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4882",
+      "title": "青白玉镂空秋山饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4882.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4883",
+      "title": "青玉镂空宝相花饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/4883.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-4884",
+      "title": "绿松石执双荷童子佩",
+      "source": "https://www.hbww.org.cn/yuqi/p/4884.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5173",
+      "title": "谷纹玉环",
+      "source": "https://www.hbww.org.cn/yuqi/p/5173.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5176",
+      "title": "玉半琮",
+      "source": "https://www.hbww.org.cn/yuqi/p/5176.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5178",
+      "title": "玉璜",
+      "source": "https://www.hbww.org.cn/yuqi/p/5178.html",
+      "reason": "duplicate catalogue text; retained hb-5177",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-5180",
+      "title": "鱼形玉佩",
+      "source": "https://www.hbww.org.cn/yuqi/p/5180.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5185",
+      "title": "玉剑",
+      "source": "https://www.hbww.org.cn/yuqi/p/5185.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5187",
+      "title": "水晶串饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/5187.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5189",
+      "title": "玉带钩",
+      "source": "https://www.hbww.org.cn/yuqi/p/5189.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-5418",
+      "title": "玉柄形饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/5418.html",
+      "reason": "duplicate object; retained hb-5452",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-5420",
+      "title": "玉龙",
+      "source": "https://www.hbww.org.cn/yuqi/p/5420.html",
+      "reason": "duplicate object; retained hb-5454",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-5421",
+      "title": "镶宝嵌玉鎏金铜枕顶",
+      "source": "https://www.hbww.org.cn/yuqi/p/5421.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5432",
+      "title": "玉璜",
+      "source": "https://www.hbww.org.cn/yuqi/p/5432.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5433",
+      "title": "玉柄形器",
+      "source": "https://www.hbww.org.cn/yuqi/p/5433.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5434",
+      "title": "玉戈",
+      "source": "https://www.hbww.org.cn/yuqi/p/5434.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5435",
+      "title": "玉柄形器",
+      "source": "https://www.hbww.org.cn/yuqi/p/5435.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5436",
+      "title": "玉柄形器",
+      "source": "https://www.hbww.org.cn/yuqi/p/5436.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5437",
+      "title": "玉柄形器",
+      "source": "https://www.hbww.org.cn/yuqi/p/5437.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5438",
+      "title": "玉戈",
+      "source": "https://www.hbww.org.cn/yuqi/p/5438.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5439",
+      "title": "玉花头构件",
+      "source": "https://www.hbww.org.cn/yuqi/p/5439.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5440",
+      "title": "玉戈",
+      "source": "https://www.hbww.org.cn/yuqi/p/5440.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5441",
+      "title": "玉柄形器",
+      "source": "https://www.hbww.org.cn/yuqi/p/5441.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5442",
+      "title": "玉蝉",
+      "source": "https://www.hbww.org.cn/yuqi/p/5442.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5443",
+      "title": "玉隼形饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/5443.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5444",
+      "title": "玉蛇形饰",
+      "source": "https://www.hbww.org.cn/yuqi/p/5444.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5445",
+      "title": "玉璇玑",
+      "source": "https://www.hbww.org.cn/yuqi/p/5445.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5446",
+      "title": "玉璜",
+      "source": "https://www.hbww.org.cn/yuqi/p/5446.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5447",
+      "title": "玉璋",
+      "source": "https://www.hbww.org.cn/yuqi/p/5447.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5448",
+      "title": "大玉戈",
+      "source": "https://www.hbww.org.cn/yuqi/p/5448.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5449",
+      "title": "玉柄形器",
+      "source": "https://www.hbww.org.cn/yuqi/p/5449.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5450",
+      "title": "玉柄形器",
+      "source": "https://www.hbww.org.cn/yuqi/p/5450.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5451",
+      "title": "绿松石饰珠",
+      "source": "https://www.hbww.org.cn/yuqi/p/5451.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-5453",
+      "title": "玉璜",
+      "source": "https://www.hbww.org.cn/yuqi/p/5453.html",
+      "reason": "duplicate catalogue text; retained hb-5419",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-5455",
+      "title": "青白玉镂空云龙纹带",
+      "source": "https://www.hbww.org.cn/yuqi/p/5455.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6172",
+      "title": "卷龙纹玉方镯",
+      "source": "https://www.hbww.org.cn/yuqi/p/6172.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6173",
+      "title": "云纹玉璜",
+      "source": "https://www.hbww.org.cn/yuqi/p/6173.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6174",
+      "title": "云纹玉璜",
+      "source": "https://www.hbww.org.cn/yuqi/p/6174.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6184",
+      "title": "玉瑗",
+      "source": "https://www.hbww.org.cn/yuqi/p/6184.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6196",
+      "title": "彩绘石编磬",
+      "source": "https://www.hbww.org.cn/yuqi/p/6196.html",
+      "reason": "no unambiguous excavated location",
+      "outcome": "noClearFindspot"
+    },
+    {
+      "id": "hb-6197",
+      "title": "战国“蜻蜓眼”式料管",
+      "source": "https://www.hbww.org.cn/yuqi/p/6197.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4694",
+      "title": "越王勾践剑",
+      "source": "https://www.hbww.org.cn/zgzb/p/4694.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4695",
+      "title": "曾侯乙编钟",
+      "source": "https://www.hbww.org.cn/zgzb/p/4695.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4696",
+      "title": "元青花四爱图梅瓶",
+      "source": "https://www.hbww.org.cn/zgzb/p/4696.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6911",
+      "title": "曾侯乙尊盘",
+      "source": "https://www.hbww.org.cn/zgzb/p/6911.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6912",
+      "title": "云梦睡虎地秦简",
+      "source": "https://www.hbww.org.cn/zgzb/p/6912.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6913",
+      "title": "虎座鸟架鼓",
+      "source": "https://www.hbww.org.cn/zgzb/p/6913.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6915",
+      "title": "石家河玉人像",
+      "source": "https://www.hbww.org.cn/zgzb/p/6915.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-6916",
+      "title": "崇阳铜鼓",
+      "source": "https://www.hbww.org.cn/zgzb/p/6916.html",
+      "reason": "existing record (or explicitly removed unknown findspot)",
+      "outcome": "existingRetainedPages"
+    },
+    {
+      "id": "hb-4726",
+      "title": "望山竹简",
+      "source": "https://www.hbww.org.cn/zhujian/p/4726.html",
+      "reason": "duplicate object; retained hb-5375",
+      "outcome": "duplicate"
+    },
+    {
+      "id": "hb-4728",
+      "title": "包山竹简",
+      "source": "https://www.hbww.org.cn/zhujian/p/4728.html",
+      "reason": "duplicate object; retained hb-5369",
+      "outcome": "duplicate"
+    }
+  ],
+  "imageFailures": [],
+  "newIds": [
+    "hb-4693",
+    "hb-5419",
+    "hb-5452",
+    "hb-5454",
+    "jz-476",
+    "jz-477",
+    "jz-478",
+    "hb-4714",
+    "hb-5159",
+    "hb-4745",
+    "hb-5114",
+    "hb-5117",
+    "hb-5135",
+    "hb-4717",
+    "hb-5133",
+    "hb-4716",
+    "hb-4739",
+    "hb-4740",
+    "hb-5529",
+    "hb-5540",
+    "hb-5162",
+    "hb-4752",
+    "hb-5156",
+    "hb-4773",
+    "hb-4782",
+    "hb-4786",
+    "hb-4788",
+    "hb-4804",
+    "hb-4810",
+    "hb-4816",
+    "hb-4817",
+    "hb-4819",
+    "hb-4828",
+    "hb-4830",
+    "hb-4838",
+    "hb-4840",
+    "hb-4849",
+    "hb-4857",
+    "hb-4858",
+    "hb-4860",
+    "hb-4861",
+    "hb-4862",
+    "hb-4863",
+    "hb-4864",
+    "hb-4867",
+    "hb-4868",
+    "hb-4870",
+    "hb-4872",
+    "hb-4877",
+    "hb-4953",
+    "hb-4954",
+    "hb-4955",
+    "hb-4957",
+    "hb-4958",
+    "hb-4959",
+    "hb-4961",
+    "hb-4962",
+    "hb-4965",
+    "hb-4968",
+    "hb-5075",
+    "hb-5076",
+    "hb-5077",
+    "hb-5078",
+    "hb-5079",
+    "hb-5080",
+    "hb-5081",
+    "hb-5082",
+    "hb-5083",
+    "hb-5084",
+    "hb-5085",
+    "hb-5086",
+    "hb-5087",
+    "hb-5088",
+    "hb-5090",
+    "hb-5091",
+    "hb-5092",
+    "hb-5093",
+    "hb-5094",
+    "hb-5095",
+    "hb-5096",
+    "hb-5097",
+    "hb-5098",
+    "hb-5099",
+    "hb-5100",
+    "hb-5101",
+    "hb-5102",
+    "hb-5103",
+    "hb-5104",
+    "hb-5105",
+    "hb-5106",
+    "hb-5107",
+    "hb-5108",
+    "hb-5109",
+    "hb-5110",
+    "hb-5111",
+    "hb-5422",
+    "hb-5423",
+    "hb-5424",
+    "hb-5425",
+    "hb-5426",
+    "hb-5427",
+    "hb-5428",
+    "hb-5429",
+    "hb-5430",
+    "hb-5431",
+    "hb-5469",
+    "hb-5470",
+    "hb-5472",
+    "hb-5474",
+    "hb-4724",
+    "hb-4729",
+    "hb-4749",
+    "hb-4756",
+    "hb-4760",
+    "hb-4763",
+    "hb-4977",
+    "hb-4978",
+    "hb-4982",
+    "hb-4987",
+    "hb-4992",
+    "hb-4993",
+    "hb-4996",
+    "hb-4997",
+    "hb-4998",
+    "hb-5000",
+    "hb-5001",
+    "hb-5115",
+    "hb-5119",
+    "hb-5123",
+    "hb-5125",
+    "hb-5126",
+    "hb-5127",
+    "hb-5128",
+    "hb-5129",
+    "hb-5130",
+    "hb-5131",
+    "hb-5132",
+    "hb-5137",
+    "hb-5138",
+    "hb-5139",
+    "hb-5142",
+    "hb-5144",
+    "hb-5147",
+    "hb-5150",
+    "hb-5152",
+    "hb-5153",
+    "hb-5158",
+    "hb-5174",
+    "hb-5177",
+    "hb-5181",
+    "hb-5182",
+    "hb-5186",
+    "hb-5188",
+    "hb-5375",
+    "hb-4719",
+    "hb-4720",
+    "hb-4721",
+    "hb-4723",
+    "hb-4725",
+    "hb-4727",
+    "hb-4730",
+    "hb-4734",
+    "hb-4737",
+    "hb-4976",
+    "hb-4981",
+    "hb-4984",
+    "hb-4985",
+    "hb-4994",
+    "hb-4999",
+    "hb-5002",
+    "hb-5071",
+    "hb-5072",
+    "hb-5112",
+    "hb-5116",
+    "hb-5120",
+    "hb-5121",
+    "hb-5122",
+    "hb-5124",
+    "hb-5134",
+    "hb-5140",
+    "hb-5145",
+    "hb-5146",
+    "hb-5148",
+    "hb-5149",
+    "hb-5154",
+    "hb-5157",
+    "hb-5366",
+    "hb-5367",
+    "hb-5368",
+    "hb-5369",
+    "hb-5378",
+    "hb-4753",
+    "hb-5070",
+    "hb-4975",
+    "hb-5136",
+    "hb-5175",
+    "hb-5179",
+    "hb-5183",
+    "hb-5184",
+    "hb-5376",
+    "hb-5377",
+    "hb-5370",
+    "hb-5371",
+    "hb-5372",
+    "hb-5373",
+    "hb-5379",
+    "hb-5380",
+    "hb-5381",
+    "hb-5382",
+    "hb-5384",
+    "hb-5456",
+    "hb-5460",
+    "hb-5461",
+    "hb-5462",
+    "hb-5484",
+    "hb-5523",
+    "hb-5524",
+    "hb-5528",
+    "hb-5530",
+    "hb-5533",
+    "hb-5537",
+    "hb-5383",
+    "hb-5459",
+    "hb-5463",
+    "hb-5464",
+    "hb-5525",
+    "hb-5531",
+    "hb-5532",
+    "hb-5535",
+    "hb-5022",
+    "hb-5029",
+    "hb-5030",
+    "hb-5032",
+    "hb-5035",
+    "hb-5036",
+    "hb-5050",
+    "hb-4855",
+    "hb-5457",
+    "hb-5458",
+    "hb-5465",
+    "hb-5466",
+    "hb-5473",
+    "hb-5476",
+    "hb-5478",
+    "hb-5480",
+    "hb-5526",
+    "hb-5534",
+    "hb-5536",
+    "hb-5374",
+    "hb-5040",
+    "hb-5041",
+    "hb-5042",
+    "hb-5039",
+    "hb-5048",
+    "hb-5053",
+    "hb-5051",
+    "hb-5052"
+  ],
+  "notes": [
+    "物件组合及竹简组按原馆方条目保留，不拆成多件凑数。",
+    "同一博物馆的域名镜像按页面ID去重；同一器物重复文章合并。",
+    "缺年代或明确出土地者不进入图谱。",
+    "候选页面量不等于满足条件的独立馆藏量。"
+  ],
+  "categoryCatalogueRecords": 751,
+  "supplementaryTreasurePages": 10,
+  "outcomes": {
+    "added": 257,
+    "existingRetainedPages": 126,
+    "existingUnknownFindspotRemovedPages": 20,
+    "noClearFindspot": 304,
+    "noEra": 41,
+    "duplicate": 12,
+    "wrongPhotograph": 1,
+    "other": 0,
+    "imageFailure": 0
+  },
+  "retainedPriorOutsideCurrentListings": 3,
+  "supplementaryEvidence": [
+    {
+      "id": "hb-4693",
+      "source": "https://hbsbwg.cjyun.org/yjy_mtbd/p/7777.html",
+      "publisher": "湖北省文物考古研究院",
+      "basis": "学堂梁子为旧石器时代遗址；记录明确联系1989、1990年发现的两具头骨化石。",
+      "note": "仅采用时代分类，不将旧报道的具体数值作为最新测年结论。"
+    }
+  ]
+}

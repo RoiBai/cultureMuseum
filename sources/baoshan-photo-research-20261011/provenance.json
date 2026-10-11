@@ -1,0 +1,161 @@
+{
+  "artifactId": "hb-6914",
+  "researchedAt": "2026-10-11",
+  "notAppliedToCatalogue": true,
+  "items": [
+    {
+      "file": "cccsingapore-object-419.png",
+      "role": "recommended-object-photo",
+      "source": "https://cccsingapore.org/2023/08/2107/",
+      "url": "https://cccsingapore.org/wp-content/uploads/2023/11/image-419.png",
+      "credit": "新加坡中国文化中心《博物馆说》；页面鸣谢湖北省博物馆、文旅之声",
+      "notes": "与原网站全器图同一器物与角度，保留可见缺口；公开原文件1080×720，未AI处理或放大。",
+      "size": [
+        1080,
+        720
+      ],
+      "sha256": "9f421be6e8c896e8c3ccc624a469529602b061b0105c2cfc36cf3b6a268f2ac4",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "cccsingapore-unwrapped-421.png",
+      "role": "recommended-motif-reference",
+      "source": "https://cccsingapore.org/2023/08/2107/",
+      "url": "https://cccsingapore.org/wp-content/uploads/2023/11/image-421.png",
+      "credit": "新加坡中国文化中心《博物馆说》；页面鸣谢湖北省博物馆、文旅之声",
+      "notes": "五条横向分段的纹饰展开资料，640×877。不能称作高清原件扫描；用于补充观察/创作参考。",
+      "size": [
+        640,
+        877
+      ],
+      "sha256": "0d5bba3621df2b4f689e95a2987f784d8a2175e27355b49d4f0afec64a88e8ef",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "cccsingapore-object-420.png",
+      "role": "not-selected",
+      "source": "https://cccsingapore.org/2023/08/2107/",
+      "url": "https://cccsingapore.org/wp-content/uploads/2023/11/image-420.png",
+      "credit": "新加坡中国文化中心",
+      "notes": "完整器形有明显示意/复原外观，不替代有缺损的实物照片。",
+      "size": [
+        895,
+        437
+      ],
+      "sha256": "f0a083e967d839cd9a5a863afc0f316fc954eb020fdc7f6ff861c9ef49c4fcc9",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "cccsingapore-detail-422.png",
+      "role": "not-selected",
+      "source": "https://cccsingapore.org/2023/08/2107/",
+      "url": "https://cccsingapore.org/wp-content/uploads/2023/11/image-422.png",
+      "credit": "新加坡中国文化中心",
+      "notes": "展陈中的画面，存在反光与视频字幕。",
+      "size": [
+        1080,
+        588
+      ],
+      "sha256": "2bdaf2a95938db78d6173533eebe876d75443c85ba6c1d93c97b15e61ccbead1",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "museum-6893-object.jpg",
+      "role": "not-selected",
+      "source": "https://hbsbwg.cjyun.org/xwdt/p/6893.html",
+      "url": "https://img.cjyun.org/a/10695/202302/51f6f5af512b53e8ac65b7240967e7e2.jpeg",
+      "credit": "湖北省博物馆",
+      "notes": "640×360。",
+      "size": [
+        640,
+        360
+      ],
+      "sha256": "c4d98021ed5c1a3d409d42eb8351bd59f2d1869e9c4f98a69d0992440dbc75b7",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "museum-6893-unwrapped.jpg",
+      "role": "not-selected",
+      "source": "https://hbsbwg.cjyun.org/xwdt/p/6893.html",
+      "url": "https://img.cjyun.org/a/10695/202302/c5383ee46f5382c8657ffbfcd8a68e86.jpeg",
+      "credit": "湖北省博物馆",
+      "notes": "640×32，太小。",
+      "size": [
+        640,
+        32
+      ],
+      "sha256": "2faf4894035921b08c0253d716ec2eb2628e251fab31c313a766c2f6e5ab40a4",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "museum-4983-object.jpg",
+      "role": "not-selected",
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4983.html",
+      "url": "https://img.cjyun.org/a/10695/202301/6fc2b7eabd1a3675b1f5e8b4cff367a2.jpeg",
+      "credit": "湖北省博物馆",
+      "notes": "350×300，太小。",
+      "size": [
+        350,
+        300
+      ],
+      "sha256": "2503074ea6d57c5335fd906ffd8d07aaa1824211fdbb4401505e7f7a69fc90be",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "wlt-hubei-qiu-yan.jpeg",
+      "role": "not-selected",
+      "source": "https://wlt.hubei.gov.cn/bmdt/mtjj/202209/t20220908_4298560.shtml",
+      "url": "https://wlt.hubei.gov.cn/bmdt/mtjj/202209/W020220908324488428502_ORIGIN.jpeg",
+      "credit": "长江日报记者邱焰 摄；湖北省文化和旅游厅转载长江网",
+      "notes": "1080×127，器壁长图。",
+      "size": [
+        1080,
+        127
+      ],
+      "sha256": "905642e39e6b2717425391dba251adcf77a96f7c0faa94ed309338bec07b6d48",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "people-photo-a.jpg",
+      "role": "not-selected",
+      "source": "https://paper.people.com.cn/rmrb/pad/content/202606/14/content_30162892.html",
+      "url": "https://paper.people.com.cn/rmrb/pad/pic/202606/14/8978e70a-8253-4c64-afad-5a58d4e46adf.jpg",
+      "credit": "人民日报",
+      "notes": "400×88，太小。",
+      "size": [
+        400,
+        88
+      ],
+      "sha256": "ed95bc5e6634d481a9e5ea2a5112be014f31d3a5fa80c304d100d5bcf0368bcb",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "people-photo-b.jpg",
+      "role": "not-selected",
+      "source": "https://paper.people.com.cn/rmrb/pad/content/202606/14/content_30162892.html",
+      "url": "https://paper.people.com.cn/rmrb/pad/pic/202606/14/fcf88c0c-56c6-42ff-a487-cf5ef25fd194.jpg",
+      "credit": "人民日报",
+      "notes": "244×244，不采用。",
+      "size": [
+        244,
+        244
+      ],
+      "sha256": "823a1c9890005cc9c3acbc19cca5924b9990ebcca9ff6506e6f273dddb166e4c",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    },
+    {
+      "file": "people-app-detail.jpeg",
+      "role": "not-selected",
+      "source": "https://www.peopleapp.com/column/30052393385-500007545753",
+      "url": "https://cdnjdphoto.aikan.pdnews.cn/zhbj-20260614/image/content/1c37a2e542ad43a99023b23667f56a12.jpeg",
+      "credit": "人民日报客户端",
+      "notes": "与纸版400×88相同文件。",
+      "size": [
+        400,
+        88
+      ],
+      "sha256": "ed95bc5e6634d481a9e5ea2a5112be014f31d3a5fa80c304d100d5bcf0368bcb",
+      "license": "来源页未提供 CC 或开放下载复用许可；保留来源与署名，不宣称开放授权。"
+    }
+  ]
+}

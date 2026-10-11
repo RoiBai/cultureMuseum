@@ -1,0 +1,8 @@
+.baoshan-painting{padding:36px 0;border-top:1px solid var(--rule,#493035)}
+.baoshan-painting-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(230px,.75fr);gap:36px;align-items:start}
+.baoshan-painting-view{height:580px;background:#100d10;border:1px solid #493035}
+.baoshan-painting-view canvas{display:block;width:100%;height:100%}
+.baoshan-painting aside{padding:28px 5px;font:13px/2 var(--sans);color:var(--muted)}
+.baoshan-painting aside h3{color:var(--ink);font:23px/1.5 var(--serif);margin:14px 0 20px}
+.baoshan-painting .small-note{margin-top:22px;font-size:11px;line-height:1.9}
+@media(max-width:760px){.baoshan-painting-layout{display:block}.baoshan-painting-view{height:480px}.baoshan-painting aside{padding:22px 0}.baoshan-painting .section-heading{align-items:start;gap:16px;flex-wrap:wrap}}

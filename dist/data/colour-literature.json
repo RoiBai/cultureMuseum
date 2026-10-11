@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "method": "HEX、RGB 均来自本馆器物照片的前景取色。古籍提供色名及语义，不提供 sRGB 色号；关联由本网站按色相、明度和饱和度作宽范围近似，不是古代标准色、国标换算或颜料鉴定。无充分近似关系的色卡仅显示照片色号。",
   "names": [
     {
@@ -8,7 +8,13 @@
       "quote": "我朱孔陽，為公子裳。",
       "work": "《诗经·豳风·七月》",
       "url": "https://ctext.org/book-of-poetry/qi-yue/zh",
-      "meaning": "诗中染衣的朱色，关联较鲜明的红色。"
+      "meaning": "诗中染衣的朱色，关联较鲜明的红色。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "朱",
+        "朱色"
+      ]
     },
     {
       "id": "jiang",
@@ -16,7 +22,16 @@
       "quote": "絳：大赤也。",
       "work": "《说文解字·糸部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "古籍中的赤色词，本馆与较深的红色照片样本作近似关联。"
+      "meaning": "古籍中的赤色词，本馆与较深的红色照片样本作近似关联。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#7C1823",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "绛",
+        "绛色"
+      ]
     },
     {
       "id": "hong",
@@ -24,7 +39,13 @@
       "quote": "紅：帛赤白色。",
       "work": "《说文解字·糸部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "这里的古义是带白的赤色，与今天泛指红色的用法并不完全相同。"
+      "meaning": "这里的古义是带白的赤色，与今天泛指红色的用法并不完全相同。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "红",
+        "红色"
+      ]
     },
     {
       "id": "xuan",
@@ -32,31 +53,61 @@
       "quote": "黑而有赤色者為玄。",
       "work": "《说文解字·玄部》",
       "url": "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A02550",
-      "meaning": "关联偏赤的深暗色；并非所有黑色都称为玄。"
+      "meaning": "关联偏赤的深暗色；并非所有黑色都称为玄。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#3B2820",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "玄",
+        "玄色"
+      ]
     },
     {
       "id": "hei",
       "name": "黑",
-      "quote": "緇：帛黑色。",
-      "work": "《说文解字·糸部》",
-      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "黑是古籍中已有的色词。缁指黑色帛，不把漆器材质称为缁。"
+      "quote": "火所熏之色也。",
+      "work": "《说文解字·黑部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/10#黑部",
+      "meaning": "《说文》以烟熏之色释黑。这里用于理解黑的语义，不推断器物曾被烟熏。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#0C0C0C",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "黑",
+        "黑色"
+      ]
     },
     {
       "id": "bai",
       "name": "白",
-      "quote": "縹：帛青白色也。",
-      "work": "《说文解字·糸部》",
-      "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "白是古籍中已有的色词。这里只关联高明度、低彩度样本，不判定玉器品种或矿物成分。"
+      "quote": "白：西方色也。",
+      "work": "《说文解字·白部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/07#白部",
+      "meaning": "这是古代五方配色语境中的白，不是某一个固定的 RGB；照片中的浅色还受光照与材质影响。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "白",
+        "白色"
+      ]
     },
     {
       "id": "zhe",
       "name": "赭",
       "quote": "赭：赤土也。",
       "work": "《说文解字·赤部》",
-      "url": "https://ctext.org/dictionary.pl?if=gb&char=赭",
-      "meaning": "由赤土而来的色名，近似关联偏红的土褐色；不表示器物涂有赭石。"
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/10#赤部",
+      "meaning": "由赤土而来的色名，近似关联偏红的土褐色；不表示器物涂有赭石。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "赭",
+        "赭色"
+      ]
     },
     {
       "id": "ti",
@@ -64,7 +115,13 @@
       "quote": "緹：帛丹黃色。",
       "work": "《说文解字·糸部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "丹黄之间的帛色。对其他材质只作色感类比，不表示染料相同。"
+      "meaning": "丹黄之间的帛色。对其他材质只作色感类比，不表示染料相同。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "缇",
+        "缇色"
+      ]
     },
     {
       "id": "huang",
@@ -72,7 +129,16 @@
       "quote": "黃：地之色也。",
       "work": "《说文解字·黄部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#黃部",
-      "meaning": "关联黄色色相。照片呈黄不等于金质，也不等于原始表面颜色。"
+      "meaning": "关联黄色色相。照片呈黄不等于金质，也不等于原始表面颜色。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#E8B84F",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "黄",
+        "黄色"
+      ]
     },
     {
       "id": "lv",
@@ -80,7 +146,13 @@
       "quote": "緑：帛青黃色也。",
       "work": "《说文解字·糸部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "以青黄描述的帛色。铜器照片中的绿还可能来自锈蚀，不作材质或原色判断。"
+      "meaning": "以青黄描述的帛色。铜器照片中的绿还可能来自锈蚀，不作材质或原色判断。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "绿",
+        "绿色"
+      ]
     },
     {
       "id": "piao",
@@ -88,7 +160,16 @@
       "quote": "縹：帛青白色也。",
       "work": "《说文解字·糸部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "青中带白的帛色，与偏浅的青蓝色照片样本作近似关联。"
+      "meaning": "青中带白的帛色，与偏浅的青蓝色照片样本作近似关联。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#7DB9DE",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "缥",
+        "缥色"
+      ]
     },
     {
       "id": "gan",
@@ -96,7 +177,16 @@
       "quote": "紺：帛深青揚赤色。",
       "work": "《说文解字·糸部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "深青且带赤意的帛色，关联较深的蓝紫色域。"
+      "meaning": "深青且带赤意的帛色，关联较深的蓝紫色域。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#4C221B",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "绀",
+        "绀色"
+      ]
     },
     {
       "id": "zi",
@@ -104,7 +194,382 @@
       "quote": "紫：帛青赤色。",
       "work": "《说文解字·糸部》",
       "url": "https://zh.wikisource.org/wiki/說文解字/13#糸部",
-      "meaning": "以青、赤描述的帛色。这里与紫色色域作近似关联。"
+      "meaning": "以青、赤描述的帛色。这里与紫色色域作近似关联。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#8D4BBB",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "紫",
+        "紫色"
+      ]
+    },
+    {
+      "id": "xiang",
+      "name": "缃",
+      "quote": "緗：帛淺黃色也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "浅黄色帛的色名。古义指染织物，不能仅凭照片色号推断器物所用染料。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#F0C239",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "缃",
+        "缃色"
+      ]
+    },
+    {
+      "id": "fei",
+      "name": "绯",
+      "quote": "緋：帛赤色也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "赤色帛的名称；古籍原释未给出“比绛浅多少”的数值。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#C83C23",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "绯",
+        "绯色"
+      ]
+    },
+    {
+      "id": "xun",
+      "name": "纁",
+      "quote": "纁：淺絳也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "以较浅的绛色相释。不同历史文献对染次与颜色的描述应在各自语境中阅读。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#B36A5E",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "纁",
+        "纁色"
+      ]
+    },
+    {
+      "id": "zi-silk",
+      "name": "缁",
+      "quote": "緇：帛黑色。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "黑色帛。缁与泛指黑色的“黑”分列，以保留织物语境。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#161823",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "缁",
+        "缁色"
+      ]
+    },
+    {
+      "id": "jin",
+      "name": "缙",
+      "quote": "縉：帛赤色也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "字书以赤色帛解释缙；这里保留古代织物色词的类别。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "缙",
+        "缙色"
+      ]
+    },
+    {
+      "id": "qian-silk",
+      "name": "綪",
+      "quote": "綪：赤繒也。从茜染，故謂之綪。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "以茜草染红的缯帛之名，将颜色与染材的关系直接写入字义。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "綪",
+        "綪色"
+      ]
+    },
+    {
+      "id": "quan",
+      "name": "縓",
+      "quote": "縓：帛赤黃色。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "介于赤与黄的帛色。其染色层次在古籍中另有具体记述，不能直接换算为现代 HEX。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "縓",
+        "縓色"
+      ]
+    },
+    {
+      "id": "zou",
+      "name": "緅",
+      "quote": "緅：帛青赤色也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "字书以青赤描述的帛色，与红黑、蓝紫之间的现代视觉关系只能作近似比较。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "緅",
+        "緅色"
+      ]
+    },
+    {
+      "id": "zhu-silk",
+      "name": "絑",
+      "quote": "絑：純赤也。",
+      "work": "《说文解字·糸部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/13#糸部",
+      "meaning": "字书中的纯赤色词。保留它与一般“红”、织物“绯”等词在表述上的差别。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "絑",
+        "絑色"
+      ]
+    },
+    {
+      "id": "qing",
+      "name": "青",
+      "quote": "青（）：東方色也。",
+      "work": "《说文解字·青部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/05#青部",
+      "meaning": "“青”的历史语义较宽，不能把全部古代用例固定解释为某个蓝色或绿色。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#0EB0C9",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "青",
+        "青色"
+      ]
+    },
+    {
+      "id": "chi",
+      "name": "赤",
+      "quote": "赤（）：南方色也。",
+      "work": "《说文解字·赤部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/10#赤部",
+      "meaning": "古代五方配色中的赤。与朱、绛等同处广义红色范围，具体语义依文献而定。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#C3272B",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "赤",
+        "赤色"
+      ]
+    },
+    {
+      "id": "dan",
+      "name": "丹",
+      "quote": "丹：巴越之赤石也。",
+      "work": "《说文解字·丹部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/05#丹部",
+      "meaning": "丹与赤色矿物相连，后来也用于颜色描述。颜色相似不能代替颜料成分鉴定。",
+      "category": "矿物与颜料",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "丹",
+        "丹色"
+      ]
+    },
+    {
+      "id": "tong",
+      "name": "彤",
+      "quote": "彤：丹飾也。",
+      "work": "《说文解字·丹部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/05#丹部",
+      "meaning": "“彤”与用丹装饰相关；在器物阅读中，可以关注红色如何参与装饰。",
+      "category": "矿物与颜料",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "彤",
+        "彤色"
+      ]
+    },
+    {
+      "id": "an",
+      "name": "黯",
+      "quote": "黯：深黑也。",
+      "work": "《说文解字·黑部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/10#黑部",
+      "meaning": "以深黑解释的色词，表达明暗感受，不提供统一色度。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "黯",
+        "黯色"
+      ]
+    },
+    {
+      "id": "you",
+      "name": "黝",
+      "quote": "黝：微青黑色。",
+      "work": "《说文解字·黑部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/10#黑部",
+      "meaning": "带微青意的黑色词。它的古义不同于今天常说的“黝黑皮肤”。",
+      "category": "字书释色",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "黝",
+        "黝色"
+      ]
+    },
+    {
+      "id": "jiao",
+      "name": "皎",
+      "quote": "皎：月之白也。",
+      "work": "《说文解字·白部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/07#白部",
+      "meaning": "以月的明白释色，强调明亮的感受；不是统一的“月白”色卡。",
+      "category": "自然意象",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "皎",
+        "皎色"
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "皑",
+      "quote": "皚：霜雪之白也。",
+      "work": "《说文解字·白部》",
+      "url": "https://zh.wikisource.org/zh-hant/說文解字/07#白部",
+      "meaning": "通过霜雪描述白色，自然物象构成了古人理解颜色的一种方法。",
+      "category": "自然意象",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "皑",
+        "皑色"
+      ]
+    },
+    {
+      "id": "dai",
+      "name": "黛",
+      "quote": "粉白黛黑，施芳澤只。",
+      "work": "《楚辞·大招》",
+      "url": "https://zh.wikisource.org/zh-hant/楚辭/大招",
+      "meaning": "诗句中的黛与画眉妆饰相连，白与黑在同一句中形成视觉对应；不据此判定黛的矿物配方。",
+      "category": "诗文与生活",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#4A4266",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "黛",
+        "黛色"
+      ]
+    },
+    {
+      "id": "tianshuibi",
+      "name": "天水碧",
+      "quote": "自是宮中競收露水，染碧以衣之，謂之「天水碧」。",
+      "work": "《宋史》卷四百七十八·南唐李氏",
+      "url": "https://zh.wikisource.org/zh-hant/宋史/卷478",
+      "meaning": "史书记南唐宫中染碧与露水相关的故事。作为历史叙述保留，不将故事当成已经验证的现代染色工艺。",
+      "category": "染织色词",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#88ADA6",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "天水碧",
+        "天水碧色"
+      ]
+    },
+    {
+      "id": "songhua",
+      "name": "松花",
+      "quote": "鶯兒道：「松花配桃紅。」",
+      "work": "《红楼梦》（程甲本）第三十五回",
+      "url": "https://zh.wikisource.org/zh-hant/紅樓夢（程甲本）/三十五",
+      "meaning": "《红楼梦》以打络子的搭配对话呈现松花与桃红的关系，不只是孤立列出色名。",
+      "category": "诗文与生活",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#BCE672",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "松花",
+        "松花色"
+      ]
+    },
+    {
+      "id": "taohong",
+      "name": "桃红",
+      "quote": "鶯兒道：「松花配桃紅。」",
+      "work": "《红楼梦》（程甲本）第三十五回",
+      "url": "https://zh.wikisource.org/zh-hant/紅樓夢（程甲本）/三十五",
+      "meaning": "桃红在这里用于配色建议，可在工作台试着寻找馆藏照片里相近的浅红。",
+      "category": "诗文与生活",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "桃红",
+        "桃红色"
+      ]
+    },
+    {
+      "id": "conglv",
+      "name": "葱绿",
+      "quote": "鶯兒道：「蔥綠柳黃我是最愛的。」",
+      "work": "《红楼梦》（程甲本）第三十五回",
+      "url": "https://zh.wikisource.org/zh-hant/紅樓夢（程甲本）/三十五",
+      "meaning": "以草木为名的颜色进入日常织物搭配。这段原文可确认“葱绿”确为服饰配色词。",
+      "category": "诗文与生活",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "葱绿",
+        "葱绿色"
+      ]
+    },
+    {
+      "id": "liuhuang",
+      "name": "柳黄",
+      "quote": "鶯兒道：「蔥綠柳黃我是最愛的。」",
+      "work": "《红楼梦》（程甲本）第三十五回",
+      "url": "https://zh.wikisource.org/zh-hant/紅樓夢（程甲本）/三十五",
+      "meaning": "同一段络子配色对话中的浅黄意象；不由名称推断所用染材必为柳。",
+      "category": "诗文与生活",
+      "verifiedAt": "2026-10-11",
+      "aliases": [
+        "柳黄",
+        "柳黄色"
+      ]
+    },
+    {
+      "id": "shiqing",
+      "name": "石青",
+      "quote": "大紅的須是黑絡子纔好看。或是石青的，纔壓得住顔色。",
+      "work": "《红楼梦》（程甲本）第三十五回",
+      "url": "https://zh.wikisource.org/zh-hant/紅樓夢（程甲本）/三十五",
+      "meaning": "此处是配络子的色名语境，并非矿物鉴定。与作为画材名称的石青应分别理解。",
+      "category": "诗文与生活",
+      "verifiedAt": "2026-10-11",
+      "referenceHex": "#1661AB",
+      "referenceSource": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+      "referenceLabel": "华夏色谱的现代示意值",
+      "aliases": [
+        "石青",
+        "石青色"
+      ]
     }
   ],
   "core": {
@@ -119,5 +584,11 @@
     "name": "GB/T 31430—2015《中国传统色色名及色度特性》",
     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=6EE6FE2D911C427227830938D027D447",
     "note": "这是现代色度标准。本页没有取得其完整数值表，未将照片色号宣称为该标准的色值。"
+  },
+  "referenceAtlas": {
+    "name": "华夏色谱 · 中国传统色溯源知识图谱",
+    "url": "https://yue-77.github.io/chinese-colors-atlas/index.html",
+    "reviewed": "2026-10-11",
+    "note": "用作色名检索线索；下列引文另按对应古籍正文核对。该站 HEX 是现代网页示意值，不是古代色度标准。"
   }
 }

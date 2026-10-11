@@ -1,4 +1,4 @@
-import {random} from './spatial-model.js';
+import {random} from './spatial-model.js?v=20261011-review';
 const TAU=Math.PI*2,clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 // These are deliberately labelled shape studies, not photogrammetric reconstructions.
 export function volumeRecipe(a={}){

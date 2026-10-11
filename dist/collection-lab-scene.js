@@ -2,7 +2,7 @@ import * as THREE from './vendor/three.module.js';
 import {OrbitControls} from './vendor/controls/OrbitControls.js';
 import {GLTFLoader} from './vendor/loaders/GLTFLoader.js';
 import {RoomEnvironment} from './vendor/environments/RoomEnvironment.js';
-import {surfacePart,seasons,mansionGroups,seasonAt,createCollectionState} from './collection-lab-data.js';
+import {surfacePart,seasons,mansionGroups,seasonAt,createCollectionState} from './collection-lab-data.js?v=20261011-review';
 export class CollectionLabScene{
  constructor(host,id,config,events){Object.assign(this,{host,id,config,events,ready:false,disposed:false,state:createCollectionState(),lift:0,headAngle:0,starAmount:0,parts:new Map(),pickables:[],labels:[],last:0});this.abort=new AbortController();this.reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   this.scene=new THREE.Scene();this.camera=new THREE.PerspectiveCamera(39,1,.1,1000);this.renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});this.renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));this.renderer.toneMapping=THREE.ACESFilmicToneMapping;this.renderer.toneMappingExposure=.9;host.append(this.renderer.domElement);this.canvas=this.renderer.domElement;this.canvas.tabIndex=0;this.canvas.setAttribute('aria-label',config.name+'三维模型，可拖动旋转，滚轮缩放');

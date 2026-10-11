@@ -1,3 +1,4 @@
+@import url("museum-theme.css?v=20261011");
 /* The complete user-supplied mark is used without cropping or recolouring. */
 a.site-brand{display:flex;align-items:center;gap:14px;min-width:0;white-space:normal;text-decoration:none;color:var(--ink,#e5e0d4);letter-spacing:0}
 .site-brand .site-logo{display:block;flex:0 0 50px;width:50px;height:50px;max-width:none;object-fit:contain;border:0;border-radius:0;box-shadow:none}
@@ -8,6 +9,14 @@ a.site-brand{display:flex;align-items:center;gap:14px;min-width:0;white-space:no
 .masthead .site-brand-home{flex:none}
 .masthead .site-brand-home .site-logo{width:54px;height:54px;flex-basis:54px}
 .intro>div:first-child{min-width:0}
+.masthead .site-brand-home{flex:1;min-width:0;margin-right:20px}
+.masthead .site-brand-title{font-size:clamp(13px,1.7vw,20px);line-height:1.5}
+.colour-mode-switch{display:flex;flex:none;align-items:center;border:1px solid var(--rule);padding:3px;gap:3px}
+.colour-mode-switch button{font:11px var(--sans);padding:6px 12px;border:0;background:none;color:var(--muted)}
+.colour-mode-switch button[aria-pressed=true]{background:#7e282c;color:#fff3ef}
+.colour-mode-switch[hidden]{display:none}
+.atlas-home-heading{font:25px/1.5 var(--serif);margin:8px 0 0;letter-spacing:2px}
+body[data-view=hue] .toolbar .visual-key,body[data-view=colour] .toolbar .visual-key{display:none}
 .intro h1.site-main-title{font-size:clamp(21px,2.15vw,31px);line-height:1.55;letter-spacing:1px;text-wrap:balance;margin-right:20px}
 .study-header,.book-header,.bk-page-header{gap:20px}
 .site-brand~.back-link,.site-brand~.return-link,.site-brand~.bk-timeline-back{flex:none}

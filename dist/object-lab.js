@@ -1,7 +1,7 @@
-import {labObjects,vesselInstructions} from './lab-data.js';
-import {ObjectLabScene} from './lab-scene.js';
-import {createVesselState,advanceVessel,vesselStep,RhythmRecorder,MAX_RECORDING_SECONDS} from './lab-state.js';
-import {LabDrumAudio} from './lab-audio.js';
+import {labObjects,vesselInstructions} from './lab-data.js?v=20261011-review';
+import {ObjectLabScene} from './lab-scene.js?v=20261011-review';
+import {createVesselState,advanceVessel,vesselStep,RhythmRecorder,MAX_RECORDING_SECONDS} from './lab-state.js?v=20261011-review';
+import {LabDrumAudio} from './lab-audio.js?v=20261011-review';
 const query=new URLSearchParams(location.search),id=labObjects[query.get('object')]?query.get('object'):'drum',config=labObjects[id],isDrum=id==='drum';
 const root=document.getElementById('lab-root');document.title=config.name+' · 器物实验室 · 大江大湖间的符号——色彩与文化记忆';document.body.dataset.object=id;document.querySelectorAll('[data-lab]').forEach(a=>{if(a.dataset.lab===id)a.setAttribute('aria-current','page')});
 const buttons=(items,attr)=>items.map(([v,t])=>`<button ${attr}="${v}">${t}</button>`).join('');

@@ -1,4 +1,5 @@
-import {isKnownFeature,featureValues} from './feature-values.js';
+import {withFunction} from './function-classification.js?v=20261011-review';
+import {isKnownFeature,featureValues} from './feature-values.js?v=20261011-review';
 export {isKnownFeature,featureValues};
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const featureNames={motifs:'纹样',crafts:'工艺',colors:'色彩',materialGroup:'材质'};
@@ -24,7 +25,7 @@ export function comparisonSet(data,regions,id,key,value){
 export async function loadArchive(){
  const responses=await Promise.all([fetch('data/artifacts.json?v=20261004',{cache:'no-cache'}),fetch('data/detail-regions.json',{cache:'no-cache'})]);
  if(responses.some(r=>!r.ok))throw new Error('器物资料暂时无法读取，请刷新重试。');
- const [data,details]=await Promise.all(responses.map(r=>r.json()));return {data,regions:details.artifacts};
+ const [data,details]=await Promise.all(responses.map(r=>r.json()));return {data:data.filter(a=>isKnownFeature(a.city)&&isKnownFeature(a.place)).map(withFunction),regions:details.artifacts};
 }
 export function primaryRegions(list){
  const picked=[];const seen=new Set();

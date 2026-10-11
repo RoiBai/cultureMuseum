@@ -742,19 +742,19 @@
     "removedFraction": 0.7785
   },
   "hb-6914": {
-    "source": "assets/hb-6914-whole-book.jpg",
-    "sourceSha256": "5c621485af97fe401c7c50477b86fa0e73b6bab1447cab956e1d2f21a8ef5414",
+    "source": "assets/hb-6914-object-cccsingapore.png",
+    "sourceSha256": "9f421be6e8c896e8c3ccc624a469529602b061b0105c2cfc36cf3b6a268f2ac4",
     "status": "foreground-ready",
-    "displayImage": "cutouts/hb-6914-book-r1.webp",
-    "method": "reviewed-book-alpha-v1",
-    "mask": "cutouts/hb-6914-book-mask.png",
+    "displayImage": "cutouts/hb-6914-cccsingapore.webp",
+    "method": "reviewed-baoshan-alpha-v2",
+    "mask": "cutouts/hb-6914-cccsingapore-mask.png",
     "crop": [
       0,
       0,
-      622,
-      488
+      1080,
+      720
     ],
-    "removedFraction": 0.2666,
+    "removedFraction": 0.3731,
     "imageRepresentation": "object-photo"
   },
   "jz-359": {
@@ -827,20 +827,6 @@
     ],
     "removedFraction": 0.8984
   },
-  "jz-352": {
-    "source": "assets/jz-352.png",
-    "sourceSha256": "3e333888522e223d547abf4dbbb0c99e4a7d475b267d3cfbc461cb1a31ed59d6",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/jz-352.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      46,
-      24,
-      218,
-      180
-    ],
-    "removedFraction": 0.6408
-  },
   "jz-350": {
     "source": "assets/jz-350.png",
     "sourceSha256": "b29c552e2b76bbe9d95aac4376d0b4af7ae5cf97655ad6e8eb98310f1201f440",
@@ -882,62 +868,6 @@
       217
     ],
     "removedFraction": 0.7496
-  },
-  "hb-5064": {
-    "source": "assets/hb-5064.jpeg",
-    "sourceSha256": "7cb1b5a18bb339b3e3a63c27263294cec0e671fd5da63e2c5652f1c2804eb8c6",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5064.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      56,
-      73,
-      295,
-      211
-    ],
-    "removedFraction": 0.7959
-  },
-  "hb-5063": {
-    "source": "assets/hb-5063.jpeg",
-    "sourceSha256": "ef533c7246915a010728c0d45b7a54c35636bdc8bba47ce1da01d069e19836af",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5063.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      50,
-      77,
-      300,
-      223
-    ],
-    "removedFraction": 0.7742
-  },
-  "hb-5062": {
-    "source": "assets/hb-5062.jpeg",
-    "sourceSha256": "22481c9daebe7d7f3aedb58f17527be2c32ab1e8177909502725ed389d5a3873",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5062.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      69,
-      90,
-      280,
-      202
-    ],
-    "removedFraction": 0.8408
-  },
-  "hb-5060": {
-    "source": "assets/hb-5060.jpeg",
-    "sourceSha256": "4662c99423fa1cb13e96ebb0cb7441ab66ace8a9eaeeb512fbcbe84dd6c656f7",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5060.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      45,
-      128,
-      307,
-      208
-    ],
-    "removedFraction": 0.8601
   },
   "hb-5187": {
     "source": "assets/hb-5187.jpeg",
@@ -1681,20 +1611,6 @@
     ],
     "removedFraction": 0.7319
   },
-  "hb-5037": {
-    "source": "assets/hb-5037.jpeg",
-    "sourceSha256": "a428692fc755d2f9e473331d960ebceefb9eca297c09c11e732d449aa05663d2",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5037.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      74,
-      33,
-      278,
-      278
-    ],
-    "removedFraction": 0.6922
-  },
   "hb-5034": {
     "source": "assets/hb-5034.jpeg",
     "sourceSha256": "50e41da4fd23a2b090a7d7588ad71013825409c091b27ed6708b292e3d287da5",
@@ -1807,202 +1723,6 @@
     ],
     "removedFraction": 0.7846
   },
-  "hb-5019": {
-    "source": "assets/hb-5019.jpeg",
-    "sourceSha256": "24bfb93412959882838287147375d3d54aa2aac7a072f4ec6783b22c0d1fb5ed",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5019.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      31,
-      86,
-      321,
-      208
-    ],
-    "removedFraction": 0.7568
-  },
-  "hb-5016": {
-    "source": "assets/hb-5016.jpeg",
-    "sourceSha256": "b5bdf7358e19feca885a3240ab37dcaabcbb8fa6b620e2ac316592536cfce5ee",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5016.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      24,
-      74,
-      323,
-      245
-    ],
-    "removedFraction": 0.653
-  },
-  "hb-5015": {
-    "source": "assets/hb-5015.jpeg",
-    "sourceSha256": "168faeca6f8c635e52f3878c29ddd63e256e7d65e9ecfcb7b575dfc9791dc7f7",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-5015.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      131,
-      5,
-      216,
-      292
-    ],
-    "removedFraction": 0.8472
-  },
-  "hb-4808": {
-    "source": "assets/hb-4808.jpeg",
-    "sourceSha256": "4ea9225db60a62af7f13f377eb6e17cda8e6ae7871d3d7868b813d36251116ad",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4808.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      91,
-      82,
-      256,
-      217
-    ],
-    "removedFraction": 0.8583
-  },
-  "hb-4805": {
-    "source": "assets/hb-4805.jpeg",
-    "sourceSha256": "c2727ddbea59ff23a14165efde9361e9ee06cc52e49f24ae2fc4d5cfe305d6f6",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4805.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      35,
-      120,
-      309,
-      215
-    ],
-    "removedFraction": 0.8261
-  },
-  "hb-4793": {
-    "source": "assets/hb-4793.jpeg",
-    "sourceSha256": "fcb5bb9ab961c2f8db180596b15011c16df72fc03f4751be22da13a6a5837a2e",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4793.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      89,
-      12,
-      254,
-      291
-    ],
-    "removedFraction": 0.7754
-  },
-  "hb-4784": {
-    "source": "assets/hb-4784.jpeg",
-    "sourceSha256": "5cb3ba231ccb04c378dbb778ff392522a251a8c46de9c651ad523127acbb6efd",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4784.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      37,
-      18,
-      306,
-      285
-    ],
-    "removedFraction": 0.7409
-  },
-  "hb-4781": {
-    "source": "assets/hb-4781.jpeg",
-    "sourceSha256": "19d2512bf6bab1439671f758ca122caf6ef53d1e10379232425a840ec6dab242",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4781.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      33,
-      82,
-      316,
-      230
-    ],
-    "removedFraction": 0.7373
-  },
-  "hb-4774": {
-    "source": "assets/hb-4774.jpeg",
-    "sourceSha256": "16704992a33d3a6ef9044c3ab475629333de2f020202b9aadc6fb4e1fae1b6ae",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4774.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      31,
-      93,
-      320,
-      231
-    ],
-    "removedFraction": 0.7528
-  },
-  "hb-4767": {
-    "source": "assets/hb-4767.jpeg",
-    "sourceSha256": "b371cdc24317d1aa1e77fa9ce41c1abfea875dbdfe3582ad58b5cb0322c7d4a5",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4767.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      38,
-      101,
-      292,
-      222
-    ],
-    "removedFraction": 0.8291
-  },
-  "hb-4766": {
-    "source": "assets/hb-4766.jpeg",
-    "sourceSha256": "9baacbef71c3a4ba72fb2dd960b0b9811a345fb1fda31e4f3389b6f252e76567",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4766.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      37,
-      85,
-      296,
-      245
-    ],
-    "removedFraction": 0.7119
-  },
-  "hb-4762": {
-    "source": "assets/hb-4762.jpeg",
-    "sourceSha256": "cf3edd56db254b6cfc03760d65f83852d8b9bf04e3c2bae593b3e00a05ac7762",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4762.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      29,
-      90,
-      310,
-      234
-    ],
-    "removedFraction": 0.728
-  },
-  "hb-4759": {
-    "source": "assets/hb-4759.jpeg",
-    "sourceSha256": "801a522f7c9ebb48a5a9a9cefc9cdcaa062a82a7821e97355fb169350bd00e70",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4759.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      28,
-      82,
-      320,
-      227
-    ],
-    "removedFraction": 0.7347
-  },
-  "hb-4747": {
-    "source": "assets/hb-4747.jpeg",
-    "sourceSha256": "b8390de070ab85f21bcb7f09cc99b6638ba487bf974582eb929aa6bb0d6ab8b7",
-    "status": "foreground-ready",
-    "displayImage": "cutouts/hb-4747.webp",
-    "method": "edge-seeded-grabcut-v2",
-    "crop": [
-      55,
-      30,
-      295,
-      273
-    ],
-    "removedFraction": 0.5889
-  },
   "hb-4736": {
     "source": "assets/hb-4736.jpeg",
     "sourceSha256": "22b5d4302946d2c9701f991fe95a7ec05401cceef19391f3a0be3c4f455a8530",
@@ -2098,6 +1818,5114 @@
       487
     ],
     "removedFraction": 0.6053,
+    "imageRepresentation": "object-photo"
+  },
+  "jz-476": {
+    "source": "assets/catalogue-jz-476.png",
+    "sourceSha256": "57185e86cb394457f17af0b3c21e81c24eab93eebce189689683d8c0c1059193",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/jz-476-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      49,
+      11,
+      208,
+      177
+    ],
+    "removedFraction": 0.6164,
+    "backgroundSample": [
+      33.0,
+      31.0,
+      19.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "jz-477": {
+    "source": "assets/catalogue-jz-477.png",
+    "sourceSha256": "13c02bce6011b83f21837e274ffdd753592c06b0cbe09b38a9cbc2eed30e6851",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/jz-477-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      8,
+      5,
+      262,
+      171
+    ],
+    "removedFraction": 0.6903,
+    "backgroundSample": [
+      147.0,
+      185.0,
+      200.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "jz-478": {
+    "source": "assets/catalogue-jz-478.png",
+    "sourceSha256": "af749e870e01fd10472c8018bef816b1f80fea973caa475d63f6a236c4b519e8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/jz-478-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      97,
+      127,
+      560,
+      485
+    ],
+    "removedFraction": 0.7862,
+    "backgroundSample": [
+      153.0,
+      151.0,
+      160.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4773": {
+    "source": "assets/catalogue-hb-4773.jpeg",
+    "sourceSha256": "02ff31b35941495ea5c5e9144961f8d470726a2fcf283346e1cdf84dc7248bc7",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4773-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      60,
+      30,
+      289,
+      270
+    ],
+    "removedFraction": 0.6067,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4782": {
+    "source": "assets/catalogue-hb-4782.jpeg",
+    "sourceSha256": "406f3c9a4c547ca446ceae0468853b29e12064b7d1d562cf5120e5dbb2b3603f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4782-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      89,
+      30,
+      267,
+      283
+    ],
+    "removedFraction": 0.7452,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4786": {
+    "source": "assets/catalogue-hb-4786.jpeg",
+    "sourceSha256": "da048fdd296c63d5b8d196b75437be4ecd617cc6c9917542c9ce43bcd20b817a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4786-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      123,
+      4,
+      226,
+      298
+    ],
+    "removedFraction": 0.8949,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4788": {
+    "source": "assets/catalogue-hb-4788.jpeg",
+    "sourceSha256": "0a457bea6e6a9ef6921ff6b5457fb8fd02c2cb004881382d4952db3839ebd1ed",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4788-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      34,
+      51,
+      303,
+      271
+    ],
+    "removedFraction": 0.8054,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4804": {
+    "source": "assets/catalogue-hb-4804.jpeg",
+    "sourceSha256": "4008959b3b772ae5fa4640e85ee33b2d1396c80a814c6d276228ea05627e9449",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4804-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      75,
+      40,
+      267,
+      267
+    ],
+    "removedFraction": 0.8059,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4810": {
+    "source": "assets/catalogue-hb-4810.jpeg",
+    "sourceSha256": "46bfaa38af7e2c5d601ce44c289fb4639a7ef8c9d8a91c16510234bab0e7f4ea",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4810-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      21,
+      56,
+      333,
+      265
+    ],
+    "removedFraction": 0.745,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4816": {
+    "source": "assets/catalogue-hb-4816.jpeg",
+    "sourceSha256": "5b5e351db0f9a57d562a2a1e34c3ba4f04405b45c18a38d9b9b09febe880638d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4816-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      7,
+      45,
+      344,
+      265
+    ],
+    "removedFraction": 0.4821,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4817": {
+    "source": "assets/catalogue-hb-4817.jpeg",
+    "sourceSha256": "fef2aadbc2069f0c21a837aec6aff9aa8a38a0f03d05fc5579199fe648091b01",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4817-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      16,
+      76,
+      320,
+      233
+    ],
+    "removedFraction": 0.9224,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4819": {
+    "source": "assets/catalogue-hb-4819.jpeg",
+    "sourceSha256": "e52fd28f07303ccd0512e6c38b41e5ffbc7270920ea7e9e7099f1dddff47438f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4819-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      15,
+      113,
+      334,
+      182
+    ],
+    "removedFraction": 0.9641,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4828": {
+    "source": "assets/catalogue-hb-4828.jpeg",
+    "sourceSha256": "e6da5ebd406b2e705a158fe68b619e18f907e5c334b389e91bafab328bc969ae",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4828-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      45,
+      53,
+      304,
+      235
+    ],
+    "removedFraction": 0.7661,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4830": {
+    "source": "assets/catalogue-hb-4830.jpeg",
+    "sourceSha256": "97fe89cce4c3724bff036b56fdbe5e136307f008e2410e3fc7078e7607f1254b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4830-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      101,
+      25,
+      256,
+      258
+    ],
+    "removedFraction": 0.833,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4838": {
+    "source": "assets/catalogue-hb-4838.jpeg",
+    "sourceSha256": "53fb6922a4e13a43b7dc93c121ee94d957cd69778ae6c3eea7965d7cc80b373c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4838-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      13,
+      102,
+      332,
+      203
+    ],
+    "removedFraction": 0.8025,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4840": {
+    "source": "assets/catalogue-hb-4840.jpeg",
+    "sourceSha256": "9a72e9fec3674f54e443b9eec953dc95343f047ff77938f0bc417dd515db9c9e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4840-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      21,
+      73,
+      333,
+      222
+    ],
+    "removedFraction": 0.7521,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4849": {
+    "source": "assets/catalogue-hb-4849.jpeg",
+    "sourceSha256": "dcc1ea3ed342b018e9bfc8195dc6344b5bc3908e229911df63d34dc873450328",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4849-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      45,
+      56,
+      290,
+      254
+    ],
+    "removedFraction": 0.8751,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4855": {
+    "source": "assets/catalogue-hb-4855.jpeg",
+    "sourceSha256": "7d447044fa33ecae986da7ca4132186ca663339d3c8e45cf3f3b3c421c67b022",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4855-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      99,
+      41,
+      264,
+      272
+    ],
+    "removedFraction": 0.7755,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4864": {
+    "source": "assets/catalogue-hb-4864.jpeg",
+    "sourceSha256": "588ba7f3f5030f669e974740b67b59b9fe391cf47f819bbd1d81a6da14440912",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4864-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      93,
+      13,
+      237,
+      261
+    ],
+    "removedFraction": 0.7955,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4953": {
+    "source": "assets/catalogue-hb-4953.jpeg",
+    "sourceSha256": "43f981b172e8793eafb4bc622ccbed1558fb09169925ec86b1c55d5360aa078b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4953-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      24,
+      39,
+      306,
+      259
+    ],
+    "removedFraction": 0.6518,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4954": {
+    "source": "assets/catalogue-hb-4954.jpeg",
+    "sourceSha256": "ce6efad702e53a0d9da88195685ecd631c366403992cf4344ede3ba51a4a631f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4954-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      13,
+      44,
+      328,
+      227
+    ],
+    "removedFraction": 0.763,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4955": {
+    "source": "assets/catalogue-hb-4955.jpeg",
+    "sourceSha256": "2d3b5764355d82d70f4eaa93b78ecfb0ffb2e94aaf51502cd31e88a8dd40e669",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4955-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      15,
+      55,
+      340,
+      246
+    ],
+    "removedFraction": 0.6404,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4957": {
+    "source": "assets/catalogue-hb-4957.jpeg",
+    "sourceSha256": "253c1194638dc010fcd9d75836718d7d89d27c52c4df82d1245503f04e58a405",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4957-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      21,
+      90,
+      331,
+      238
+    ],
+    "removedFraction": 0.908,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4958": {
+    "source": "assets/catalogue-hb-4958.jpeg",
+    "sourceSha256": "fb965a1fa36f095a9d542ab63463b5b91214e90f98774383b6b6af9a85c034fe",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4958-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      47,
+      35,
+      281,
+      286
+    ],
+    "removedFraction": 0.8123,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4959": {
+    "source": "assets/catalogue-hb-4959.jpeg",
+    "sourceSha256": "e3a598420a3564099adce1ba39366104f50238e663271ae82c38c5338b74e1d0",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4959-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      38,
+      27,
+      301,
+      277
+    ],
+    "removedFraction": 0.6678,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4961": {
+    "source": "assets/catalogue-hb-4961.jpeg",
+    "sourceSha256": "cba520d4677aaa2d5862086041367caf897e8912a17d167ffcb2a0c8b802be0b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4961-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      99,
+      22,
+      268,
+      289
+    ],
+    "removedFraction": 0.9052,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4962": {
+    "source": "assets/catalogue-hb-4962.jpeg",
+    "sourceSha256": "a97c91918ab07a2d437e3e605afa4d4552349371f5bf6489a89add452743be77",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4962-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      32,
+      60,
+      320,
+      255
+    ],
+    "removedFraction": 0.7982,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4965": {
+    "source": "assets/catalogue-hb-4965.jpeg",
+    "sourceSha256": "ad81011b048b91b214a28872a24a9883ebfcf9b0b5d3196ea24f2870e418f974",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4965-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      38,
+      7,
+      302,
+      297
+    ],
+    "removedFraction": 0.648,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4968": {
+    "source": "assets/catalogue-hb-4968.jpeg",
+    "sourceSha256": "7b2db594bcc1f0ec4f07e5c74e42a1abdcf44898a314fb3abf63ca564720e4e3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4968-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      28,
+      84,
+      323,
+      242
+    ],
+    "removedFraction": 0.8684,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4975": {
+    "source": "assets/catalogue-hb-4975.jpeg",
+    "sourceSha256": "94423466db4c2175a8a5073227b0525b9cb10113835591cfc86658a3d142a64a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4975-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      20,
+      19,
+      327,
+      285
+    ],
+    "removedFraction": 0.6203,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4976": {
+    "source": "assets/catalogue-hb-4976.jpeg",
+    "sourceSha256": "8d7125cb575edd949b436029645ad87580ab094fa42b31761392da1a1893e80b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4976-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      3,
+      83,
+      348,
+      208
+    ],
+    "removedFraction": 0.6787,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4977": {
+    "source": "assets/catalogue-hb-4977.jpeg",
+    "sourceSha256": "c007ffc01588cfc6928bca2e73fb13174565cf5f394884e1c1b9518a75717eb4",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4977-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      121,
+      118,
+      236,
+      275
+    ],
+    "removedFraction": 0.9193,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4978": {
+    "source": "assets/catalogue-hb-4978.jpeg",
+    "sourceSha256": "d0c2652c073b4de612d11cbf83f5bf49c49f8f0efc034e81955b574858bde49d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4978-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      11,
+      55,
+      340,
+      220
+    ],
+    "removedFraction": 0.6645,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4981": {
+    "source": "assets/catalogue-hb-4981.jpeg",
+    "sourceSha256": "97826fb5d70b28ec0f2139fe71d59118cfdd90fda2c42bf40c2bbe592ae397a3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4981-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      8,
+      6,
+      341,
+      286
+    ],
+    "removedFraction": 0.5456,
+    "backgroundSample": [
+      253.0,
+      253.0,
+      252.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4982": {
+    "source": "assets/catalogue-hb-4982.jpeg",
+    "sourceSha256": "38db051388177afa39f55d20dabc6ca5e5e59e1c5861966cf282123cabbdf0d1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4982-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      2,
+      6,
+      348,
+      278
+    ],
+    "removedFraction": 0.3297,
+    "backgroundSample": [
+      253.0,
+      253.0,
+      253.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4984": {
+    "source": "assets/catalogue-hb-4984.jpeg",
+    "sourceSha256": "ab96195fe5e1466c5820f35c0821aebd679dca1a2b2b969cb9bd6f8f93072bca",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4984-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      41,
+      350,
+      262
+    ],
+    "removedFraction": 0.4875,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4985": {
+    "source": "assets/catalogue-hb-4985.jpeg",
+    "sourceSha256": "b70278bf133dc43728f6c8aee07c3f6a15d493b94d5abf9ea8593c0243f45337",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4985-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      38,
+      350,
+      258
+    ],
+    "removedFraction": 0.5141,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4987": {
+    "source": "assets/catalogue-hb-4987.jpeg",
+    "sourceSha256": "e183c5d223fe171310196ccf228ca60a27f93521d80aa077ca7c19dcbaab4c64",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4987-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      75,
+      72,
+      261,
+      240
+    ],
+    "removedFraction": 0.7987,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4992": {
+    "source": "assets/catalogue-hb-4992.jpeg",
+    "sourceSha256": "db381507b1884add07c11b620650631f4ab4d9e952addc2c7d873498b95879e9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4992-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      4,
+      59,
+      349,
+      233
+    ],
+    "removedFraction": 0.5367,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4993": {
+    "source": "assets/catalogue-hb-4993.jpeg",
+    "sourceSha256": "b42a6b9fe36b41ea21e9c9c782f8de7336c45456c2f2365d25ce92d883eb707c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4993-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      16,
+      19,
+      325,
+      279
+    ],
+    "removedFraction": 0.4325,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4994": {
+    "source": "assets/catalogue-hb-4994.jpeg",
+    "sourceSha256": "cf860d2500956ec7bde143c6c920297da7b166b968fc47c55bac1fc82d646d3f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4994-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      64,
+      2,
+      285,
+      300
+    ],
+    "removedFraction": 0.4611,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4996": {
+    "source": "assets/catalogue-hb-4996.jpeg",
+    "sourceSha256": "b9d69932740420e5a7f197d175e8e88bf81db0271ccbbeff9d6034ec9cedfb9a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4996-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      55,
+      32,
+      293,
+      285
+    ],
+    "removedFraction": 0.5789,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4997": {
+    "source": "assets/catalogue-hb-4997.jpeg",
+    "sourceSha256": "1358e371a28c40d7b8451235ab218f6362a7bfd39c25c39262cf3df4a5654140",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4997-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      5,
+      20,
+      350,
+      274
+    ],
+    "removedFraction": 0.5309,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4998": {
+    "source": "assets/catalogue-hb-4998.jpeg",
+    "sourceSha256": "8eebaba80650101d723f56c0fd9f5c8297ae1fa91c831895c799ad4c36c0f4df",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4998-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      149,
+      1,
+      194,
+      299
+    ],
+    "removedFraction": 0.9363,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4999": {
+    "source": "assets/catalogue-hb-4999.jpeg",
+    "sourceSha256": "0129830f01e61a3eb674f4c56cd4bd988eb09905a63507723109bb2a240d581d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4999-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      101,
+      350,
+      198
+    ],
+    "removedFraction": 0.7202,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5000": {
+    "source": "assets/catalogue-hb-5000.jpeg",
+    "sourceSha256": "6a4d9be3f7eee65af576eaa10598158b81ce8d2bb6d352d02df26bad6e7547fc",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5000-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      45,
+      0,
+      306,
+      299
+    ],
+    "removedFraction": 0.8916,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5001": {
+    "source": "assets/catalogue-hb-5001.jpeg",
+    "sourceSha256": "be94fd34bf128139c3a7bb833870b05ec8897bc0cf559484cdc5396d8ebcbee3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5001-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      1,
+      93,
+      350,
+      204
+    ],
+    "removedFraction": 0.75,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5456": {
+    "source": "assets/catalogue-hb-5456.jpeg",
+    "sourceSha256": "b517884ff0e9dc80bc736972cd0be1093a86ffe1bbb7733620c0dafa4bf10c21",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5456-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      78,
+      16,
+      272,
+      257
+    ],
+    "removedFraction": 0.722,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5457": {
+    "source": "assets/catalogue-hb-5457.jpeg",
+    "sourceSha256": "e4118e16ee172040efb2718c221b9f371a5264ae53aa3c26f22c40a66a01115d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5457-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      6,
+      19,
+      204,
+      153
+    ],
+    "removedFraction": 0.5,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5458": {
+    "source": "assets/catalogue-hb-5458.jpeg",
+    "sourceSha256": "d488001c510683889c0f5dbe7021853a539e241d3da1703d36a85d39e88d04d7",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5458-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      61,
+      36,
+      292,
+      257
+    ],
+    "removedFraction": 0.633,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5459": {
+    "source": "assets/catalogue-hb-5459.jpeg",
+    "sourceSha256": "8ea43d511e34aefdab136b0dea8ad3cb431b4408f989a960451be58fe2b02f9c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5459-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      22,
+      65,
+      331,
+      227
+    ],
+    "removedFraction": 0.6455,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5460": {
+    "source": "assets/catalogue-hb-5460.jpeg",
+    "sourceSha256": "f51e37baad20916de2e3ded6d89b1df34944d870c0b87a1e32b233d8ef785a99",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5460-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      25,
+      116,
+      324,
+      235
+    ],
+    "removedFraction": 0.764,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5461": {
+    "source": "assets/catalogue-hb-5461.jpeg",
+    "sourceSha256": "76868996c31a3322f65ae8fd492a1b08206daf119762249f4ed2321b9af8d6f4",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5461-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      19,
+      65,
+      333,
+      243
+    ],
+    "removedFraction": 0.6077,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5462": {
+    "source": "assets/catalogue-hb-5462.jpeg",
+    "sourceSha256": "5cef87a2eaeebb7a5624e00d4af1eca0fdf768d15517307f12eb2ae6e16ffb7e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5462-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      37,
+      77,
+      306,
+      249
+    ],
+    "removedFraction": 0.6751,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5463": {
+    "source": "assets/catalogue-hb-5463.jpeg",
+    "sourceSha256": "6dd6e1040f6d519322b536fd1fe31e72bc43aa212363f37a40904480112b4b7a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5463-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      16,
+      61,
+      334,
+      240
+    ],
+    "removedFraction": 0.5884,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5464": {
+    "source": "assets/catalogue-hb-5464.jpeg",
+    "sourceSha256": "e39a1520b5bf9c8f303395fb831886a92161f85b12ea0596dca70196cdfbfee2",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5464-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      35,
+      61,
+      316,
+      244
+    ],
+    "removedFraction": 0.6363,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5465": {
+    "source": "assets/catalogue-hb-5465.jpeg",
+    "sourceSha256": "c6bd73c729f450b9683b8cb93dd5001d900f2b8b4afd8e4054e5817c2ec9ab5d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5465-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      27,
+      76,
+      324,
+      234
+    ],
+    "removedFraction": 0.6714,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5466": {
+    "source": "assets/catalogue-hb-5466.jpeg",
+    "sourceSha256": "47eff2f8e1675aa7722c7973d056b0f66283655cf6accb8e9a6be17b0e0635f9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5466-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      38,
+      78,
+      312,
+      236
+    ],
+    "removedFraction": 0.685,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5473": {
+    "source": "assets/catalogue-hb-5473.jpeg",
+    "sourceSha256": "9644c238256dbaefa757f221c546579f7ad4dbb87383d62b22835285c10777b5",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5473-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      47,
+      59,
+      285,
+      239
+    ],
+    "removedFraction": 0.7036,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5476": {
+    "source": "assets/catalogue-hb-5476.jpeg",
+    "sourceSha256": "f32a177301c287e49fc71f60f2edd87dd09fbd2941f35fe93435c00471851abb",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5476-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      34,
+      117,
+      314,
+      199
+    ],
+    "removedFraction": 0.8502,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5478": {
+    "source": "assets/catalogue-hb-5478.jpeg",
+    "sourceSha256": "ce2e5bdd24ea25f3f90c7422099837a6b5b1a12a2100c9c570cd91a25c034a05",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5478-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      49,
+      39,
+      291,
+      268
+    ],
+    "removedFraction": 0.6131,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5480": {
+    "source": "assets/catalogue-hb-5480.jpeg",
+    "sourceSha256": "1c8d988f689158bcce9b19216769e7484e7aefa4951432f244ffdebb019990db",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5480-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      31,
+      93,
+      320,
+      202
+    ],
+    "removedFraction": 0.7964,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5484": {
+    "source": "assets/catalogue-hb-5484.jpeg",
+    "sourceSha256": "e534aa86207b790b9d4c0d3f931f2660a5fde8ec99bc3bfdb2de362b196d1540",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5484-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      13,
+      78,
+      342,
+      215
+    ],
+    "removedFraction": 0.9273,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5523": {
+    "source": "assets/catalogue-hb-5523.jpeg",
+    "sourceSha256": "db890fdac5378929516e8f680b5024d35313776a96bd220d9c9a85d2391ab1a3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5523-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      2,
+      102,
+      341,
+      211
+    ],
+    "removedFraction": 0.8993,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5524": {
+    "source": "assets/catalogue-hb-5524.jpeg",
+    "sourceSha256": "fb317fbff27dcd1e39d6646b27f9a26e456fdc192fcf33afae6e46de919e2e24",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5524-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      91,
+      13,
+      258,
+      263
+    ],
+    "removedFraction": 0.7128,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5525": {
+    "source": "assets/catalogue-hb-5525.jpeg",
+    "sourceSha256": "399cf858c30e65e2e84fe4cc83a99223ac5fcd9d1d648443fa7e7cbc9ac1067a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5525-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      60,
+      33,
+      292,
+      252
+    ],
+    "removedFraction": 0.6952,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5526": {
+    "source": "assets/catalogue-hb-5526.jpeg",
+    "sourceSha256": "443abd22de967763b10e528d680f2e376350ecb00d0b73aa5fd79207088ff6ba",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5526-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      47,
+      33,
+      304,
+      248
+    ],
+    "removedFraction": 0.6228,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5528": {
+    "source": "assets/catalogue-hb-5528.jpeg",
+    "sourceSha256": "5c9e237ab8ec576b123c710bb1bbd74d42011e62b36e96d1b97542e17d2ab719",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5528-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      34,
+      53,
+      315,
+      238
+    ],
+    "removedFraction": 0.6159,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5529": {
+    "source": "assets/catalogue-hb-5529.jpeg",
+    "sourceSha256": "9802c3c124426b19545bcd8afd61e47c34230d6cc1c0d616dbadf2d26c06a79e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5529-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      46,
+      73,
+      303,
+      200
+    ],
+    "removedFraction": 0.7849,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5530": {
+    "source": "assets/catalogue-hb-5530.jpeg",
+    "sourceSha256": "a6c0ed67fe67c9bc4b34f542418345125e60ee2e2d19e242c30412855b2feae5",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5530-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      55,
+      28,
+      296,
+      266
+    ],
+    "removedFraction": 0.6024,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5531": {
+    "source": "assets/catalogue-hb-5531.jpeg",
+    "sourceSha256": "3c56576c62bfdebf26ae7188de179bee325e20fe2f39c42fa0d71c147c839d18",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5531-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      29,
+      48,
+      320,
+      229
+    ],
+    "removedFraction": 0.6198,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5532": {
+    "source": "assets/catalogue-hb-5532.jpeg",
+    "sourceSha256": "db194f3f21d9645184ef004f39e8c0b9b22714b4c587f929a254818a0cb65262",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5532-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      25,
+      61,
+      326,
+      222
+    ],
+    "removedFraction": 0.6986,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5533": {
+    "source": "assets/catalogue-hb-5533.jpeg",
+    "sourceSha256": "6ca45e65cf4e66888df6d632bc2249433ff680b198b4472533dcc28d2e91e78c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5533-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      64,
+      84,
+      316,
+      214
+    ],
+    "removedFraction": 0.7769,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5534": {
+    "source": "assets/catalogue-hb-5534.jpeg",
+    "sourceSha256": "cad40945b8120cb045b3f5d3406dcd72b065f7a9fb831ff01012661c6cdee8c1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5534-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      61,
+      65,
+      274,
+      235
+    ],
+    "removedFraction": 0.7621,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5535": {
+    "source": "assets/catalogue-hb-5535.jpeg",
+    "sourceSha256": "b7598076a75f29093283027df5cd2a54f35f7507552d8347812b87c52e17f2fe",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5535-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      79,
+      20,
+      255,
+      264
+    ],
+    "removedFraction": 0.741,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5536": {
+    "source": "assets/catalogue-hb-5536.jpeg",
+    "sourceSha256": "5d41425d04ee51f97675d632d1d2b4d6e6e1c6a61d5c5712a8d0b3c5220ee868",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5536-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      32,
+      101,
+      319,
+      224
+    ],
+    "removedFraction": 0.8337,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5537": {
+    "source": "assets/catalogue-hb-5537.jpeg",
+    "sourceSha256": "17f33499f4c2833cac16c545284e4013166e7b859372f5549aa3622340bc804b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5537-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      76,
+      51,
+      279,
+      266
+    ],
+    "removedFraction": 0.6638,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5540": {
+    "source": "assets/catalogue-hb-5540.jpeg",
+    "sourceSha256": "3c5440dfa3d5c70517d91458a0a302f9db1950ce8f1edba0acab0767033e27d6",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5540-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      32,
+      67,
+      318,
+      231
+    ],
+    "removedFraction": 0.7103,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4714": {
+    "source": "assets/catalogue-hb-4714.jpeg",
+    "sourceSha256": "e27842cbdfcc066bd8924276547c6921b13f8c0a84ef46d88616b43afc41a284",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4714-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      106,
+      12,
+      250,
+      293
+    ],
+    "removedFraction": 0.7266,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4716": {
+    "source": "assets/catalogue-hb-4716.jpeg",
+    "sourceSha256": "4a2889a8f799d84ef48e00ab78cc6124c3c44099f296837d58fcfd3c1b824b78",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4716-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      40,
+      10,
+      310,
+      297
+    ],
+    "removedFraction": 0.5489,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4717": {
+    "source": "assets/catalogue-hb-4717.jpeg",
+    "sourceSha256": "21c1dbc82bb09522ad1b352005828b7dbafde0c1b5d04df7a0e48928b92b17cc",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4717-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      136,
+      0,
+      203,
+      300
+    ],
+    "removedFraction": 0.8931,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4719": {
+    "source": "assets/catalogue-hb-4719.jpeg",
+    "sourceSha256": "505ff0b099b93bf492915445ebd56bbeaa53e2e401b58630100ee1ade57d8777",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4719-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      22,
+      29,
+      328,
+      282
+    ],
+    "removedFraction": 0.6777,
+    "backgroundSample": [
+      253.0,
+      254.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4720": {
+    "source": "assets/catalogue-hb-4720.jpeg",
+    "sourceSha256": "975b90ab3adb29c0c29443587e10a1342c56417c32d4f22402fe13c9e132ca6b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4720-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      4,
+      44,
+      338,
+      264
+    ],
+    "removedFraction": 0.8212,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4721": {
+    "source": "assets/catalogue-hb-4721.jpeg",
+    "sourceSha256": "06fbc76f9ab12c77c44024d661e3ddca9b6f48852885a3a5758eeed6e8cff121",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4721-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      45,
+      19,
+      298,
+      296
+    ],
+    "removedFraction": 0.7058,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4723": {
+    "source": "assets/catalogue-hb-4723.jpeg",
+    "sourceSha256": "e8c8570ed3931919656e79cb2c21fe165161588998a5bd64df423731f3900daa",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4723-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      8,
+      138,
+      350,
+      186
+    ],
+    "removedFraction": 0.9645,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4724": {
+    "source": "assets/catalogue-hb-4724.jpeg",
+    "sourceSha256": "cd46d4f62a0bcea47bc163ddfc4ff566e6916206429764dcfc01ec845947616c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4724-catalogue.webp",
+    "method": "catalogue-alpha-only-v1-manual-contour",
+    "crop": [
+      41,
+      22,
+      305,
+      281
+    ],
+    "removedFraction": 0.5963,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4725": {
+    "source": "assets/catalogue-hb-4725.jpeg",
+    "sourceSha256": "72a4da5906928816d52a2414da139e96bd1e2778be8c35dfe6b0eeee9ba5aba2",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4725-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      24,
+      28,
+      314,
+      244
+    ],
+    "removedFraction": 0.7801,
+    "backgroundSample": [
+      254.0,
+      254.0,
+      254.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4727": {
+    "source": "assets/catalogue-hb-4727.jpeg",
+    "sourceSha256": "5eb5c667f27a6ddb8f564b4def6320d988866893fb501cb0c5b7234197cfe589",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4727-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      61,
+      19,
+      294,
+      282
+    ],
+    "removedFraction": 0.717,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4729": {
+    "source": "assets/catalogue-hb-4729.jpeg",
+    "sourceSha256": "06b3170e39f05168011d70b92eb84847be6eba4721f5c37386eaf66413a2dc92",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4729-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      26,
+      0,
+      325,
+      300
+    ],
+    "removedFraction": 0.6167,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4730": {
+    "source": "assets/catalogue-hb-4730.jpeg",
+    "sourceSha256": "c2d3e8a01ce2f13576c89ffafe079a75979b6b74d699af086d2f114c655661b9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4730-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      38,
+      4,
+      305,
+      300
+    ],
+    "removedFraction": 0.6111,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      253.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4734": {
+    "source": "assets/catalogue-hb-4734.jpeg",
+    "sourceSha256": "9d728996877c5d26bbb183ef35e802f06f0e17b70aa102a6e719e4c9c36cb1ea",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4734-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      46,
+      19,
+      302,
+      294
+    ],
+    "removedFraction": 0.6729,
+    "backgroundSample": [
+      247.0,
+      246.0,
+      244.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4737": {
+    "source": "assets/catalogue-hb-4737.jpeg",
+    "sourceSha256": "a05f4b0cdea94358378b2fe1dac67cedd44af043cbea2eba3fd48a44a5f53aad",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4737-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      57,
+      0,
+      306,
+      300
+    ],
+    "removedFraction": 0.6293,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4739": {
+    "source": "assets/catalogue-hb-4739.jpeg",
+    "sourceSha256": "d9e3e56948cf4b43c86ce86847efaa8a4e323452add0fc52c0e30a5749a0fd5a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4739-catalogue.webp",
+    "method": "catalogue-alpha-only-v1-manual-contour",
+    "crop": [
+      2,
+      19,
+      350,
+      285
+    ],
+    "removedFraction": 0.37,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4740": {
+    "source": "assets/catalogue-hb-4740.jpeg",
+    "sourceSha256": "c7b8bf9423aadd87cac1591713b8bc95dee40424886c8f2758ce0dfcac5f59ae",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4740-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      65,
+      58,
+      294,
+      241
+    ],
+    "removedFraction": 0.7019,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4745": {
+    "source": "assets/catalogue-hb-4745.jpeg",
+    "sourceSha256": "ee719a35db00306afb3baaab6fe48386379139eec398a40e7f8a34136bcfc282",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4745-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      12,
+      6,
+      344,
+      291
+    ],
+    "removedFraction": 0.5262,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4749": {
+    "source": "assets/catalogue-hb-4749.jpeg",
+    "sourceSha256": "50fc68aed6cba81bea29215fbc3f90a1d6c74558b23889ae7f8297096d913c9a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4749-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      71,
+      1,
+      278,
+      299
+    ],
+    "removedFraction": 0.7348,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4752": {
+    "source": "assets/catalogue-hb-4752.jpeg",
+    "sourceSha256": "fccc97e8728ad048a8f3aeafe9e6c139f39fea97445cd5c2197c2cf5aa876090",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4752-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      53,
+      13,
+      297,
+      293
+    ],
+    "removedFraction": 0.6828,
+    "backgroundSample": [
+      243.0,
+      245.0,
+      244.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4753": {
+    "source": "assets/catalogue-hb-4753.jpeg",
+    "sourceSha256": "25a060329949106d554902dbc3b60bb7420d650d54bb39e6b54bb3efd38dbe5e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4753-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      83,
+      37,
+      281,
+      257
+    ],
+    "removedFraction": 0.7923,
+    "backgroundSample": [
+      247.0,
+      248.0,
+      247.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4756": {
+    "source": "assets/catalogue-hb-4756.jpeg",
+    "sourceSha256": "8c28e860998cb8e2a23bba8ada945058d6da15a096f2a8bfe90e6842d0cdeb69",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4756-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      49,
+      5,
+      300,
+      295
+    ],
+    "removedFraction": 0.6428,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4760": {
+    "source": "assets/catalogue-hb-4760.jpeg",
+    "sourceSha256": "c705d374812d743d4dccf3cb475421886b598d43f0606a1b638462be31dd0cdd",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4760-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      46,
+      0,
+      295,
+      298
+    ],
+    "removedFraction": 0.6657,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4763": {
+    "source": "assets/catalogue-hb-4763.jpeg",
+    "sourceSha256": "63e5092208947c9080d9e47de7ff4173c45931a9f3c560970dd3b55bd2b47362",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4763-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      90,
+      12,
+      259,
+      286
+    ],
+    "removedFraction": 0.7417,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5002": {
+    "source": "assets/catalogue-hb-5002.jpeg",
+    "sourceSha256": "ffa462619d7ba553b1436918fe9a9ebbba9dc75169c20a1631b01cb34ec15cfc",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5002-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      54,
+      7,
+      308,
+      292
+    ],
+    "removedFraction": 0.5679,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5070": {
+    "source": "assets/catalogue-hb-5070.jpeg",
+    "sourceSha256": "d6e10e64ca092235acf2cfefc94315ab89265cf164e041776753aa0457156790",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5070-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      35,
+      41,
+      274,
+      256
+    ],
+    "removedFraction": 0.6699,
+    "backgroundSample": [
+      247.0,
+      247.0,
+      247.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5071": {
+    "source": "assets/catalogue-hb-5071.jpeg",
+    "sourceSha256": "97eabd1419adda7848ca5d1487f7d34160b209beb8906d467bf1af371b3de748",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5071-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      52,
+      37,
+      316,
+      250
+    ],
+    "removedFraction": 0.6769,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5072": {
+    "source": "assets/catalogue-hb-5072.jpeg",
+    "sourceSha256": "515e051b6a455ab3d602c84ef2f1e65bf8522092d1aecc4478490ecbfd6fc098",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5072-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      30,
+      14,
+      324,
+      287
+    ],
+    "removedFraction": 0.5445,
+    "backgroundSample": [
+      247.0,
+      247.0,
+      249.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5075": {
+    "source": "assets/catalogue-hb-5075.jpeg",
+    "sourceSha256": "ed1345434d371a12f454ba04e84c9f4590c885ab54fbefed04658ba7019bbf86",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5075-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      21,
+      5,
+      320,
+      290
+    ],
+    "removedFraction": 0.5485,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5076": {
+    "source": "assets/catalogue-hb-5076.jpeg",
+    "sourceSha256": "4f22db23321d1161b3d9711b9edd22fcf070b1d1cd6771fa8de038cb7f6b6f76",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5076-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      30,
+      41,
+      310,
+      271
+    ],
+    "removedFraction": 0.6902,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5077": {
+    "source": "assets/catalogue-hb-5077.jpeg",
+    "sourceSha256": "ed32d56b958ad6be8021fd5497e34ebf2fb5fcfff515a769048a4424e5b305f9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5077-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      6,
+      91,
+      340,
+      228
+    ],
+    "removedFraction": 0.8452,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5078": {
+    "source": "assets/catalogue-hb-5078.jpeg",
+    "sourceSha256": "0bb3a529abbfdd3db652d7186bf63931e51b879244a52d9a4758160e333f129b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5078-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      63,
+      37,
+      293,
+      277
+    ],
+    "removedFraction": 0.7161,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5079": {
+    "source": "assets/catalogue-hb-5079.jpeg",
+    "sourceSha256": "a42683a7923f438482a681ae3f6a4ac6c317c68b6a1e7fa98ee73a14a62d154c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5079-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      58,
+      36,
+      296,
+      272
+    ],
+    "removedFraction": 0.7923,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5080": {
+    "source": "assets/catalogue-hb-5080.jpeg",
+    "sourceSha256": "5510d7b48789433329680716823849c2caeb183154f67e342198f3b2d873dc00",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5080-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      76,
+      44,
+      280,
+      270
+    ],
+    "removedFraction": 0.753,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5081": {
+    "source": "assets/catalogue-hb-5081.jpeg",
+    "sourceSha256": "31e9d2592b6269d65b0f2e0fdbe01797c27031530d2de1f4a63a9c834926c3fe",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5081-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      45,
+      64,
+      301,
+      264
+    ],
+    "removedFraction": 0.6707,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5082": {
+    "source": "assets/catalogue-hb-5082.jpeg",
+    "sourceSha256": "d0e6eff2dd14592fad10b6e8600b4e37b9d015dcc40228a5cedafda8e2a97d03",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5082-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      116,
+      44,
+      221,
+      267
+    ],
+    "removedFraction": 0.9001,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5083": {
+    "source": "assets/catalogue-hb-5083.jpeg",
+    "sourceSha256": "022052afa6ea22ace32ae92b82d2ff8eb3bb06387f58c8934aa36abf264f10dd",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5083-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      65,
+      64,
+      286,
+      278
+    ],
+    "removedFraction": 0.7079,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5084": {
+    "source": "assets/catalogue-hb-5084.jpeg",
+    "sourceSha256": "e6f3ab7398cacb91723b064e8f798d97a2cbd463d7ee878b5d92ec2aa9a9d5c0",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5084-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      98,
+      44,
+      261,
+      258
+    ],
+    "removedFraction": 0.8433,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5085": {
+    "source": "assets/catalogue-hb-5085.jpeg",
+    "sourceSha256": "178bf02d113667214ad20e072626f65f7e610a18a22f6a1879bbbb75412dde5c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5085-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      92,
+      41,
+      254,
+      263
+    ],
+    "removedFraction": 0.8649,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5086": {
+    "source": "assets/catalogue-hb-5086.jpeg",
+    "sourceSha256": "92ed6c16878ad1d4ff241758ea45401cfe2a1f35dd979f8ecf4a559afa6219c9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5086-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      16,
+      76,
+      332,
+      244
+    ],
+    "removedFraction": 0.8093,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5087": {
+    "source": "assets/catalogue-hb-5087.jpeg",
+    "sourceSha256": "4d7a3b1d1eb2f8b7cc5c4a0993f1f99785c06b171ce7552e325a35ae0cebb2ad",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5087-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      96,
+      32,
+      250,
+      273
+    ],
+    "removedFraction": 0.7838,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5088": {
+    "source": "assets/catalogue-hb-5088.jpeg",
+    "sourceSha256": "4d386bb7e6644f71505b143d17200a926cdbb86c2635daa449ee5dbc3ae086fb",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5088-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      117,
+      20,
+      237,
+      279
+    ],
+    "removedFraction": 0.817,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5090": {
+    "source": "assets/catalogue-hb-5090.jpeg",
+    "sourceSha256": "5832099046bd9994a1893b18388f94099c6f91a33c6b212b2bfd146d862ff718",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5090-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      85,
+      30,
+      263,
+      271
+    ],
+    "removedFraction": 0.7312,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5091": {
+    "source": "assets/catalogue-hb-5091.jpeg",
+    "sourceSha256": "3194a5262a51c77dde2a595569ad148751301f334e8e2a4736cae9040ccf0d2d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5091-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      42,
+      64,
+      309,
+      243
+    ],
+    "removedFraction": 0.671,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5092": {
+    "source": "assets/catalogue-hb-5092.jpeg",
+    "sourceSha256": "1305f976a2d1c1fbb97389e7dfe69979cee19f85f012b5bee4c05e7abb2ca109",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5092-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      34,
+      35,
+      314,
+      258
+    ],
+    "removedFraction": 0.7461,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5093": {
+    "source": "assets/catalogue-hb-5093.jpeg",
+    "sourceSha256": "979a4e39d3ce1363ad2f724f97c42d546d074299de53b09f8ba78f2c697e64e8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5093-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      140,
+      21,
+      198,
+      295
+    ],
+    "removedFraction": 0.9544,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5094": {
+    "source": "assets/catalogue-hb-5094.jpeg",
+    "sourceSha256": "334e5eadda9070369537ed284655045db6914f3784191fea6fe15fdb156ed1a0",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5094-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      75,
+      22,
+      276,
+      276
+    ],
+    "removedFraction": 0.7876,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5095": {
+    "source": "assets/catalogue-hb-5095.jpeg",
+    "sourceSha256": "cd265f307be226587f93a3fc503dece9e6ea9e0ba7fd3535658d7910a72356da",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5095-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      89,
+      44,
+      276,
+      270
+    ],
+    "removedFraction": 0.7603,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5096": {
+    "source": "assets/catalogue-hb-5096.jpeg",
+    "sourceSha256": "b0ebbf19aac7ab89f7f8bc476fdbaba2283a09c2ae0881d5281d55ff3be705ad",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5096-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      16,
+      92,
+      330,
+      232
+    ],
+    "removedFraction": 0.7065,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5097": {
+    "source": "assets/catalogue-hb-5097.jpeg",
+    "sourceSha256": "2678282282de3adc0d0a548664d1d7c4ae13dc0027c03ef083561d632857aa6e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5097-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      20,
+      127,
+      332,
+      252
+    ],
+    "removedFraction": 0.8948,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5098": {
+    "source": "assets/catalogue-hb-5098.jpeg",
+    "sourceSha256": "a589673bacbcedc6b69bc7b816c2b079dd6fad7da609c7d28b04501defb564ca",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5098-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      47,
+      58,
+      281,
+      262
+    ],
+    "removedFraction": 0.8779,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5099": {
+    "source": "assets/catalogue-hb-5099.jpeg",
+    "sourceSha256": "ae643a02a9f74838d598514fae9915b92281186c2f51f640dfab283a99f8136a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5099-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      112,
+      28,
+      247,
+      277
+    ],
+    "removedFraction": 0.8289,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5100": {
+    "source": "assets/catalogue-hb-5100.jpeg",
+    "sourceSha256": "3e1ff5fc5f1f18209e76b62e583f993fa113b190fd43044cdad99e5ce8715372",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5100-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      116,
+      30,
+      232,
+      282
+    ],
+    "removedFraction": 0.9128,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5101": {
+    "source": "assets/catalogue-hb-5101.jpeg",
+    "sourceSha256": "ad291014686f516c63c30656e1e35b3c70c85b93c80ba5d60213d4975a7bbc78",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5101-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      106,
+      24,
+      255,
+      273
+    ],
+    "removedFraction": 0.77,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5102": {
+    "source": "assets/catalogue-hb-5102.jpeg",
+    "sourceSha256": "5af1cadc85f475a1bcc4381bfaa8df818c6ef5b8eda1adfed6a5f52bea3b9dc8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5102-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      131,
+      17,
+      246,
+      286
+    ],
+    "removedFraction": 0.8673,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5103": {
+    "source": "assets/catalogue-hb-5103.jpeg",
+    "sourceSha256": "d2023a5ae182868f0a271744ff495ab112320fc041d59256c53e289f4db75a21",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5103-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      45,
+      70,
+      307,
+      249
+    ],
+    "removedFraction": 0.7864,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5104": {
+    "source": "assets/catalogue-hb-5104.jpeg",
+    "sourceSha256": "3741c2dc51788d0b6a33ad8d5924acb3541a591326f8bac58e32238db5adf22a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5104-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      14,
+      89,
+      348,
+      231
+    ],
+    "removedFraction": 0.8518,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5105": {
+    "source": "assets/catalogue-hb-5105.jpeg",
+    "sourceSha256": "6dec96e5e991ccb348baa346187f345e531622485b9a1d4d57971cf0380908cd",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5105-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      87,
+      39,
+      260,
+      241
+    ],
+    "removedFraction": 0.8239,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5106": {
+    "source": "assets/catalogue-hb-5106.jpeg",
+    "sourceSha256": "bd66d37f497b985ecefa2912fa49cfc06b9ac700a74994f8f6cd7c345681a12e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5106-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      91,
+      47,
+      249,
+      250
+    ],
+    "removedFraction": 0.8648,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5107": {
+    "source": "assets/catalogue-hb-5107.jpeg",
+    "sourceSha256": "27888fe68d603f104bad348ee1f2f1af69c87cef28f4545d3b10936c981970da",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5107-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      78,
+      52,
+      273,
+      247
+    ],
+    "removedFraction": 0.7666,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5108": {
+    "source": "assets/catalogue-hb-5108.jpeg",
+    "sourceSha256": "3a84f96a275201ac690caba95e06e2ca3f10bacedc5d038d1c41e106d56d5cf1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5108-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      93,
+      45,
+      260,
+      270
+    ],
+    "removedFraction": 0.7722,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5109": {
+    "source": "assets/catalogue-hb-5109.jpeg",
+    "sourceSha256": "07b1abe4c4e914a0b1c0928d6b1e38a6dbfa50ee017c4a97a1eae178acbf5da1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5109-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      57,
+      69,
+      280,
+      253
+    ],
+    "removedFraction": 0.7541,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5110": {
+    "source": "assets/catalogue-hb-5110.jpeg",
+    "sourceSha256": "b65a913b939d7a5ebb8060ff58d449cd4be5a7c2567e9f154e9db73e4b7648d6",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5110-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      78,
+      27,
+      265,
+      265
+    ],
+    "removedFraction": 0.7516,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5111": {
+    "source": "assets/catalogue-hb-5111.jpeg",
+    "sourceSha256": "fcbd15ceafd1908e6a0716e8052c8e0acbc9ec8f7677444a6ed616e17ea8eebb",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5111-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      16,
+      83,
+      322,
+      240
+    ],
+    "removedFraction": 0.6931,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5112": {
+    "source": "assets/catalogue-hb-5112.jpeg",
+    "sourceSha256": "39dc17e83a762c879ce3c988f11f178b01a56008cee7b84aff24c606472de57a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5112-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      44,
+      0,
+      308,
+      300
+    ],
+    "removedFraction": 0.5494,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5114": {
+    "source": "assets/catalogue-hb-5114.jpeg",
+    "sourceSha256": "727077e2966b64368996eead3684942ab589f1de1445ab7f7ce9769333386e03",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5114-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      9,
+      39,
+      341,
+      264
+    ],
+    "removedFraction": 0.7073,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5115": {
+    "source": "assets/catalogue-hb-5115.jpeg",
+    "sourceSha256": "19d39982a9570abe9b87a319a067a00f18426a26063f6a305e80740fdc1f1403",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5115-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      38,
+      350,
+      261
+    ],
+    "removedFraction": 0.5495,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5116": {
+    "source": "assets/catalogue-hb-5116.jpeg",
+    "sourceSha256": "fff6e7f1396610fdb2f1510bbc590c8e014b6c0cd5b1f0386c0a78ab844f8a8e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5116-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      34,
+      350,
+      272
+    ],
+    "removedFraction": 0.4386,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5117": {
+    "source": "assets/catalogue-hb-5117.jpeg",
+    "sourceSha256": "6e09ab43805f0a4807baff7ddba3a377928ee59b81a98771528e686c90ab727d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5117-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      42,
+      96,
+      317,
+      214
+    ],
+    "removedFraction": 0.8004,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5119": {
+    "source": "assets/catalogue-hb-5119.jpeg",
+    "sourceSha256": "3f4cfaa305916398c444715e68b0af5bf67e1f81741a52f6e3cbf04a4ae38ee8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5119-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      4,
+      69,
+      344,
+      217
+    ],
+    "removedFraction": 0.6621,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5120": {
+    "source": "assets/catalogue-hb-5120.jpeg",
+    "sourceSha256": "70143bc6ddaf77592b80add95839e7d2bfeb73ba9bf6c1f04fbb3aeb3c4dd9c7",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5120-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      1,
+      62,
+      347,
+      238
+    ],
+    "removedFraction": 0.6188,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5121": {
+    "source": "assets/catalogue-hb-5121.jpeg",
+    "sourceSha256": "05a1312368bd01a8ba33353ffed9f7033efc3644ae3e9a39546a9c3ed36bdbaa",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5121-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      2,
+      83,
+      348,
+      214
+    ],
+    "removedFraction": 0.837,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5122": {
+    "source": "assets/catalogue-hb-5122.jpeg",
+    "sourceSha256": "c599630f7c4924c066bd08336b0f7bd8f38d35ccf613252acac7ed5ecd6ab523",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5122-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      9,
+      64,
+      340,
+      240
+    ],
+    "removedFraction": 0.6704,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5123": {
+    "source": "assets/catalogue-hb-5123.jpeg",
+    "sourceSha256": "4281d4ead6e6baed1a051bf57ff607fdfda01aac00043fd2cefd3eab4e5e43c0",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5123-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      10,
+      110,
+      329,
+      199
+    ],
+    "removedFraction": 0.8775,
+    "backgroundSample": [
+      248.0,
+      248.0,
+      248.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5124": {
+    "source": "assets/catalogue-hb-5124.jpeg",
+    "sourceSha256": "ddabc0fb2232ee2418e43c55b1b7f6be45f35b2856d960782457b34de9d792c9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5124-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      22,
+      82,
+      325,
+      222
+    ],
+    "removedFraction": 0.7495,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5125": {
+    "source": "assets/catalogue-hb-5125.jpeg",
+    "sourceSha256": "b95c0fdfe2fa28ba8e3a4ec93d14146e5d16ab44eee5460dbd44510f84c0288d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5125-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      130,
+      349,
+      171
+    ],
+    "removedFraction": 0.9227,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5126": {
+    "source": "assets/catalogue-hb-5126.jpeg",
+    "sourceSha256": "43a6d1c1fe5d185438e94d09d7b53eb8faa03eca46835d8311fabb27f56da7c4",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5126-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      5,
+      144,
+      349,
+      170
+    ],
+    "removedFraction": 0.9601,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5127": {
+    "source": "assets/catalogue-hb-5127.jpeg",
+    "sourceSha256": "ba41cbfab9424e7de9d3e724c068f7c194acc7e968ff2644cb44482d6405febd",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5127-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      147,
+      348,
+      178
+    ],
+    "removedFraction": 0.9401,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5128": {
+    "source": "assets/catalogue-hb-5128.jpeg",
+    "sourceSha256": "87a50d4369ce2cd6969d13496389407fe04fa86b137e93a98a929ddc2e5096a8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5128-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      2,
+      122,
+      348,
+      174
+    ],
+    "removedFraction": 0.9021,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5129": {
+    "source": "assets/catalogue-hb-5129.jpeg",
+    "sourceSha256": "f68f4190c141c8b62d1ca1a0ceec888ad9c247b4c9b4cdc7fa1a9c017a75142e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5129-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      9,
+      117,
+      350,
+      185
+    ],
+    "removedFraction": 0.8451,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5130": {
+    "source": "assets/catalogue-hb-5130.jpeg",
+    "sourceSha256": "eb69bf8c2b7be76dcc67112967ff6ef5ed3ca5b05426b6360894e4494dd2c2ec",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5130-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      1,
+      63,
+      346,
+      250
+    ],
+    "removedFraction": 0.8818,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5131": {
+    "source": "assets/catalogue-hb-5131.jpeg",
+    "sourceSha256": "ef3ada8df3d34ec726f0024e6337d8da9c7218965c7d9cfc26b5dd65dfa0208c",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5131-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      34,
+      4,
+      324,
+      297
+    ],
+    "removedFraction": 0.8714,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5132": {
+    "source": "assets/catalogue-hb-5132.jpeg",
+    "sourceSha256": "d77cc01b8d8409e00289dd435a9aa000c53196ce92fca1fd3cd56c225b5afe15",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5132-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      4,
+      43,
+      346,
+      268
+    ],
+    "removedFraction": 0.8143,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5133": {
+    "source": "assets/catalogue-hb-5133.jpeg",
+    "sourceSha256": "180b39c15397c8248aa670850307e946ead5075cde815b4de082bdd0d930e1c6",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5133-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      6,
+      86,
+      345,
+      233
+    ],
+    "removedFraction": 0.893,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5135": {
+    "source": "assets/catalogue-hb-5135.jpeg",
+    "sourceSha256": "839def67bbe153eea895bb978b22cb7f4e1bd94d264a7049fcc3a6764b7c0e8b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5135-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      132,
+      4,
+      224,
+      296
+    ],
+    "removedFraction": 0.8505,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5136": {
+    "source": "assets/catalogue-hb-5136.jpeg",
+    "sourceSha256": "5bd5878c752fefdc8d0a0ec8cf283b723e6fff5ff2aae2aa92fdd7fa1711b9b2",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5136-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      50,
+      0,
+      209,
+      259
+    ],
+    "removedFraction": 0.9438,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5137": {
+    "source": "assets/catalogue-hb-5137.jpeg",
+    "sourceSha256": "6e967fdcc12f93881ae5d6c453c9b6f498e3924bbcf31202913016bab1852cd2",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5137-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      1,
+      128,
+      348,
+      193
+    ],
+    "removedFraction": 0.9526,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5138": {
+    "source": "assets/catalogue-hb-5138.jpeg",
+    "sourceSha256": "faf8d55e7f59384d4088df40297ba4135f3fce4c48c4814423c3bf429b4379d1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5138-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      3,
+      134,
+      346,
+      170
+    ],
+    "removedFraction": 0.9624,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5139": {
+    "source": "assets/catalogue-hb-5139.jpeg",
+    "sourceSha256": "82047d7ecfd67571763ecf6aa65462a974cb7d54b017b33fbcd3ebca449a9c76",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5139-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      2,
+      137,
+      349,
+      172
+    ],
+    "removedFraction": 0.9685,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5140": {
+    "source": "assets/catalogue-hb-5140.jpeg",
+    "sourceSha256": "fbf5793a1a04e9030799b24a0279171bb3cc7aa4ced520b27b1e94a1a12e5376",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5140-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      39,
+      5,
+      310,
+      290
+    ],
+    "removedFraction": 0.8946,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5142": {
+    "source": "assets/catalogue-hb-5142.jpeg",
+    "sourceSha256": "25cf2645b1bc43ed0a8ade4d94b8c1d9b2d59a4e506ad9bb2535dcf33bf7f668",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5142-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      4,
+      350,
+      298
+    ],
+    "removedFraction": 0.3201,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5144": {
+    "source": "assets/catalogue-hb-5144.jpeg",
+    "sourceSha256": "1d0b3f13cf65d1042fb768447bd5a2956e43a23fcd7fe2a45f815efaa86db18b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5144-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      93,
+      58,
+      240,
+      244
+    ],
+    "removedFraction": 0.8115,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5145": {
+    "source": "assets/catalogue-hb-5145.jpeg",
+    "sourceSha256": "f8a93d4d389cdc485d1da6279ebfb921fdcc591938d3f14c3938de4856530b25",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5145-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      57,
+      4,
+      278,
+      291
+    ],
+    "removedFraction": 0.5586,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5146": {
+    "source": "assets/catalogue-hb-5146.jpeg",
+    "sourceSha256": "2ee2ba97b9e9b2d53baebd93c422911ba39510d6110ca19b26818bcf36ee22e8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5146-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      99,
+      1,
+      263,
+      300
+    ],
+    "removedFraction": 0.8775,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5147": {
+    "source": "assets/catalogue-hb-5147.jpeg",
+    "sourceSha256": "aafdfa9bbdc364cbccc89166810f576500b4c3f03530656729e285131915e965",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5147-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      105,
+      2,
+      246,
+      300
+    ],
+    "removedFraction": 0.8628,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5148": {
+    "source": "assets/catalogue-hb-5148.jpeg",
+    "sourceSha256": "a5e11ccc0f4cd5ed608fc473a1297977bdbb9252e49eb80a4dd4f0646f46b3b9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5148-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      99,
+      2,
+      262,
+      300
+    ],
+    "removedFraction": 0.8503,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5149": {
+    "source": "assets/catalogue-hb-5149.jpeg",
+    "sourceSha256": "889ba75ddfb0eeaa9550ed37b62059d3ac781a032bf3e5d9876583e0f557a465",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5149-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      82,
+      6,
+      281,
+      299
+    ],
+    "removedFraction": 0.8086,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5150": {
+    "source": "assets/catalogue-hb-5150.jpeg",
+    "sourceSha256": "b1588caf16e0ef3cd4e0c081243b3ae5e3b9421e6a9611e7af6a06e337194c1b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5150-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      50,
+      101,
+      306,
+      182
+    ],
+    "removedFraction": 0.8863,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5152": {
+    "source": "assets/catalogue-hb-5152.jpeg",
+    "sourceSha256": "adbda2f7035111c08a08060a62979304e0bed48f8f8fe0b2b0def11e586d67b5",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5152-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      58,
+      39,
+      285,
+      268
+    ],
+    "removedFraction": 0.6462,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5153": {
+    "source": "assets/catalogue-hb-5153.jpeg",
+    "sourceSha256": "cf0331e747264085c830d7c3ae470780e35910d80757e406a25473072b2e21a8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5153-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      29,
+      10,
+      316,
+      296
+    ],
+    "removedFraction": 0.4176,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5154": {
+    "source": "assets/catalogue-hb-5154.jpeg",
+    "sourceSha256": "9dc4afd23534aebb788083f1a4da0147236c164f8173d12e099fd3f01721319e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5154-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      30,
+      8,
+      314,
+      293
+    ],
+    "removedFraction": 0.4267,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5156": {
+    "source": "assets/catalogue-hb-5156.jpeg",
+    "sourceSha256": "fb6671f41911dcd0a0170bf5cded32e997ece9fac764b5381b1238b085c5d09f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5156-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      10,
+      6,
+      330,
+      291
+    ],
+    "removedFraction": 0.3534,
+    "backgroundSample": [
+      254.0,
+      254.0,
+      254.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5157": {
+    "source": "assets/catalogue-hb-5157.jpeg",
+    "sourceSha256": "76d7c19906be424669aea86c9dcff302c42a644be24aa8357230028c93100a30",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5157-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      77,
+      350,
+      208
+    ],
+    "removedFraction": 0.7207,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5158": {
+    "source": "assets/catalogue-hb-5158.jpeg",
+    "sourceSha256": "ead509124bdd0db6343bc4a776b49623bc0954689e5c7d5a01459d14642a77ff",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5158-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      8,
+      84,
+      348,
+      219
+    ],
+    "removedFraction": 0.9048,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5159": {
+    "source": "assets/catalogue-hb-5159.jpeg",
+    "sourceSha256": "e8724cf6e978553608edcc9f93e4e1072f4267b26c001f931e5437be05fa89ce",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5159-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      5,
+      88,
+      350,
+      231
+    ],
+    "removedFraction": 0.678,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5162": {
+    "source": "assets/catalogue-hb-5162.jpeg",
+    "sourceSha256": "3da881911b24f2caccd1db0a49b68f91a7e11a14abf8efb416af066766cc1f49",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5162-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      3,
+      46,
+      350,
+      249
+    ],
+    "removedFraction": 0.7847,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5469": {
+    "source": "assets/catalogue-hb-5469.jpeg",
+    "sourceSha256": "43f5e1915b658b9b7d6cfb071940d4752cac3e64a7d99e8319306cbeb82be6f7",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5469-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      53,
+      62,
+      300,
+      266
+    ],
+    "removedFraction": 0.698,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5470": {
+    "source": "assets/catalogue-hb-5470.jpeg",
+    "sourceSha256": "61247b6df133f804c854b8c8156856e284db4f60532cd003fbe3c8f35e2521e6",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5470-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      55,
+      72,
+      295,
+      201
+    ],
+    "removedFraction": 0.7818,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5472": {
+    "source": "assets/catalogue-hb-5472.jpeg",
+    "sourceSha256": "f27518acca292cd189d7a3d32da64cfb0ba170be6e77a70d915312dbf63967b5",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5472-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      49,
+      44,
+      284,
+      235
+    ],
+    "removedFraction": 0.8453,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5474": {
+    "source": "assets/catalogue-hb-5474.jpeg",
+    "sourceSha256": "72cea83d337e63897fee028e3dffe05ac4bc0cfc82d6c9e9e3168486b0469b17",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5474-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      17,
+      100,
+      338,
+      196
+    ],
+    "removedFraction": 0.887,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5022": {
+    "source": "assets/catalogue-hb-5022.jpeg",
+    "sourceSha256": "14b3d106472f333af4dfd80da0ed637e71f8726f9e89f6682f58b29b45c43e44",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5022-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      96,
+      16,
+      260,
+      269
+    ],
+    "removedFraction": 0.8198,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5029": {
+    "source": "assets/catalogue-hb-5029.jpeg",
+    "sourceSha256": "2eedf2a3221239e1ccf32469678a80e0493771cef865b8a94af6798779ca69c3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5029-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      89,
+      80,
+      273,
+      237
+    ],
+    "removedFraction": 0.8522,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5030": {
+    "source": "assets/catalogue-hb-5030.jpeg",
+    "sourceSha256": "2818fc7800ffdcc904e22883bad7367e828de37b4f6d2cd23fa3027ad363bada",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5030-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      62,
+      59,
+      298,
+      265
+    ],
+    "removedFraction": 0.6466,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5032": {
+    "source": "assets/catalogue-hb-5032.jpeg",
+    "sourceSha256": "f2c659b172781d9af33cb0fd10ddbc731a2c5cac1b51855b50a0ec1d5a4b3f20",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5032-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      77,
+      40,
+      264,
+      265
+    ],
+    "removedFraction": 0.7836,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5035": {
+    "source": "assets/catalogue-hb-5035.jpeg",
+    "sourceSha256": "5a605252cf4a27ccf6834662106f4c4d37ffad027d550678e6779470d3a646de",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5035-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      35,
+      36,
+      315,
+      265
+    ],
+    "removedFraction": 0.68,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5036": {
+    "source": "assets/catalogue-hb-5036.jpeg",
+    "sourceSha256": "76c34d13e6c2179227025acb2b2519cbac1205af29c22483eb8a7c4736331c79",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5036-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      46,
+      56,
+      305,
+      257
+    ],
+    "removedFraction": 0.6557,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5039": {
+    "source": "assets/catalogue-hb-5039.jpeg",
+    "sourceSha256": "cc3e38a0ab654cdb8f703a8dcea5bbf688989f2fad18d93eeacd37028db54f3b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5039-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      79,
+      42,
+      275,
+      259
+    ],
+    "removedFraction": 0.686,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5040": {
+    "source": "assets/catalogue-hb-5040.jpeg",
+    "sourceSha256": "780f45c14373fa692d5797e1f3b6f74eeacacc0af1fe5fae36f38668b1b8f6c4",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5040-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      95,
+      57,
+      253,
+      267
+    ],
+    "removedFraction": 0.7877,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5041": {
+    "source": "assets/catalogue-hb-5041.jpeg",
+    "sourceSha256": "c546f1ede14c870b5314dbd81b333d5e34cadbc17485c71942cdf783e1f00218",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5041-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      94,
+      60,
+      260,
+      268
+    ],
+    "removedFraction": 0.7804,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5042": {
+    "source": "assets/catalogue-hb-5042.jpeg",
+    "sourceSha256": "6f31350796eecc66333a9077493dc6da1e2279495cbfc38e5a2ea8749e7b67d4",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5042-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      73,
+      101,
+      291,
+      236
+    ],
+    "removedFraction": 0.7884,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5048": {
+    "source": "assets/catalogue-hb-5048.jpeg",
+    "sourceSha256": "6a5948f67283d2d862b1573d0a7b2df69b9118c471009f1f64735a778ade9873",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5048-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      24,
+      84,
+      321,
+      253
+    ],
+    "removedFraction": 0.6958,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5050": {
+    "source": "assets/catalogue-hb-5050.jpeg",
+    "sourceSha256": "f7a4eb64909347355d4a7dc3a499815dfe9a91ae21214cd40cd0e4b8d8c2a728",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5050-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      107,
+      39,
+      241,
+      265
+    ],
+    "removedFraction": 0.8039,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5051": {
+    "source": "assets/catalogue-hb-5051.jpeg",
+    "sourceSha256": "682e4558c039c38d83f448f47e377be19d35fb839d331029e0432823d7774272",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5051-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      112,
+      29,
+      238,
+      276
+    ],
+    "removedFraction": 0.8414,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5052": {
+    "source": "assets/catalogue-hb-5052.jpeg",
+    "sourceSha256": "954850c58b81dbffcd9442b28c35f8fa6ff044573c2b8e682b93048155bc253a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5052-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      125,
+      39,
+      220,
+      267
+    ],
+    "removedFraction": 0.8916,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5053": {
+    "source": "assets/catalogue-hb-5053.jpeg",
+    "sourceSha256": "3e51c676596f2df0650b810a0fc53177d4bfdae876f17002d7a2a1321730099a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5053-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      119,
+      48,
+      237,
+      255
+    ],
+    "removedFraction": 0.8487,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4857": {
+    "source": "assets/catalogue-hb-4857.jpeg",
+    "sourceSha256": "8a40c668886948839f1622b0e3dfaec646e9a392b85f1ef8e981c1d83fbc58f3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4857-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      61,
+      85,
+      288,
+      217
+    ],
+    "removedFraction": 0.846,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4858": {
+    "source": "assets/catalogue-hb-4858.jpeg",
+    "sourceSha256": "adef537587c6a52b5f8160bff332fc089553c3e08944e36113945ef486588800",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4858-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      75,
+      50,
+      274,
+      248
+    ],
+    "removedFraction": 0.7843,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4860": {
+    "source": "assets/catalogue-hb-4860.jpeg",
+    "sourceSha256": "543428d4fe88755c20778b9313feb45543a669be2bbb89d30e4e832284577475",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4860-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      38,
+      97,
+      314,
+      195
+    ],
+    "removedFraction": 0.8723,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4861": {
+    "source": "assets/catalogue-hb-4861.jpeg",
+    "sourceSha256": "f2914d94eca16db1b1bea5cee76189698747e53a8719d7a98fe0d5e5df547183",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4861-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      21,
+      51,
+      330,
+      260
+    ],
+    "removedFraction": 0.7755,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4862": {
+    "source": "assets/catalogue-hb-4862.jpeg",
+    "sourceSha256": "e1973724652e7219dd5b0c8048520730ce9d461116ecd20860bac7c4edca0948",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4862-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      70,
+      75,
+      280,
+      223
+    ],
+    "removedFraction": 0.788,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4863": {
+    "source": "assets/catalogue-hb-4863.jpeg",
+    "sourceSha256": "df36a32288ff4e640df6633b5b28335fbdebb98e1de327e100e66e0185a09b77",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4863-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      9,
+      83,
+      340,
+      209
+    ],
+    "removedFraction": 0.7724,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4867": {
+    "source": "assets/catalogue-hb-4867.jpeg",
+    "sourceSha256": "59a5ca842453a6412200f6338ceabe48303e21ead47fcd6fdc0586b45d2079b3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4867-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      62,
+      22,
+      295,
+      278
+    ],
+    "removedFraction": 0.757,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4868": {
+    "source": "assets/catalogue-hb-4868.jpeg",
+    "sourceSha256": "4ae0886425ba3af4beb0744fc1de7341e075b4ad9072a4e2fb6cc481677852ae",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4868-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      105,
+      31,
+      251,
+      273
+    ],
+    "removedFraction": 0.8525,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4870": {
+    "source": "assets/catalogue-hb-4870.jpeg",
+    "sourceSha256": "3a099ca9cf9e9f44830bde73d0d288152c785ec1e3da33e994d55abc3ee5f4d3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4870-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      15,
+      96,
+      335,
+      214
+    ],
+    "removedFraction": 0.8188,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4872": {
+    "source": "assets/catalogue-hb-4872.jpeg",
+    "sourceSha256": "fa092bce764c44f753ed6a99412b6f534186e1d2c40508026784c45deaed96f5",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4872-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      74,
+      82,
+      275,
+      191
+    ],
+    "removedFraction": 0.8639,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4877": {
+    "source": "assets/catalogue-hb-4877.jpeg",
+    "sourceSha256": "df58f70126c70be9193e8951e209c1fe96b53b3fad253ae3d58f74f43a684cb6",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4877-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      140,
+      41,
+      209,
+      254
+    ],
+    "removedFraction": 0.8849,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5174": {
+    "source": "assets/catalogue-hb-5174.jpeg",
+    "sourceSha256": "0d06a80ed209080d175dfdea415f2cb10bcab6c5412a64c58cc0d34d6714ac1f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5174-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      26,
+      5,
+      309,
+      296
+    ],
+    "removedFraction": 0.4718,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5175": {
+    "source": "assets/catalogue-hb-5175.jpeg",
+    "sourceSha256": "de75485fe955d2dcf498813ca2e3d9a854f5ca5df49337977a390f2c7720ca8f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5175-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      12,
+      346,
+      293
+    ],
+    "removedFraction": 0.2702,
+    "backgroundSample": [],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5177": {
+    "source": "assets/catalogue-hb-5177.jpeg",
+    "sourceSha256": "30c9606607a7beb77c4b318e82fb2f4faafa3af33a43bc8c750b6bb28a34e68b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5177-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      25,
+      350,
+      258
+    ],
+    "removedFraction": 0.6628,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5179": {
+    "source": "assets/catalogue-hb-5179.jpeg",
+    "sourceSha256": "66c931f699d2a7639c796dcd6d27588b3edcbf0011be4a16ce9c364534c07ce1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5179-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      3,
+      51,
+      344,
+      248
+    ],
+    "removedFraction": 0.7158,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5181": {
+    "source": "assets/catalogue-hb-5181.jpeg",
+    "sourceSha256": "28a1ccf8cdefb648b47b4a341dc816ba175b6af687fa1c8d7b70935a11c6c64a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5181-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      1,
+      1,
+      343,
+      296
+    ],
+    "removedFraction": 0.5361,
+    "backgroundSample": [
+      231.0,
+      231.0,
+      231.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5182": {
+    "source": "assets/catalogue-hb-5182.jpeg",
+    "sourceSha256": "0f802528ddb9376c582400f0ff5a5bbec35317d2820c4b0eb8351bea9904897f",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5182-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      91,
+      0,
+      266,
+      300
+    ],
+    "removedFraction": 0.7527,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5183": {
+    "source": "assets/catalogue-hb-5183.jpeg",
+    "sourceSha256": "31c9aca68af99cc0e1c1fe57063de6bee311c4bc518e2205eed7f3dc6bc535cd",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5183-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      30,
+      3,
+      325,
+      300
+    ],
+    "removedFraction": 0.6048,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5184": {
+    "source": "assets/catalogue-hb-5184.png",
+    "sourceSha256": "850f1d96922c2ef80edfff890df6a3d7ed6143afed075be6626a83b7960da0a7",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5184-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      96,
+      87,
+      1268,
+      804
+    ],
+    "removedFraction": 0.8269,
+    "backgroundSample": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5186": {
+    "source": "assets/catalogue-hb-5186.jpeg",
+    "sourceSha256": "b578c5435df84444c01755890fe5821ca456ff3222ff5244e2046938c3177d00",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5186-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      70,
+      51,
+      268,
+      235
+    ],
+    "removedFraction": 0.7942,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5188": {
+    "source": "assets/catalogue-hb-5188.jpeg",
+    "sourceSha256": "c376a7cc7078445501684574825f93ae571f63691a9c5eb5f97cc97d799f1598",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5188-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      6,
+      102,
+      346,
+      199
+    ],
+    "removedFraction": 0.8565,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5419": {
+    "source": "assets/catalogue-hb-5419.jpeg",
+    "sourceSha256": "c0a2199cb1fd204ea5635fd67cdc0e0752a4ddcd6a5eba60383b27a8a1b8bac4",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5419-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      0,
+      49,
+      350,
+      224
+    ],
+    "removedFraction": 0.7162,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5422": {
+    "source": "assets/catalogue-hb-5422.jpeg",
+    "sourceSha256": "70a6d1e288a2a29fa201f34bd5f03c5e5560bc9b6f4b7aac4a4a0900de292f1b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5422-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      20,
+      61,
+      319,
+      236
+    ],
+    "removedFraction": 0.7498,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5423": {
+    "source": "assets/catalogue-hb-5423.jpeg",
+    "sourceSha256": "c5b251d1152c4131f92965eff89a06dae0e1ff2818af8f25faef443ac37d1cb1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5423-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      24,
+      81,
+      324,
+      221
+    ],
+    "removedFraction": 0.7525,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5424": {
+    "source": "assets/catalogue-hb-5424.jpeg",
+    "sourceSha256": "1d3929c3ec3d978cd5f1c7a3113702861d9fed8652315be7a4ffb535d29832c1",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5424-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      24,
+      32,
+      331,
+      265
+    ],
+    "removedFraction": 0.6392,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5425": {
+    "source": "assets/catalogue-hb-5425.jpeg",
+    "sourceSha256": "7c8de77df376f18d6ad4ef84421edfc1ff8100d580ec5f3e0b84dc89ca79bf49",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5425-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      19,
+      50,
+      333,
+      253
+    ],
+    "removedFraction": 0.8454,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5426": {
+    "source": "assets/catalogue-hb-5426.jpeg",
+    "sourceSha256": "efe810d26fc76724d3164b1935585af9dbeb686d917ee3897b934de644138f7b",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5426-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      6,
+      80,
+      341,
+      223
+    ],
+    "removedFraction": 0.8901,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5427": {
+    "source": "assets/catalogue-hb-5427.jpeg",
+    "sourceSha256": "0101b5582b3808fbebc4ce423ed9f0aebcf934bbe86c01aa631744afbc809552",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5427-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      67,
+      30,
+      284,
+      247
+    ],
+    "removedFraction": 0.7895,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5428": {
+    "source": "assets/catalogue-hb-5428.jpeg",
+    "sourceSha256": "98d734404f3e4773b9cd48fbf340c471ee6009d934554c14e4a8e69365c007cc",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5428-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      23,
+      77,
+      312,
+      227
+    ],
+    "removedFraction": 0.8097,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5429": {
+    "source": "assets/catalogue-hb-5429.jpeg",
+    "sourceSha256": "a478122b74885bbfc2ed2ec0bcf67ca7c2156ff5f5c75cdecabeefca0f2256b7",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5429-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      52,
+      76,
+      298,
+      226
+    ],
+    "removedFraction": 0.8133,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5430": {
+    "source": "assets/catalogue-hb-5430.jpeg",
+    "sourceSha256": "fe80bd27ee1d133faaca716df8abac2783b822dcfb8152ffbb50e64e1699ca8d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5430-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      17,
+      31,
+      330,
+      266
+    ],
+    "removedFraction": 0.7436,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5431": {
+    "source": "assets/catalogue-hb-5431.jpeg",
+    "sourceSha256": "4babfb517f845d2a039c9685761288110653b5bbddccba9e6b0fc8c20d36d28e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5431-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      11,
+      24,
+      343,
+      274
+    ],
+    "removedFraction": 0.6198,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5452": {
+    "source": "assets/catalogue-hb-5452.jpeg",
+    "sourceSha256": "9d17d47d19886cde3262db8e9c859680b1d472bef64beabb7b5078328e0d5a98",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5452-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      155,
+      26,
+      199,
+      269
+    ],
+    "removedFraction": 0.9288,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5454": {
+    "source": "assets/catalogue-hb-5454.jpeg",
+    "sourceSha256": "6dc29562c28f9291fc293761b2c38ec165b3935d10b2484b4c8f95844db4ab7d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5454-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      94,
+      80,
+      262,
+      261
+    ],
+    "removedFraction": 0.8318,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5366": {
+    "source": "assets/catalogue-hb-5366.jpeg",
+    "sourceSha256": "38063b510225e0484f697c185600f76b4728e0cce69ef6ac229adb8abc10b523",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5366-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      118,
+      10,
+      232,
+      288
+    ],
+    "removedFraction": 0.9175,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5367": {
+    "source": "assets/catalogue-hb-5367.jpeg",
+    "sourceSha256": "a45f4db87d5c8d30ff004deedb7d86edb9dbddf65463796c9924c006db8f9e0a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5367-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      16,
+      6,
+      335,
+      293
+    ],
+    "removedFraction": 0.8705,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5368": {
+    "source": "assets/catalogue-hb-5368.jpeg",
+    "sourceSha256": "177f2b84d654e0e88229f0eae341dc67024db2ff59a2234c99bc22a5a02e3543",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5368-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      111,
+      0,
+      237,
+      297
+    ],
+    "removedFraction": 0.9383,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5369": {
+    "source": "assets/catalogue-hb-5369.jpeg",
+    "sourceSha256": "780e85da32c71e00e384bc3083281e1e22beca635e88adb7e67ef5f398b1dc71",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5369-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      117,
+      5,
+      222,
+      288
+    ],
+    "removedFraction": 0.964,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5370": {
+    "source": "assets/catalogue-hb-5370.jpeg",
+    "sourceSha256": "08d82a222725a75671bac2da498587f764a0d7250ef913ba4b5b446ffa19f5a9",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5370-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      141,
+      45,
+      211,
+      271
+    ],
+    "removedFraction": 0.9594,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5371": {
+    "source": "assets/catalogue-hb-5371.jpeg",
+    "sourceSha256": "fb266010cd3402baea58b0a9e0eb9e6de6cab76e038664b9cdc0a36dc0a1d9ac",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5371-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      127,
+      0,
+      215,
+      294
+    ],
+    "removedFraction": 0.9253,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5372": {
+    "source": "assets/catalogue-hb-5372.jpeg",
+    "sourceSha256": "687bd8ba8160c1c8366be22e01a775d019fe070a1e6ccfd03e30b19e6a007e15",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5372-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      142,
+      15,
+      202,
+      292
+    ],
+    "removedFraction": 0.9344,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5373": {
+    "source": "assets/catalogue-hb-5373.jpeg",
+    "sourceSha256": "02a3e09cc727c4ac16a29bc60135aa81ceb8041936a4052e2ba6e2b3bbb88757",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5373-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      139,
+      37,
+      216,
+      281
+    ],
+    "removedFraction": 0.9503,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5374": {
+    "source": "assets/catalogue-hb-5374.jpeg",
+    "sourceSha256": "f85386798c39ae41e93799760f10aac1d2f26829b539f1a2c839dbcb0d430966",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5374-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      136,
+      6,
+      220,
+      292
+    ],
+    "removedFraction": 0.9314,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5375": {
+    "source": "assets/catalogue-hb-5375.jpeg",
+    "sourceSha256": "55d6f77d66f9b0497eecb673d4936984ba61f7da3f4d472b3d55d6b93af2178d",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5375-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      123,
+      16,
+      228,
+      295
+    ],
+    "removedFraction": 0.9653,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5376": {
+    "source": "assets/catalogue-hb-5376.jpeg",
+    "sourceSha256": "f215c267c2d1953840c78a61e188a8e80fb8a5efb8c160ad0a1e2d5e12c6bdd4",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5376-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      155,
+      0,
+      197,
+      299
+    ],
+    "removedFraction": 0.9587,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5377": {
+    "source": "assets/catalogue-hb-5377.jpeg",
+    "sourceSha256": "07bb34b07eaca77c94af0dcdff993e53cb133217e740fc8937dbf58890dbf4b8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5377-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      159,
+      14,
+      188,
+      293
+    ],
+    "removedFraction": 0.9567,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5378": {
+    "source": "assets/catalogue-hb-5378.jpeg",
+    "sourceSha256": "e8c1e6f8b33f0623a602ef421a7575a8a7db182f1d6f25b2394442385b6ffd3a",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5378-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      157,
+      8,
+      195,
+      289
+    ],
+    "removedFraction": 0.9286,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5379": {
+    "source": "assets/catalogue-hb-5379.jpeg",
+    "sourceSha256": "ac8cc3509dbdeb4cee349682ae40a28a4e138b4ff485dbd61ae46c0690cba36e",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5379-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      168,
+      0,
+      186,
+      299
+    ],
+    "removedFraction": 0.9828,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5380": {
+    "source": "assets/catalogue-hb-5380.jpeg",
+    "sourceSha256": "1df72386f18c07ad4d2abcca18dbc27cd22e959f845cd04229a09a170f946aea",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5380-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      130,
+      3,
+      215,
+      297
+    ],
+    "removedFraction": 0.9181,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5381": {
+    "source": "assets/catalogue-hb-5381.jpeg",
+    "sourceSha256": "e78225e2e388261cb0eb6979bccf90d697dd140a8db3c2f3111f5dc3d95b7f97",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5381-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      143,
+      0,
+      205,
+      299
+    ],
+    "removedFraction": 0.8773,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5382": {
+    "source": "assets/catalogue-hb-5382.jpeg",
+    "sourceSha256": "264b10eac396fbff43d00cb25bd5cf0029ab91a9343039c4d4b51d4070c17825",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5382-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      153,
+      0,
+      195,
+      300
+    ],
+    "removedFraction": 0.9274,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5383": {
+    "source": "assets/catalogue-hb-5383.jpeg",
+    "sourceSha256": "28e62613ed58ad178c794c4132f0df2bf6ce9f3c82f880cd4adceff29a970c25",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5383-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      142,
+      1,
+      208,
+      298
+    ],
+    "removedFraction": 0.8463,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5134": {
+    "source": "assets/catalogue-hb-5134.jpeg",
+    "sourceSha256": "3403a1b036c7bfc57c82de9a4e14a9caa3b7d4560c67f88ff4a5cb317ffdafa8",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5134-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      150,
+      0,
+      191,
+      300
+    ],
+    "removedFraction": 0.9851,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-5384": {
+    "source": "assets/catalogue-hb-5384.jpeg",
+    "sourceSha256": "ef3b75e3d9d29d083fd46b33d31b8aeaa2e60ddb3ed3c6931f066f8478d8dad3",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-5384-catalogue.webp",
+    "method": "catalogue-alpha-only-v1",
+    "crop": [
+      165,
+      7,
+      180,
+      292
+    ],
+    "removedFraction": 0.9863,
+    "backgroundSample": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "imageRepresentation": "object-photo"
+  },
+  "hb-4693": {
+    "source": "assets/catalogue-hb-4693.jpeg",
+    "sourceSha256": "a379329bb87f9a08a916439c5a25329cd604ddeb802e7cdc3ae305dd23793388",
+    "status": "foreground-ready",
+    "displayImage": "cutouts/hb-4693-catalogue.webp",
+    "method": "catalogue-alpha-only-v1-manual-contour",
+    "crop": [
+      8,
+      22,
+      338,
+      266
+    ],
+    "removedFraction": 0.5072,
+    "backgroundSample": [
+      191.0,
+      196.0,
+      195.0
+    ],
     "imageRepresentation": "object-photo"
   }
 }

@@ -1,13 +1,13 @@
 import * as THREE from './vendor/three.module.js';
-import {arrangeArchive, arrangeLift, CARD, LIFT} from './atlas3d-layout.js';
-import {filterSample, materialSpec} from './visual-language.js';
-import {VIEW, positionCamera, DepthOfField} from './atlas3d-camera.js';
+import {arrangeArchive, arrangeLift, CARD, LIFT} from './atlas3d-layout.js?v=20261011-review';
+import {filterSample, materialSpec} from './visual-language.js?v=20261011-review';
+import {VIEW, positionCamera, DepthOfField} from './atlas3d-camera.js?v=20261011-review';
 
 const PAPER = '#000000', INK = '#acb6a2', RED = '#b2a17b';
 const clamp = THREE.MathUtils.clamp;
 const ease = t => t < .5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const dimensionNames = {colors:'色彩', motifs:'纹样', crafts:'工艺', materialGroup:'材质', city:'出土地'};
+const dimensionNames = {colors:'色彩', motifs:'纹样', crafts:'工艺', materialGroup:'材质', city:'出土地',functionGroup:'功能'};
 
 export class Atlas3D {
   constructor(host, {artifacts, eraDefs, cities, paletteColors, onDetail, onEra}) {
@@ -194,6 +194,12 @@ export class Atlas3D {
   clearUpper() {
     this.liftGuides.traverse(o=>{o.geometry?.dispose();o.material?.dispose()});this.liftGuides.clear();
     for(const label of this.upperLabels)label.el.remove();this.labels=this.labels.filter(l=>!l.upper);this.upperLabels=[];
+  }
+
+  focusItem(a) {
+    const c=this.cards.get(a.id);if(!c)return;
+    const p=this.viewingLift&&c.destination?c.destination:this.archive.positions.get(a.id);
+    if(!p)return;this.focusTarget.set(p.x,p.y-.6,p.z);this.setHover(null);this.updateLayerControls();
   }
 
   jumpEra(id) {

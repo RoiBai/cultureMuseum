@@ -1,5 +1,5 @@
-import {esc,loadArchive,comparisonSet,compareURL,objectURL,hasFeature,featureNames,cropOverride,viewLabel,featureValues,photoCredit} from './study-data.js';
-import {Magnifier} from './magnifier.js';
+import {esc,loadArchive,comparisonSet,compareURL,objectURL,hasFeature,featureNames,cropOverride,viewLabel,featureValues,photoCredit} from './study-data.js?v=20261011-review';
+import {Magnifier} from './magnifier.js?v=20261011-review';
 const root=document.querySelector('#compare-root');
 try{
  const {data,regions}=await loadArchive(),query=new URLSearchParams(location.search),id=query.get('id'),key=query.get('by')||'motifs',value=query.get('value');

@@ -14,12 +14,12 @@ for(const a of data){
   assert(a.displayImage&&fs.existsSync(new URL(a.displayImage,root)),a.id+' reviewed display image exists');
   if(a.mask)assert(fs.existsSync(new URL(a.mask,root)),a.id+' mask exists');
   assert(a.palette.length>0&&a.palette.every(c=>/^#[a-f0-9]{6}$/i.test(c.hex)),a.id+' measured photo palette');
-  assert(a.crafts.length&&a.craftEvidence.length===a.crafts.length,a.id+' craft provenance');
+  assert(Array.isArray(a.crafts)&&Array.isArray(a.craftEvidence)&&a.craftEvidence.length===a.crafts.length,a.id+' craft provenance');
   assert(Array.isArray(a.motifs),a.id+' motif metadata');
 }
 const dou=data.find(a=>a.id==='dou');for(const c of ['浮雕','圆雕','透雕'])assert(dou.crafts.includes(c),'Lotus vessel includes documented '+c);
 assert(data.find(a=>a.id==='jz-463').city==='荆门','Preserve corrected Cheqiao geography');
-assert(data.find(a=>a.id==='jz-352').city==='出土地待核','Do not invent a city for unlocated Xinqiao record');
-const names=['app.js','foreground.js','layout.js','visual-language.js','atlas3d.js','atlas3d-layout.js','atlas3d-camera.js','object.js','compare.js','study-data.js','feature-values.js','magnifier.js','chimes/app.js','chimes/music-player.js'];for(const file of names)execFileSync(process.execPath,['--check',fileURLToPath(new URL(file,root))]);
+assert(data.every(a=>a.city&&a.place&&!/待核|待补|不详|未知/.test(a.city+' '+a.place)),'Every visible artifact has a documented excavation place');
+const names=['app.js','foreground.js','layout.js','visual-language.js','atlas3d.js','atlas3d-layout.js','atlas3d-camera.js','object.js','compare.js','study-data.js','feature-values.js','function-classification.js','colour-hue.js','magnifier.js','chimes/app.js','chimes/music-player.js'];for(const file of names)execFileSync(process.execPath,['--check',fileURLToPath(new URL(file,root))]);
 const report={records:data.length,eras:[...new Set(data.map(a=>a.era))].length,cities:[...new Set(data.map(a=>a.city))].length,unlocated:data.filter(a=>a.city==='出土地待核').length,failures};
 fs.writeFileSync(new URL('../docs/verification.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));if(failures.length)process.exitCode=1;

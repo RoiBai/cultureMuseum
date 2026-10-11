@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {classifyFunction,functionCategories} from '../dist/function-classification.js';
+const classify=(title,description='')=>classifyFunction({title,description});
+assert(classify('曾侯乙编钟').functionGroup.includes('乐器'));
+assert(classify('猪形酒具盒').functionGroup.includes('饮食酒器'));
+assert(!classify('铜鼎','出土于某墓').functionGroup.includes('礼仪祭祀'),'Tomb excavation is not evidence of ritual use');
+assert(classify('铜鼎','它是用于祭祀的礼器。').functionGroup.includes('礼仪祭祀'));
+assert(!classify('彩绘人物车马出行图漆奁').functionGroup.includes('交通出行'));
+assert(!classify('衣箱').functionGroup.includes('服饰佩饰'));
+assert(!classify('环耳环钮鼎').functionGroup.includes('服饰佩饰'));
+assert(!classify('郭店楚简《淄衣》').functionGroup.includes('服饰佩饰'));
+assert(classify('郭店楚简《淄衣》').functionGroup.includes('书写文书'));
+assert(!classify('豆形铜灯').functionGroup.includes('饮食酒器'));
+assert(classify('铜圆鉴','冰（温）食器。').functionGroup.includes('饮食酒器'));
+assert(!classify('无名残片').functionGroup.length);
+assert.equal(new Set(functionCategories).size,functionCategories.length);
+for(const x of [classify('铜鼎'),classify('衣箱'),classify('铜鼎','它是用于祭祀的礼器。')])assert(x.functionGroup.every(v=>x.functionEvidence.some(e=>e.name===v&&e.basis)));
+console.log('Function classification: use evidence and misleading-name exclusions passed.');

@@ -1,7 +1,7 @@
-import {treasures,treasureCatalog,inscription,fourLoves} from './treasure-data.js';
-import {esc,photoCredit} from './study-data.js';
-import {Magnifier} from './magnifier.js';
-import {DrumAudio} from './treasure-audio.js';
+import {treasures,treasureCatalog,inscription,fourLoves} from './treasure-data.js?v=20261011-review';
+import {esc,photoCredit} from './study-data.js?v=20261011-review';
+import {Magnifier} from './magnifier.js?v=20261011-review';
+import {DrumAudio} from './treasure-audio.js?v=20261011-review';
 const root=document.getElementById('treasure-root'),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let archive=[],current=null,lens=null,cleanup=()=>{},step=0,answered=new Set();
 const merged=t=>({...archive.find(a=>a.id===t.id),...t,displayImage:t.image||archive.find(a=>a.id===t.id)?.displayImage});

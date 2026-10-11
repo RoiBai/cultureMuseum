@@ -12,7 +12,7 @@ groups={};records={};unlocated=[]
 for a in artifacts:
     t=a.get('sourceExtract','')+' '+a['place']
     # The year must be directly tied to excavation/discovery in the record.
-    m=re.search(r'((?:18|19|20)\d{2})(?:\s*[-—至]\s*((?:18|19|20)\d{2}))?年[^。；\n]{0,35}?(?:出土|发掘|发现)',t)
+    m=re.search(r'((?:18|19|20)\d{2})(?:年?\s*[-—至和、]\s*((?:18|19|20)\d{2}))?年[^。；\n]{0,35}?(?:出土|发掘|发现)',t)
     date=None
     if m:
         start,end=int(m[1]),int(m[2] or m[1]);date={'from':start,'to':end,'label':str(start)+(('—'+str(end)) if end!=start else '')+'年','evidence':m[0],'source':a['source']}
@@ -42,6 +42,10 @@ for site in groups.values():
         coordinate=anchor['coordinates'] if anchor else feature['properties']['center'] if feature else None
         site.update(displayCoordinate=coordinate,displayCoordinateSystem='GCJ-02',positionAccuracy='city-range',positionNote='仅定位到'+site['city']+'范围；光点不代表具体墓坑位置。')
         if coordinate:site['sources'].append({'title':'DataV 现代行政区城市范围参考','url':'https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json'})
+for site in groups.values():
+    site['mapRegion']='outside-hubei' if site['city'] in {'长沙','淅川'} else 'hubei'
+    if site['mapRegion']=='outside-hubei':site['positionNote']+=' 此地点位于湖北地形底图范围外。'
+
 data={'version':1,'coordinateNote':'现代湖北地形用于定位，不表示历史楚国疆域。实心点为遗址/乡镇范围，空心点仅到城市。','sites':list(groups.values()),'records':records,'unlocated':unlocated}
 (DIST/'map-data/excavations.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'sites':len(groups),'locatedObjects':len(artifacts)-len(unlocated),'unlocated':len(unlocated),'datedObjects':sum(bool(r['excavation']) for r in records.values())}))

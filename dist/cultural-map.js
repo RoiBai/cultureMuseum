@@ -1,9 +1,9 @@
 import * as THREE from './vendor/three.module.js';
 import {OrbitControls} from './vendor/controls/OrbitControls.js';
-import {toWGS,project} from './map-geography.js';
-import {createTerrain,SURFACE_Y,HEIGHT_SCALE} from './map-terrain.js';
-import {tourItems,exhibitPhase} from './map-model.js';
-import {esc} from './study-data.js';
+import {toWGS,project} from './map-geography.js?v=20261011-review';
+import {createTerrain,SURFACE_Y,HEIGHT_SCALE} from './map-terrain.js?v=20261011-review';
+import {tourItems,exhibitPhase} from './map-model.js?v=20261011-review';
+import {esc} from './study-data.js?v=20261011-review';
 
 const GOLD='#c9b77f',SAGE='#acb6a2';
 export class CulturalMap{
@@ -19,7 +19,7 @@ export class CulturalMap{
   this.sceneHost.addEventListener('keydown',e=>{if(e.key===' '&&this.mode==='tour'){e.preventDefault();this.action('play')}if(e.key==='Home')this.action('reset');if(e.key==='+'||e.key==='=')this.action('zoom-in');if(e.key==='-')this.action('zoom-out')});
  }
  async initialize(){
-  const responses=await Promise.all(['map-data/excavations.json','map-data/elevation.json','map-data/hubei.geojson'].map(url=>fetch(url)));if(responses.some(r=>!r.ok))throw new Error('地图资料暂时无法读取');
+  const responses=await Promise.all(['map-data/excavations.json','map-data/elevation.json','map-data/hubei.geojson'].map(url=>fetch(url,{cache:'no-cache'})));if(responses.some(r=>!r.ok))throw new Error('地图资料暂时无法读取');
   [this.data,this.dem,this.boundaries]=await Promise.all(responses.map(r=>r.json()));
   this.renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});this.renderer.setPixelRatio(Math.min(devicePixelRatio,1.7));this.renderer.setClearColor('#000000',0);this.renderer.outputColorSpace=THREE.SRGBColorSpace;this.sceneHost.append(this.renderer.domElement);
   this.scene=new THREE.Scene();this.camera=new THREE.PerspectiveCamera(40,1,.1,600);this.world=new THREE.Group();this.scene.add(this.world);
@@ -74,6 +74,11 @@ export class CulturalMap{
  }
  navigationState(){return {mode:this.mode,order:this.order,index:this.index,selectedSite:this.selectedSite,camera:this.camera.position.toArray(),target:this.controls.target.toArray()}}
  restore(state){if(!state)return;this.order=['era','excavation'].includes(state.order)?state.order:'era';this.host.querySelector('[aria-label="地图展演顺序"]').value=this.order;this.rebuildTour();this.index=Math.min(Math.max(0,state.index||0),this.tour.length-1);this.setMode(state.mode==='tour'?'tour':'top');if(state.selectedSite)this.selectSite(state.selectedSite);const valid=v=>Array.isArray(v)&&v.length===3&&v.every(n=>Number.isFinite(n)&&Math.abs(n)<600);if(valid(state.camera)&&valid(state.target)){this.camera.position.fromArray(state.camera);this.controls.target.fromArray(state.target);this.controls.update()}this.playing=false;this.updatePlay()}
+ focusItem(a){
+  if(!this.data)return;this.playing=false;this.updatePlay();
+  if(this.mode==='tour'){const i=this.tour.findIndex(x=>x.id===a.id);if(i>=0)this.showItem(i)}
+  else{const id=this.data.records[a.id]?.siteId;if(id){this.selectSite(id);const node=this.card.querySelector('[data-map-object="'+a.id+'"]');node?.scrollIntoView({block:'nearest',behavior:'instant'})}}
+ }
  jumpEra(era){if(this.mode!=='tour')this.setMode('tour');this.order='era';this.host.querySelector('[aria-label="地图展演顺序"]').value='era';this.rebuildTour();const i=this.tour.findIndex(a=>a.era===era);if(i>=0)this.showItem(i);else{this.exhibit.visible=false;this.current=null;this.host.querySelector('.map-now').innerHTML='<p>当前年代没有可定位的器物。可减少筛选，或返回二维图谱查看。</p>';this.onEra?.(era)}this.playing=false;this.updatePlay()}
  frame(now){
   const dt=Math.min(.05,(now-this.last)/1000);this.last=now;if(!this.visible||document.hidden)return;this.controls.update();

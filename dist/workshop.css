@@ -4,3 +4,5 @@
 @media(min-width:621px){.design-stage{position:sticky;top:86px;align-self:start;height:calc(100dvh - 102px);max-height:850px}.canvas-wrap{min-height:0;max-height:none;flex:1;overflow:hidden;padding:22px 0}.canvas-wrap canvas,.canvas-wrap canvas[data-format=bookmark]{width:auto;height:auto;max-height:100%;max-width:100%;object-fit:contain}}
 
 .download-ready{display:block;align-self:center;color:#c3b084;font-size:10px;text-decoration:none;padding:7px}
+
+.pattern-library-empty{grid-column:1/-1;border:1px solid var(--line,#49393b);padding:28px;color:var(--muted,#b7a9a4)}
