@@ -189,7 +189,6 @@ document.addEventListener('click',e=>{
 });
 $('reset').onclick=()=>{selected=Object.fromEntries(dims.map(d=>[d.key,new Set()]));refresh()};
 $('show-paths').onchange=drawPaths;
-$('about-open').onclick=()=>$('about-dialog').showModal();
 $('filters-open').onclick=()=>{$('sidebar').classList.add('open');$('filters-close').focus()};
 $('filters-close').onclick=()=>{$('sidebar').classList.remove('open');$('filters-open').focus()};
 document.addEventListener('keydown',e=>{if(e.key==='Escape')$('sidebar').classList.remove('open')});
@@ -245,7 +244,7 @@ async function switchView(next){
  }
  if(next==='map'){
   if(!mapLoading)mapLoading=(async()=>{
-   try{const {CulturalMap}=await import('./cultural-map.js?v=20261011-review');culturalMap=new CulturalMap($('atlas-map'),{artifacts,onDetail:detail,onEra:id=>{if(view==='map')document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}});await culturalMap.initialize()}
+   try{const {CulturalMap}=await import('./cultural-map.js?v=20261012-navigation');culturalMap=new CulturalMap($('atlas-map'),{artifacts,onDetail:detail,onEra:id=>{if(view==='map')document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}});await culturalMap.initialize()}
    catch(error){console.error(error);culturalMap=null;$('atlas-map').innerHTML='<div class="map-loading">地图暂时无法显示，请刷新重试，或返回二维图谱。</div>'}
   })();
   await mapLoading;if(view==='map'){culturalMap?.setVisible(true);culturalMap?.setFilter({matchedIds:matchIds})}return;
@@ -274,7 +273,6 @@ try{
  const response=await fetch('data/artifacts.json?v=20261011',{cache:'no-cache'});if(!response.ok)throw new Error('器物资料读取失败');artifacts=(await response.json()).filter(a=>isKnownFeature(a.city)&&isKnownFeature(a.place)).map(withFunction);
  buildLayout();renderFilters();refresh();
  $('total-count').textContent=artifacts.length;$('date-span').textContent='史前 — '+(artifacts.some(a=>a.era==='qing')?'清代':artifacts.some(a=>a.era==='ming')?'明代':'元代');
- $('archive-count').textContent=artifacts.length;
  $('loading').hidden=true;document.body.dataset.ready='true';
  if(new URLSearchParams(location.search).has('return')){
   try{const saved=JSON.parse(sessionStorage.getItem('jingchu-atlas-return'));

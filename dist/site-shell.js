@@ -1,8 +1,7 @@
 // Reveal the current tab within the navigation without scrolling the page.
-const navigation = document.querySelector('.site-navigation');
-if (navigation) {
+for (const navigation of document.querySelectorAll('.site-navigation, .site-subtabs')) {
   const revealCurrent = () => {
-    const current = navigation.querySelector('[aria-current="page"], [aria-selected="true"]');
+    const current = navigation.querySelector('[aria-current="page"], [aria-selected="true"], [aria-pressed="true"]');
     if (!current || navigation.scrollWidth <= navigation.clientWidth) return;
     const item = current.getBoundingClientRect();
     const strip = navigation.getBoundingClientRect();
@@ -13,8 +12,9 @@ if (navigation) {
   revealCurrent();
   new MutationObserver(revealCurrent).observe(navigation, {
     subtree: true,
+    childList: true,
     attributes: true,
-    attributeFilter: ['aria-current', 'aria-selected'],
+    attributeFilter: ['aria-current', 'aria-selected', 'aria-pressed'],
   });
   window.addEventListener('resize', revealCurrent);
 }
