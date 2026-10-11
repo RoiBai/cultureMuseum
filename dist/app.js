@@ -222,6 +222,7 @@ async function switchView(next){
  if(next==='catalogue'){rememberAtlasContext();location.href='colours.html';return}
  if(!enabledViews.includes(next))next='2d';
  view=next;hideHover();document.body.dataset.view=next;
+ $('site-section').textContent=({'2d':'二维图谱','3d':'3D 时间轴',map:'荆楚地图',hue:'颜色图谱',colour:'颜色图谱'})[next]||'器物图谱';
  const isColour=['hue','colour'].includes(next);
  if(isColour)preferredColourView=next;
  document.querySelector('.colour-mode-switch').hidden=!isColour;
