@@ -3,6 +3,7 @@ import {fileURLToPath} from 'node:url';
 
 const dist = new URL('../dist/', import.meta.url);
 const pages = ['index.html', 'colours.html', 'colour-lab.html', 'book.html', 'workshop.html', 'object-lab.html', 'chimes/index.html', 'object.html', 'compare.html', 'book-object.html'];
+const subnavigationPages = new Set(['colours.html', 'colour-lab.html', 'book.html', 'workshop.html', 'object-lab.html', 'chimes/index.html']);
 const title = '大江大湖间的符号——色彩与文化记忆';
 const navigation = [
   {label: '二维图谱', href: 'index.html?view=2d', id: 'view-2d', view: '2d'},
@@ -82,11 +83,15 @@ for (const file of pages) {
   const nodes = parse(html);
   const headers = nodes.filter(node => node.tag === 'header' && hasClass(node, 'site-header'));
   const navs = nodes.filter(node => node.tag === 'nav' && hasClass(node, 'site-navigation'));
+  const navBands = nodes.filter(node => hasClass(node, 'site-navigation-band'));
+  const subnavBands = nodes.filter(node => hasClass(node, 'site-subnavigation-band'));
   const brandTitles = nodes.filter(node => hasClass(node, 'site-brand-title'));
   const logos = nodes.filter(node => hasClass(node, 'site-logo'));
   const styles = nodes.filter(node => node.tag === 'link' && node.attrs.rel === 'stylesheet' && /(?:^|\/)site-shell\.css(?:[?#]|$)/.test(node.attrs.href || ''));
   check(headers.length === 1, file, `expected one header.site-header, found ${headers.length}`);
   check(navs.length === 1, file, `expected one nav.site-navigation, found ${navs.length}`);
+  check(navBands.length === 1, file, 'main navigation needs one full-width sticky background band');
+  check(subnavBands.length === (subnavigationPages.has(file) ? 1 : 0), file, 'page section navigation must have its own full-width sticky band');
   check(brandTitles.length === 1, file, `expected one site-brand-title, found ${brandTitles.length}`);
   check(logos.length === 1, file, `expected one site-logo, found ${logos.length}`);
   check(styles.length === 1, file, `expected one site-shell.css import, found ${styles.length}`);
@@ -98,17 +103,23 @@ for (const file of pages) {
     check(normalizeText(html.slice(node.openEnd, node.close)) === title, file, 'brand title is incomplete or changed');
     check(!hidden(node), file, 'brand title is hidden in authored HTML');
   }
-  const header = headers[0], nav = navs[0];
-  if (!header || !nav) continue;
+  const header = headers[0], nav = navs[0], navBand = navBands[0];
+  if (!header || !nav || !navBand) continue;
   check(brandTitles[0] && descendant(brandTitles[0], header), file, 'brand title must belong to site-header');
   check(logos[0] && descendant(logos[0], header), file, 'brand logo must belong to site-header');
-  check(header.end <= nav.start, file, 'site navigation must follow the header');
-  check(html.slice(header.end, nav.start).replace(/<!--[\s\S]*?-->/g, '').trim() === '', file, 'site navigation must immediately follow the header');
+  check(navBand.parent?.tag === 'body' && nav.parent === navBand, file, 'inset main tabs must sit inside a body-level sticky band');
+  check(header.end <= navBand.start, file, 'site navigation must follow the header');
+  check(html.slice(header.end, navBand.start).replace(/<!--[\s\S]*?-->/g, '').trim() === '', file, 'site navigation must immediately follow the header');
   const main = nodes.find(node => node.tag === 'main');
-  check(main && nav.end <= main.start, file, 'site navigation must precede main content');
+  check(main && navBand.end <= main.start, file, 'site navigation must precede main content');
+  for (const band of subnavBands) {
+    const tabs = band.children.filter(node => node.tag === 'nav' && hasClass(node, 'site-subtabs'));
+    check(band.parent?.tag === 'body' && tabs.length === 1, file, 'page section tabs need a body-level sticky band');
+    check(navBand.end <= band.start && main && band.end <= main.start, file, 'page section navigation must sit between main navigation and content');
+  }
   if (file === 'index.html') {
     const workspace = nodes.find(node => hasClass(node, 'workspace'));
-    check(workspace && nav.end <= workspace.start, file, 'main navigation must precede workspace/sidebar');
+    check(workspace && navBand.end <= workspace.start, file, 'main navigation must precede workspace/sidebar');
     for (const id of ['view-xyz', 'view-colour', 'view-particles']) {
       const controls = nodes.filter(node => node.attrs.id === id);
       check(controls.length === 1 && hidden(controls[0]), file, `${id} must remain a unique hidden compatibility control`);
