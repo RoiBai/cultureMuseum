@@ -16,10 +16,10 @@ const eraDefs=[
 ];
 const dims=[
  {key:'crafts',name:'工艺',english:'CRAFT',open:false,preferred:['髹漆','彩绘','铸造','刺绣','透雕','雕琢','釉下彩','鎏金','贴金','镶嵌','错金','圆雕','浮雕','烧造','书写'],note:'虚线串联工艺图标；具体工艺依据见档案。'},
- {key:'colors',name:'色彩',english:'COLOUR',open:true,preferred:Object.keys(paletteColors),note:'仅按照片前景取色；馆方文字颜色另列于档案。'},
+ {key:'colors',name:'色彩',english:'COLOUR',open:false,preferred:Object.keys(paletteColors),note:'仅按照片前景取色；馆方文字颜色另列于档案。'},
  {key:'functionGroup',name:'功能',english:'USE',open:false,preferred:functionCategories,note:'按器名与馆方用途记述归类，一件器物可以有多种用途。'},
- {key:'motifs',name:'纹样',english:'MOTIF',open:true,preferred:['凤鸟','龙蛇','虎豹','花卉','云雷','几何','鱼纹','兽面','人像','铭文','鹿角','禽鸟'],note:'只列有依据的器表纹饰，整体动物造型不作为纹样。'},
- {key:'materialGroup',name:'材质',english:'MATERIAL',open:true},
+ {key:'motifs',name:'纹样',english:'MOTIF',open:false,preferred:['凤鸟','龙蛇','虎豹','花卉','云雷','几何','鱼纹','兽面','人像','铭文','鹿角','禽鸟'],note:'只列有依据的器表纹饰，整体动物造型不作为纹样。'},
+ {key:'materialGroup',name:'材质',english:'MATERIAL',open:false},
  {key:'city',name:'出土地',english:'PLACE',open:false}
 ];
 let artifacts=[],cities=[],positions=new Map(),eraRows=[],displayRows=[],selected=Object.fromEntries(dims.map(d=>[d.key,new Set()]));
