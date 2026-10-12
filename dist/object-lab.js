@@ -1,5 +1,5 @@
 import {labObjects,vesselInstructions} from './lab-data.js?v=20261011-review';
-import {ObjectLabScene} from './lab-scene.js?v=20261012-black-red';
+import {ObjectLabScene} from './lab-scene.js?v=20261012-flat-copper';
 import {createVesselState,advanceVessel,vesselStep,RhythmRecorder,MAX_RECORDING_SECONDS} from './lab-state.js?v=20261011-review';
 import {LabDrumAudio} from './lab-audio.js?v=20261011-review';
 const query=new URLSearchParams(location.search),id=labObjects[query.get('object')]?query.get('object'):'drum',config=labObjects[id],isDrum=id==='drum';

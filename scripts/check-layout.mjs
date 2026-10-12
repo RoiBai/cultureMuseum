@@ -22,6 +22,13 @@ for(const width of [320,390,580,768,1000,1200,1600]){
   const points=row.ids.map(id=>result.positions.get(id));
   for(let i=1;i<points.length;i++)assert(points[i].x-points[i-1].x>=points[i].slot-1,'Images never overlap');
   assert.equal(new Set(points.map(p=>p.y)).size,1,'Same display row shares a baseline');
+  assert(points.every(p=>p.slot===result.slot),'Sparse rows keep the same object size as full rows');
+  points.forEach((point,index)=>assert.equal(point.x,result.gutter+10+result.slot*(index+.5),'Rows retain the original fixed spacing'));
+  const cityBands=result.bands.filter(b=>b.era===row.era&&b.row===row.index);
+  for(const point of points){
+   const artifact=data.find(a=>result.positions.get(a.id)===point);
+   assert(cityBands.some(b=>b.city===artifact.city&&point.x>b.x&&point.x<b.x+b.width),'Each object stays inside its labelled city band');
+  }
  }
  reports.push({width,columns:result.columns,imageSlot:result.slot-18,warringRows:result.eras.find(e=>e.id==='warring').rowCount,qingRows:result.eras.find(e=>e.id==='qing')?.rowCount||0});
 }

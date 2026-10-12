@@ -1,6 +1,6 @@
 import {withFunction,functionCategories} from './function-classification.js?v=20261011-review';
 import {museumForeground} from './foreground.js?v=20261011-review';
-import {arrangeArtifacts} from './layout.js?v=20261011-review';
+import {arrangeArtifacts} from './layout.js?v=20261012-flat-copper';
 import {filterSample, glyphBody, materialPattern, materialSpec} from './visual-language.js?v=20261011-review';
 import {featureValues as values,isKnownFeature} from './feature-values.js?v=20261011-review';
 

@@ -1,58 +1,62 @@
 /* Shared interface finishing layer, loaded after the individual experiences.
    Never select artifact palette swatches, material samples or the design canvas. */
 :root{
- --paper:#09090b;--ink:#f3eee8;--muted:#b9a9ac;--accent:#f39b93;--gold:#f39b93;--red:#f39b93;
- --rule:#3b2b2d;--line:#3b2b2d;--sidebar:#110e11;--surface:#161215;--surface-raised:#251a1e;--edge:#79585d;--action:#7e282c;
- --book-bg:var(--paper);--book-surface:var(--surface);--book-raised:var(--surface-raised);--book-line:var(--rule);--book-gold:var(--accent);--book-muted:var(--muted);
+ --brand-red:#b43a2e;--interaction:var(--gold);--gold:#c9a063;--ornament:var(--gold);
+ --paper:#100e10;--ink:#f3eee8;--muted:#b9ada9;--accent:var(--interaction);--red:var(--brand-red);
+ --rule:#3b322b;--line:var(--rule);--sidebar:#141113;--surface:#1a1617;--surface-raised:#292021;--edge:#796458;--action:var(--brand-red);
+ --book-bg:var(--paper);--book-surface:var(--surface);--book-raised:var(--surface-raised);--book-line:var(--rule);--book-gold:var(--gold);--book-muted:var(--muted);
  --black:var(--paper);--text:var(--ink);
+ --museum-texture:linear-gradient(#100e1099,#100e1099),url("assets/brand/chu-dark-pattern-v2.webp");
 }
-html{scrollbar-color:#725158 var(--paper)}
-body,.workshop-page{background-color:var(--paper);color:var(--ink)}
+html{scrollbar-color:#796458 var(--paper)}
+body,.workshop-page{background-color:var(--paper);background-image:var(--museum-texture);background-size:1536px 1024px;background-position:center top;background-attachment:fixed;color:var(--ink)}
 button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline-color:var(--accent)}
 .masthead,.study-header,.book-header,.lab-header,.lab-tabs,.colour-header,.colour-page-tabs{background:var(--paper);border-color:var(--rule)}
-.sidebar,.colour-sidebar{background:var(--sidebar);scrollbar-color:#725158 transparent}
+.sidebar,.colour-sidebar{background:var(--sidebar);scrollbar-color:#796458 transparent}
 .time-navigation,.filter-chip,.pan-toolbar,.era-row,.toolbar,.selection-bar,.book-header,.lab-side{border-color:var(--rule)}
 .filter-chip,.selection-bar,.geography,.search-box,.object-visual{background:var(--surface)}
-.filter-chip[aria-pressed=true],.category-filters button[aria-pressed=true]{background:#3a181e;color:#ffd4cd;border-color:var(--accent)}
+.filter-chip[aria-pressed=true],.category-filters button[aria-pressed=true]{background:#35231c;color:var(--ink);border-color:var(--accent)}
 .filter-title small,.filter-section summary:after,.geography-guide,.era-label .era-num,.era-label small,.era-continuation{color:var(--muted)}
-#era-nav button[aria-current]{background:var(--action);color:var(--ink);border-color:#b66467}
+#era-nav button[aria-current]{background:var(--action);color:var(--ink);border-color:var(--gold)}
 #era-nav button:hover{background:var(--surface-raised)}
-.motif-sample,.craft-sample,.key-craft{color:var(--accent)}
+.motif-sample,.craft-sample,.key-craft{color:var(--ornament)}
 .options-functionGroup{display:grid;grid-template-columns:1fr 1fr}
-.chip-functionGroup:before{content:'◇';font-size:13px;color:var(--accent)}
+.chip-functionGroup:before{content:'◇';font-size:13px;color:var(--ornament)}
 .route-functionGroup .feature-path{stroke-width:2;opacity:.8}
-.atlas{background-image:radial-gradient(#d4a5a00e .5px,transparent .5px)}
-.atlas-scroll{scrollbar-color:#725158 transparent}
-.node-anchor{border-color:#9e7c80}
+.atlas{background-color:var(--paper);background-image:var(--museum-texture);background-size:1536px 1024px;background-position:center top}
+.atlas-scroll{scrollbar-color:#796458 transparent}
+.node-anchor{border-color:var(--edge)}
 .hover-preview,dialog,.detail-visual,.inspection-section,.comparison-chip,.chime-invitation,.compare-select select{background:var(--surface);border-color:var(--edge)}
 .comparison-chip:hover{background:var(--surface-raised)}
 .comparison-reference{background:linear-gradient(90deg,transparent,#3b222660);border-color:var(--rule)}
 .round-lens canvas{background:var(--surface)!important;border-color:var(--edge)!important}
 .magnifier canvas,.comparison-image canvas{background:var(--surface)}
 .whole-image canvas{background:transparent}
-.solid-action,.chime-invitation .solid-action,.prominent-back,.lab-primary{background:var(--action);color:#fff4ed;border-color:#ae5559}
-.solid-action:hover,.chime-invitation .solid-action:hover,.prominent-back:hover,.lab-primary:hover{background:#9b393f;color:#fff}
+.solid-action,.chime-invitation .solid-action,.prominent-back,.lab-primary{background:var(--action);color:#fff4ed;border-color:#c05443}
+.solid-action:hover,.chime-invitation .solid-action:hover,.prominent-back:hover,.lab-primary:hover{background:#c0392b;color:#fff}
 .object-record dd small{display:block;font-size:10px;color:var(--muted)}
-.view-tabs button[aria-selected=true],.book-link,.treasures-link,.toolbar>.book-link,.workshop-link{color:var(--accent);border-color:#ac5a60}
+.book-link,.treasures-link,.toolbar>.book-link,.workshop-link{color:var(--gold);border-color:var(--edge)}
+.view-tabs button[aria-selected=true],.book-link:hover,.treasures-link:hover,.workshop-link:hover{color:var(--interaction);border-color:var(--interaction)}
 body[data-view=hue] .intro,body[data-view=hue] .path-switch,body[data-view=hue] .status-footer,body[data-view=hue] .pan-toolbar{display:none}
 body[data-view=hue] .summary-help{display:none}
-.spatial-panel,.particle-panel,.atlas-map,.lab-viewport{background:radial-gradient(ellipse at 52% 45%,#28191d 0,#100d10 47%,#09090b 82%);border-color:var(--rule)}
+.spatial-panel,.particle-panel,.atlas-map,.lab-viewport{background-color:var(--paper);background-image:radial-gradient(ellipse at 52% 45%,#4a2d2126,transparent 76%),var(--museum-texture);background-size:cover,1536px 1024px,1536px 1024px;background-position:center;border-color:var(--rule)}
 .spatial-heading p,.spatial-kicker,.spatial-status,.xyz-value,.cloud-caption p,.cloud-index,.cloud-controls label,.cloud-method details,.map-caption,.map-accuracy,.map-finding small{color:var(--muted)}
 .spatial-tools button,.cloud-controls button,.cloud-controls select,.xyz-tip button,.map-place select,.map-tour select,.map-navigation button,.map-transport button{background:#161215f2;color:var(--ink);border-color:var(--edge)}
-.spatial-tools button[aria-pressed=true],.map-modes button[aria-pressed=true]{background:#482127;color:#ffd4cd}
-.cloud-controls .summon{background:var(--action);color:#fff4ed;border-color:#ae5559}
-.cloud-controls .summon:hover{background:#9b393f;color:#fff}
+.spatial-tools button[aria-pressed=true],.map-modes button[aria-pressed=true]{background:#35231c;color:var(--ink)}
+.cloud-controls .summon{background:var(--action);color:#fff4ed;border-color:#c05443}
+.cloud-controls .summon:hover{background:#c0392b;color:#fff}
 .spatial-bottom,.cloud-method,.map-modes,.map-card,.xyz-tip,.spatial-bottom details[open],.cloud-method details[open]{background:#161215f5;border-color:var(--rule)}
 .map-tour{background:linear-gradient(100deg,#110e11f2,#110e11d9 75%,transparent)}
-.map-source,.map-finding .find-date,.map-caption button,.map-now strong{color:var(--accent)}
-.map-loading,.lab-loader,.lab-error{background:var(--paper);color:var(--accent)}
-.lab-side{background:linear-gradient(150deg,#1a1317,#100d10);scrollbar-color:#725158 transparent}
+.map-source,.map-finding .find-date,.map-now strong{color:var(--ornament)}
+.map-caption button{color:var(--muted)}.map-caption button:hover{color:var(--interaction)}
+.map-loading,.lab-loader,.lab-error{background:var(--paper);color:var(--ornament)}
+.lab-side{background:linear-gradient(150deg,#211b1b,#141113);scrollbar-color:#796458 transparent}
 .lab-camera button,.surface-toggle,.lab-actions button,.small-action,.part-tabs button,.model-label,.lift-handle,.drum-hit-buttons button{background:#21161bed;color:var(--ink);border-color:var(--edge)}
-.lab-actions button[aria-pressed=true],.part-tabs button[aria-pressed=true]{background:#482127;border-color:#b86b73;color:#ffd4cd}
-.lab-tabs a[aria-current=page]:after{background:var(--accent)}
+.lab-actions button[aria-pressed=true],.part-tabs button[aria-pressed=true]{background:#35231c;border-color:var(--gold);color:var(--ink)}
+.lab-tabs a[aria-current=page]:after{background:var(--gold)}
 .atelier-actions button,.quiet-button,.preset-buttons button,.library-tools button,.materials button,.design-controls label select,.layout-options button,.crafts button,.layer-row,.layer-tools button,.layer-color-row button,.library-tools input,.library-tools select,.pattern-card{background:var(--surface);color:var(--ink);border-color:var(--edge)}
-.materials button[aria-pressed=true],.crafts button[aria-pressed=true],.layer-row.selected,.layout-options button[aria-pressed=true]{background:#482127;color:#ffd4cd;border-color:#b86b73}
-.gold-button{background:var(--action)!important;color:#fff4ed!important;border-color:#ae5559!important}
+.materials button[aria-pressed=true],.crafts button[aria-pressed=true],.layer-row.selected,.layout-options button[aria-pressed=true]{background:#35231c;color:var(--ink);border-color:var(--gold)}
+.gold-button{background:var(--action)!important;color:#fff4ed!important;border-color:#c05443!important}
 .design-stage{background:radial-gradient(ellipse at 50% 40%,#38202650,transparent 70%)}
 .pattern-card .rubbing-preview{background:radial-gradient(ellipse,#302027,#161215)}
 .rubbing-preview .pattern-kind{background:#110e11de;color:var(--muted)}
@@ -63,6 +67,21 @@ body[data-view=hue] .summary-help{display:none}
 /* Keep the colour board inside the viewport; its own pan/zoom handles dense collections. */
 #atlas-hue{min-height:0;height:auto}.hue-viewport{min-height:220px}
 @media(max-width:760px){#atlas-hue{min-height:0}.hue-viewport{min-height:240px}}
-.editorial-label{color:var(--accent)}.editorial-text{color:var(--ink)}
+.editorial-label{color:var(--ornament)}.editorial-text{color:var(--ink)}
 .editorial-label span,.editorial-citation,.editorial-citation span,.editorial-figures figcaption,.editorial-figures small{color:var(--muted)}
 .editorial-citation,.editorial-figures img{border-color:var(--rule)}.editorial-figures img{background:var(--surface)}
+
+/* Copper details provide quiet structure; copper highlights active controls. */
+.eyebrow,.folio,.nav-heading,.filter-heading>span,.era-label .era-num,.lab-kicker,.lab-panel-label,.task-number,.three-kicker,.spatial-kicker,.cloud-kicker,.lab-control-index,.color-index{color:var(--ornament)}
+.filter-chip:hover,.filter-chip:focus-visible{border-color:var(--interaction)}
+.filter-chip[aria-pressed=true] .motif-sample,.filter-chip[aria-pressed=true] .craft-sample{color:var(--interaction)}
+.solid-action:hover,.lab-primary:hover,.gold-button:hover{border-color:var(--interaction)!important}
+.era-row{border-bottom-color:#c9a06324}.era-label{border-right-color:#c9a06332}
+.geography{background:#141113f5;border-color:var(--rule)}
+.selection-bar,.pan-toolbar{background:#181416}
+/* Static headings and counts are informational, not active controls. */
+#selection-summary b,.era-row.featured .era-label h3,.three-era-label button span,.three-footnote>span:first-child,.colour-heading .spatial-kicker,.feature-section h3 span,.source-link,.tag-list button:after,.key-motif{color:var(--ornament)}
+.three-heading h2{color:var(--ink)}
+.three-era-label button:hover span,.source-link:hover,.tag-list button:hover:after{color:var(--interaction)}
+.site-header .site-header-action{background:var(--surface);border-color:var(--edge);color:var(--ink)}
+.site-header .site-header-action:hover{background:var(--surface-raised);border-color:var(--interaction);color:var(--interaction)}

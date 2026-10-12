@@ -1,5 +1,5 @@
 import {loadBookSummaries,readingFor,editorialHTML} from './book-editorial.js?v=20261011-review';
-import {loadBookIndex,esc,kindLabel,collectPassages,collectMotifs,motifLinks,renderBookFigure} from './book-source.js?v=20261011-review';
+import {loadBookIndex,esc,kindLabel,collectPassages,collectMotifs,motifLinks,renderBookFigure} from './book-source.js?v=20261012-flat-copper';
 const root=document.querySelector('#book-object-root'),id=new URLSearchParams(location.search).get('id');
 try{
  const [index,summaries]=await Promise.all([loadBookIndex(),loadBookSummaries('object')]),object=index.objects.find(item=>item.id===id);

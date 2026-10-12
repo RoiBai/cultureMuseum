@@ -9,7 +9,7 @@ export function loadBookIndex(){
  if(!indexPromise)indexPromise=fetch(new URL('./data/book-index.json',import.meta.url),{cache:'no-cache'}).then(response=>{if(!response.ok)throw new Error('书籍索引暂时无法载入');return response.json()}).then(index=>{if(!index.source||!Array.isArray(index.objects)||!Array.isArray(index.passages)||!Array.isArray(index.motifs))throw new Error('书籍索引格式不完整');return index}).catch(error=>{indexPromise=undefined;throw error});
  return indexPromise;
 }
-function ensureStyles(){if(!document.querySelector('link[data-book-source-styles]')){const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('./book-source.css?v=20261004',import.meta.url).href;link.dataset.bookSourceStyles='';document.head.append(link)}}
+function ensureStyles(){if(!document.querySelector('link[data-book-source-styles]')){const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('./book-source.css?v=20261012-flat-copper',import.meta.url).href;link.dataset.bookSourceStyles='';document.head.append(link)}}
 export function passagePages(passage){const values=list(passage.sourcePages).length?passage.sourcePages:list(passage.quoteParts).length?passage.quoteParts.map(part=>part.pdfPage):[passage.pdfPage];return [...new Set(values.filter(value=>value!==undefined&&value!==null&&value!==''))]}
 const pageText=values=>values.length?values.map(String).join('、'):'未标注';
 export function pageReference(passage,index){

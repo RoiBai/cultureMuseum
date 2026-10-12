@@ -51,7 +51,7 @@ try{
  root.querySelector('#close-inspection').onclick=()=>{root.querySelector('#inspection').hidden=true};
  root.querySelector('#inspect-whole').onclick=()=>inspector?.setRect([0,0,1,1]);
  root.querySelector('#save-crop').onclick=()=>{if(!inspector?.image)return;saveCrop(id,currentRegion,inspector.visibleRect());root.querySelector('#crop-status').textContent='已更新这件器物的比对区域';};
- import('./book-source.js?v=20261011-review').then(({renderBookSources})=>renderBookSources(root.querySelector('#book-reading'),id)).catch(error=>console.warn('Book excerpts unavailable',error));
+ import('./book-source.js?v=20261012-flat-copper').then(({renderBookSources})=>renderBookSources(root.querySelector('#book-reading'),id)).catch(error=>console.warn('Book excerpts unavailable',error));
  if(id==='hb-6914'){
   new Magnifier(root.querySelector('#baoshan-painting-view'),{src:'assets/hb-6914-unwrapped-cccsingapore.png',label:'器壁漆画分段展开'});
   import('./object-assistant.js?v=20261011-evening').then(({mountObjectAssistant})=>mountObjectAssistant(a)).catch(error=>console.warn('创作对话载入失败',error));

@@ -1,12 +1,13 @@
-/* Interface colours. Measured artifact swatches and material samples stay unchanged. */
+/* Interface roles only. Artifact colours and material samples are independent. */
 :root{
  color-scheme:dark;
- --paper:#09090b;--ink:#f3eee8;--muted:#b9a9ac;
- --bronze:#b7ada3;--gold:#f39b93;--red:#f39b93;--accent:#f39b93;
- --rule:#3b2b2d;--line:#3b2b2d;--sidebar:#110e11;
- --surface:#161215;--surface-raised:#251a1e;--edge:#79585d;
- --green:#b7ada3;--action:#7e282c;
+ --brand-red:#b43a2e;--interaction:var(--gold);--gold:#c9a063;--ornament:var(--gold);
+ --paper:#100e10;--ink:#f3eee8;--muted:#b9ada9;
+ --bronze:#c9a063;--red:var(--brand-red);--accent:var(--interaction);
+ --rule:#3b322b;--line:var(--rule);--sidebar:#141113;
+ --surface:#1a1617;--surface-raised:#292021;--edge:#796458;
+ --green:#b7ada3;--action:var(--brand-red);
  --serif:"Songti SC","STSong","Noto Serif CJK SC",serif;
  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
 }
-::selection{color:#fff5ef;background:#7e282c}
+::selection{color:#fff5ef;background:#a63a2b}

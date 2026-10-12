@@ -13,9 +13,9 @@
 .lab-tab-copy strong{font-weight:400;white-space:nowrap}
 .lab-tabs .lab-tab-copy>span{display:block;color:var(--muted,#b9a9ac);font-size:10px;letter-spacing:0}
 .lab-tabs a:hover{color:var(--ink,#f3eee8);background:#26161a}
-.lab-tabs a[aria-current=page]{color:var(--ink,#f3eee8);background:#34191f}
-.lab-tabs a[aria-current=page]:after{content:'';position:absolute;bottom:-1px;left:20%;right:20%;height:2px;background:var(--accent,#f39b93)}
-.lab-header a:focus-visible,.lab-tabs a:focus-visible{outline:2px solid var(--accent,#f39b93);outline-offset:-5px}
+.lab-tabs a[aria-current=page]{color:var(--ink,#f3eee8);background:#30201b}
+.lab-tabs a[aria-current=page]:after{content:'';position:absolute;bottom:-1px;left:20%;right:20%;height:2px;background:var(--gold,#c9a063)}
+.lab-header a:focus-visible,.lab-tabs a:focus-visible{outline:2px solid var(--interaction,#c9a063);outline-offset:-5px}
 @media(max-width:760px){
  .lab-header{height:62px;padding:0 14px;gap:10px}
  .lab-header .lab-return{padding:9px;font-size:10px}
