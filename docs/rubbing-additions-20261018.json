@@ -1,0 +1,675 @@
+{
+  "reviewed": "2026-10-18",
+  "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。",
+  "entries": [
+    {
+      "id": "hb-5537-phoenix-line-20261018",
+      "objectId": "hb-5537",
+      "title": "彩绘变形凤鸟纹漆卮",
+      "motif": "凤鸟",
+      "label": "漆卮器壁变形凤鸟纹",
+      "note": "重新提取器壁上部凤鸟纹的头部、回旋躯体与尾端线条，未加入漆卮器形轮廓。",
+      "view": "detail",
+      "rect": [
+        0.08867,
+        0.2,
+        0.46305,
+        0.16279
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5537.html",
+      "photo": "cutouts/hb-5537-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/5537.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/5537.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "秦",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-5537-phoenix-line-20261018.png",
+      "width": 760,
+      "height": 308,
+      "sourcePixels": [
+        94,
+        35
+      ],
+      "sourceSHA256": "02f564c6022ef7044dc6d5f6d137ea193c9afcc1ace4009a0a172ec0de1a24b0",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "regionId": "motif-hb-5537-phoenix-line-20261018",
+      "replaces": "hb-5537-surface-phoenix"
+    },
+    {
+      "id": "hb-5458-wave-line-20261018",
+      "objectId": "hb-5458",
+      "title": "彩绘云凤纹漆圆盒",
+      "motif": "几何",
+      "label": "漆圆盒器腹波折纹带",
+      "note": "器腹红漆连续波折线及点饰，保留器表弧度；明确可见的几何纹带，不作凤鸟纹推断。",
+      "view": "detail",
+      "rect": [
+        0.32468,
+        0.65158,
+        0.24242,
+        0.08145
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5458.html",
+      "photo": "cutouts/hb-5458-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/5458.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/5458.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "西汉",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-5458-wave-line-20261018.png",
+      "width": 760,
+      "height": 271,
+      "sourcePixels": [
+        56,
+        18
+      ],
+      "sourceSHA256": "8682ed72abdd2e08f7db12c55f76a1fe674ef1998b81f3cd480eacce1e27982c",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "regionId": "motif-hb-5458-wave-line-20261018",
+      "replaces": "hb-5458-surface-geometry"
+    },
+    {
+      "id": "jz-470-cloud-line-20261018",
+      "objectId": "jz-470",
+      "title": "龙凤形玉佩",
+      "motif": "云气",
+      "label": "玉佩器表卷云刻线",
+      "note": "仅取玉佩器表的一组卷云刻线，不把龙凤透雕的整体外形作为纹样。",
+      "view": "detail",
+      "rect": [
+        0.2,
+        0.592,
+        0.11,
+        0.052
+      ],
+      "source": "http://www.jzmsm.org/news-470.html",
+      "photo": "cutouts/jz-470-hd.webp",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg",
+      "credit": {
+        "author": "三十三画生",
+        "provider": "Wikimedia Commons",
+        "page": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "changes": "展示图仅背景透明化与裁切；原始照片保留。",
+        "retrieved": "2026-10-01"
+      },
+      "era": "春秋晚期至战国早期（公元前5世纪）",
+      "material": "玉石",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "高清照片观察：器表可见连续卷云刻线；与龙凤形制分开记录",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-470-cloud-line-20261018.png",
+      "width": 760,
+      "height": 456,
+      "sourcePixels": [
+        109,
+        63
+      ],
+      "sourceSHA256": "5d558743e2a438e5f867c7fd209f1cc3881cebc2a724d4f171fbad227d028d02",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "regionId": "motif-jz-470-cloud-line-20261018"
+    },
+    {
+      "id": "hb-6914-horses-line-20261018",
+      "objectId": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "motif": "车马",
+      "label": "漆画中的并行双马",
+      "note": "从漆奁器壁展开图中提取两匹马的彩绘线条；保留叠置关系、腿部与缰绳，不补绘磨损。",
+      "view": "detail",
+      "rect": [
+        0.675,
+        0.055,
+        0.19,
+        0.116
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "photo": "assets/hb-6914-unwrapped-cccsingapore.png",
+      "photoSource": "https://cccsingapore.org/2023/08/2107/",
+      "credit": {
+        "author": "原文未单独署摄影者",
+        "provider": "新加坡中国文化中心《博物馆说》；资料鸣谢湖北省博物馆、文旅之声",
+        "page": "https://cccsingapore.org/2023/08/2107/",
+        "changes": "保留1080×720原始照片；展示副本仅去除白色摄影背景，器物RGB未改变，未AI补画。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-6914-horses-line-20261018.png",
+      "width": 760,
+      "height": 642,
+      "sourcePixels": [
+        122,
+        102
+      ],
+      "sourceSHA256": "0d5bba3621df2b4f689e95a2987f784d8a2175e27355b49d4f0afec64a88e8ef",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "regionId": "motif-hb-6914-horses-line-20261018"
+    },
+    {
+      "id": "hb-6914-carriage-line-20261018",
+      "objectId": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "motif": "车马",
+      "label": "漆画中的马车与御者",
+      "note": "取展开图的乘车画段，保留马、车轮、人物之间的相对关系；是器表绘画局部，不是器物轮廓。",
+      "view": "detail",
+      "rect": [
+        0.32,
+        0.438,
+        0.34,
+        0.129
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "photo": "assets/hb-6914-unwrapped-cccsingapore.png",
+      "photoSource": "https://cccsingapore.org/2023/08/2107/",
+      "credit": {
+        "author": "原文未单独署摄影者",
+        "provider": "新加坡中国文化中心《博物馆说》；资料鸣谢湖北省博物馆、文旅之声",
+        "page": "https://cccsingapore.org/2023/08/2107/",
+        "changes": "保留1080×720原始照片；展示副本仅去除白色摄影背景，器物RGB未改变，未AI补画。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-6914-carriage-line-20261018.png",
+      "width": 760,
+      "height": 415,
+      "sourcePixels": [
+        217,
+        113
+      ],
+      "sourceSHA256": "0d5bba3621df2b4f689e95a2987f784d8a2175e27355b49d4f0afec64a88e8ef",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "regionId": "motif-hb-6914-carriage-line-20261018"
+    },
+    {
+      "id": "hb-6914-figure-line-20261018",
+      "objectId": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "motif": "车马",
+      "label": "迎宾画段的长衣人物",
+      "note": "从迎宾画段提取长衣人物的彩绘轮廓与衣襟，保留原画残损；归入车马出行叙事画。",
+      "view": "detail",
+      "rect": [
+        0.52,
+        0.675,
+        0.09,
+        0.09
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "photo": "assets/hb-6914-unwrapped-cccsingapore.png",
+      "photoSource": "https://cccsingapore.org/2023/08/2107/",
+      "credit": {
+        "author": "原文未单独署摄影者",
+        "provider": "新加坡中国文化中心《博物馆说》；资料鸣谢湖北省博物馆、文旅之声",
+        "page": "https://cccsingapore.org/2023/08/2107/",
+        "changes": "保留1080×720原始照片；展示副本仅去除白色摄影背景，器物RGB未改变，未AI补画。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-6914-figure-line-20261018.png",
+      "width": 559,
+      "height": 760,
+      "sourcePixels": [
+        57,
+        79
+      ],
+      "sourceSHA256": "0d5bba3621df2b4f689e95a2987f784d8a2175e27355b49d4f0afec64a88e8ef",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "regionId": "motif-hb-6914-figure-line-20261018"
+    },
+    {
+      "id": "jz-353-fourleaf-line-20261018",
+      "objectId": "jz-353",
+      "title": "漆木彩绘三鱼纹耳杯",
+      "motif": "花卉",
+      "label": "耳杯内底四叶纹",
+      "note": "重新从高清馆藏照片分离四叶纹的外缘、花心与叶内小圆纹；周围鱼纹不并入，未补绘反光遮蔽处。",
+      "view": "detail",
+      "rect": [
+        0.31,
+        0.34,
+        0.38,
+        0.36
+      ],
+      "source": "http://www.jzmsm.org/news-353.html",
+      "photo": "cutouts/jz-353.webp",
+      "photoSource": "http://www.jzmsm.org/news-353.html",
+      "credit": null,
+      "era": "西汉初期",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-353-fourleaf-line-20261018.png",
+      "width": 606,
+      "height": 760,
+      "sourcePixels": [
+        1099,
+        1396
+      ],
+      "sourceSHA256": "ea8cf3a2aae21d898e07270f255d3ddf18a15922d2702ffdbef84da9e0ff593b",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "regionId": "motif-jz-353-fourleaf-line-20261018",
+      "sourcePolygon": [
+        [
+          0.24,
+          0
+        ],
+        [
+          0.8,
+          0
+        ],
+        [
+          0.84,
+          0.2
+        ],
+        [
+          0.9,
+          0.36
+        ],
+        [
+          0.86,
+          0.57
+        ],
+        [
+          0.73,
+          0.65
+        ],
+        [
+          0.68,
+          0.9
+        ],
+        [
+          0.4,
+          0.94
+        ],
+        [
+          0.18,
+          0.84
+        ],
+        [
+          0.2,
+          0.66
+        ],
+        [
+          0.12,
+          0.52
+        ],
+        [
+          0.14,
+          0.29
+        ],
+        [
+          0.22,
+          0.2
+        ]
+      ],
+      "replaces": "jz-353-2"
+    }
+  ],
+  "detailUpdates": [
+    {
+      "objectId": "hb-5537",
+      "region": {
+        "id": "motif-hb-5537-phoenix-line-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.08867,
+          0.2,
+          0.46305,
+          0.16279
+        ],
+        "label": "漆卮器壁变形凤鸟纹",
+        "note": "重新提取器壁上部凤鸟纹的头部、回旋躯体与尾端线条，未加入漆卮器形轮廓。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/qmq/p/5537.html",
+        "sourceImage": "cutouts/hb-5537-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-5458",
+      "region": {
+        "id": "motif-hb-5458-wave-line-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.32468,
+          0.65158,
+          0.24242,
+          0.08145
+        ],
+        "label": "漆圆盒器腹波折纹带",
+        "note": "器腹红漆连续波折线及点饰，保留器表弧度；明确可见的几何纹带，不作凤鸟纹推断。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/qmq/p/5458.html",
+        "sourceImage": "cutouts/hb-5458-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "jz-470",
+      "region": {
+        "id": "motif-jz-470-cloud-line-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.2,
+          0.592,
+          0.11,
+          0.052
+        ],
+        "label": "玉佩器表卷云刻线",
+        "note": "仅取玉佩器表的一组卷云刻线，不把龙凤透雕的整体外形作为纹样。",
+        "view": "detail",
+        "basis": "高清照片观察：器表可见连续卷云刻线；与龙凤形制分开记录",
+        "source": "http://www.jzmsm.org/news-470.html",
+        "sourceImage": "cutouts/jz-470-hd.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      },
+      "addMotif": "云气"
+    },
+    {
+      "objectId": "hb-6914",
+      "region": {
+        "id": "motif-hb-6914-horses-line-20261018",
+        "dimension": "motifs",
+        "value": "车马",
+        "rect": [
+          0.675,
+          0.055,
+          0.19,
+          0.116
+        ],
+        "label": "漆画中的并行双马",
+        "note": "从漆奁器壁展开图中提取两匹马的彩绘线条；保留叠置关系、腿部与缰绳，不补绘磨损。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "sourceImage": "assets/hb-6914-unwrapped-cccsingapore.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-6914",
+      "region": {
+        "id": "motif-hb-6914-carriage-line-20261018",
+        "dimension": "motifs",
+        "value": "车马",
+        "rect": [
+          0.32,
+          0.438,
+          0.34,
+          0.129
+        ],
+        "label": "漆画中的马车与御者",
+        "note": "取展开图的乘车画段，保留马、车轮、人物之间的相对关系；是器表绘画局部，不是器物轮廓。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "sourceImage": "assets/hb-6914-unwrapped-cccsingapore.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-6914",
+      "region": {
+        "id": "motif-hb-6914-figure-line-20261018",
+        "dimension": "motifs",
+        "value": "车马",
+        "rect": [
+          0.52,
+          0.675,
+          0.09,
+          0.09
+        ],
+        "label": "迎宾画段的长衣人物",
+        "note": "从迎宾画段提取长衣人物的彩绘轮廓与衣襟，保留原画残损；归入车马出行叙事画。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "sourceImage": "assets/hb-6914-unwrapped-cccsingapore.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "jz-353",
+      "region": {
+        "id": "motif-jz-353-fourleaf-line-20261018",
+        "dimension": "motifs",
+        "value": "花卉",
+        "rect": [
+          0.31,
+          0.34,
+          0.38,
+          0.36
+        ],
+        "label": "耳杯内底四叶纹",
+        "note": "重新从高清馆藏照片分离四叶纹的外缘、花心与叶内小圆纹；周围鱼纹不并入，未补绘反光遮蔽处。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "http://www.jzmsm.org/news-353.html",
+        "sourceImage": "cutouts/jz-353.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5,
+        "sourcePolygon": [
+          [
+            0.24,
+            0
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            0.84,
+            0.2
+          ],
+          [
+            0.9,
+            0.36
+          ],
+          [
+            0.86,
+            0.57
+          ],
+          [
+            0.73,
+            0.65
+          ],
+          [
+            0.68,
+            0.9
+          ],
+          [
+            0.4,
+            0.94
+          ],
+          [
+            0.18,
+            0.84
+          ],
+          [
+            0.2,
+            0.66
+          ],
+          [
+            0.12,
+            0.52
+          ],
+          [
+            0.14,
+            0.29
+          ],
+          [
+            0.22,
+            0.2
+          ]
+        ]
+      },
+      "addMotif": null
+    }
+  ],
+  "screening": {
+    "objectsWithoutUsableRubbingReviewed": 39,
+    "newCatalogueObjectsWithinThose": 23,
+    "objectIds": [
+      "jz-476",
+      "hb-5529",
+      "hb-5540",
+      "hb-4752",
+      "hb-5156",
+      "hb-4982",
+      "hb-5000",
+      "hb-5142",
+      "hb-5153",
+      "hb-6169",
+      "jz-356",
+      "jz-357",
+      "jz-358",
+      "jz-359",
+      "jz-459",
+      "jz-462",
+      "hb-4976",
+      "hb-4979",
+      "hb-4984",
+      "hb-4985",
+      "hb-5154",
+      "hb-5157",
+      "hb-6914",
+      "jz-463",
+      "hb-4753",
+      "hb-4695",
+      "hb-4975",
+      "hb-5175",
+      "hb-5524",
+      "hb-5468",
+      "hb-5471",
+      "hb-5483",
+      "hb-5532",
+      "hb-5030",
+      "hb-5473",
+      "hb-5476",
+      "hb-5534",
+      "hb-5538",
+      "jz-354"
+    ],
+    "additionalNewCatalogueTrials": [
+      "hb-5528",
+      "hb-5458",
+      "hb-5536",
+      "hb-4987",
+      "hb-5537",
+      "hb-5531",
+      "hb-5530"
+    ],
+    "retainedNewCatalogueReextractions": [
+      "hb-5458",
+      "hb-5537"
+    ],
+    "rejectedTrials": [
+      {
+        "objectId": "hb-4979",
+        "reason": "72px-wide source photo; the approx 52px-wide bird crop remains fragmented after separation."
+      },
+      {
+        "objectId": "hb-5175",
+        "reason": "Reflective jade surface obscures incised strokes. Thresholding creates large connected blocks."
+      },
+      {
+        "objectId": "hb-5157",
+        "reason": "Multiple lids share a small photograph. Individual inlaid ornaments lack sufficient pixels to distinguish from corrosion."
+      },
+      {
+        "objectId": "hb-4976",
+        "reason": "Ornament rows are too narrow to reliably separate linework from reflections."
+      },
+      {
+        "objectId": "hb-5531",
+        "reason": "Scrolls are visible but neighboring units and missing strokes cannot be cleanly isolated."
+      },
+      {
+        "objectId": "jz-353",
+        "reason": "Fish tail and grass strokes remain fragmented. Only the central four-leaf ornament was retained."
+      }
+    ]
+  }
+}

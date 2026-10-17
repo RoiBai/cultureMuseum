@@ -1,5 +1,6 @@
+@import url("assets/fonts/huiwen-mincho/font.css?v=20261014");
 /* Shared site chrome. Keep all page-specific controls below these two rows. */
-:root{--site-header-height:76px;--site-nav-height:48px;--site-shell-height:calc(var(--site-header-height) + var(--site-nav-height));--site-gutter:24px;--site-nav-gap:4px;--site-rail-width:228px;--site-subnav-height:48px;--site-content-gutter:24px;--site-bg:#100e10;--site-rule:#3b322b;--site-text:#f3eee8;--site-muted:#b9ada9;--site-accent:var(--interaction,#c9a063);--site-gold:var(--gold,#c9a063);--site-serif:"Songti SC","Noto Serif SC",serif;--site-sans:"PingFang SC","Microsoft YaHei",sans-serif}
+:root{--site-header-height:76px;--site-nav-height:48px;--site-shell-height:calc(var(--site-header-height) + var(--site-nav-height));--site-gutter:24px;--site-nav-gap:4px;--site-rail-width:228px;--site-subnav-height:48px;--site-content-gutter:24px;--site-bg:#100e10;--site-rule:#3b322b;--site-text:#f3eee8;--site-muted:#b9ada9;--site-accent:var(--interaction,#c9a063);--site-gold:var(--gold,#c9a063);--site-serif:"Huiwen-mincho","Songti SC","Noto Serif SC",serif;--site-sans:"PingFang SC","Microsoft YaHei",sans-serif}
 html{scrollbar-gutter:stable;scroll-padding-top:calc(var(--site-shell-height) + 16px)}
 .has-site-shell{margin:0}
 .site-header,.site-header *,.site-navigation-band,.site-subnavigation-band,.site-navigation,.site-navigation *{box-sizing:border-box}
@@ -97,3 +98,11 @@ body.has-site-shell>.site-subnavigation-band{position:sticky;top:var(--site-shel
 
 .site-header .site-brand .site-brand-section{color:var(--site-gold)}
 body.has-site-shell>.site-header{box-shadow:inset 0 2px 0 var(--brand-red,#b43a2e)}
+
+/* Display typography: preserve the original UI/body faces for small controls. */
+.has-site-shell h1,.has-site-shell h2{font-family:var(--site-serif);font-weight:400;font-synthesis:none}
+.site-header .site-brand .site-brand-title,.site-header .site-brand .site-brand-section{font-family:var(--site-serif);font-weight:400;font-synthesis:none}
+.site-header .site-brand .site-brand-title{font-size:20px;letter-spacing:1px}
+.site-header .site-brand .site-brand-section{font-size:11px;letter-spacing:1px}
+@media(max-width:760px){.site-header .site-brand .site-brand-title{font-size:14px;letter-spacing:.3px}.site-header .site-brand .site-brand-section{font-size:10px;letter-spacing:.6px}}
+@media(max-width:370px){.site-header .site-brand .site-brand-title{font-size:13px}}

@@ -55,16 +55,23 @@
       "era": "商代至西周早期",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-6916-1.png",
       "width": 630,
       "height": 820,
       "sourceSHA256": "7df1c862e6850f4592054eeb89b4754719077b9775e6d21cd2fc4d251baf5b58",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "鼓身纹饰带被大量铜锈与颗粒线覆盖，云雷主线不够独立。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：鼓身纹饰带被大量铜锈与颗粒线覆盖，云雷主线不够独立。",
+      "archivedImage": "rubbings/hb-6916-1.png"
     },
     {
       "id": "hb-6916-2",
@@ -86,16 +93,23 @@
       "era": "商代至西周早期",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-6916-2.png",
       "width": 672,
       "height": 819,
       "sourceSHA256": "7df1c862e6850f4592054eeb89b4754719077b9775e6d21cd2fc4d251baf5b58",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "与同鼓纹饰局部重复，提取结果以铜锈颗粒和随机孔洞为主，不能辨认所谓重复装饰单元。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：与同鼓纹饰局部重复，提取结果以铜锈颗粒和随机孔洞为主，不能辨认所谓重复装饰单元。",
+      "archivedImage": "rubbings/hb-6916-2.png"
     },
     {
       "id": "jz-473-1",
@@ -144,16 +158,23 @@
       "era": "商代",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-473-2.png",
       "width": 653,
       "height": 367,
       "sourceSHA256": "3a843f2263c83a68f97488bad52ff946a1594bc2d50fcb691ea38ef164caadef",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "足部纹线与锈蚀、阴影粘连为块状网孔，缺少清楚独立的云雷单元。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：足部纹线与锈蚀、阴影粘连为块状网孔，缺少清楚独立的云雷单元。",
+      "archivedImage": "rubbings/jz-473-2.png"
     },
     {
       "id": "jz-473-3",
@@ -175,16 +196,23 @@
       "era": "商代",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-473-3.png",
       "width": 812,
       "height": 630,
       "sourceSHA256": "3a843f2263c83a68f97488bad52ff946a1594bc2d50fcb691ea38ef164caadef",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "腹部兽面主线与锈蚀纹理混合，目、鼻等装饰关系未被清楚保留。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：腹部兽面主线与锈蚀纹理混合，目、鼻等装饰关系未被清楚保留。",
+      "archivedImage": "rubbings/jz-473-3.png"
     },
     {
       "id": "jz-472-1",
@@ -233,16 +261,23 @@
       "era": "西周",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-472-2.png",
       "width": 813,
       "height": 672,
       "sourceSHA256": "0f3d1bc78daf8b9929c92d7e5255eb99539499629eb66313cf8cb808a445fed9",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "纹饰与虎腿外轮廓、铜锈颗粒一并提取，涡纹主体被噪声包围。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：纹饰与虎腿外轮廓、铜锈颗粒一并提取，涡纹主体被噪声包围。",
+      "archivedImage": "rubbings/jz-472-2.png"
     },
     {
       "id": "wangziwu-ding-surface-geometry",
@@ -270,16 +305,23 @@
       "era": "春秋",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "书内图像观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/wangziwu-ding-surface-geometry.png",
       "width": 824,
       "height": 145,
       "sourceSHA256": "e55e9f700bc18e61ff20b117e8e93cdc3cbb5768e94bab857cda8479d9bd920a",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "腹部窄纹带密集且细碎，无法从拓影独立读出重复装饰线。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：腹部窄纹带密集且细碎，无法从拓影独立读出重复装饰线。",
+      "archivedImage": "rubbings/wangziwu-ding-surface-geometry.png"
     },
     {
       "id": "wangziwu-ding-surface-inscription",
@@ -334,16 +376,23 @@
       "era": "春秋晚期",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4694-1.png",
       "width": 218,
       "height": 816,
       "sourceSHA256": "591349aab93d87faa60c4a56d8ce3ecb52fc6e1171425bd1b8bc9481c71717ca",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "剑身菱形纹与锈斑粘连成孔洞状块面，菱格边线未能连续保留。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：剑身菱形纹与锈斑粘连成孔洞状块面，菱格边线未能连续保留。",
+      "archivedImage": "rubbings/hb-4694-1.png"
     },
     {
       "id": "hb-4694-2",
@@ -609,7 +658,13 @@
         86
       ],
       "sourceSHA256": "9984f2070de9907d2cff4e76b8824321a6a4a4019232caca0f16bfb4b1e9729f",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "双凤对称构图及连续卷曲刻线仍清楚，和玉佩器表局部一致。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-4859-1",
@@ -631,16 +686,23 @@
       "era": "战国中晚期",
       "material": "玉石",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4859-1.png",
       "width": 809,
       "height": 398,
       "sourceSHA256": "c329c17173fa57b47a6f3e6c3f73a9f1fff953ce0de99d0b7a04c498b0331a31",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "器表纹线、玉质沁斑与器物边缘混为块面，缺少可辨的重复刻纹。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：器表纹线、玉质沁斑与器物边缘混为块面，缺少可辨的重复刻纹。",
+      "archivedImage": "rubbings/hb-4859-1.png"
     },
     {
       "id": "hb-4862-surface-dragon",
@@ -681,7 +743,13 @@
         108
       ],
       "sourceSHA256": "3bac3dd38ded05000ecb2bf83804e04c7c47b8fbff616a0064ef98d23dc9dc2e",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "蟠龙组合的卷曲线条与中央构图可辨，器表刻纹有对应依据。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-4863-surface-cloud",
@@ -722,7 +790,13 @@
         33
       ],
       "sourceSHA256": "c2156ba427ec3be2d27d2bfcdb9ab342a3cd3c1725d5c1c52e41e6ef21ccd545",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "卷云单元的连续回旋刻线可辨；重复排列本身有明确纹饰意义。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-4980-1",
@@ -744,16 +818,23 @@
       "era": "战国",
       "material": "待核",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4980-1.png",
       "width": 819,
       "height": 501,
       "sourceSHA256": "fac48f1869f8b869801d769969054428b78722e5a0eeff619456ab049944c070",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "三角纹主体虽在照片可见，但当前拓影混入大量漆面磨损与颗粒，不作为清楚线纹上架。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：三角纹主体虽在照片可见，但当前拓影混入大量漆面磨损与颗粒，不作为清楚线纹上架。",
+      "archivedImage": "rubbings/hb-4980-1.png"
     },
     {
       "id": "hb-4982-surface-cloud",
@@ -808,16 +889,23 @@
       "era": "战国",
       "material": "待核",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4986-1.png",
       "width": 275,
       "height": 812,
       "sourceSHA256": "25edab37058981fed2d734fd97838f55aa61308ae24518c8346c3ba4e3238083",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "仅剩口沿边界及块状孔洞，不能读出变形鸟纹。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：仅剩口沿边界及块状孔洞，不能读出变形鸟纹。",
+      "archivedImage": "rubbings/hb-4986-1.png"
     },
     {
       "id": "hb-4987-surface-geometry",
@@ -845,12 +933,11 @@
       "era": "战国",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4987-surface-geometry.png",
       "width": 824,
       "height": 136,
       "sourcePixels": [
@@ -858,7 +945,15 @@
         22
       ],
       "sourceSHA256": "a2a6548d734a00cdfb00eef54ed7a8296a8b1f0c4f2af05e8c14deb9766b1df6",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "耳部菱形纹被压成数条重叠短线，菱形单元没有清楚保留。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：耳部菱形纹被压成数条重叠短线，菱形单元没有清楚保留。",
+      "archivedImage": "rubbings/hb-4987-surface-geometry.png"
     },
     {
       "id": "hb-4996-surface-beast",
@@ -899,7 +994,13 @@
         66
       ],
       "sourceSHA256": "9ec7698c5f37cd5160803d0132cdd9175b03be24c2b643f56766d996f02d2a47",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "面板上缘相向兽纹及旋卷身部可辨，装饰结构完整。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-4996-surface-bird",
@@ -940,7 +1041,13 @@
         122
       ],
       "sourceSHA256": "9ec7698c5f37cd5160803d0132cdd9175b03be24c2b643f56766d996f02d2a47",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "面板上鸟纹的颈、翼与曲线可辨；取自器表装饰而非整件器物造型。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-5000-surface-cloud",
@@ -1028,16 +1135,23 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5073-1.png",
       "width": 716,
       "height": 811,
       "sourceSHA256": "64610769f1b6c16abe5f47f62301ab1f506c737f3216cbecfbb62bc42110722e",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "圆涡纹被铜锈和随机孔洞包围，当前提取未隔离纹饰。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：圆涡纹被铜锈和随机孔洞包围，当前提取未隔离纹饰。",
+      "archivedImage": "rubbings/hb-5073-1.png"
     },
     {
       "id": "hb-5142-surface-phoenix",
@@ -1098,12 +1212,11 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5150-surface-phoenix.png",
       "width": 824,
       "height": 216,
       "sourcePixels": [
@@ -1111,7 +1224,15 @@
         46
       ],
       "sourceSHA256": "63b888528d6a220e186cc7d26ff765ed3de1a3d02305d33f97b0243e8994abd2",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "龙凤错金银局部缩小后线条过密，关键单元难以独立辨认。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：龙凤错金银局部缩小后线条过密，关键单元难以独立辨认。",
+      "archivedImage": "rubbings/hb-5150-surface-phoenix.png"
     },
     {
       "id": "hb-5150-surface-dragon",
@@ -1139,12 +1260,11 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5150-surface-dragon.png",
       "width": 824,
       "height": 216,
       "sourcePixels": [
@@ -1152,7 +1272,15 @@
         46
       ],
       "sourceSHA256": "63b888528d6a220e186cc7d26ff765ed3de1a3d02305d33f97b0243e8994abd2",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "与同带钩凤鸟项为同一局部、同一提取结果；且线条过密，不重复上架。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：与同带钩凤鸟项为同一局部、同一提取结果；且线条过密，不重复上架。",
+      "archivedImage": "rubbings/hb-5150-surface-dragon.png"
     },
     {
       "id": "hb-5152-surface-floral",
@@ -1180,12 +1308,11 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5152-surface-floral.png",
       "width": 352,
       "height": 368,
       "sourcePixels": [
@@ -1193,7 +1320,15 @@
         43
       ],
       "sourceSHA256": "d16314f27c51a1c8c48df6e2142ccb1d6461dd21ca3d151ac61a132fe5db0301",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "花叶纹裁切分辨率过低，提取后主要是粗像素块与断线。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：花叶纹裁切分辨率过低，提取后主要是粗像素块与断线。",
+      "archivedImage": "rubbings/hb-5152-surface-floral.png"
     },
     {
       "id": "hb-5152-surface-geometry",
@@ -1221,12 +1356,11 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5152-surface-geometry.png",
       "width": 368,
       "height": 480,
       "sourcePixels": [
@@ -1234,7 +1368,15 @@
         57
       ],
       "sourceSHA256": "d16314f27c51a1c8c48df6e2142ccb1d6461dd21ca3d151ac61a132fe5db0301",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "山字纹关键折线与表面噪声混杂，局部过小而像素化。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：山字纹关键折线与表面噪声混杂，局部过小而像素化。",
+      "archivedImage": "rubbings/hb-5152-surface-geometry.png"
     },
     {
       "id": "hb-5153-surface-phoenix",
@@ -1289,16 +1431,23 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5155-1.png",
       "width": 811,
       "height": 805,
       "sourceSHA256": "528f776f26bef1c82141f5236f0fb5aa3c4c6f5eb39eb68e38b1080d9e10381f",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "镜背凤纹与铜锈、孔洞合并，凤鸟结构未能读出。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：镜背凤纹与铜锈、孔洞合并，凤鸟结构未能读出。",
+      "archivedImage": "rubbings/hb-5155-1.png"
     },
     {
       "id": "hb-5173-1",
@@ -1320,16 +1469,23 @@
       "era": "战国",
       "material": "玉石",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5173-1.png",
       "width": 810,
       "height": 809,
       "sourceSHA256": "c2c4fe39613c189801da2494624e416a4029f1f9831ffc982dd13c502bb3cc18",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "谷纹单元与玉质表面斑点合并为块面，无法独立辨认谷纹刻线。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：谷纹单元与玉质表面斑点合并为块面，无法独立辨认谷纹刻线。",
+      "archivedImage": "rubbings/hb-5173-1.png"
     },
     {
       "id": "hb-5174-surface-cloud",
@@ -1370,7 +1526,13 @@
         64
       ],
       "sourceSHA256": "b6b0d85146f29b018f2183b188c460a0aa12441eb0beab7ed50b820a5de6ad38",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "多个卷云单元仍能对应照片刻线，保留为局部纹带。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-6169-1",
@@ -1813,16 +1975,23 @@
       "era": "战国",
       "material": "漆器",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-458-3.png",
       "width": 820,
       "height": 552,
       "sourceSHA256": "c18476b1dab7c9ad596535189fc5b749d5202989ba1a503226d9f3454c4cd0b3",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "猪形器物外形与表面反光噪声同时进入拓影，独立装饰线不清楚。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：猪形器物外形与表面反光噪声同时进入拓影，独立装饰线不清楚。",
+      "archivedImage": "rubbings/jz-458-3.png"
     },
     {
       "id": "jz-459-2",
@@ -1925,16 +2094,23 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-466-2.png",
       "width": 818,
       "height": 546,
       "sourceSHA256": "0861bcf5fbb1be460579e10d31ac441c7f71046884da7be390b62d44dc647a5e",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "器腹横向铸造边线与铜锈占主导，不能读出标注的兽面。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：器腹横向铸造边线与铜锈占主导，不能读出标注的兽面。",
+      "archivedImage": "rubbings/jz-466-2.png"
     },
     {
       "id": "hb-4976-surface-cloud",
@@ -2115,16 +2291,23 @@
       "era": "战国",
       "material": "漆器",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4988-1.png",
       "width": 819,
       "height": 497,
       "sourceSHA256": "d9227a4123af5a8be5f44d74dd15cd790377107504dc6785f7df75065fac8c37",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "梳背形制轮廓及孔洞占主导，器表云纹与质感噪声未分离。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：梳背形制轮廓及孔洞占主导，器表云纹与质感噪声未分离。",
+      "archivedImage": "rubbings/hb-4988-1.png"
     },
     {
       "id": "hb-4994-surface-phoenix",
@@ -2152,12 +2335,11 @@
       "era": "战国",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4994-surface-phoenix.png",
       "width": 526,
       "height": 824,
       "sourcePixels": [
@@ -2165,7 +2347,15 @@
         247
       ],
       "sourceSHA256": "850d830b51f1e862eb2b8e36bf146710f5cbcd12b38020f54e9e10bc90985bb5",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "漆盾纹饰局部大段缺失，下面线条与磨损混合，未形成可独立识别的完整凤纹单元。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：漆盾纹饰局部大段缺失，下面线条与磨损混合，未形成可独立识别的完整凤纹单元。",
+      "archivedImage": "rubbings/hb-4994-surface-phoenix.png"
     },
     {
       "id": "hb-4994-surface-dragon",
@@ -2193,12 +2383,11 @@
       "era": "战国",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4994-surface-dragon.png",
       "width": 526,
       "height": 824,
       "sourcePixels": [
@@ -2206,7 +2395,15 @@
         247
       ],
       "sourceSHA256": "850d830b51f1e862eb2b8e36bf146710f5cbcd12b38020f54e9e10bc90985bb5",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "与同漆盾凤鸟项使用同一局部且同图重复，关键纹饰结构同样残缺。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：与同漆盾凤鸟项使用同一局部且同图重复，关键纹饰结构同样残缺。",
+      "archivedImage": "rubbings/hb-4994-surface-dragon.png"
     },
     {
       "id": "hb-5069-1",
@@ -2228,16 +2425,23 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5069-1.png",
       "width": 814,
       "height": 560,
       "sourceSHA256": "8442e1c8a094a97fc99410782d2f339d4dc64cd0dc7bd6ab5b7c50520d057a0c",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "器腹嵌错纹饰与锈蚀块面混合，当前拓影没有清楚的龙蛇主线。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：器腹嵌错纹饰与锈蚀块面混合，当前拓影没有清楚的龙蛇主线。",
+      "archivedImage": "rubbings/hb-5069-1.png"
     },
     {
       "id": "hb-5145-surface-phoenix",
@@ -2265,12 +2469,11 @@
       "era": "战国",
       "material": "青铜",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5145-surface-phoenix.png",
       "width": 571,
       "height": 824,
       "sourcePixels": [
@@ -2278,7 +2481,15 @@
         155
       ],
       "sourceSHA256": "db5897a78cce79d1a9c1ac14a110a7eff624a280b97e436a94a07c77989a0278",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "凤纹镂空边缘断裂、截断较多，未保留完整单元。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：凤纹镂空边缘断裂、截断较多，未保留完整单元。",
+      "archivedImage": "rubbings/hb-5145-surface-phoenix.png"
     },
     {
       "id": "hb-5154-surface-dragon",
@@ -2534,7 +2745,13 @@
       "width": 594,
       "height": 624,
       "sourceSHA256": "576b23941469db8f0f982e9dc247ba0349f177dad33e68debb3b0d0327f3dc9e",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "摹本神异人物的躯干、四肢与冠状轮廓可辨，明确标为摹本局部。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-4695-1",
@@ -2694,12 +2911,11 @@
       "era": "战国",
       "material": "玉石",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5179-surface-cloud.png",
       "width": 512,
       "height": 592,
       "sourcePixels": [
@@ -2707,7 +2923,15 @@
         71
       ],
       "sourceSHA256": "a3529c0ca749b1ef30899a27b6ff8aa112e71d7a2fd0c5dbb2c048e445292bed",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "玉玦卷云纹仅剩数段弧线，局部不足以辨认组合。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：玉玦卷云纹仅剩数段弧线，局部不足以辨认组合。",
+      "archivedImage": "rubbings/hb-5179-surface-cloud.png"
     },
     {
       "id": "hb-6173-1",
@@ -2729,16 +2953,23 @@
       "era": "战国早期（据曾侯乙墓语境）",
       "material": "玉石",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-6173-1.png",
       "width": 815,
       "height": 450,
       "sourceSHA256": "5514617bfaeb6c0aad77f243de08dddf67b3602e66c59fe9119cb3e8b48f12d3",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "刻纹与玉质沁斑混为随机网孔，清晰的卷云刻线不足。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：刻纹与玉质沁斑混为随机网孔，清晰的卷云刻线不足。",
+      "archivedImage": "rubbings/hb-6173-1.png"
     },
     {
       "id": "hb-6174-1",
@@ -2760,16 +2991,23 @@
       "era": "战国早期（据曾侯乙墓语境）",
       "material": "玉石",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-6174-1.png",
       "width": 815,
       "height": 464,
       "sourceSHA256": "4e5d429b5ce6e5755880db32334c64a8f46e277babfb8c32d22c5acce58f3ed4",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "刻纹与玉质沁斑混为随机网孔，清晰的卷云刻线不足。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：刻纹与玉质沁斑混为随机网孔，清晰的卷云刻线不足。",
+      "archivedImage": "rubbings/hb-6174-1.png"
     },
     {
       "id": "hb-6911-1",
@@ -2797,16 +3035,23 @@
       "era": "战国早期",
       "material": "青铜",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-6911-1.png",
       "width": 822,
       "height": 359,
       "sourceSHA256": "a374fe5d32686f5d35c9b5e84e1c2d3408c2e80f9ddce6e1f11fca8e5fa95f27",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "镂空口沿的密集结构、背景和反光混合，细碎线条无法辨认独立纹样。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：镂空口沿的密集结构、背景和反光混合，细碎线条无法辨认独立纹样。",
+      "archivedImage": "rubbings/hb-6911-1.png"
     },
     {
       "id": "hb-5460-surface-phoenix",
@@ -2834,12 +3079,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5460-surface-phoenix.png",
       "width": 824,
       "height": 125,
       "sourcePixels": [
@@ -2847,7 +3091,15 @@
         26
       ],
       "sourceSHA256": "49230366d81a4854e046a8565595eccdb3b265bc07bf5a138caf62aa18805a36",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "凤鱼纹主体只剩零散短线和小块，连续关系缺失。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：凤鱼纹主体只剩零散短线和小块，连续关系缺失。",
+      "archivedImage": "rubbings/hb-5460-surface-phoenix.png"
     },
     {
       "id": "hb-5460-surface-inscription",
@@ -2908,12 +3160,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5461-surface-phoenix.png",
       "width": 824,
       "height": 200,
       "sourcePixels": [
@@ -2921,7 +3172,15 @@
         33
       ],
       "sourceSHA256": "9fba4d81a4dab2e5071ba07ab2031dba6ead0d59bd7f8cc24414d9943e2ac839",
-      "method": "馆藏照片局部裁切；深色绘画线条分离；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；深色绘画线条分离；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "保留的主要是盂沿边界与数段短线，无法读出标注的凤纹。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：保留的主要是盂沿边界与数段短线，无法读出标注的凤纹。",
+      "archivedImage": "rubbings/hb-5461-surface-phoenix.png"
     },
     {
       "id": "hb-5461-surface-inscription",
@@ -2995,7 +3254,13 @@
         36
       ],
       "sourceSHA256": "22d92d8dad1aa1695a8599c72cc8470067d2460f5083012debfe3a5eb6e23a7e",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "内壁凤鱼组合的连续斜线与卷尾可辨，对应原图彩绘局部。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-5462-surface-inscription",
@@ -3089,12 +3354,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5484-surface-geometry.png",
       "width": 736,
       "height": 408,
       "sourcePixels": [
@@ -3102,7 +3366,15 @@
         48
       ],
       "sourceSHA256": "6bc3fe44c641d958b3acb7d691c5945a374034b8f228ba6835f56fb8ed2571ee",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "点格纹没有被清晰分离，圆弧和碎线混合且局部边界明显。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：点格纹没有被清晰分离，圆弧和碎线混合且局部边界明显。",
+      "archivedImage": "rubbings/hb-5484-surface-geometry.png"
     },
     {
       "id": "hb-5484-surface-inscription",
@@ -3163,12 +3435,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5523-surface-phoenix.png",
       "width": 568,
       "height": 472,
       "sourcePixels": [
@@ -3176,7 +3447,15 @@
         56
       ],
       "sourceSHA256": "85a6b9031e1255161d26c9ad617bb2a2bd31cd5a5006f00eca5db8ba480edeb9",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "只剩勺部局部弧线，云凤组合被截断，不能独立识别。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：只剩勺部局部弧线，云凤组合被截断，不能独立识别。",
+      "archivedImage": "rubbings/hb-5523-surface-phoenix.png"
     },
     {
       "id": "hb-5523-surface-inscription",
@@ -3270,12 +3549,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5528-surface-phoenix.png",
       "width": 824,
       "height": 380,
       "sourcePixels": [
@@ -3283,7 +3561,15 @@
         53
       ],
       "sourceSHA256": "d67f7d8886ce05530bc0ffb776c67c7f6bf55f4f11332a3ef32aacd274d7d8df",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "云凤主体大段断裂，只剩游离线段和块面。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：云凤主体大段断裂，只剩游离线段和块面。",
+      "archivedImage": "rubbings/hb-5528-surface-phoenix.png"
     },
     {
       "id": "hb-5528-surface-inscription",
@@ -3344,12 +3630,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5530-surface-phoenix.png",
       "width": 776,
       "height": 728,
       "sourcePixels": [
@@ -3357,7 +3642,15 @@
         88
       ],
       "sourceSHA256": "5368d885ab096ab3aae1be728b5e2a65d16bc827ceeee7e753ef70d14a056dba",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "圆奁内壁纹样缺失严重，只剩边界与孤立方块。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：圆奁内壁纹样缺失严重，只剩边界与孤立方块。",
+      "archivedImage": "rubbings/hb-5530-surface-phoenix.png"
     },
     {
       "id": "hb-5533-surface-cloud",
@@ -3385,12 +3678,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5533-surface-cloud.png",
       "width": 824,
       "height": 204,
       "sourcePixels": [
@@ -3398,7 +3690,15 @@
         29
       ],
       "sourceSHA256": "47b83e113656db93d5e960df55dd7f36b19f184a8babdabaa8faea5d9b81252f",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "当前结果主要是奁盖边界与零星线段，没有可独立识别的云气纹。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：当前结果主要是奁盖边界与零星线段，没有可独立识别的云气纹。",
+      "archivedImage": "rubbings/hb-5533-surface-cloud.png"
     },
     {
       "id": "hb-5533-surface-inscription",
@@ -3459,12 +3759,11 @@
       "era": "秦",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5537-surface-phoenix.png",
       "width": 824,
       "height": 274,
       "sourcePixels": [
@@ -3472,7 +3771,16 @@
         36
       ],
       "sourceSHA256": "02f564c6022ef7044dc6d5f6d137ea193c9afcc1ace4009a0a172ec0de1a24b0",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "主要为器壁边界与短线，变形凤鸟主体缺失。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：主要为器壁边界与短线，变形凤鸟主体缺失。",
+      "archivedImage": "rubbings/hb-5537-surface-phoenix.png",
+      "replacedBy": "hb-5537-phoenix-line-20261018"
     },
     {
       "id": "hb-5537-surface-inscription",
@@ -3546,7 +3854,13 @@
         86
       ],
       "sourceSHA256": "378d3f1d117a707449e84d590de87fbaed08ac17549bb21b25655c6b185e6ae7",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "盒盖两侧相向云凤构图、卷尾与中央交叉线均可辨。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-5459-surface-geometry",
@@ -3607,12 +3921,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5463-surface-beast.png",
       "width": 824,
       "height": 182,
       "sourcePixels": [
@@ -3620,7 +3933,15 @@
         32
       ],
       "sourceSHA256": "ebb65be551a0b9794f6a405d00db647c444e5ca6646d0c6931a886ee01c2ca9e",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "兽纹的结构未被保留，仅剩器壁横线和破碎斜线。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：兽纹的结构未被保留，仅剩器壁横线和破碎斜线。",
+      "archivedImage": "rubbings/hb-5463-surface-beast.png"
     },
     {
       "id": "hb-5463-surface-inscription",
@@ -3681,12 +4002,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5464-surface-phoenix.png",
       "width": 824,
       "height": 309,
       "sourcePixels": [
@@ -3694,7 +4014,15 @@
         46
       ],
       "sourceSHA256": "09cf420c7f1d44b25dc55d0bc2e92a1a247f035865e2ab5db74bbc938f2048f9",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "内底凤纹被截断成弧线与块面，缺少可读单元。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：内底凤纹被截断成弧线与块面，缺少可读单元。",
+      "archivedImage": "rubbings/hb-5464-surface-phoenix.png"
     },
     {
       "id": "hb-5468-1",
@@ -3857,12 +4185,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5531-surface-cloud.png",
       "width": 824,
       "height": 310,
       "sourcePixels": [
@@ -3870,7 +4197,15 @@
         55
       ],
       "sourceSHA256": "2124ca86a970cca747d8a57169638835dc544b25026fdc30a965b6c31363f113",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "云气纹只有散碎短线，组合关系不完整。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：云气纹只有散碎短线，组合关系不完整。",
+      "archivedImage": "rubbings/hb-5531-surface-cloud.png"
     },
     {
       "id": "hb-5532-surface-inscription",
@@ -3964,12 +4299,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4855-surface-phoenix.png",
       "width": 464,
       "height": 304,
       "sourcePixels": [
@@ -3977,7 +4311,15 @@
         35
       ],
       "sourceSHA256": "ae283e7ac439f1297f6dedfc734bab324b141013da0b6bd6fbb68777aefebe88",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "用户点名复核：漆壶颈部云凤纹仅剩孤立方块与短折线，不能识别凤鸟。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：用户点名复核：漆壶颈部云凤纹仅剩孤立方块与短折线，不能识别凤鸟。",
+      "archivedImage": "rubbings/hb-4855-surface-phoenix.png"
     },
     {
       "id": "hb-5457-surface-phoenix",
@@ -4005,12 +4347,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5457-surface-phoenix.png",
       "width": 784,
       "height": 240,
       "sourcePixels": [
@@ -4018,7 +4359,15 @@
         27
       ],
       "sourceSHA256": "8a99e8a7d49dcb92f60b41bbee5d5f8f994640baa9872913c5f2e2093536d592",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "局部主要剩下耳杯边缘斜线，凤鸟纹主体不可辨。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：局部主要剩下耳杯边缘斜线，凤鸟纹主体不可辨。",
+      "archivedImage": "rubbings/hb-5457-surface-phoenix.png"
     },
     {
       "id": "hb-5457-surface-inscription",
@@ -4145,12 +4494,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "照片观察：器腹可辨认连续波折线；不将其误称凤鸟纹",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5458-surface-geometry.png",
       "width": 824,
       "height": 216,
       "sourcePixels": [
@@ -4158,7 +4506,16 @@
         35
       ],
       "sourceSHA256": "8682ed72abdd2e08f7db12c55f76a1fe674ef1998b81f3cd480eacce1e27982c",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "由重新提取的「漆圆盒器腹波折纹带」替代，避免同一区域重复收录；新图已去除相邻边框。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "archivedImage": "rubbings/hb-5458-surface-geometry.png",
+      "unavailableReason": "二次图像复核：由重新提取的「漆圆盒器腹波折纹带」替代，避免同一区域重复收录；新图已去除相邻边框。",
+      "replacedBy": "hb-5458-wave-line-20261018"
     },
     {
       "id": "hb-5465-surface-phoenix",
@@ -4199,7 +4556,13 @@
         30
       ],
       "sourceSHA256": "ce9903a420c83b78c51a747a1a5a6369a9143b89b03ed18fe86f78b1fcdccccb",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "外壁变形凤鸟的卷尾和长曲线仍可辨，对应原图彩绘单元。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-5466-surface-phoenix",
@@ -4227,12 +4590,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5466-surface-phoenix.png",
       "width": 824,
       "height": 203,
       "sourcePixels": [
@@ -4240,7 +4602,15 @@
         30
       ],
       "sourceSHA256": "8cd2f91bd51fc1abf224a7fac2251db5928e314d675c4c05d3edd64165363e87",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "只剩一段卷线与不连续碎线，凤鸟组合被截断。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：只剩一段卷线与不连续碎线，凤鸟组合被截断。",
+      "archivedImage": "rubbings/hb-5466-surface-phoenix.png"
     },
     {
       "id": "hb-5473-surface-phoenix",
@@ -4400,12 +4770,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5478-surface-phoenix.png",
       "width": 600,
       "height": 632,
       "sourcePixels": [
@@ -4413,7 +4782,15 @@
         76
       ],
       "sourceSHA256": "536f153d71fdd49da77460439d980bcf1779c34ffc5985e5aef737dbccac6419",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "圆盘内底彩绘磨损明显，提取后为像素块状网络，凤纹结构不可辨。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：圆盘内底彩绘磨损明显，提取后为像素块状网络，凤纹结构不可辨。",
+      "archivedImage": "rubbings/hb-5478-surface-phoenix.png"
     },
     {
       "id": "hb-5480-surface-phoenix",
@@ -4441,12 +4818,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5480-surface-phoenix.png",
       "width": 824,
       "height": 153,
       "sourcePixels": [
@@ -4454,7 +4830,15 @@
         19
       ],
       "sourceSHA256": "c0292ecf0f6c8a0c7ebe1e605a5b3f16fdd34086d2e0e4828be15d8d3b93a538",
-      "method": "馆藏照片局部裁切；深色绘画线条分离；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；深色绘画线条分离；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "凤鸟云龙组合严重缺失，只剩零散折线。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：凤鸟云龙组合严重缺失，只剩零散折线。",
+      "archivedImage": "rubbings/hb-5480-surface-phoenix.png"
     },
     {
       "id": "hb-5480-surface-dragon",
@@ -4581,12 +4965,11 @@
       "era": "西汉",
       "material": "漆器",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "照片观察：案面明确可见重复圆形与线框，不推断动物类别",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5536-surface-geometry.png",
       "width": 824,
       "height": 252,
       "sourcePixels": [
@@ -4594,7 +4977,15 @@
         53
       ],
       "sourceSHA256": "56e0769f6bc005501a74aabe04e663597032d34e0485ff0d5a0b1a5fbb7b2371",
-      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；彩绘色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "漆案面圆形被断成不规则缺口，且混入大量漆层磨损块面。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：漆案面圆形被断成不规则缺口，且混入大量漆层磨损块面。",
+      "archivedImage": "rubbings/hb-5536-surface-geometry.png"
     },
     {
       "id": "hb-5538-1",
@@ -4670,16 +5061,24 @@
       "era": "西汉初期",
       "material": "漆器",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-353-2.png",
       "width": 631,
       "height": 819,
       "sourceSHA256": "ea8cf3a2aae21d898e07270f255d3ddf18a15922d2702ffdbef84da9e0ff593b",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "花瓣中心与表面磨损混杂，拓影过细碎且未独立提取四叶纹。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：花瓣中心与表面磨损混杂，拓影过细碎且未独立提取四叶纹。",
+      "archivedImage": "rubbings/jz-353-2.png",
+      "replacedBy": "jz-353-fourleaf-line-20261018"
     },
     {
       "id": "jz-353-3",
@@ -4701,16 +5100,23 @@
       "era": "西汉初期",
       "material": "漆器",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-353-3.png",
       "width": 705,
       "height": 817,
       "sourceSHA256": "ea8cf3a2aae21d898e07270f255d3ddf18a15922d2702ffdbef84da9e0ff593b",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "游鱼与草叶没有从器物背景纹线和反光中分开，鱼身细节不清楚。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：游鱼与草叶没有从器物背景纹线和反光中分开，鱼身细节不清楚。",
+      "archivedImage": "rubbings/jz-353-3.png"
     },
     {
       "id": "jz-353-4",
@@ -4732,16 +5138,23 @@
       "era": "西汉初期",
       "material": "漆器",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-353-4.png",
       "width": 365,
       "height": 823,
       "sourceSHA256": "ea8cf3a2aae21d898e07270f255d3ddf18a15922d2702ffdbef84da9e0ff593b",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "器物口沿、外轮廓和磨损线占主导，所谓重复装饰没有形成独立纹样。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：器物口沿、外轮廓和磨损线占主导，所谓重复装饰没有形成独立纹样。",
+      "archivedImage": "rubbings/jz-353-4.png"
     },
     {
       "id": "jz-354-1",
@@ -4871,16 +5284,23 @@
       "era": "隋",
       "material": "陶瓷",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5027-1.png",
       "width": 812,
       "height": 493,
       "sourceSHA256": "fbac477615e56a52d423d7a2c422412b740e96b54426dc41e36df809a90b6673",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "碟面花卉与釉面反光混为孔洞块面，花瓣无法清楚辨认。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：碟面花卉与釉面反光混为孔洞块面，花瓣无法清楚辨认。",
+      "archivedImage": "rubbings/hb-5027-1.png"
     },
     {
       "id": "hb-5028-1",
@@ -4902,16 +5322,23 @@
       "era": "隋",
       "material": "陶瓷",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5028-1.png",
       "width": 815,
       "height": 405,
       "sourceSHA256": "e5cb64ab890f26e0fe40cefd3c58b1092bc1d99375755751d919ea421c095414",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "莲瓣线条与釉面颗粒粘连，当前拓影为杂乱网孔。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：莲瓣线条与釉面颗粒粘连，当前拓影为杂乱网孔。",
+      "archivedImage": "rubbings/hb-5028-1.png"
     },
     {
       "id": "hb-5044-1",
@@ -4933,16 +5360,23 @@
       "era": "宋",
       "material": "陶瓷",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5044-1.png",
       "width": 808,
       "height": 595,
       "sourceSHA256": "a6c2a42b77eb7186672efed83f72879986a894fb2864c0cc3f8674d061d691f3",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "莲瓣轮廓与釉面反光、颗粒合并，线纹不够独立。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：莲瓣轮廓与釉面反光、颗粒合并，线纹不够独立。",
+      "archivedImage": "rubbings/hb-5044-1.png"
     },
     {
       "id": "hb-5045-1",
@@ -4964,16 +5398,23 @@
       "era": "宋",
       "material": "陶瓷",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5045-1.png",
       "width": 812,
       "height": 597,
       "sourceSHA256": "613e963e80e670a58d2c1de11d3939e04349a0883eb293c930d4969155378bd3",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "部分莲瓣边线仍可辨，但多数与釉面噪声粘连为块面，当前版本不作为清晰拓影上架。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：部分莲瓣边线仍可辨，但多数与釉面噪声粘连为块面，当前版本不作为清晰拓影上架。",
+      "archivedImage": "rubbings/hb-5045-1.png"
     },
     {
       "id": "jz-351-1",
@@ -5031,7 +5472,13 @@
       "width": 812,
       "height": 638,
       "sourceSHA256": "0eff30a09d77ec180fe94f85b4e21f04fbfbfb05929a195ef99ed8a825619658",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "菊花的瓣形、茎叶轮廓可辨；局部内线有磨损但不影响识别主体。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      }
     },
     {
       "id": "hb-4696-1",
@@ -5053,16 +5500,23 @@
       "era": "元代",
       "material": "陶瓷",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4696-1.png",
       "width": 809,
       "height": 471,
       "sourceSHA256": "14adec9fcfdd06f312cca568fc216bb85ebb07afdcbe807b82ec68e2603620fd",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "凤穿牡丹主线未从青花色面分离，当前结果为大面积孔洞块面。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：凤穿牡丹主线未从青花色面分离，当前结果为大面积孔洞块面。",
+      "archivedImage": "rubbings/hb-4696-1.png"
     },
     {
       "id": "hb-4696-2",
@@ -5084,16 +5538,23 @@
       "era": "元代",
       "material": "陶瓷",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4696-2.png",
       "width": 809,
       "height": 471,
       "sourceSHA256": "14adec9fcfdd06f312cca568fc216bb85ebb07afdcbe807b82ec68e2603620fd",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "与同器凤穿牡丹项是相同局部、同一图；花卉也未独立清楚分离。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：与同器凤穿牡丹项是相同局部、同一图；花卉也未独立清楚分离。",
+      "archivedImage": "rubbings/hb-4696-2.png"
     },
     {
       "id": "hb-4696-3",
@@ -5115,16 +5576,23 @@
       "era": "元代",
       "material": "陶瓷",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-4696-3.png",
       "width": 662,
       "height": 809,
       "sourceSHA256": "14adec9fcfdd06f312cca568fc216bb85ebb07afdcbe807b82ec68e2603620fd",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "菱形开光与背景青花合为块面，几何边界不独立。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：菱形开光与背景青花合为块面，几何边界不独立。",
+      "archivedImage": "rubbings/hb-4696-3.png"
     },
     {
       "id": "hb-5053-surface-dragon",
@@ -5152,12 +5620,11 @@
       "era": "元",
       "material": "陶瓷",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5053-surface-dragon.png",
       "width": 672,
       "height": 488,
       "sourcePixels": [
@@ -5165,7 +5632,15 @@
         58
       ],
       "sourceSHA256": "dcbcf59623d4213428ecd78e74489f68e83db839b900780925cbb4e365f5d0b6",
-      "method": "馆藏照片局部裁切；青花色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；青花色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "龙纹只剩数段大弧线，头身与细部不足以辨认。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：龙纹只剩数段大弧线，头身与细部不足以辨认。",
+      "archivedImage": "rubbings/hb-5053-surface-dragon.png"
     },
     {
       "id": "hb-5051-surface-floral",
@@ -5193,12 +5668,11 @@
       "era": "元",
       "material": "陶瓷",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5051-surface-floral.png",
       "width": 624,
       "height": 360,
       "sourcePixels": [
@@ -5206,7 +5680,15 @@
         42
       ],
       "sourceSHA256": "792cdbc43fccd83ea45384d5cc7fae4cc3d0be5f4569d2bcf3efd30ebc0430d4",
-      "method": "馆藏照片局部裁切；青花色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；青花色区分离与窄线提取；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "莲纹只剩少量块状弧线，花瓣与枝叶结构缺失。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：莲纹只剩少量块状弧线，花瓣与枝叶结构缺失。",
+      "archivedImage": "rubbings/hb-5051-surface-floral.png"
     },
     {
       "id": "hb-5052-surface-floral",
@@ -5234,12 +5716,11 @@
       "era": "元",
       "material": "陶瓷",
       "catalogueAdded": true,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方题名或说明明确纹饰；局部与照片核对",
       "reviewed": "2026-10-11",
-      "image": "rubbings/hb-5052-surface-floral.png",
       "width": 512,
       "height": 408,
       "sourcePixels": [
@@ -5247,7 +5728,15 @@
         48
       ],
       "sourceSHA256": "bef44d3ca3453cf99193a75201d4561710e65a11d22655a47bfdb21fc11aa71f",
-      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。"
+      "method": "馆藏照片局部裁切；去噪后提取器表刻线/纹饰边缘；排除器物轮廓，不补绘缺线，非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "牡丹纹提取后像素化断裂，花卉主形不清楚。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：牡丹纹提取后像素化断裂，花卉主形不清楚。",
+      "archivedImage": "rubbings/hb-5052-surface-floral.png"
     },
     {
       "id": "jz-350-1",
@@ -5269,16 +5758,1929 @@
       "era": "明代",
       "material": "漆器",
       "catalogueAdded": false,
-      "available": true,
-      "kind": "纹样拓影",
+      "available": false,
+      "kind": "仅有纹饰记录",
       "surfaceVerified": true,
       "evidence": "馆方记录与照片观察",
       "reviewed": "2026-10-11",
-      "image": "rubbings/jz-350-1.png",
       "width": 818,
       "height": 810,
       "sourceSHA256": "d7f0c43d698bfb2e89d3aae9ff4eb93d3a8ca9bc3dce7c5a40fce80c0f166493",
-      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样"
+      "method": "照片去噪、轮廓线提取、彩绘色区分离与边缘平滑；非实物拓片，未补绘缺失纹样",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "withdraw",
+        "reason": "印文与印面纹理、反光混合为密集噪点，不作为纹样素材。",
+        "method": "逐张查看拓影；边界项对照馆藏照片及裁切区域。未补绘。"
+      },
+      "unavailableReason": "二次图像复核：印文与印面纹理、反光混合为密集噪点，不作为纹样素材。",
+      "archivedImage": "rubbings/jz-350-1.png"
+    },
+    {
+      "id": "hb-5537-phoenix-line-20261018",
+      "objectId": "hb-5537",
+      "title": "彩绘变形凤鸟纹漆卮",
+      "motif": "凤鸟",
+      "label": "漆卮器壁变形凤鸟纹",
+      "note": "重新提取器壁上部凤鸟纹的头部、回旋躯体与尾端线条，未加入漆卮器形轮廓。",
+      "view": "detail",
+      "rect": [
+        0.08867,
+        0.2,
+        0.46305,
+        0.16279
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5537.html",
+      "photo": "cutouts/hb-5537-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/5537.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/5537.html",
+        "changes": "取自器物照片的可见纹饰局部，裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "秦",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-5537-phoenix-line-20261018.png",
+      "width": 760,
+      "height": 308,
+      "sourcePixels": [
+        94,
+        35
+      ],
+      "sourceSHA256": "02f564c6022ef7044dc6d5f6d137ea193c9afcc1ace4009a0a172ec0de1a24b0",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+        "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。逐张检查透明拓影与原图；未补绘。"
+      },
+      "regionId": "motif-hb-5537-phoenix-line-20261018",
+      "replaces": "hb-5537-surface-phoenix",
+      "extractedOn": "2026-10-18",
+      "sourceRegion": {
+        "id": "motif-hb-5537-phoenix-line-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.08867,
+          0.2,
+          0.46305,
+          0.16279
+        ],
+        "label": "漆卮器壁变形凤鸟纹",
+        "note": "重新提取器壁上部凤鸟纹的头部、回旋躯体与尾端线条，未加入漆卮器形轮廓。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/qmq/p/5537.html",
+        "sourceImage": "cutouts/hb-5537-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      }
+    },
+    {
+      "id": "hb-5458-wave-line-20261018",
+      "objectId": "hb-5458",
+      "title": "彩绘云凤纹漆圆盒",
+      "motif": "几何",
+      "label": "漆圆盒器腹波折纹带",
+      "note": "器腹红漆连续波折线及点饰，保留器表弧度；明确可见的几何纹带，不作凤鸟纹推断。",
+      "view": "detail",
+      "rect": [
+        0.32468,
+        0.65158,
+        0.24242,
+        0.08145
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5458.html",
+      "photo": "cutouts/hb-5458-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/5458.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/5458.html",
+        "changes": "取自器物照片的可见纹饰局部，裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "西汉",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-5458-wave-line-20261018.png",
+      "width": 760,
+      "height": 271,
+      "sourcePixels": [
+        56,
+        18
+      ],
+      "sourceSHA256": "8682ed72abdd2e08f7db12c55f76a1fe674ef1998b81f3cd480eacce1e27982c",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+        "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。逐张检查透明拓影与原图；未补绘。"
+      },
+      "regionId": "motif-hb-5458-wave-line-20261018",
+      "replaces": "hb-5458-surface-geometry",
+      "extractedOn": "2026-10-18",
+      "sourceRegion": {
+        "id": "motif-hb-5458-wave-line-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.32468,
+          0.65158,
+          0.24242,
+          0.08145
+        ],
+        "label": "漆圆盒器腹波折纹带",
+        "note": "器腹红漆连续波折线及点饰，保留器表弧度；明确可见的几何纹带，不作凤鸟纹推断。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/qmq/p/5458.html",
+        "sourceImage": "cutouts/hb-5458-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      }
+    },
+    {
+      "id": "jz-470-cloud-line-20261018",
+      "objectId": "jz-470",
+      "title": "龙凤形玉佩",
+      "motif": "云气",
+      "label": "玉佩器表卷云刻线",
+      "note": "仅取玉佩器表的一组卷云刻线，不把龙凤透雕的整体外形作为纹样。",
+      "view": "detail",
+      "rect": [
+        0.2,
+        0.592,
+        0.11,
+        0.052
+      ],
+      "source": "http://www.jzmsm.org/news-470.html",
+      "photo": "cutouts/jz-470-hd.webp",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg",
+      "credit": {
+        "author": "三十三画生",
+        "provider": "Wikimedia Commons",
+        "page": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "changes": "取自器物照片的可见纹饰局部，裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-01"
+      },
+      "era": "春秋晚期至战国早期（公元前5世纪）",
+      "material": "玉石",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "高清照片观察：器表可见连续卷云刻线；与龙凤形制分开记录",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-470-cloud-line-20261018.png",
+      "width": 760,
+      "height": 456,
+      "sourcePixels": [
+        109,
+        63
+      ],
+      "sourceSHA256": "5d558743e2a438e5f867c7fd209f1cc3881cebc2a724d4f171fbad227d028d02",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+        "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。逐张检查透明拓影与原图；未补绘。"
+      },
+      "regionId": "motif-jz-470-cloud-line-20261018",
+      "extractedOn": "2026-10-18",
+      "sourceRegion": {
+        "id": "motif-jz-470-cloud-line-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.2,
+          0.592,
+          0.11,
+          0.052
+        ],
+        "label": "玉佩器表卷云刻线",
+        "note": "仅取玉佩器表的一组卷云刻线，不把龙凤透雕的整体外形作为纹样。",
+        "view": "detail",
+        "basis": "高清照片观察：器表可见连续卷云刻线；与龙凤形制分开记录",
+        "source": "http://www.jzmsm.org/news-470.html",
+        "sourceImage": "cutouts/jz-470-hd.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      }
+    },
+    {
+      "id": "hb-6914-horses-line-20261018",
+      "objectId": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "motif": "车马",
+      "label": "漆画中的并行双马",
+      "note": "从漆奁器壁展开图中提取两匹马的彩绘线条；保留叠置关系、腿部与缰绳，不补绘磨损。",
+      "view": "detail",
+      "rect": [
+        0.675,
+        0.055,
+        0.19,
+        0.116
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "photo": "assets/hb-6914-unwrapped-cccsingapore.png",
+      "photoSource": "https://cccsingapore.org/2023/08/2107/",
+      "credit": {
+        "author": "原文未单独署摄影者",
+        "provider": "新加坡中国文化中心《博物馆说》；资料鸣谢湖北省博物馆、文旅之声",
+        "page": "https://cccsingapore.org/2023/08/2107/",
+        "changes": "取自该页漆奁器壁展开图，局部裁切与单色线条提取；未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-6914-horses-line-20261018.png",
+      "width": 760,
+      "height": 642,
+      "sourcePixels": [
+        122,
+        102
+      ],
+      "sourceSHA256": "0d5bba3621df2b4f689e95a2987f784d8a2175e27355b49d4f0afec64a88e8ef",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+        "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。逐张检查透明拓影与原图；未补绘。"
+      },
+      "regionId": "motif-hb-6914-horses-line-20261018",
+      "extractedOn": "2026-10-18",
+      "sourceRegion": {
+        "id": "motif-hb-6914-horses-line-20261018",
+        "dimension": "motifs",
+        "value": "车马",
+        "rect": [
+          0.675,
+          0.055,
+          0.19,
+          0.116
+        ],
+        "label": "漆画中的并行双马",
+        "note": "从漆奁器壁展开图中提取两匹马的彩绘线条；保留叠置关系、腿部与缰绳，不补绘磨损。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "sourceImage": "assets/hb-6914-unwrapped-cccsingapore.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      }
+    },
+    {
+      "id": "hb-6914-carriage-line-20261018",
+      "objectId": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "motif": "车马",
+      "label": "漆画中的马车与御者",
+      "note": "取展开图的乘车画段，保留马、车轮、人物之间的相对关系；是器表绘画局部，不是器物轮廓。",
+      "view": "detail",
+      "rect": [
+        0.32,
+        0.438,
+        0.34,
+        0.129
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "photo": "assets/hb-6914-unwrapped-cccsingapore.png",
+      "photoSource": "https://cccsingapore.org/2023/08/2107/",
+      "credit": {
+        "author": "原文未单独署摄影者",
+        "provider": "新加坡中国文化中心《博物馆说》；资料鸣谢湖北省博物馆、文旅之声",
+        "page": "https://cccsingapore.org/2023/08/2107/",
+        "changes": "取自该页漆奁器壁展开图，局部裁切与单色线条提取；未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-6914-carriage-line-20261018.png",
+      "width": 760,
+      "height": 415,
+      "sourcePixels": [
+        217,
+        113
+      ],
+      "sourceSHA256": "0d5bba3621df2b4f689e95a2987f784d8a2175e27355b49d4f0afec64a88e8ef",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+        "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。逐张检查透明拓影与原图；未补绘。"
+      },
+      "regionId": "motif-hb-6914-carriage-line-20261018",
+      "extractedOn": "2026-10-18",
+      "sourceRegion": {
+        "id": "motif-hb-6914-carriage-line-20261018",
+        "dimension": "motifs",
+        "value": "车马",
+        "rect": [
+          0.32,
+          0.438,
+          0.34,
+          0.129
+        ],
+        "label": "漆画中的马车与御者",
+        "note": "取展开图的乘车画段，保留马、车轮、人物之间的相对关系；是器表绘画局部，不是器物轮廓。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "sourceImage": "assets/hb-6914-unwrapped-cccsingapore.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      }
+    },
+    {
+      "id": "hb-6914-figure-line-20261018",
+      "objectId": "hb-6914",
+      "title": "彩绘人物车马出行图",
+      "motif": "车马",
+      "label": "迎宾画段的长衣人物",
+      "note": "从迎宾画段提取长衣人物的彩绘轮廓与衣襟，保留原画残损；归入车马出行叙事画。",
+      "view": "detail",
+      "rect": [
+        0.52,
+        0.675,
+        0.09,
+        0.09
+      ],
+      "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+      "photo": "assets/hb-6914-unwrapped-cccsingapore.png",
+      "photoSource": "https://cccsingapore.org/2023/08/2107/",
+      "credit": {
+        "author": "原文未单独署摄影者",
+        "provider": "新加坡中国文化中心《博物馆说》；资料鸣谢湖北省博物馆、文旅之声",
+        "page": "https://cccsingapore.org/2023/08/2107/",
+        "changes": "取自该页漆奁器壁展开图，局部裁切与单色线条提取；未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-6914-figure-line-20261018.png",
+      "width": 559,
+      "height": 760,
+      "sourcePixels": [
+        57,
+        79
+      ],
+      "sourceSHA256": "0d5bba3621df2b4f689e95a2987f784d8a2175e27355b49d4f0afec64a88e8ef",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+        "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。逐张检查透明拓影与原图；未补绘。"
+      },
+      "regionId": "motif-hb-6914-figure-line-20261018",
+      "extractedOn": "2026-10-18",
+      "sourceRegion": {
+        "id": "motif-hb-6914-figure-line-20261018",
+        "dimension": "motifs",
+        "value": "车马",
+        "rect": [
+          0.52,
+          0.675,
+          0.09,
+          0.09
+        ],
+        "label": "迎宾画段的长衣人物",
+        "note": "从迎宾画段提取长衣人物的彩绘轮廓与衣襟，保留原画残损；归入车马出行叙事画。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/zgzb/p/6914.html",
+        "sourceImage": "assets/hb-6914-unwrapped-cccsingapore.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
+      }
+    },
+    {
+      "id": "jz-353-fourleaf-line-20261018",
+      "objectId": "jz-353",
+      "title": "漆木彩绘三鱼纹耳杯",
+      "motif": "花卉",
+      "label": "耳杯内底四叶纹",
+      "note": "重新从高清馆藏照片分离四叶纹的外缘、花心与叶内小圆纹；周围鱼纹不并入，未补绘反光遮蔽处。",
+      "view": "detail",
+      "rect": [
+        0.31,
+        0.34,
+        0.38,
+        0.36
+      ],
+      "source": "http://www.jzmsm.org/news-353.html",
+      "photo": "cutouts/jz-353.webp",
+      "photoSource": "http://www.jzmsm.org/news-353.html",
+      "credit": null,
+      "era": "西汉初期",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方记述与照片局部对照",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-353-fourleaf-line-20261018.png",
+      "width": 606,
+      "height": 760,
+      "sourcePixels": [
+        1099,
+        1396
+      ],
+      "sourceSHA256": "ea8cf3a2aae21d898e07270f255d3ddf18a15922d2702ffdbef84da9e0ff593b",
+      "method": "馆藏照片局部线纹分离、去除孤立噪点与平滑边缘；仅保留可见线条，不补绘、不重构缺失纹样；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+        "method": "现有馆藏照片器表纹饰再提取；先核实照片中的具体线条，再作局部分离。逐张检查透明拓影与原图；未补绘。"
+      },
+      "regionId": "motif-jz-353-fourleaf-line-20261018",
+      "sourcePolygon": [
+        [
+          0.24,
+          0
+        ],
+        [
+          0.8,
+          0
+        ],
+        [
+          0.84,
+          0.2
+        ],
+        [
+          0.9,
+          0.36
+        ],
+        [
+          0.86,
+          0.57
+        ],
+        [
+          0.73,
+          0.65
+        ],
+        [
+          0.68,
+          0.9
+        ],
+        [
+          0.4,
+          0.94
+        ],
+        [
+          0.18,
+          0.84
+        ],
+        [
+          0.2,
+          0.66
+        ],
+        [
+          0.12,
+          0.52
+        ],
+        [
+          0.14,
+          0.29
+        ],
+        [
+          0.22,
+          0.2
+        ]
+      ],
+      "replaces": "jz-353-2",
+      "extractedOn": "2026-10-18",
+      "sourceRegion": {
+        "id": "motif-jz-353-fourleaf-line-20261018",
+        "dimension": "motifs",
+        "value": "花卉",
+        "rect": [
+          0.31,
+          0.34,
+          0.38,
+          0.36
+        ],
+        "label": "耳杯内底四叶纹",
+        "note": "重新从高清馆藏照片分离四叶纹的外缘、花心与叶内小圆纹；周围鱼纹不并入，未补绘反光遮蔽处。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "http://www.jzmsm.org/news-353.html",
+        "sourceImage": "cutouts/jz-353.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5,
+        "sourcePolygon": [
+          [
+            0.24,
+            0
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            0.84,
+            0.2
+          ],
+          [
+            0.9,
+            0.36
+          ],
+          [
+            0.86,
+            0.57
+          ],
+          [
+            0.73,
+            0.65
+          ],
+          [
+            0.68,
+            0.9
+          ],
+          [
+            0.4,
+            0.94
+          ],
+          [
+            0.18,
+            0.84
+          ],
+          [
+            0.2,
+            0.66
+          ],
+          [
+            0.12,
+            0.52
+          ],
+          [
+            0.14,
+            0.29
+          ],
+          [
+            0.22,
+            0.2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "hb-4816-paired-scroll-expand-20261018",
+      "objectId": "hb-4816",
+      "title": "漆木方鉴",
+      "motif": "云气",
+      "label": "方鉴器壁相对卷曲纹",
+      "note": "器壁斜向纹带中相对卷入的彩绘曲线；不取木质器形轮廓。",
+      "view": "detail",
+      "rect": [
+        0.44807121661721067,
+        0.3,
+        0.2433234421364985,
+        0.14545454545454545
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4816.html",
+      "photo": "cutouts/hb-4816-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4816.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4816.html",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4816-paired-scroll-expand-20261018.png",
+      "width": 680,
+      "height": 290,
+      "sourcePixels": [
+        82,
+        32
+      ],
+      "sourceSHA256": "3291ac3b58dd707fc697af8ee901855ebdd5f86f478a7f545c26c3c803f64f08",
+      "assetSHA256": "054d66effb9e5393383b799a690c8d59aadbb685062923f461b72b190b1f1b02",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-hb-4816-paired-scroll-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4816-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.44807121661721067,
+          0.3,
+          0.2433234421364985,
+          0.14545454545454545
+        ],
+        "label": "方鉴器壁相对卷曲纹",
+        "note": "器壁斜向纹带中相对卷入的彩绘曲线；不取木质器形轮廓。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4816.html",
+        "sourceImage": "cutouts/hb-4816-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "hb-4962-paired-scroll-expand-20261018",
+      "objectId": "hb-4962",
+      "title": "漆木鬲",
+      "motif": "云气",
+      "label": "漆鬲器腹双卷纹",
+      "note": "器腹正面两道相向盘卷的彩绘线条，保留原图中的弧度和残损。",
+      "view": "detail",
+      "rect": [
+        0.14583333333333334,
+        0.2153846153846154,
+        0.2881944444444444,
+        0.2
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4962.html",
+      "photo": "cutouts/hb-4962-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4962.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4962.html",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4962-paired-scroll-expand-20261018.png",
+      "width": 680,
+      "height": 341,
+      "sourcePixels": [
+        83,
+        39
+      ],
+      "sourceSHA256": "940f21997c7c6fdfd3f0d264e0a109bdd29ee0a02e2484e44d3df79bff7b0c24",
+      "assetSHA256": "f1a6ab3d09b522098a998068c071ff73b40d7b3861de33ae49a976c1961de109",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-hb-4962-paired-scroll-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4962-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.14583333333333334,
+          0.2153846153846154,
+          0.2881944444444444,
+          0.2
+        ],
+        "label": "漆鬲器腹双卷纹",
+        "note": "器腹正面两道相向盘卷的彩绘线条，保留原图中的弧度和残损。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4962.html",
+        "sourceImage": "cutouts/hb-4962-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "hb-4830-meander-expand-20261018",
+      "objectId": "hb-4830",
+      "title": "漆木豆",
+      "motif": "几何",
+      "label": "漆豆器壁回折纹",
+      "note": "豆盘器壁可见的方折与回旋线条；只提取器表绘纹。",
+      "view": "detail",
+      "rect": [
+        0.3419354838709677,
+        0.15450643776824036,
+        0.36129032258064514,
+        0.15450643776824036
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4830.html",
+      "photo": "cutouts/hb-4830-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4830.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4830.html",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4830-meander-expand-20261018.png",
+      "width": 680,
+      "height": 451,
+      "sourcePixels": [
+        56,
+        36
+      ],
+      "sourceSHA256": "f20190479c108cb2214edc17af476ac202525c3bded67d828106e2b5dee99c84",
+      "assetSHA256": "692a098c30503d2016f7ccba85648ff0d9950d8fa971338dc6f036a70d304fb2",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-hb-4830-meander-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4830-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.3419354838709677,
+          0.15450643776824036,
+          0.36129032258064514,
+          0.15450643776824036
+        ],
+        "label": "漆豆器壁回折纹",
+        "note": "豆盘器壁可见的方折与回旋线条；只提取器表绘纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4830.html",
+        "sourceImage": "cutouts/hb-4830-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "hb-4828-meander-expand-20261018",
+      "objectId": "hb-4828",
+      "title": "漆木方豆",
+      "motif": "几何",
+      "label": "方豆器壁回折纹",
+      "note": "方豆前壁的彩绘回折纹局部，保留照片的透视，不复制补齐缺失部分。",
+      "view": "detail",
+      "rect": [
+        0.35135135135135137,
+        0.46153846153846156,
+        0.30115830115830117,
+        0.14835164835164835
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4828.html",
+      "photo": "cutouts/hb-4828-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4828.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4828.html",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4828-meander-expand-20261018.png",
+      "width": 680,
+      "height": 262,
+      "sourcePixels": [
+        78,
+        27
+      ],
+      "sourceSHA256": "3163735e79a0b52e49252e194d1567a897c2af72e1cb7f002ff54eb49d42e3c3",
+      "assetSHA256": "419bbca69e7771799f96cbccf1550400f318b661b8ff0b1a4e1122aa2db5808d",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-hb-4828-meander-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4828-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.35135135135135137,
+          0.46153846153846156,
+          0.30115830115830117,
+          0.14835164835164835
+        ],
+        "label": "方豆器壁回折纹",
+        "note": "方豆前壁的彩绘回折纹局部，保留照片的透视，不复制补齐缺失部分。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4828.html",
+        "sourceImage": "cutouts/hb-4828-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "hb-4788-scroll-band-expand-20261018",
+      "objectId": "hb-4788",
+      "title": "漆木俎",
+      "motif": "云气",
+      "label": "漆俎侧边卷曲纹带",
+      "note": "漆俎侧边可辨认的连续卷曲线纹。",
+      "view": "detail",
+      "rect": [
+        0.3345724907063197,
+        0.20454545454545456,
+        0.3382899628252788,
+        0.10454545454545454
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4788.html",
+      "photo": "cutouts/hb-4788-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4788.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4788.html",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4788-scroll-band-expand-20261018.png",
+      "width": 680,
+      "height": 202,
+      "sourcePixels": [
+        91,
+        23
+      ],
+      "sourceSHA256": "edff57f6d7cb0ad0a500ce10373b714ebb338fdf629b85f56c23339049fd2d44",
+      "assetSHA256": "d366d7d30a7aaa50b37de0d73cba7ff951e6dc6de425db264012464072455693",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-hb-4788-scroll-band-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4788-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.3345724907063197,
+          0.20454545454545456,
+          0.3382899628252788,
+          0.10454545454545454
+        ],
+        "label": "漆俎侧边卷曲纹带",
+        "note": "漆俎侧边可辨认的连续卷曲线纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4788.html",
+        "sourceImage": "cutouts/hb-4788-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "hb-4832-scroll-band-expand-20261018",
+      "objectId": "hb-4832",
+      "title": "漆木盖豆",
+      "motif": "云气",
+      "label": "盖豆盖沿卷曲纹",
+      "note": "盖豆盖沿的彩绘卷曲线条局部，不提取器盖外形。",
+      "view": "detail",
+      "rect": [
+        0.22641509433962265,
+        0.17695473251028807,
+        0.4968553459119497,
+        0.06995884773662552
+      ],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+      "photo": "cutouts/hb-4832.webp",
+      "photoSource": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+      "credit": null,
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4832-scroll-band-expand-20261018.png",
+      "width": 680,
+      "height": 178,
+      "sourcePixels": [
+        79,
+        17
+      ],
+      "sourceSHA256": "64f882803e692cb6bf274f1fcb750c9c73cc77c0bb92066be2aa7b6efe501158",
+      "assetSHA256": "a86758d229061fc6c7d932fa5be5a8ea99b6599f4c6b35b68356cd3428b218e3",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-hb-4832-scroll-band-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4832-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.22641509433962265,
+          0.17695473251028807,
+          0.4968553459119497,
+          0.06995884773662552
+        ],
+        "label": "盖豆盖沿卷曲纹",
+        "note": "盖豆盖沿的彩绘卷曲线条局部，不提取器盖外形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+        "sourceImage": "cutouts/hb-4832.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "hb-4981-painted-bird-expand-20261018",
+      "objectId": "hb-4981",
+      "title": "彩绘凤鸟双连杯",
+      "motif": "凤鸟",
+      "label": "双连杯器壁彩绘鸟首纹",
+      "note": "只取杯壁上的彩绘鸟首、眼部与喙的线条，和双连杯的鸟形构件分开记录。",
+      "view": "detail",
+      "rect": [
+        0.3003003003003003,
+        0.5714285714285714,
+        0.2072072072072072,
+        0.2
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+      "photo": "cutouts/hb-4981-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4981.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4981.html",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4981-painted-bird-expand-20261018.png",
+      "width": 680,
+      "height": 559,
+      "sourcePixels": [
+        69,
+        56
+      ],
+      "sourceSHA256": "969b10edcbe008525a17f4ee2a22efe29f40095e4797a14ce378dc6eb272dfc6",
+      "assetSHA256": "713169c0727c1860e9d9d49c5dcfa5ca610b24e4d49154a999fe8a17452ceffa",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-hb-4981-painted-bird-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4981-painted-bird-expand-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.3003003003003003,
+          0.5714285714285714,
+          0.2072072072072072,
+          0.2
+        ],
+        "label": "双连杯器壁彩绘鸟首纹",
+        "note": "只取杯壁上的彩绘鸟首、眼部与喙的线条，和双连杯的鸟形构件分开记录。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+        "sourceImage": "cutouts/hb-4981-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.37,
+            0
+          ],
+          [
+            0.42,
+            0.17
+          ],
+          [
+            0.57,
+            0.6
+          ],
+          [
+            1,
+            0.77
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.6,
+            1
+          ],
+          [
+            0.34,
+            0.72
+          ],
+          [
+            0.1,
+            0.53
+          ],
+          [
+            0,
+            0.3
+          ]
+        ]
+      },
+      "sourcePolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          0.37,
+          0
+        ],
+        [
+          0.42,
+          0.17
+        ],
+        [
+          0.57,
+          0.6
+        ],
+        [
+          1,
+          0.77
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0.6,
+          1
+        ],
+        [
+          0.34,
+          0.72
+        ],
+        [
+          0.1,
+          0.53
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "spoon-feather-band-expand-20261018",
+      "objectId": "spoon",
+      "title": "彩绘凤形漆勺",
+      "motif": "禽鸟",
+      "label": "凤形漆勺颈下鳞羽纹",
+      "note": "只取勺颈下方层叠弧线组成的羽饰，不取凤形漆勺的器形。",
+      "view": "detail",
+      "rect": [
+        0.14953271028037382,
+        0.6824034334763949,
+        0.18691588785046728,
+        0.16738197424892703
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+      "photo": "cutouts/spoon.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/5481.html",
+      "credit": null,
+      "era": "秦",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/spoon-feather-band-expand-20261018.png",
+      "width": 680,
+      "height": 664,
+      "sourcePixels": [
+        40,
+        39
+      ],
+      "sourceSHA256": "e5b2fecd196dc1b0d36035002331af4a29157102bf3dd2795e0e0c9732dda0fb",
+      "assetSHA256": "4ce8bd2a04d524538bad9216748d09b0b2eeb32e91f0e3fd353febed275a26bc",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-spoon-feather-band-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-spoon-feather-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "禽鸟",
+        "rect": [
+          0.14953271028037382,
+          0.6824034334763949,
+          0.18691588785046728,
+          0.16738197424892703
+        ],
+        "label": "凤形漆勺颈下鳞羽纹",
+        "note": "只取勺颈下方层叠弧线组成的羽饰，不取凤形漆勺的器形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+        "sourceImage": "cutouts/spoon.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.62,
+            0
+          ],
+          [
+            0.87,
+            0.52
+          ],
+          [
+            1,
+            0.73
+          ],
+          [
+            0.82,
+            1
+          ],
+          [
+            0.18,
+            1
+          ],
+          [
+            0,
+            0.7
+          ]
+        ]
+      },
+      "sourcePolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          0.62,
+          0
+        ],
+        [
+          0.87,
+          0.52
+        ],
+        [
+          1,
+          0.73
+        ],
+        [
+          0.82,
+          1
+        ],
+        [
+          0.18,
+          1
+        ],
+        [
+          0,
+          0.7
+        ]
+      ],
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "jz-458-painted-scroll-expand-20261018",
+      "objectId": "jz-458",
+      "title": "漆木彩绘猪形酒具盒",
+      "motif": "云气",
+      "label": "猪形酒具盒器壁卷曲纹",
+      "note": "提取猪形酒具盒表面红漆卷曲纹，非猪形外轮廓或立体圆钮。",
+      "view": "detail",
+      "rect": [
+        0.5495420482930891,
+        0.5131868131868131,
+        0.16652789342214822,
+        0.09230769230769231
+      ],
+      "source": "http://www.jzmsm.org/news-458.html",
+      "photo": "cutouts/jz-458.webp",
+      "photoSource": "http://www.jzmsm.org/news-458.html",
+      "credit": null,
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-458-painted-scroll-expand-20261018.png",
+      "width": 680,
+      "height": 309,
+      "sourcePixels": [
+        200,
+        84
+      ],
+      "sourceSHA256": "c18476b1dab7c9ad596535189fc5b749d5202989ba1a503226d9f3454c4cd0b3",
+      "assetSHA256": "7149119b46a0b4e07378c3b149a9ed57ea45854364e8cbfc5d807d5aaa06f2c2",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+        "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。 原图与提取结果逐张对照；未补绘。"
+      },
+      "regionId": "motif-jz-458-painted-scroll-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-jz-458-painted-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.5495420482930891,
+          0.5131868131868131,
+          0.16652789342214822,
+          0.09230769230769231
+        ],
+        "label": "猪形酒具盒器壁卷曲纹",
+        "note": "提取猪形酒具盒表面红漆卷曲纹，非猪形外轮廓或立体圆钮。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "http://www.jzmsm.org/news-458.html",
+        "sourceImage": "cutouts/jz-458.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018"
+    },
+    {
+      "id": "jz-351-phoenix-expand-20261018",
+      "objectId": "jz-351",
+      "title": "釉里红凤舞缠枝菊花纹盖罐",
+      "motif": "凤鸟",
+      "label": "罐腹凤鸟与缠枝纹",
+      "note": "从罐腹中央提取凤鸟的颈、翼羽、回旋长尾及周围缠枝；不包含罐体外轮廓。",
+      "view": "detail",
+      "rect": [
+        0.234,
+        0.52,
+        0.418,
+        0.246
+      ],
+      "source": "http://www.jzmsm.org/news-351.html",
+      "photo": "cutouts/jz-351.webp",
+      "photoSource": "http://www.jzmsm.org/news-351.html",
+      "credit": null,
+      "era": "元代",
+      "material": "陶瓷",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-351-phoenix-expand-20261018.png",
+      "width": 760,
+      "height": 579,
+      "sourcePixels": [
+        243,
+        182
+      ],
+      "sourceSHA256": "0eff30a09d77ec180fe94f85b4e21f04fbfbfb05929a195ef99ed8a825619658",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-jz-351-phoenix-expand-20261018",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+        "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。 原图与提取结果逐张对照；未补绘。"
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018",
+      "sourceRegion": {
+        "id": "motif-jz-351-phoenix-expand-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.234,
+          0.52,
+          0.418,
+          0.246
+        ],
+        "label": "罐腹凤鸟与缠枝纹",
+        "note": "从罐腹中央提取凤鸟的颈、翼羽、回旋长尾及周围缠枝；不包含罐体外轮廓。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "http://www.jzmsm.org/news-351.html",
+        "sourceImage": "cutouts/jz-351.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "id": "jz-351-scroll-expand-20261018",
+      "objectId": "jz-351",
+      "title": "釉里红凤舞缠枝菊花纹盖罐",
+      "motif": "几何",
+      "label": "罐肩下缘连续卷曲纹带",
+      "note": "罐肩下缘独立环带中的连续卷曲装饰，和腹部凤鸟、花枝区分；保留原曲面透视。",
+      "view": "detail",
+      "rect": [
+        0.265,
+        0.459,
+        0.386,
+        0.041
+      ],
+      "source": "http://www.jzmsm.org/news-351.html",
+      "photo": "cutouts/jz-351.webp",
+      "photoSource": "http://www.jzmsm.org/news-351.html",
+      "credit": null,
+      "era": "元代",
+      "material": "陶瓷",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-351-scroll-expand-20261018.png",
+      "width": 760,
+      "height": 136,
+      "sourcePixels": [
+        224,
+        30
+      ],
+      "sourceSHA256": "0eff30a09d77ec180fe94f85b4e21f04fbfbfb05929a195ef99ed8a825619658",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-jz-351-scroll-expand-20261018",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+        "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。 原图与提取结果逐张对照；未补绘。"
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018",
+      "sourceRegion": {
+        "id": "motif-jz-351-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.265,
+          0.459,
+          0.386,
+          0.041
+        ],
+        "label": "罐肩下缘连续卷曲纹带",
+        "note": "罐肩下缘独立环带中的连续卷曲装饰，和腹部凤鸟、花枝区分；保留原曲面透视。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "http://www.jzmsm.org/news-351.html",
+        "sourceImage": "cutouts/jz-351.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "id": "chu-manuscript-curl-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "title": "楚帛书",
+      "motif": "人像",
+      "label": "帛书摹本上边卷尾神异图像",
+      "note": "提取书内摹本上边左侧的红黑神异形象；这是摹本绘画线条，非出土原帛的实物拓片。",
+      "view": "detail",
+      "rect": [
+        0.145,
+        0.014,
+        0.15,
+        0.14
+      ],
+      "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+      "photo": "assets/chu-silk-manuscript-book.png",
+      "photoSource": "用户提供《荆楚有色：大江大湖间的符号、色彩与文化记忆》；PDF 第 35 页，印刷第 29 页，图 2-1 摹本配图",
+      "credit": {
+        "author": "书内配图（原作者未署）",
+        "provider": "用户提供书稿 · 图2-1",
+        "page": "assets/chu-silk-manuscript-book.png",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-03"
+      },
+      "era": "战国",
+      "material": "丝织",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/chu-manuscript-curl-expand-20261018.png",
+      "width": 760,
+      "height": 628,
+      "sourcePixels": [
+        71,
+        58
+      ],
+      "sourceSHA256": "576b23941469db8f0f982e9dc247ba0349f177dad33e68debb3b0d0327f3dc9e",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-chu-manuscript-curl-expand-20261018",
+      "sourcePolygon": [
+        [
+          0.24,
+          0.11
+        ],
+        [
+          0.4,
+          0.02
+        ],
+        [
+          0.58,
+          0.15
+        ],
+        [
+          0.7,
+          0.15
+        ],
+        [
+          0.8,
+          0.48
+        ],
+        [
+          0.96,
+          0.48
+        ],
+        [
+          1,
+          0.68
+        ],
+        [
+          0.88,
+          0.84
+        ],
+        [
+          0.57,
+          0.93
+        ],
+        [
+          0.29,
+          0.82
+        ],
+        [
+          0.02,
+          0.84
+        ],
+        [
+          0,
+          0.61
+        ],
+        [
+          0.32,
+          0.64
+        ],
+        [
+          0.49,
+          0.49
+        ]
+      ],
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+        "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。 原图与提取结果逐张对照；未补绘。"
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018",
+      "sourceRegion": {
+        "id": "motif-chu-manuscript-curl-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.145,
+          0.014,
+          0.15,
+          0.14
+        ],
+        "label": "帛书摹本上边卷尾神异图像",
+        "note": "提取书内摹本上边左侧的红黑神异形象；这是摹本绘画线条，非出土原帛的实物拓片。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "id": "chu-manuscript-horns-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "title": "楚帛书",
+      "motif": "人像",
+      "label": "帛书摹本上边展开双臂图像",
+      "note": "提取书内摹本上边右侧展开双臂的神异形象；保留躯干及双臂的红黑线条，不补画身份与细节。",
+      "view": "detail",
+      "rect": [
+        0.637,
+        0.043,
+        0.172,
+        0.13
+      ],
+      "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+      "photo": "assets/chu-silk-manuscript-book.png",
+      "photoSource": "用户提供《荆楚有色：大江大湖间的符号、色彩与文化记忆》；PDF 第 35 页，印刷第 29 页，图 2-1 摹本配图",
+      "credit": {
+        "author": "书内配图（原作者未署）",
+        "provider": "用户提供书稿 · 图2-1",
+        "page": "assets/chu-silk-manuscript-book.png",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-03"
+      },
+      "era": "战国",
+      "material": "丝织",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/chu-manuscript-horns-expand-20261018.png",
+      "width": 760,
+      "height": 520,
+      "sourcePixels": [
+        81,
+        54
+      ],
+      "sourceSHA256": "576b23941469db8f0f982e9dc247ba0349f177dad33e68debb3b0d0327f3dc9e",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-chu-manuscript-horns-expand-20261018",
+      "sourcePolygon": [
+        [
+          0.37,
+          0.05
+        ],
+        [
+          0.75,
+          0.05
+        ],
+        [
+          0.75,
+          0.38
+        ],
+        [
+          0.88,
+          0.38
+        ],
+        [
+          0.88,
+          0.56
+        ],
+        [
+          0.77,
+          0.58
+        ],
+        [
+          0.81,
+          0.72
+        ],
+        [
+          0.76,
+          0.8
+        ],
+        [
+          0.42,
+          0.83
+        ],
+        [
+          0.37,
+          0.76
+        ],
+        [
+          0.38,
+          0.65
+        ],
+        [
+          0.32,
+          0.7
+        ],
+        [
+          0.28,
+          0.61
+        ],
+        [
+          0.24,
+          0.6
+        ],
+        [
+          0.24,
+          0.49
+        ],
+        [
+          0.43,
+          0.48
+        ],
+        [
+          0.44,
+          0.37
+        ],
+        [
+          0.37,
+          0.36
+        ]
+      ],
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+        "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。 原图与提取结果逐张对照；未补绘。"
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018",
+      "sourceRegion": {
+        "id": "motif-chu-manuscript-horns-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.637,
+          0.043,
+          0.172,
+          0.13
+        ],
+        "label": "帛书摹本上边展开双臂图像",
+        "note": "提取书内摹本上边右侧展开双臂的神异形象；保留躯干及双臂的红黑线条，不补画身份与细节。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "id": "chu-manuscript-longtail-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "title": "楚帛书",
+      "motif": "人像",
+      "label": "帛书摹本左边长尾神异图像",
+      "note": "提取书内摹本左下边的长尾神异形象；与上边卷尾、展开双臂形象属于不同图像单元。",
+      "view": "detail",
+      "rect": [
+        0.028,
+        0.687,
+        0.176,
+        0.125
+      ],
+      "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+      "photo": "assets/chu-silk-manuscript-book.png",
+      "photoSource": "用户提供《荆楚有色：大江大湖间的符号、色彩与文化记忆》；PDF 第 35 页，印刷第 29 页，图 2-1 摹本配图",
+      "credit": {
+        "author": "书内配图（原作者未署）",
+        "provider": "用户提供书稿 · 图2-1",
+        "page": "assets/chu-silk-manuscript-book.png",
+        "changes": "原照片局部裁切与单色线条提取；去除孤立噪点、平滑边缘，未补绘。",
+        "retrieved": "2026-10-03"
+      },
+      "era": "战国",
+      "material": "丝织",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/chu-manuscript-longtail-expand-20261018.png",
+      "width": 760,
+      "height": 486,
+      "sourcePixels": [
+        84,
+        52
+      ],
+      "sourceSHA256": "576b23941469db8f0f982e9dc247ba0349f177dad33e68debb3b0d0327f3dc9e",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-chu-manuscript-longtail-expand-20261018",
+      "sourcePolygon": [
+        [
+          0,
+          0.18
+        ],
+        [
+          0.32,
+          0
+        ],
+        [
+          0.66,
+          0.05
+        ],
+        [
+          0.66,
+          0.38
+        ],
+        [
+          0.98,
+          0.42
+        ],
+        [
+          1,
+          0.69
+        ],
+        [
+          0.79,
+          0.82
+        ],
+        [
+          0.67,
+          0.74
+        ],
+        [
+          0.63,
+          0.93
+        ],
+        [
+          0.29,
+          0.88
+        ],
+        [
+          0.09,
+          0.75
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+        "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。 原图与提取结果逐张对照；未补绘。"
+      },
+      "extractedOn": "2026-10-18",
+      "extractionBatch": "expansion-20261018",
+      "sourceRegion": {
+        "id": "motif-chu-manuscript-longtail-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.028,
+          0.687,
+          0.176,
+          0.125
+        ],
+        "label": "帛书摹本左边长尾神异图像",
+        "note": "提取书内摹本左下边的长尾神异形象；与上边卷尾、展开双臂形象属于不同图像单元。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
     }
-  ]
+  ],
+  "qualityReview": {
+    "reviewed": "2026-10-18",
+    "reviewedAssets": 93,
+    "retained": 32,
+    "withdrawn": 61,
+    "manifest": "data/rubbing-quality-review.json",
+    "policy": "保留可独立识别的器表线纹；撤下噪点、块面、严重断裂、形制轮廓或同图重复。原图与来源保留。",
+    "newExtractions": 21
+  },
+  "latestBatch": "expansion-20261018"
 }

@@ -8,3 +8,19 @@ body[data-view=colour] .summary-help{display:none}
 /* New colour/object alternation uses opaque photographic colours, without light halos. */
 #atlas-colour{background:#09090b}.colour-hover{background:#161215f5;border-color:#76504f;color:#f3eee8}.colour-hover small{color:#b9a9ac}.colour-family-nav button{background:#161215e8;border-color:#674348;color:#dfd1cd}.colour-family-nav button[aria-pressed=true]{border-color:#c9a063;color:#ffe9df}.colour-cloud-caption small{color:#b9a9ac}.colour-hub{background:#161215c9;color:#f3eee8}.colour-heading .spatial-kicker{color:#c9a063}
 @media(max-width:760px){#atlas-colour .spatial-tools{flex-wrap:wrap;max-width:160px;justify-content:flex-end;gap:4px}#atlas-colour .spatial-tools button{padding:7px;font-size:9px}.colour-heading h2{max-width:190px;font-size:18px}.colour-family-nav{max-width:235px;top:135px}}
+
+/* Keep the speed control with the existing colour filters, away from the scene centre. */
+.colour-controls{position:absolute;z-index:3;left:26px;top:156px;width:320px;display:grid;gap:14px;pointer-events:none}
+.colour-controls .colour-family-nav{position:static;max-width:none;pointer-events:auto}
+.colour-rhythm{width:248px;max-width:100%;padding:11px 13px 8px;background:#151214e8;border:1px solid #5b4934;pointer-events:auto}
+.colour-rhythm label{display:flex;align-items:baseline;justify-content:space-between;gap:12px;color:#e8e0d4;font:11px var(--sans);letter-spacing:.5px}
+.colour-rhythm output{color:var(--site-gold,#c9a063);font-variant-numeric:tabular-nums;font-size:11px;white-space:nowrap}
+.colour-rhythm input[type=range]{display:block;width:100%;height:22px;margin:4px 0 0;padding:0;appearance:none;-webkit-appearance:none;background:transparent;cursor:pointer;accent-color:#c9a063;touch-action:pan-y}
+.colour-rhythm input[type=range]::-webkit-slider-runnable-track{height:3px;background:linear-gradient(to right,#c9a063 0 var(--rhythm-progress,37.5%),#4b4139 var(--rhythm-progress,37.5%) 100%);border-radius:2px}
+.colour-rhythm input[type=range]::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:12px;height:12px;margin-top:-4.5px;border:1px solid #f0d6ac;border-radius:50%;background:#c9a063}
+.colour-rhythm input[type=range]::-moz-range-track{height:3px;background:#4b4139;border-radius:2px}
+.colour-rhythm input[type=range]::-moz-range-progress{height:3px;background:#c9a063}
+.colour-rhythm input[type=range]::-moz-range-thumb{width:11px;height:11px;border:1px solid #f0d6ac;border-radius:50%;background:#c9a063}
+.colour-rhythm input[type=range]:focus-visible{outline:1px solid #c9a063;outline-offset:3px;border-radius:2px}
+.colour-rhythm-ends{display:flex;justify-content:space-between;color:#a89a8d;font:9px var(--sans);line-height:1.4}
+@media(max-width:760px){.colour-controls{left:16px;top:135px;width:235px;gap:10px}.colour-rhythm{width:215px;padding:8px 11px 6px}.colour-rhythm label,.colour-rhythm output{font-size:10px}.colour-rhythm-ends{font-size:8px}}

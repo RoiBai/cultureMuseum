@@ -1,0 +1,945 @@
+{
+  "version": 1,
+  "reviewed": "2026-10-18",
+  "scope": "原有 72 个数字拓影二次审核，以及 2026-10-18 新增、重新提取的器表纹饰",
+  "policy": "保留可独立识别的器表线纹；撤下噪点、块面、严重断裂、形制轮廓或同图重复。原图与来源保留。",
+  "summary": {
+    "reviewed": 93,
+    "retained": 32,
+    "withdrawn": 61,
+    "newExtractions": 21,
+    "superseded": 1
+  },
+  "entries": [
+    {
+      "id": "hb-6916-1",
+      "objectId": "hb-6916",
+      "motif": "云雷",
+      "label": "鼓身纹饰",
+      "status": "withdraw",
+      "reason": "鼓身纹饰带被大量铜锈与颗粒线覆盖，云雷主线不够独立。",
+      "asset": "rubbings/hb-6916-1.png",
+      "assetSHA256": "2a8be2a9f62018b884610fd09efe074c0dcf545739102e5a3aaaa9d0012dc00d"
+    },
+    {
+      "id": "hb-6916-2",
+      "objectId": "hb-6916",
+      "motif": "几何",
+      "label": "重复装饰单元",
+      "status": "withdraw",
+      "reason": "与同鼓纹饰局部重复，提取结果以铜锈颗粒和随机孔洞为主，不能辨认所谓重复装饰单元。",
+      "asset": "rubbings/hb-6916-2.png",
+      "assetSHA256": "fb2dfc604cd1b1f336adadecde8686a409adf8dfb0951184734303e56977d933"
+    },
+    {
+      "id": "jz-473-2",
+      "objectId": "jz-473",
+      "motif": "云雷",
+      "label": "足部纹饰带",
+      "status": "withdraw",
+      "reason": "足部纹线与锈蚀、阴影粘连为块状网孔，缺少清楚独立的云雷单元。",
+      "asset": "rubbings/jz-473-2.png",
+      "assetSHA256": "c88ef54edd9d0159c084310db4c15701dfcc136a4d9e636405290bed95070490"
+    },
+    {
+      "id": "jz-473-3",
+      "objectId": "jz-473",
+      "motif": "兽面",
+      "label": "腹部兽面",
+      "status": "withdraw",
+      "reason": "腹部兽面主线与锈蚀纹理混合，目、鼻等装饰关系未被清楚保留。",
+      "asset": "rubbings/jz-473-3.png",
+      "assetSHA256": "86d933f574e9d8ecd4dcf026d4f5cede0865434eae809d077226fc7986b33e61"
+    },
+    {
+      "id": "jz-472-2",
+      "objectId": "jz-472",
+      "motif": "几何",
+      "label": "腿部涡纹",
+      "status": "withdraw",
+      "reason": "纹饰与虎腿外轮廓、铜锈颗粒一并提取，涡纹主体被噪声包围。",
+      "asset": "rubbings/jz-472-2.png",
+      "assetSHA256": "62fa9f27a8bff5ec1f20f37c56052bf8887b424d149558ae8c4a94b8fcf7b784"
+    },
+    {
+      "id": "wangziwu-ding-surface-geometry",
+      "objectId": "wangziwu-ding",
+      "motif": "几何",
+      "label": "腹部纹带",
+      "status": "withdraw",
+      "reason": "腹部窄纹带密集且细碎，无法从拓影独立读出重复装饰线。",
+      "asset": "rubbings/wangziwu-ding-surface-geometry.png",
+      "assetSHA256": "31d179b377bcd0b0540e94d4d454d7119efdc4e5a3dc2389164947962fbdd217"
+    },
+    {
+      "id": "hb-4694-1",
+      "objectId": "hb-4694",
+      "motif": "几何",
+      "label": "剑身菱形纹",
+      "status": "withdraw",
+      "reason": "剑身菱形纹与锈斑粘连成孔洞状块面，菱格边线未能连续保留。",
+      "asset": "rubbings/hb-4694-1.png",
+      "assetSHA256": "48316572a00581fbabb4fc055fecd97dc3d44957a1b6e6d916c3f9ad830c40bc"
+    },
+    {
+      "id": "hb-4857-surface-phoenix",
+      "objectId": "hb-4857",
+      "motif": "凤鸟",
+      "label": "玉佩器表双凤纹",
+      "status": "retain",
+      "reason": "双凤对称构图及连续卷曲刻线仍清楚，和玉佩器表局部一致。",
+      "asset": "rubbings/hb-4857-surface-phoenix.png",
+      "assetSHA256": "76acc83ef795e14d44084a7fe758056f743c4a7579bf4773fd4b7a7c7dade74c"
+    },
+    {
+      "id": "hb-4859-1",
+      "objectId": "hb-4859",
+      "motif": "几何",
+      "label": "环上重复纹饰",
+      "status": "withdraw",
+      "reason": "器表纹线、玉质沁斑与器物边缘混为块面，缺少可辨的重复刻纹。",
+      "asset": "rubbings/hb-4859-1.png",
+      "assetSHA256": "68367a89e4b04e5b982f425b80cce3ccf3bf489962c0ec1320db10a785e8b5e3"
+    },
+    {
+      "id": "hb-4862-surface-dragon",
+      "objectId": "hb-4862",
+      "motif": "龙蛇",
+      "label": "玉佩器表蟠龙纹",
+      "status": "retain",
+      "reason": "蟠龙组合的卷曲线条与中央构图可辨，器表刻纹有对应依据。",
+      "asset": "rubbings/hb-4862-surface-dragon.png",
+      "assetSHA256": "8accadcbc8ed6bb329638fc6e200516992c57efc237c4abcffe20affbd10d236"
+    },
+    {
+      "id": "hb-4863-surface-cloud",
+      "objectId": "hb-4863",
+      "motif": "云气",
+      "label": "玉璜卷云纹单元",
+      "status": "retain",
+      "reason": "卷云单元的连续回旋刻线可辨；重复排列本身有明确纹饰意义。",
+      "asset": "rubbings/hb-4863-surface-cloud.png",
+      "assetSHA256": "21aab8b944d1f326d287cdda6d553fe6b9020a68d8405485d5a78aeba01fa9fb"
+    },
+    {
+      "id": "hb-4980-1",
+      "objectId": "hb-4980",
+      "motif": "几何",
+      "label": "红黑三角纹",
+      "status": "withdraw",
+      "reason": "三角纹主体虽在照片可见，但当前拓影混入大量漆面磨损与颗粒，不作为清楚线纹上架。",
+      "asset": "rubbings/hb-4980-1.png",
+      "assetSHA256": "edc74c75a7b34687ca7fed47174e80aeab9533ce12c9ee866e50344174f525f2"
+    },
+    {
+      "id": "hb-4986-1",
+      "objectId": "hb-4986",
+      "motif": "禽鸟",
+      "label": "口沿变形鸟纹",
+      "status": "withdraw",
+      "reason": "仅剩口沿边界及块状孔洞，不能读出变形鸟纹。",
+      "asset": "rubbings/hb-4986-1.png",
+      "assetSHA256": "c4903ca3c71ea6b3ef11219d2e224af5ebc5556b523ce22ae97923f09f002e05"
+    },
+    {
+      "id": "hb-4987-surface-geometry",
+      "objectId": "hb-4987",
+      "motif": "几何",
+      "label": "耳杯耳部菱形纹",
+      "status": "withdraw",
+      "reason": "耳部菱形纹被压成数条重叠短线，菱形单元没有清楚保留。",
+      "asset": "rubbings/hb-4987-surface-geometry.png",
+      "assetSHA256": "8ee101a5a65ad65893ed6ba7deb0ad5e7ff093774d727ed3d255ee18f93bcaed"
+    },
+    {
+      "id": "hb-4996-surface-beast",
+      "objectId": "hb-4996",
+      "motif": "虎兽",
+      "label": "面板上缘兽纹",
+      "status": "retain",
+      "reason": "面板上缘相向兽纹及旋卷身部可辨，装饰结构完整。",
+      "asset": "rubbings/hb-4996-surface-beast.png",
+      "assetSHA256": "3749ff569339908e2762f32a53379b754fed23ebc6b0d23c458c7e6c7bd3e859"
+    },
+    {
+      "id": "hb-4996-surface-bird",
+      "objectId": "hb-4996",
+      "motif": "禽鸟",
+      "label": "面板左侧鸟纹",
+      "status": "retain",
+      "reason": "面板上鸟纹的颈、翼与曲线可辨；取自器表装饰而非整件器物造型。",
+      "asset": "rubbings/hb-4996-surface-bird.png",
+      "assetSHA256": "f4ef6568b86951d9de6c8e050ef4c07591ba7b2a475942635cd4eef9d1d94a41"
+    },
+    {
+      "id": "hb-5073-1",
+      "objectId": "hb-5073",
+      "motif": "几何",
+      "label": "圆涡纹",
+      "status": "withdraw",
+      "reason": "圆涡纹被铜锈和随机孔洞包围，当前提取未隔离纹饰。",
+      "asset": "rubbings/hb-5073-1.png",
+      "assetSHA256": "2d22aacdad828138a7a18071e66d28e41908d810257c00f3a30d7e533b7504b3"
+    },
+    {
+      "id": "hb-5150-surface-phoenix",
+      "objectId": "hb-5150",
+      "motif": "凤鸟",
+      "label": "带钩错金银龙凤纹组合",
+      "status": "withdraw",
+      "reason": "龙凤错金银局部缩小后线条过密，关键单元难以独立辨认。",
+      "asset": "rubbings/hb-5150-surface-phoenix.png",
+      "assetSHA256": "d838c1c3d393b1bd2f9d7836860ab41f36d6167e376f1fbe57898b64742c661b"
+    },
+    {
+      "id": "hb-5150-surface-dragon",
+      "objectId": "hb-5150",
+      "motif": "龙蛇",
+      "label": "带钩错金银龙凤纹组合",
+      "status": "withdraw",
+      "reason": "与同带钩凤鸟项为同一局部、同一提取结果；且线条过密，不重复上架。",
+      "asset": "rubbings/hb-5150-surface-dragon.png",
+      "assetSHA256": "d838c1c3d393b1bd2f9d7836860ab41f36d6167e376f1fbe57898b64742c661b"
+    },
+    {
+      "id": "hb-5152-surface-floral",
+      "objectId": "hb-5152",
+      "motif": "花卉",
+      "label": "铜镜花叶纹单元",
+      "status": "withdraw",
+      "reason": "花叶纹裁切分辨率过低，提取后主要是粗像素块与断线。",
+      "asset": "rubbings/hb-5152-surface-floral.png",
+      "assetSHA256": "78f17ad89f81faabda43f7cd5ce5fe1c30c56e804591d7c6277454027b4628a6"
+    },
+    {
+      "id": "hb-5152-surface-geometry",
+      "objectId": "hb-5152",
+      "motif": "几何",
+      "label": "铜镜山字纹单元",
+      "status": "withdraw",
+      "reason": "山字纹关键折线与表面噪声混杂，局部过小而像素化。",
+      "asset": "rubbings/hb-5152-surface-geometry.png",
+      "assetSHA256": "89b061f25186df5fa06d979944a85134e88fdd1d8bb11d574c97825f0116d393"
+    },
+    {
+      "id": "hb-5155-1",
+      "objectId": "hb-5155",
+      "motif": "凤鸟",
+      "label": "镜背凤纹区",
+      "status": "withdraw",
+      "reason": "镜背凤纹与铜锈、孔洞合并，凤鸟结构未能读出。",
+      "asset": "rubbings/hb-5155-1.png",
+      "assetSHA256": "64c46485b85ca5305ed99ed3ff2ee82e41e60ba72e0c7d4161b641643746bf55"
+    },
+    {
+      "id": "hb-5173-1",
+      "objectId": "hb-5173",
+      "motif": "几何",
+      "label": "谷纹单元",
+      "status": "withdraw",
+      "reason": "谷纹单元与玉质表面斑点合并为块面，无法独立辨认谷纹刻线。",
+      "asset": "rubbings/hb-5173-1.png",
+      "assetSHA256": "78125f3f41b49f05fe76ddf799b472c879fa01334977519f6db973d5590108f7"
+    },
+    {
+      "id": "hb-5174-surface-cloud",
+      "objectId": "hb-5174",
+      "motif": "云气",
+      "label": "玉璧器表卷云纹",
+      "status": "retain",
+      "reason": "多个卷云单元仍能对应照片刻线，保留为局部纹带。",
+      "asset": "rubbings/hb-5174-surface-cloud.png",
+      "assetSHA256": "659e80adb49f78c6098989f8450a44208299e262c6c8b98285d170b6e0dd1998"
+    },
+    {
+      "id": "jz-458-3",
+      "objectId": "jz-458",
+      "motif": "云气",
+      "label": "器身卷曲装饰",
+      "status": "withdraw",
+      "reason": "猪形器物外形与表面反光噪声同时进入拓影，独立装饰线不清楚。",
+      "asset": "rubbings/jz-458-3.png",
+      "assetSHA256": "00e47b88d57faf90ca9c4902b63bf84c2db53b43f33b37c9b2ebb3ff5caf0f84"
+    },
+    {
+      "id": "jz-466-2",
+      "objectId": "jz-466",
+      "motif": "兽面",
+      "label": "器腹纹饰",
+      "status": "withdraw",
+      "reason": "器腹横向铸造边线与铜锈占主导，不能读出标注的兽面。",
+      "asset": "rubbings/jz-466-2.png",
+      "assetSHA256": "cbaeded253e76f6521be0d0d88d850b36d0cfd082b4702588de260aca00b9810"
+    },
+    {
+      "id": "hb-4988-1",
+      "objectId": "hb-4988",
+      "motif": "云气",
+      "label": "透雕云纹梳背",
+      "status": "withdraw",
+      "reason": "梳背形制轮廓及孔洞占主导，器表云纹与质感噪声未分离。",
+      "asset": "rubbings/hb-4988-1.png",
+      "assetSHA256": "990f65d6e2776172a60814d6bffbf24f553c39719d6ea8e197932dec5847391e"
+    },
+    {
+      "id": "hb-4994-surface-phoenix",
+      "objectId": "hb-4994",
+      "motif": "凤鸟",
+      "label": "漆盾龙凤纹组合",
+      "status": "withdraw",
+      "reason": "漆盾纹饰局部大段缺失，下面线条与磨损混合，未形成可独立识别的完整凤纹单元。",
+      "asset": "rubbings/hb-4994-surface-phoenix.png",
+      "assetSHA256": "7c003cd1e4236775ce3b030390226641c72fc5d8d5df8ff4e4536d0cbd632550"
+    },
+    {
+      "id": "hb-4994-surface-dragon",
+      "objectId": "hb-4994",
+      "motif": "龙蛇",
+      "label": "漆盾龙凤纹组合",
+      "status": "withdraw",
+      "reason": "与同漆盾凤鸟项使用同一局部且同图重复，关键纹饰结构同样残缺。",
+      "asset": "rubbings/hb-4994-surface-dragon.png",
+      "assetSHA256": "7c003cd1e4236775ce3b030390226641c72fc5d8d5df8ff4e4536d0cbd632550"
+    },
+    {
+      "id": "hb-5069-1",
+      "objectId": "hb-5069",
+      "motif": "龙蛇",
+      "label": "器腹嵌错纹饰",
+      "status": "withdraw",
+      "reason": "器腹嵌错纹饰与锈蚀块面混合，当前拓影没有清楚的龙蛇主线。",
+      "asset": "rubbings/hb-5069-1.png",
+      "assetSHA256": "30f1fc4f76fce341fc544fda4797dfe88c7fc358fd1770e770e426e198e4c95a"
+    },
+    {
+      "id": "hb-5145-surface-phoenix",
+      "objectId": "hb-5145",
+      "motif": "凤鸟",
+      "label": "熏杯器壁凤纹镂空",
+      "status": "withdraw",
+      "reason": "凤纹镂空边缘断裂、截断较多，未保留完整单元。",
+      "asset": "rubbings/hb-5145-surface-phoenix.png",
+      "assetSHA256": "037d16d803aa5693b0dff158ce170ea93cdff89993d8fbfb9a34a9b9c314162c"
+    },
+    {
+      "id": "chu-silk-manuscript-surface-figure",
+      "objectId": "chu-silk-manuscript",
+      "motif": "人像",
+      "label": "摹本下边神异形象",
+      "status": "retain",
+      "reason": "摹本神异人物的躯干、四肢与冠状轮廓可辨，明确标为摹本局部。",
+      "asset": "rubbings/chu-silk-manuscript-surface-figure.png",
+      "assetSHA256": "47f544a581e44da71456e4b96d4b2e8b443a9e35f577e2edbcf31c5baf557904"
+    },
+    {
+      "id": "hb-5179-surface-cloud",
+      "objectId": "hb-5179",
+      "motif": "云气",
+      "label": "玉玦表面卷云纹",
+      "status": "withdraw",
+      "reason": "玉玦卷云纹仅剩数段弧线，局部不足以辨认组合。",
+      "asset": "rubbings/hb-5179-surface-cloud.png",
+      "assetSHA256": "47a5acc5f3658b5f6db1d8b536a821265b494464b8eb77af7ea596f0f79cf1db"
+    },
+    {
+      "id": "hb-6173-1",
+      "objectId": "hb-6173",
+      "motif": "云气",
+      "label": "云纹刻线",
+      "status": "withdraw",
+      "reason": "刻纹与玉质沁斑混为随机网孔，清晰的卷云刻线不足。",
+      "asset": "rubbings/hb-6173-1.png",
+      "assetSHA256": "6163ef84cba5d31bff9ed35ec00d7fba6e145da654663aa66f1a0075346a1e31"
+    },
+    {
+      "id": "hb-6174-1",
+      "objectId": "hb-6174",
+      "motif": "云气",
+      "label": "云纹刻线",
+      "status": "withdraw",
+      "reason": "刻纹与玉质沁斑混为随机网孔，清晰的卷云刻线不足。",
+      "asset": "rubbings/hb-6174-1.png",
+      "assetSHA256": "aff1f7b03f45ab89768b160e7f36cc0a096aa4837ea296bd973484a3ac5cd0ef"
+    },
+    {
+      "id": "hb-6911-1",
+      "objectId": "hb-6911",
+      "motif": "龙蛇",
+      "label": "镂空口沿",
+      "status": "withdraw",
+      "reason": "镂空口沿的密集结构、背景和反光混合，细碎线条无法辨认独立纹样。",
+      "asset": "rubbings/hb-6911-1.png",
+      "assetSHA256": "bb3666cb0b8c46c38c818bf4fa457780b1c7226bf943e826fb307720212b1753"
+    },
+    {
+      "id": "hb-5460-surface-phoenix",
+      "objectId": "hb-5460",
+      "motif": "凤鸟",
+      "label": "盂内壁凤鱼纹局部",
+      "status": "withdraw",
+      "reason": "凤鱼纹主体只剩零散短线和小块，连续关系缺失。",
+      "asset": "rubbings/hb-5460-surface-phoenix.png",
+      "assetSHA256": "8e8edc7fd6dac05fffb38f5de4cd553e1fa522d6d2bc1a98cee00a0a01a6e667"
+    },
+    {
+      "id": "hb-5461-surface-phoenix",
+      "objectId": "hb-5461",
+      "motif": "凤鸟",
+      "label": "盂内底彩绘凤纹",
+      "status": "withdraw",
+      "reason": "保留的主要是盂沿边界与数段短线，无法读出标注的凤纹。",
+      "asset": "rubbings/hb-5461-surface-phoenix.png",
+      "assetSHA256": "b976bf4e8a7e12488671cb6b286e123f1be69c2279b72cb94f3faa2d3eee3c82"
+    },
+    {
+      "id": "hb-5462-surface-phoenix",
+      "objectId": "hb-5462",
+      "motif": "凤鸟",
+      "label": "盂内壁变形凤鱼纹",
+      "status": "retain",
+      "reason": "内壁凤鱼组合的连续斜线与卷尾可辨，对应原图彩绘局部。",
+      "asset": "rubbings/hb-5462-surface-phoenix.png",
+      "assetSHA256": "aae1cee2b269339824477af582d3ed43c753fc41161ef5fdcacb37ed21d06ed5"
+    },
+    {
+      "id": "hb-5484-surface-geometry",
+      "objectId": "hb-5484",
+      "motif": "几何",
+      "label": "漆匕点格纹",
+      "status": "withdraw",
+      "reason": "点格纹没有被清晰分离，圆弧和碎线混合且局部边界明显。",
+      "asset": "rubbings/hb-5484-surface-geometry.png",
+      "assetSHA256": "a2afd38177c0be26d29a003b97c334bd3477a21217303c4e07232f672a39462d"
+    },
+    {
+      "id": "hb-5523-surface-phoenix",
+      "objectId": "hb-5523",
+      "motif": "凤鸟",
+      "label": "漆匕勺部云凤纹",
+      "status": "withdraw",
+      "reason": "只剩勺部局部弧线，云凤组合被截断，不能独立识别。",
+      "asset": "rubbings/hb-5523-surface-phoenix.png",
+      "assetSHA256": "5cbfdaa9823fd15f172cf16f4df85f228660cdc1f44d79219fbfa3780f08708b"
+    },
+    {
+      "id": "hb-5528-surface-phoenix",
+      "objectId": "hb-5528",
+      "motif": "凤鸟",
+      "label": "奁盖云凤纹",
+      "status": "withdraw",
+      "reason": "云凤主体大段断裂，只剩游离线段和块面。",
+      "asset": "rubbings/hb-5528-surface-phoenix.png",
+      "assetSHA256": "4678aff7baa7c5206fabc6258c3bae7b703324e249fa4377abb43be7afd3ac86"
+    },
+    {
+      "id": "hb-5530-surface-phoenix",
+      "objectId": "hb-5530",
+      "motif": "凤鸟",
+      "label": "圆奁内壁云凤纹",
+      "status": "withdraw",
+      "reason": "圆奁内壁纹样缺失严重，只剩边界与孤立方块。",
+      "asset": "rubbings/hb-5530-surface-phoenix.png",
+      "assetSHA256": "baa51c2dd94e37ab2c8e8a8b4be34f5f8eba04d3698bcfd1dcf5cf9609817ffb"
+    },
+    {
+      "id": "hb-5533-surface-cloud",
+      "objectId": "hb-5533",
+      "motif": "云气",
+      "label": "椭圆奁盖云气纹",
+      "status": "withdraw",
+      "reason": "当前结果主要是奁盖边界与零星线段，没有可独立识别的云气纹。",
+      "asset": "rubbings/hb-5533-surface-cloud.png",
+      "assetSHA256": "a798db4b22e97e8a901a49c225d119712086630a70a3e21eb80a38a95c10fc81"
+    },
+    {
+      "id": "hb-5537-surface-phoenix",
+      "objectId": "hb-5537",
+      "motif": "凤鸟",
+      "label": "漆卮变形凤鸟纹单元",
+      "status": "withdraw",
+      "reason": "主要为器壁边界与短线，变形凤鸟主体缺失。",
+      "asset": "rubbings/hb-5537-surface-phoenix.png",
+      "assetSHA256": "500a2aacdb24d9a77dff19c55f6d4a05a61754630af0011fb51321509e782318"
+    },
+    {
+      "id": "hb-5459-surface-phoenix",
+      "objectId": "hb-5459",
+      "motif": "凤鸟",
+      "label": "盒盖变形凤鸟纹",
+      "status": "retain",
+      "reason": "盒盖两侧相向云凤构图、卷尾与中央交叉线均可辨。",
+      "asset": "rubbings/hb-5459-surface-phoenix.png",
+      "assetSHA256": "bd15eb400cfd4a1ba655f9b2f391e663ba6443cc1c1f7b068c131094773f1cb9"
+    },
+    {
+      "id": "hb-5463-surface-beast",
+      "objectId": "hb-5463",
+      "motif": "虎兽",
+      "label": "漆盂外壁云兽纹",
+      "status": "withdraw",
+      "reason": "兽纹的结构未被保留，仅剩器壁横线和破碎斜线。",
+      "asset": "rubbings/hb-5463-surface-beast.png",
+      "assetSHA256": "8c4dc4c21d87552f4cf2e3cc7f2386a7cc9a05921e554c931b0962f2eb838662"
+    },
+    {
+      "id": "hb-5464-surface-phoenix",
+      "objectId": "hb-5464",
+      "motif": "凤鸟",
+      "label": "漆盂内底云凤纹",
+      "status": "withdraw",
+      "reason": "内底凤纹被截断成弧线与块面，缺少可读单元。",
+      "asset": "rubbings/hb-5464-surface-phoenix.png",
+      "assetSHA256": "2bc4450fba23f596ad270399b9b228e5516b15e5083f662d8e9c9a5decc19063"
+    },
+    {
+      "id": "hb-5531-surface-cloud",
+      "objectId": "hb-5531",
+      "motif": "云气",
+      "label": "奁盖云气纹",
+      "status": "withdraw",
+      "reason": "云气纹只有散碎短线，组合关系不完整。",
+      "asset": "rubbings/hb-5531-surface-cloud.png",
+      "assetSHA256": "94a80f7ce87762ce343c3b45bca42e038f0f466feac69364b1de81b2a2fcc9b0"
+    },
+    {
+      "id": "hb-4855-surface-phoenix",
+      "objectId": "hb-4855",
+      "motif": "凤鸟",
+      "label": "漆壶颈部云凤纹",
+      "status": "withdraw",
+      "reason": "用户点名复核：漆壶颈部云凤纹仅剩孤立方块与短折线，不能识别凤鸟。",
+      "asset": "rubbings/hb-4855-surface-phoenix.png",
+      "assetSHA256": "730f0f3d56b3a04f6aedf8ca7eaf38021265290d2e58297cb653b51002964214"
+    },
+    {
+      "id": "hb-5457-surface-phoenix",
+      "objectId": "hb-5457",
+      "motif": "凤鸟",
+      "label": "耳杯内沿凤鸟纹",
+      "status": "withdraw",
+      "reason": "局部主要剩下耳杯边缘斜线，凤鸟纹主体不可辨。",
+      "asset": "rubbings/hb-5457-surface-phoenix.png",
+      "assetSHA256": "ab9863b93e2e8c8490d2cad32c35b95e6f12498b1943dd62873bedaf9580a612"
+    },
+    {
+      "id": "hb-5458-surface-geometry",
+      "objectId": "hb-5458",
+      "motif": "几何",
+      "label": "漆盒外壁波折纹",
+      "status": "withdraw",
+      "reason": "由重新提取的「漆圆盒器腹波折纹带」替代，避免同一区域重复收录；新图已去除相邻边框。",
+      "asset": "rubbings/hb-5458-surface-geometry.png",
+      "assetSHA256": "631f808ff36009dbd20a85ddef6f8758a5c2036b965a7098d0e6da68542d3c63"
+    },
+    {
+      "id": "hb-5465-surface-phoenix",
+      "objectId": "hb-5465",
+      "motif": "凤鸟",
+      "label": "漆盂外壁变形凤鸟纹",
+      "status": "retain",
+      "reason": "外壁变形凤鸟的卷尾和长曲线仍可辨，对应原图彩绘单元。",
+      "asset": "rubbings/hb-5465-surface-phoenix.png",
+      "assetSHA256": "a85ebadbd5f3593d8c47fbce6b6f350171b5e38ccab74025ea16b1dfd8471793"
+    },
+    {
+      "id": "hb-5466-surface-phoenix",
+      "objectId": "hb-5466",
+      "motif": "凤鸟",
+      "label": "漆盂外壁变形凤鸟纹",
+      "status": "withdraw",
+      "reason": "只剩一段卷线与不连续碎线，凤鸟组合被截断。",
+      "asset": "rubbings/hb-5466-surface-phoenix.png",
+      "assetSHA256": "9101c38f900b0bf75299650aa213b5412f5b3c09c7b7d7d00319566a11b26395"
+    },
+    {
+      "id": "hb-5478-surface-phoenix",
+      "objectId": "hb-5478",
+      "motif": "凤鸟",
+      "label": "圆盘内底云凤纹",
+      "status": "withdraw",
+      "reason": "圆盘内底彩绘磨损明显，提取后为像素块状网络，凤纹结构不可辨。",
+      "asset": "rubbings/hb-5478-surface-phoenix.png",
+      "assetSHA256": "9d2a61a24caff9ba6f40c5c651b97556092835a57e167bb4cd5196a60b77dfe5"
+    },
+    {
+      "id": "hb-5480-surface-phoenix",
+      "objectId": "hb-5480",
+      "motif": "凤鸟",
+      "label": "圆盘内底凤鸟云龙组合",
+      "status": "withdraw",
+      "reason": "凤鸟云龙组合严重缺失，只剩零散折线。",
+      "asset": "rubbings/hb-5480-surface-phoenix.png",
+      "assetSHA256": "0e5b539c96c36777c6520d78870f9861836741fe3bb8227067150ead8945b56a"
+    },
+    {
+      "id": "hb-5536-surface-geometry",
+      "objectId": "hb-5536",
+      "motif": "几何",
+      "label": "漆案面圆形与线框装饰",
+      "status": "withdraw",
+      "reason": "漆案面圆形被断成不规则缺口，且混入大量漆层磨损块面。",
+      "asset": "rubbings/hb-5536-surface-geometry.png",
+      "assetSHA256": "f38e30fd79e8e17203ad473890fd61aadcbfe38c191639ee24a49610928cdabb"
+    },
+    {
+      "id": "jz-353-2",
+      "objectId": "jz-353",
+      "motif": "花卉",
+      "label": "内底四叶纹",
+      "status": "withdraw",
+      "reason": "花瓣中心与表面磨损混杂，拓影过细碎且未独立提取四叶纹。",
+      "asset": "rubbings/jz-353-2.png",
+      "assetSHA256": "10950cc37c5335583fc7f8f9aa18410c7b0679fa74543de98ce3ee461b36a182"
+    },
+    {
+      "id": "jz-353-3",
+      "objectId": "jz-353",
+      "motif": "鱼纹",
+      "label": "游鱼与草叶",
+      "status": "withdraw",
+      "reason": "游鱼与草叶没有从器物背景纹线和反光中分开，鱼身细节不清楚。",
+      "asset": "rubbings/jz-353-3.png",
+      "assetSHA256": "02c92a5654de88ce9ac377088fa85a4ab2abda093509982e8915adf763f5d028"
+    },
+    {
+      "id": "jz-353-4",
+      "objectId": "jz-353",
+      "motif": "几何",
+      "label": "口沿重复纹饰",
+      "status": "withdraw",
+      "reason": "器物口沿、外轮廓和磨损线占主导，所谓重复装饰没有形成独立纹样。",
+      "asset": "rubbings/jz-353-4.png",
+      "assetSHA256": "0b951669b5787440c60bb64de2a2a735f9d2b1fc1aeefda220ea2adf9356a082"
+    },
+    {
+      "id": "hb-5027-1",
+      "objectId": "hb-5027",
+      "motif": "花卉",
+      "label": "碟面花卉",
+      "status": "withdraw",
+      "reason": "碟面花卉与釉面反光混为孔洞块面，花瓣无法清楚辨认。",
+      "asset": "rubbings/hb-5027-1.png",
+      "assetSHA256": "c41913ec24446110f3ce2a64a491cb94410dfdb4a55f06476af77bbaec4e57a2"
+    },
+    {
+      "id": "hb-5028-1",
+      "objectId": "hb-5028",
+      "motif": "花卉",
+      "label": "外壁莲瓣纹",
+      "status": "withdraw",
+      "reason": "莲瓣线条与釉面颗粒粘连，当前拓影为杂乱网孔。",
+      "asset": "rubbings/hb-5028-1.png",
+      "assetSHA256": "de209682ee0947b78a9c19bc9a1a62c2a294ff2f5740b08fa310f77f5da1c515"
+    },
+    {
+      "id": "hb-5044-1",
+      "objectId": "hb-5044",
+      "motif": "花卉",
+      "label": "温碗莲瓣",
+      "status": "withdraw",
+      "reason": "莲瓣轮廓与釉面反光、颗粒合并，线纹不够独立。",
+      "asset": "rubbings/hb-5044-1.png",
+      "assetSHA256": "7180464ef3d185b2cb750b85ae5c0843a3686f18855a28a982829714587a59dc"
+    },
+    {
+      "id": "hb-5045-1",
+      "objectId": "hb-5045",
+      "motif": "花卉",
+      "label": "钵壁莲瓣",
+      "status": "withdraw",
+      "reason": "部分莲瓣边线仍可辨，但多数与釉面噪声粘连为块面，当前版本不作为清晰拓影上架。",
+      "asset": "rubbings/hb-5045-1.png",
+      "assetSHA256": "19b4f6789a0d22b5df98116b2a06900ab30d4b81cda7c789995a0bfec2c905e0"
+    },
+    {
+      "id": "jz-351-2",
+      "objectId": "jz-351",
+      "motif": "花卉",
+      "label": "缠枝菊花",
+      "status": "retain",
+      "reason": "菊花的瓣形、茎叶轮廓可辨；局部内线有磨损但不影响识别主体。",
+      "asset": "rubbings/jz-351-2.png",
+      "assetSHA256": "06ff0489f74a139912adc0f184f2db85cb4cf4349cdb16d7011fc3ef7256f648"
+    },
+    {
+      "id": "hb-4696-1",
+      "objectId": "hb-4696",
+      "motif": "凤鸟",
+      "label": "凤穿牡丹图",
+      "status": "withdraw",
+      "reason": "凤穿牡丹主线未从青花色面分离，当前结果为大面积孔洞块面。",
+      "asset": "rubbings/hb-4696-1.png",
+      "assetSHA256": "5034a2282262b5040b6a6ac1bed0c64fbbc09c64f8af10e813938f641800f697"
+    },
+    {
+      "id": "hb-4696-2",
+      "objectId": "hb-4696",
+      "motif": "花卉",
+      "label": "肩部凤穿牡丹",
+      "status": "withdraw",
+      "reason": "与同器凤穿牡丹项是相同局部、同一图；花卉也未独立清楚分离。",
+      "asset": "rubbings/hb-4696-2.png",
+      "assetSHA256": "5034a2282262b5040b6a6ac1bed0c64fbbc09c64f8af10e813938f641800f697"
+    },
+    {
+      "id": "hb-4696-3",
+      "objectId": "hb-4696",
+      "motif": "几何",
+      "label": "腹部菱形开光",
+      "status": "withdraw",
+      "reason": "菱形开光与背景青花合为块面，几何边界不独立。",
+      "asset": "rubbings/hb-4696-3.png",
+      "assetSHA256": "a522f0bb1c67eca49a803460e8a593c637624d39a74f7b62aa5c50e6cc182ddb"
+    },
+    {
+      "id": "hb-5053-surface-dragon",
+      "objectId": "hb-5053",
+      "motif": "龙蛇",
+      "label": "梅瓶腹部龙纹",
+      "status": "withdraw",
+      "reason": "龙纹只剩数段大弧线，头身与细部不足以辨认。",
+      "asset": "rubbings/hb-5053-surface-dragon.png",
+      "assetSHA256": "e7cd13c1cb5099705bd1651f7af28b63348e98c7fef9b62d2a27a4efa0d67429"
+    },
+    {
+      "id": "hb-5051-surface-floral",
+      "objectId": "hb-5051",
+      "motif": "花卉",
+      "label": "玉壶春瓶青花莲纹",
+      "status": "withdraw",
+      "reason": "莲纹只剩少量块状弧线，花瓣与枝叶结构缺失。",
+      "asset": "rubbings/hb-5051-surface-floral.png",
+      "assetSHA256": "134ebe8145dc27dd987478884ceb769a29da6d2685464f549b6c941ad5fb782a"
+    },
+    {
+      "id": "hb-5052-surface-floral",
+      "objectId": "hb-5052",
+      "motif": "花卉",
+      "label": "塔式盖瓶牡丹纹",
+      "status": "withdraw",
+      "reason": "牡丹纹提取后像素化断裂，花卉主形不清楚。",
+      "asset": "rubbings/hb-5052-surface-floral.png",
+      "assetSHA256": "f34760d3faffb0cb4237ef6be7c67b73f9d2ac3b62865c04eeb1393b43b47d76"
+    },
+    {
+      "id": "jz-350-1",
+      "objectId": "jz-350",
+      "motif": "铭文",
+      "label": "谥宝印面",
+      "status": "withdraw",
+      "reason": "印文与印面纹理、反光混合为密集噪点，不作为纹样素材。",
+      "asset": "rubbings/jz-350-1.png",
+      "assetSHA256": "e4a044b258d950526709949e9c70b18faa758454982c5b1a3ce4e45d3646b812"
+    },
+    {
+      "id": "hb-5537-phoenix-line-20261018",
+      "objectId": "hb-5537",
+      "motif": "凤鸟",
+      "label": "漆卮器壁变形凤鸟纹",
+      "status": "retain",
+      "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "asset": "rubbings/hb-5537-phoenix-line-20261018.png",
+      "assetSHA256": "b23f830360fc94a04d4e932275f4e56032f0b4062635e4b88e44791aa42ae066"
+    },
+    {
+      "id": "hb-5458-wave-line-20261018",
+      "objectId": "hb-5458",
+      "motif": "几何",
+      "label": "漆圆盒器腹波折纹带",
+      "status": "retain",
+      "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "asset": "rubbings/hb-5458-wave-line-20261018.png",
+      "assetSHA256": "8855d11ee041da5c88ca0b4ac6fed81b46733cdc65dbce40ce2ce40d3fd7a193"
+    },
+    {
+      "id": "jz-470-cloud-line-20261018",
+      "objectId": "jz-470",
+      "motif": "云气",
+      "label": "玉佩器表卷云刻线",
+      "status": "retain",
+      "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "asset": "rubbings/jz-470-cloud-line-20261018.png",
+      "assetSHA256": "da05a1308f6b8b26cc95414dba1dc09ead1b9bbe1a108de0e0302316408471fb"
+    },
+    {
+      "id": "hb-6914-horses-line-20261018",
+      "objectId": "hb-6914",
+      "motif": "车马",
+      "label": "漆画中的并行双马",
+      "status": "retain",
+      "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "asset": "rubbings/hb-6914-horses-line-20261018.png",
+      "assetSHA256": "0c92df8825591cf85acb95761d5d48ef4004feecb2337554c8440319c0fdabed"
+    },
+    {
+      "id": "hb-6914-carriage-line-20261018",
+      "objectId": "hb-6914",
+      "motif": "车马",
+      "label": "漆画中的马车与御者",
+      "status": "retain",
+      "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "asset": "rubbings/hb-6914-carriage-line-20261018.png",
+      "assetSHA256": "33e147c1a059ec562e8f33a02681aa89e86d13f3b8420287ceac71651a9bbd4d"
+    },
+    {
+      "id": "hb-6914-figure-line-20261018",
+      "objectId": "hb-6914",
+      "motif": "车马",
+      "label": "迎宾画段的长衣人物",
+      "status": "retain",
+      "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "asset": "rubbings/hb-6914-figure-line-20261018.png",
+      "assetSHA256": "ca2406498274a7efe7fac99abb0d7666022ded0c7bbb59dc7f4a6d8c18607d7f"
+    },
+    {
+      "id": "jz-353-fourleaf-line-20261018",
+      "objectId": "jz-353",
+      "motif": "花卉",
+      "label": "耳杯内底四叶纹",
+      "status": "retain",
+      "reason": "逐张对照原图核验；线纹可辨，去除器物外轮廓及相邻无关图案。",
+      "asset": "rubbings/jz-353-fourleaf-line-20261018.png",
+      "assetSHA256": "4bc38681e009b24084a951bf8f68539ad0bfd6c68e8b18a8b73c3aa1b45dcc61"
+    },
+    {
+      "id": "hb-4816-paired-scroll-expand-20261018",
+      "objectId": "hb-4816",
+      "motif": "云气",
+      "label": "方鉴器壁相对卷曲纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/hb-4816-paired-scroll-expand-20261018.png",
+      "assetSHA256": "054d66effb9e5393383b799a690c8d59aadbb685062923f461b72b190b1f1b02"
+    },
+    {
+      "id": "hb-4962-paired-scroll-expand-20261018",
+      "objectId": "hb-4962",
+      "motif": "云气",
+      "label": "漆鬲器腹双卷纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/hb-4962-paired-scroll-expand-20261018.png",
+      "assetSHA256": "f1a6ab3d09b522098a998068c071ff73b40d7b3861de33ae49a976c1961de109"
+    },
+    {
+      "id": "hb-4830-meander-expand-20261018",
+      "objectId": "hb-4830",
+      "motif": "几何",
+      "label": "漆豆器壁回折纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/hb-4830-meander-expand-20261018.png",
+      "assetSHA256": "692a098c30503d2016f7ccba85648ff0d9950d8fa971338dc6f036a70d304fb2"
+    },
+    {
+      "id": "hb-4828-meander-expand-20261018",
+      "objectId": "hb-4828",
+      "motif": "几何",
+      "label": "方豆器壁回折纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/hb-4828-meander-expand-20261018.png",
+      "assetSHA256": "419bbca69e7771799f96cbccf1550400f318b661b8ff0b1a4e1122aa2db5808d"
+    },
+    {
+      "id": "hb-4788-scroll-band-expand-20261018",
+      "objectId": "hb-4788",
+      "motif": "云气",
+      "label": "漆俎侧边卷曲纹带",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/hb-4788-scroll-band-expand-20261018.png",
+      "assetSHA256": "d366d7d30a7aaa50b37de0d73cba7ff951e6dc6de425db264012464072455693"
+    },
+    {
+      "id": "hb-4832-scroll-band-expand-20261018",
+      "objectId": "hb-4832",
+      "motif": "云气",
+      "label": "盖豆盖沿卷曲纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/hb-4832-scroll-band-expand-20261018.png",
+      "assetSHA256": "a86758d229061fc6c7d932fa5be5a8ea99b6599f4c6b35b68356cd3428b218e3"
+    },
+    {
+      "id": "hb-4981-painted-bird-expand-20261018",
+      "objectId": "hb-4981",
+      "motif": "凤鸟",
+      "label": "双连杯器壁彩绘鸟首纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/hb-4981-painted-bird-expand-20261018.png",
+      "assetSHA256": "713169c0727c1860e9d9d49c5dcfa5ca610b24e4d49154a999fe8a17452ceffa"
+    },
+    {
+      "id": "spoon-feather-band-expand-20261018",
+      "objectId": "spoon",
+      "motif": "禽鸟",
+      "label": "凤形漆勺颈下鳞羽纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/spoon-feather-band-expand-20261018.png",
+      "assetSHA256": "4ce8bd2a04d524538bad9216748d09b0b2eeb32e91f0e3fd353febed275a26bc"
+    },
+    {
+      "id": "jz-458-painted-scroll-expand-20261018",
+      "objectId": "jz-458",
+      "motif": "云气",
+      "label": "猪形酒具盒器壁卷曲纹",
+      "status": "retain",
+      "reason": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "asset": "rubbings/jz-458-painted-scroll-expand-20261018.png",
+      "assetSHA256": "7149119b46a0b4e07378c3b149a9ed57ea45854364e8cbfc5d807d5aaa06f2c2"
+    },
+    {
+      "id": "jz-351-phoenix-expand-20261018",
+      "objectId": "jz-351",
+      "motif": "凤鸟",
+      "label": "罐腹凤鸟与缠枝纹",
+      "status": "retain",
+      "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+      "asset": "rubbings/jz-351-phoenix-expand-20261018.png",
+      "assetSHA256": "c7bf3dbb53368cef735dbb6dbd0ca11adfff26b1d0d83e30e80e490bf12a4073"
+    },
+    {
+      "id": "jz-351-scroll-expand-20261018",
+      "objectId": "jz-351",
+      "motif": "几何",
+      "label": "罐肩下缘连续卷曲纹带",
+      "status": "retain",
+      "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+      "asset": "rubbings/jz-351-scroll-expand-20261018.png",
+      "assetSHA256": "b6356e13003955e0705ad93295c3578ea79b1c9285e373eec8042c7ba6e37164"
+    },
+    {
+      "id": "chu-manuscript-curl-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "motif": "人像",
+      "label": "帛书摹本上边卷尾神异图像",
+      "status": "retain",
+      "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+      "asset": "rubbings/chu-manuscript-curl-expand-20261018.png",
+      "assetSHA256": "12292e7cc4d192a95f389c3594217c5b55c859e3fd2db56a3fbaf106b4d834aa"
+    },
+    {
+      "id": "chu-manuscript-horns-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "motif": "人像",
+      "label": "帛书摹本上边展开双臂图像",
+      "status": "retain",
+      "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+      "asset": "rubbings/chu-manuscript-horns-expand-20261018.png",
+      "assetSHA256": "a20de11ac140efc5bc5b0a3adf0c091b9c2314eb1410a123ba8defb8b4dad649"
+    },
+    {
+      "id": "chu-manuscript-longtail-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "motif": "人像",
+      "label": "帛书摹本左边长尾神异图像",
+      "status": "retain",
+      "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。",
+      "asset": "rubbings/chu-manuscript-longtail-expand-20261018.png",
+      "assetSHA256": "e4636e110e76e771c13b5a952ad03af981733006adb0e39b76d16050f6af08f0"
+    }
+  ]
+}

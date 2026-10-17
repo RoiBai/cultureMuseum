@@ -1,0 +1,537 @@
+{
+  "reviewed": "2026-10-18",
+  "entries": [
+    {
+      "id": "jz-351-phoenix-expand-20261018",
+      "objectId": "jz-351",
+      "title": "釉里红凤舞缠枝菊花纹盖罐",
+      "motif": "凤鸟",
+      "label": "罐腹凤鸟与缠枝纹",
+      "note": "从罐腹中央提取凤鸟的颈、翼羽、回旋长尾及周围缠枝；不包含罐体外轮廓。",
+      "view": "detail",
+      "rect": [
+        0.234,
+        0.52,
+        0.418,
+        0.246
+      ],
+      "source": "http://www.jzmsm.org/news-351.html",
+      "photo": "cutouts/jz-351.webp",
+      "photoSource": "http://www.jzmsm.org/news-351.html",
+      "credit": null,
+      "era": "元代",
+      "material": "陶瓷",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-351-phoenix-expand-20261018.png",
+      "width": 760,
+      "height": 579,
+      "sourcePixels": [
+        243,
+        182
+      ],
+      "sourceSHA256": "0eff30a09d77ec180fe94f85b4e21f04fbfbfb05929a195ef99ed8a825619658",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-jz-351-phoenix-expand-20261018",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。"
+      }
+    },
+    {
+      "id": "jz-351-scroll-expand-20261018",
+      "objectId": "jz-351",
+      "title": "釉里红凤舞缠枝菊花纹盖罐",
+      "motif": "几何",
+      "label": "罐肩下缘连续卷曲纹带",
+      "note": "罐肩下缘独立环带中的连续卷曲装饰，和腹部凤鸟、花枝区分；保留原曲面透视。",
+      "view": "detail",
+      "rect": [
+        0.265,
+        0.459,
+        0.386,
+        0.041
+      ],
+      "source": "http://www.jzmsm.org/news-351.html",
+      "photo": "cutouts/jz-351.webp",
+      "photoSource": "http://www.jzmsm.org/news-351.html",
+      "credit": null,
+      "era": "元代",
+      "material": "陶瓷",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-351-scroll-expand-20261018.png",
+      "width": 760,
+      "height": 136,
+      "sourcePixels": [
+        224,
+        30
+      ],
+      "sourceSHA256": "0eff30a09d77ec180fe94f85b4e21f04fbfbfb05929a195ef99ed8a825619658",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-jz-351-scroll-expand-20261018",
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。"
+      }
+    },
+    {
+      "id": "chu-manuscript-curl-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "title": "楚帛书",
+      "motif": "人像",
+      "label": "帛书摹本上边卷尾神异图像",
+      "note": "提取书内摹本上边左侧的红黑神异形象；这是摹本绘画线条，非出土原帛的实物拓片。",
+      "view": "detail",
+      "rect": [
+        0.145,
+        0.014,
+        0.15,
+        0.14
+      ],
+      "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+      "photo": "assets/chu-silk-manuscript-book.png",
+      "photoSource": "用户提供《荆楚有色：大江大湖间的符号、色彩与文化记忆》；PDF 第 35 页，印刷第 29 页，图 2-1 摹本配图",
+      "credit": {
+        "author": "书内配图（原作者未署）",
+        "provider": "用户提供书稿 · 图2-1",
+        "page": "assets/chu-silk-manuscript-book.png",
+        "changes": "从书内提取彩色摹本并转存PNG，未重绘；图色不代表原物颜色。",
+        "retrieved": "2026-10-03"
+      },
+      "era": "战国",
+      "material": "丝织",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/chu-manuscript-curl-expand-20261018.png",
+      "width": 760,
+      "height": 628,
+      "sourcePixels": [
+        71,
+        58
+      ],
+      "sourceSHA256": "576b23941469db8f0f982e9dc247ba0349f177dad33e68debb3b0d0327f3dc9e",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-chu-manuscript-curl-expand-20261018",
+      "sourcePolygon": [
+        [
+          0.24,
+          0.11
+        ],
+        [
+          0.4,
+          0.02
+        ],
+        [
+          0.58,
+          0.15
+        ],
+        [
+          0.7,
+          0.15
+        ],
+        [
+          0.8,
+          0.48
+        ],
+        [
+          0.96,
+          0.48
+        ],
+        [
+          1,
+          0.68
+        ],
+        [
+          0.88,
+          0.84
+        ],
+        [
+          0.57,
+          0.93
+        ],
+        [
+          0.29,
+          0.82
+        ],
+        [
+          0.02,
+          0.84
+        ],
+        [
+          0,
+          0.61
+        ],
+        [
+          0.32,
+          0.64
+        ],
+        [
+          0.49,
+          0.49
+        ]
+      ],
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。"
+      }
+    },
+    {
+      "id": "chu-manuscript-horns-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "title": "楚帛书",
+      "motif": "人像",
+      "label": "帛书摹本上边展开双臂图像",
+      "note": "提取书内摹本上边右侧展开双臂的神异形象；保留躯干及双臂的红黑线条，不补画身份与细节。",
+      "view": "detail",
+      "rect": [
+        0.637,
+        0.043,
+        0.172,
+        0.13
+      ],
+      "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+      "photo": "assets/chu-silk-manuscript-book.png",
+      "photoSource": "用户提供《荆楚有色：大江大湖间的符号、色彩与文化记忆》；PDF 第 35 页，印刷第 29 页，图 2-1 摹本配图",
+      "credit": {
+        "author": "书内配图（原作者未署）",
+        "provider": "用户提供书稿 · 图2-1",
+        "page": "assets/chu-silk-manuscript-book.png",
+        "changes": "从书内提取彩色摹本并转存PNG，未重绘；图色不代表原物颜色。",
+        "retrieved": "2026-10-03"
+      },
+      "era": "战国",
+      "material": "丝织",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/chu-manuscript-horns-expand-20261018.png",
+      "width": 760,
+      "height": 520,
+      "sourcePixels": [
+        81,
+        54
+      ],
+      "sourceSHA256": "576b23941469db8f0f982e9dc247ba0349f177dad33e68debb3b0d0327f3dc9e",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-chu-manuscript-horns-expand-20261018",
+      "sourcePolygon": [
+        [
+          0.37,
+          0.05
+        ],
+        [
+          0.75,
+          0.05
+        ],
+        [
+          0.75,
+          0.38
+        ],
+        [
+          0.88,
+          0.38
+        ],
+        [
+          0.88,
+          0.56
+        ],
+        [
+          0.77,
+          0.58
+        ],
+        [
+          0.81,
+          0.72
+        ],
+        [
+          0.76,
+          0.8
+        ],
+        [
+          0.42,
+          0.83
+        ],
+        [
+          0.37,
+          0.76
+        ],
+        [
+          0.38,
+          0.65
+        ],
+        [
+          0.32,
+          0.7
+        ],
+        [
+          0.28,
+          0.61
+        ],
+        [
+          0.24,
+          0.6
+        ],
+        [
+          0.24,
+          0.49
+        ],
+        [
+          0.43,
+          0.48
+        ],
+        [
+          0.44,
+          0.37
+        ],
+        [
+          0.37,
+          0.36
+        ]
+      ],
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。"
+      }
+    },
+    {
+      "id": "chu-manuscript-longtail-expand-20261018",
+      "objectId": "chu-silk-manuscript",
+      "title": "楚帛书",
+      "motif": "人像",
+      "label": "帛书摹本左边长尾神异图像",
+      "note": "提取书内摹本左下边的长尾神异形象；与上边卷尾、展开双臂形象属于不同图像单元。",
+      "view": "detail",
+      "rect": [
+        0.028,
+        0.687,
+        0.176,
+        0.125
+      ],
+      "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+      "photo": "assets/chu-silk-manuscript-book.png",
+      "photoSource": "用户提供《荆楚有色：大江大湖间的符号、色彩与文化记忆》；PDF 第 35 页，印刷第 29 页，图 2-1 摹本配图",
+      "credit": {
+        "author": "书内配图（原作者未署）",
+        "provider": "用户提供书稿 · 图2-1",
+        "page": "assets/chu-silk-manuscript-book.png",
+        "changes": "从书内提取彩色摹本并转存PNG，未重绘；图色不代表原物颜色。",
+        "retrieved": "2026-10-03"
+      },
+      "era": "战国",
+      "material": "丝织",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/chu-manuscript-longtail-expand-20261018.png",
+      "width": 760,
+      "height": 486,
+      "sourcePixels": [
+        84,
+        52
+      ],
+      "sourceSHA256": "576b23941469db8f0f982e9dc247ba0349f177dad33e68debb3b0d0327f3dc9e",
+      "method": "照片局部纹线/颜料分离、去除孤立颗粒、轮廓平滑；不补绘、不生成缺失细节，非实物拓片。",
+      "regionId": "motif-chu-manuscript-longtail-expand-20261018",
+      "sourcePolygon": [
+        [
+          0,
+          0.18
+        ],
+        [
+          0.32,
+          0
+        ],
+        [
+          0.66,
+          0.05
+        ],
+        [
+          0.66,
+          0.38
+        ],
+        [
+          0.98,
+          0.42
+        ],
+        [
+          1,
+          0.69
+        ],
+        [
+          0.79,
+          0.82
+        ],
+        [
+          0.67,
+          0.74
+        ],
+        [
+          0.63,
+          0.93
+        ],
+        [
+          0.29,
+          0.88
+        ],
+        [
+          0.09,
+          0.75
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "qualityReview": {
+        "reviewed": "2026-10-18",
+        "status": "retain",
+        "reason": "逐张对照原照片与新拓影：主体图案连续可辨；排除邻近文字、噪点与器物形制边缘。"
+      }
+    }
+  ],
+  "detailUpdates": [
+    {
+      "objectId": "jz-351",
+      "addMotif": null,
+      "region": {
+        "id": "motif-jz-351-phoenix-expand-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.234,
+          0.52,
+          0.418,
+          0.246
+        ],
+        "label": "罐腹凤鸟与缠枝纹",
+        "note": "从罐腹中央提取凤鸟的颈、翼羽、回旋长尾及周围缠枝；不包含罐体外轮廓。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "http://www.jzmsm.org/news-351.html",
+        "sourceImage": "cutouts/jz-351.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "objectId": "jz-351",
+      "addMotif": "几何",
+      "region": {
+        "id": "motif-jz-351-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.265,
+          0.459,
+          0.386,
+          0.041
+        ],
+        "label": "罐肩下缘连续卷曲纹带",
+        "note": "罐肩下缘独立环带中的连续卷曲装饰，和腹部凤鸟、花枝区分；保留原曲面透视。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "http://www.jzmsm.org/news-351.html",
+        "sourceImage": "cutouts/jz-351.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "objectId": "chu-silk-manuscript",
+      "addMotif": null,
+      "region": {
+        "id": "motif-chu-manuscript-curl-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.145,
+          0.014,
+          0.15,
+          0.14
+        ],
+        "label": "帛书摹本上边卷尾神异图像",
+        "note": "提取书内摹本上边左侧的红黑神异形象；这是摹本绘画线条，非出土原帛的实物拓片。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "objectId": "chu-silk-manuscript",
+      "addMotif": null,
+      "region": {
+        "id": "motif-chu-manuscript-horns-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.637,
+          0.043,
+          0.172,
+          0.13
+        ],
+        "label": "帛书摹本上边展开双臂图像",
+        "note": "提取书内摹本上边右侧展开双臂的神异形象；保留躯干及双臂的红黑线条，不补画身份与细节。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    },
+    {
+      "objectId": "chu-silk-manuscript",
+      "addMotif": null,
+      "region": {
+        "id": "motif-chu-manuscript-longtail-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.028,
+          0.687,
+          0.176,
+          0.125
+        ],
+        "label": "帛书摹本左边长尾神异图像",
+        "note": "提取书内摹本左下边的长尾神异形象；与上边卷尾、展开双臂形象属于不同图像单元。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      }
+    }
+  ]
+}

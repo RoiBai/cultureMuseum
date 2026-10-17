@@ -1,0 +1,19 @@
+汇文明朝体 / Huiwen-mincho
+作者：特里王（王廷瑞）
+版本：1.00，2021-01-14；字体元数据版权标记：Public Domain
+
+汇文明朝体授权声明（原声明转载）：
+此字体可免费用于印刷、显示、嵌入电子文档、设备。
+此字体可自由转发。
+可以将此字体作为更大规模的套装软件的一部分来销售。
+（但不可单独将此字体文件作为商品转卖）
+可以使用此字体开发新字体。
+
+原作者发布地址：https://zhuanlan.zhihu.com/p/344103391
+授权声明转载及原字体：https://github.com/cntrump/imitation_typeface_fonts#汇文明朝体
+本站使用的网页分包发布者：ZeoSeven Fonts
+分包及授权说明：https://fonts.zeoseven.com/items/256/
+下载清单：https://fontsapi.zeoseven.com/256/main/result.css
+核对日期：2026-10-14
+
+保留 font.css 中原始字体元数据和分包服务署名。网站仅将字体用于标题显示，不单独销售字体。

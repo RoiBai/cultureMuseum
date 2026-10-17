@@ -864,6 +864,26 @@
         "basis": "照片观察",
         "source": "http://www.jzmsm.org/news-470.html",
         "revision": 3
+      },
+      {
+        "id": "motif-jz-470-cloud-line-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.2,
+          0.592,
+          0.11,
+          0.052
+        ],
+        "label": "玉佩器表卷云刻线",
+        "note": "仅取玉佩器表的一组卷云刻线，不把龙凤透雕的整体外形作为纹样。",
+        "view": "detail",
+        "basis": "高清照片观察：器表可见连续卷云刻线；与龙凤形制分开记录",
+        "source": "http://www.jzmsm.org/news-470.html",
+        "sourceImage": "cutouts/jz-470-hd.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
       }
     ],
     "hb-4695": [
@@ -1881,6 +1901,26 @@
         "view": "form",
         "basis": "照片观察",
         "source": "http://www.jzmsm.org/news-458.html"
+      },
+      {
+        "id": "motif-jz-458-painted-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.5495420482930891,
+          0.5131868131868131,
+          0.16652789342214822,
+          0.09230769230769231
+        ],
+        "label": "猪形酒具盒器壁卷曲纹",
+        "note": "提取猪形酒具盒表面红漆卷曲纹，非猪形外轮廓或立体圆钮。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "http://www.jzmsm.org/news-458.html",
+        "sourceImage": "cutouts/jz-458.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
       }
     ],
     "jz-462": [
@@ -3390,6 +3430,56 @@
         "view": "form",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/5481.html"
+      },
+      {
+        "id": "motif-spoon-feather-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "禽鸟",
+        "rect": [
+          0.14953271028037382,
+          0.6824034334763949,
+          0.18691588785046728,
+          0.16738197424892703
+        ],
+        "label": "凤形漆勺颈下鳞羽纹",
+        "note": "只取勺颈下方层叠弧线组成的羽饰，不取凤形漆勺的器形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+        "sourceImage": "cutouts/spoon.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.62,
+            0
+          ],
+          [
+            0.87,
+            0.52
+          ],
+          [
+            1,
+            0.73
+          ],
+          [
+            0.82,
+            1
+          ],
+          [
+            0.18,
+            1
+          ],
+          [
+            0,
+            0.7
+          ]
+        ]
       }
     ],
     "hb-6912": [
@@ -3713,6 +3803,80 @@
         "view": "form",
         "basis": "照片观察",
         "source": "http://www.jzmsm.org/news-353.html"
+      },
+      {
+        "id": "motif-jz-353-fourleaf-line-20261018",
+        "dimension": "motifs",
+        "value": "花卉",
+        "rect": [
+          0.31,
+          0.34,
+          0.38,
+          0.36
+        ],
+        "label": "耳杯内底四叶纹",
+        "note": "重新从高清馆藏照片分离四叶纹的外缘、花心与叶内小圆纹；周围鱼纹不并入，未补绘反光遮蔽处。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "http://www.jzmsm.org/news-353.html",
+        "sourceImage": "cutouts/jz-353.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5,
+        "sourcePolygon": [
+          [
+            0.24,
+            0
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            0.84,
+            0.2
+          ],
+          [
+            0.9,
+            0.36
+          ],
+          [
+            0.86,
+            0.57
+          ],
+          [
+            0.73,
+            0.65
+          ],
+          [
+            0.68,
+            0.9
+          ],
+          [
+            0.4,
+            0.94
+          ],
+          [
+            0.18,
+            0.84
+          ],
+          [
+            0.2,
+            0.66
+          ],
+          [
+            0.12,
+            0.52
+          ],
+          [
+            0.14,
+            0.29
+          ],
+          [
+            0.22,
+            0.2
+          ]
+        ]
       }
     ],
     "jz-355": [
@@ -3881,6 +4045,46 @@
         "view": "form",
         "basis": "照片观察",
         "source": "http://www.jzmsm.org/news-351.html"
+      },
+      {
+        "id": "motif-jz-351-phoenix-expand-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.234,
+          0.52,
+          0.418,
+          0.246
+        ],
+        "label": "罐腹凤鸟与缠枝纹",
+        "note": "从罐腹中央提取凤鸟的颈、翼羽、回旋长尾及周围缠枝；不包含罐体外轮廓。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "http://www.jzmsm.org/news-351.html",
+        "sourceImage": "cutouts/jz-351.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      },
+      {
+        "id": "motif-jz-351-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.265,
+          0.459,
+          0.386,
+          0.041
+        ],
+        "label": "罐肩下缘连续卷曲纹带",
+        "note": "罐肩下缘独立环带中的连续卷曲装饰，和腹部凤鸟、花枝区分；保留原曲面透视。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "http://www.jzmsm.org/news-351.html",
+        "sourceImage": "cutouts/jz-351.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
       }
     ],
     "hb-4696": [
@@ -7379,6 +7583,26 @@
         "view": "form",
         "basis": "照片观察",
         "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html"
+      },
+      {
+        "id": "motif-hb-4832-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.22641509433962265,
+          0.17695473251028807,
+          0.4968553459119497,
+          0.06995884773662552
+        ],
+        "label": "盖豆盖沿卷曲纹",
+        "note": "盖豆盖沿的彩绘卷曲线条局部，不提取器盖外形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+        "sourceImage": "cutouts/hb-4832.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
       }
     ],
     "hb-4825": [
@@ -8870,6 +9094,66 @@
         "basis": "书内图像观察",
         "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
         "revision": 2
+      },
+      {
+        "id": "motif-chu-manuscript-curl-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.145,
+          0.014,
+          0.15,
+          0.14
+        ],
+        "label": "帛书摹本上边卷尾神异图像",
+        "note": "提取书内摹本上边左侧的红黑神异形象；这是摹本绘画线条，非出土原帛的实物拓片。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      },
+      {
+        "id": "motif-chu-manuscript-horns-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.637,
+          0.043,
+          0.172,
+          0.13
+        ],
+        "label": "帛书摹本上边展开双臂图像",
+        "note": "提取书内摹本上边右侧展开双臂的神异形象；保留躯干及双臂的红黑线条，不补画身份与细节。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
+      },
+      {
+        "id": "motif-chu-manuscript-longtail-expand-20261018",
+        "dimension": "motifs",
+        "value": "人像",
+        "rect": [
+          0.028,
+          0.687,
+          0.176,
+          0.125
+        ],
+        "label": "帛书摹本左边长尾神异图像",
+        "note": "提取书内摹本左下边的长尾神异形象；与上边卷尾、展开双臂形象属于不同图像单元。",
+        "view": "detail",
+        "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+        "source": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-announces-transfer-ancient-manuscript-fragments-china",
+        "sourceImage": "assets/chu-silk-manuscript-book.png",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 6
       }
     ],
     "wangziwu-ding": [
@@ -9236,6 +9520,26 @@
         "view": "surface",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/4788.html"
+      },
+      {
+        "id": "motif-hb-4788-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.3345724907063197,
+          0.20454545454545456,
+          0.3382899628252788,
+          0.10454545454545454
+        ],
+        "label": "漆俎侧边卷曲纹带",
+        "note": "漆俎侧边可辨认的连续卷曲线纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4788.html",
+        "sourceImage": "cutouts/hb-4788-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
       }
     ],
     "hb-4804": [
@@ -9338,6 +9642,26 @@
         "view": "surface",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/4816.html"
+      },
+      {
+        "id": "motif-hb-4816-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.44807121661721067,
+          0.3,
+          0.2433234421364985,
+          0.14545454545454545
+        ],
+        "label": "方鉴器壁相对卷曲纹",
+        "note": "器壁斜向纹带中相对卷入的彩绘曲线；不取木质器形轮廓。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4816.html",
+        "sourceImage": "cutouts/hb-4816-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
       }
     ],
     "hb-4817": [
@@ -9440,6 +9764,26 @@
         "view": "surface",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/4828.html"
+      },
+      {
+        "id": "motif-hb-4828-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.35135135135135137,
+          0.46153846153846156,
+          0.30115830115830117,
+          0.14835164835164835
+        ],
+        "label": "方豆器壁回折纹",
+        "note": "方豆前壁的彩绘回折纹局部，保留照片的透视，不复制补齐缺失部分。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4828.html",
+        "sourceImage": "cutouts/hb-4828-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
       }
     ],
     "hb-4830": [
@@ -9474,6 +9818,26 @@
         "view": "surface",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/4830.html"
+      },
+      {
+        "id": "motif-hb-4830-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.3419354838709677,
+          0.15450643776824036,
+          0.36129032258064514,
+          0.15450643776824036
+        ],
+        "label": "漆豆器壁回折纹",
+        "note": "豆盘器壁可见的方折与回旋线条；只提取器表绘纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4830.html",
+        "sourceImage": "cutouts/hb-4830-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
       }
     ],
     "hb-4838": [
@@ -9935,6 +10299,26 @@
         "view": "surface",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/4962.html"
+      },
+      {
+        "id": "motif-hb-4962-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.14583333333333334,
+          0.2153846153846154,
+          0.2881944444444444,
+          0.2
+        ],
+        "label": "漆鬲器腹双卷纹",
+        "note": "器腹正面两道相向盘卷的彩绘线条，保留原图中的弧度和残损。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4962.html",
+        "sourceImage": "cutouts/hb-4962-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
       }
     ],
     "hb-4965": [
@@ -10249,6 +10633,68 @@
         "view": "surface",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/4981.html"
+      },
+      {
+        "id": "motif-hb-4981-painted-bird-expand-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.3003003003003003,
+          0.5714285714285714,
+          0.2072072072072072,
+          0.2
+        ],
+        "label": "双连杯器壁彩绘鸟首纹",
+        "note": "只取杯壁上的彩绘鸟首、眼部与喙的线条，和双连杯的鸟形构件分开记录。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+        "sourceImage": "cutouts/hb-4981-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.37,
+            0
+          ],
+          [
+            0.42,
+            0.17
+          ],
+          [
+            0.57,
+            0.6
+          ],
+          [
+            1,
+            0.77
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.6,
+            1
+          ],
+          [
+            0.34,
+            0.72
+          ],
+          [
+            0.1,
+            0.53
+          ],
+          [
+            0,
+            0.3
+          ]
+        ]
       }
     ],
     "hb-4982": [
@@ -11072,6 +11518,26 @@
         "rubbingEligible": true,
         "rubbingMethod": "pigment",
         "revision": 4
+      },
+      {
+        "id": "motif-hb-5458-wave-line-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.32468,
+          0.65158,
+          0.24242,
+          0.08145
+        ],
+        "label": "漆圆盒器腹波折纹带",
+        "note": "器腹红漆连续波折线及点饰，保留器表弧度；明确可见的几何纹带，不作凤鸟纹推断。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/qmq/p/5458.html",
+        "sourceImage": "cutouts/hb-5458-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
       }
     ],
     "hb-5459": [
@@ -12732,6 +13198,26 @@
         "view": "surface",
         "basis": "照片观察",
         "source": "https://www.hbww.org.cn/qmq/p/5537.html"
+      },
+      {
+        "id": "motif-hb-5537-phoenix-line-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.08867,
+          0.2,
+          0.46305,
+          0.16279
+        ],
+        "label": "漆卮器壁变形凤鸟纹",
+        "note": "重新提取器壁上部凤鸟纹的头部、回旋躯体与尾端线条，未加入漆卮器形轮廓。",
+        "view": "detail",
+        "basis": "馆方记述与照片局部对照",
+        "source": "https://www.hbww.org.cn/qmq/p/5537.html",
+        "sourceImage": "cutouts/hb-5537-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-20261018",
+        "revision": 5
       }
     ],
     "hb-5540": [

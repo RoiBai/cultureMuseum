@@ -26,7 +26,7 @@ export function sanitizeProject(raw,entries){
 export const patternPresets=[
  {id:'paired',name:'凤鸟相向',rubbing:'hb-5459-surface-phoenix',motif:'凤鸟'},
  {id:'floral',name:'四方团花',rubbing:'jz-351-2',motif:'花卉'},
- {id:'cloud',name:'云纹连绵',rubbing:'hb-6174-1',motif:'云气'}
+ {id:'cloud',name:'云纹连绵',rubbing:'hb-4863-surface-cloud',motif:'云气'}
 ];
 export function presetProject(name,entries,base=defaultProject()){
  const preset=patternPresets.find(p=>p.id===name);

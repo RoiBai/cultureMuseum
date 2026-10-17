@@ -3375,7 +3375,9 @@
         "source": "https://www.hbww.org.cn/qmq/p/4788.html"
       }
     ],
-    "motifs": [],
+    "motifs": [
+      "云气"
+    ],
     "image": "assets/catalogue-hb-4788.jpeg",
     "original": "https://img.cjyun.org.cn/a/10695/202404/97a8d9993f75530c8ccdac128e18770c.jpeg",
     "displayImage": "cutouts/hb-4788-catalogue.webp",
@@ -3424,11 +3426,15 @@
       "墨灰"
     ],
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://www.hbww.org.cn/qmq/p/4788.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "云气"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4788.html"
     }
   },
   {
@@ -3922,7 +3928,9 @@
         "source": "https://www.hbww.org.cn/qmq/p/4816.html"
       }
     ],
-    "motifs": [],
+    "motifs": [
+      "云气"
+    ],
     "image": "assets/catalogue-hb-4816.jpeg",
     "original": "https://img.cjyun.org.cn/a/10695/202404/b865189efa095b2522f70327867867fe.jpeg",
     "displayImage": "cutouts/hb-4816-catalogue.webp",
@@ -3971,11 +3979,15 @@
       "墨灰"
     ],
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://www.hbww.org.cn/qmq/p/4816.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "云气"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4816.html"
     }
   },
   {
@@ -4311,7 +4323,9 @@
         "source": "https://www.hbww.org.cn/qmq/p/4828.html"
       }
     ],
-    "motifs": [],
+    "motifs": [
+      "几何"
+    ],
     "image": "assets/catalogue-hb-4828.jpeg",
     "original": "https://img.cjyun.org.cn/a/10695/202404/e7e4f8c07ab8478614e6e93541760994.jpeg",
     "displayImage": "cutouts/hb-4828-catalogue.webp",
@@ -4360,11 +4374,15 @@
       "赤红"
     ],
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://www.hbww.org.cn/qmq/p/4828.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "几何"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4828.html"
     }
   },
   {
@@ -4396,7 +4414,9 @@
         "source": "https://www.hbww.org.cn/qmq/p/4830.html"
       }
     ],
-    "motifs": [],
+    "motifs": [
+      "几何"
+    ],
     "image": "assets/catalogue-hb-4830.jpeg",
     "original": "https://img.cjyun.org.cn/a/10695/202404/f032e65a1072c06037757e840ad22158.jpeg",
     "displayImage": "cutouts/hb-4830-catalogue.webp",
@@ -4445,11 +4465,15 @@
       "灰褐"
     ],
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://www.hbww.org.cn/qmq/p/4830.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "几何"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4830.html"
     }
   },
   {
@@ -4474,7 +4498,9 @@
     "backgroundRemoval": "edge-seeded-grabcut-v2",
     "fact": "",
     "observation": "",
-    "motifs": [],
+    "motifs": [
+      "云气"
+    ],
     "crafts": [
       "髹漆"
     ],
@@ -4518,11 +4544,15 @@
     "documentedColors": [],
     "evidence": "漆木盖豆。馆方将这件漆木盖豆记为战国中晚期。出土记录为九连墩2号墓。。。战国中晚期（距今约2310年）,九连墩2号墓出土，盛食器，通高24，口径16.6，座径13.6cm。 .",
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "云气"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://hbsbwg.cjyun.org/qmq/p/4832.html"
     }
   },
   {
@@ -7341,7 +7371,9 @@
         "source": "https://www.hbww.org.cn/qmq/p/4962.html"
       }
     ],
-    "motifs": [],
+    "motifs": [
+      "云气"
+    ],
     "image": "assets/catalogue-hb-4962.jpeg",
     "original": "https://img.cjyun.org.cn/a/10695/202404/ed51f94356a0556300673ba026175be6.jpeg",
     "displayImage": "cutouts/hb-4962-catalogue.webp",
@@ -7390,11 +7422,15 @@
       "漆黑"
     ],
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://www.hbww.org.cn/qmq/p/4962.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "云气"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4962.html"
     }
   },
   {
@@ -17357,7 +17393,9 @@
     "fact": "凤鸟位于龙身，龙尾下还有小螭，是多种形象的组合。",
     "observation": "沿龙的曲线寻找回首凤鸟和下垂小螭，观察轮廓如何相接。",
     "sourceExtract": "【龙凤形玉佩】时代：春秋晚期至战国早期（公元前5世纪）来源：熊家冢墓地出土级别：二级文物内涵：透雕龙形，龙作曲颈、蜷躯、卷尾，龙尾下坠有一卷曲的小螭，凤倒立于龙身部，钩喙回首，身刻羽纹，体现楚人尊龙崇凤思想。",
-    "motifs": [],
+    "motifs": [
+      "云气"
+    ],
     "crafts": [
       "雕琢",
       "透雕"
@@ -17419,11 +17457,15 @@
       "retrieved": "2026-10-01"
     },
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "http://www.jzmsm.org/news-470.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "云气"
+      ],
+      "photoBased": true,
+      "basis": "高清照片观察：器表可见连续卷云刻线；与龙凤形制分开记录",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:%E9%BE%99%E5%87%A4%E5%BD%A2%E7%8E%89%E4%BD%A9.jpg"
     }
   },
   {
@@ -18440,7 +18482,9 @@
         "source": "https://www.hbww.org.cn/qmq/p/4981.html"
       }
     ],
-    "motifs": [],
+    "motifs": [
+      "凤鸟"
+    ],
     "image": "assets/catalogue-hb-4981.jpeg",
     "original": "https://img.cjyun.org.cn/a/10695/202404/88fcb0f8e464eaf518b82ecec515989b.jpeg",
     "displayImage": "cutouts/hb-4981-catalogue.webp",
@@ -18489,11 +18533,15 @@
       "墨灰"
     ],
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://www.hbww.org.cn/qmq/p/4981.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "凤鸟"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4981.html"
     }
   },
   {
@@ -24471,7 +24519,9 @@
     "fact": "1975 年出土于湖北云梦睡虎地 9 号墓，馆方断代为秦。",
     "observation": "观察鸟形如何顺应勺的轮廓与使用方式。与虎座鸟架鼓比较：同样称为凤鸟，所在部位、结构关系和器物功能却不同。",
     "sourceExtract": "",
-    "motifs": [],
+    "motifs": [
+      "禽鸟"
+    ],
     "crafts": [
       "髹漆",
       "彩绘"
@@ -24522,11 +24572,15 @@
     "site": "睡虎地秦墓地",
     "evidence": "彩绘凤形漆勺。凤鸟的形态进入一柄漆勺。将这件秦代器物与战国材料并置，可以比较相似母题在不同时代、器类和使用方式中的变化。。1975 年出土于湖北云梦睡虎地 9 号墓，馆方断代为秦。。",
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "https://www.hbww.org.cn/qmq/p/5481.html",
-      "motifs": [],
-      "photoBased": false
+      "motifs": [
+        "禽鸟"
+      ],
+      "photoBased": true,
+      "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/5481.html"
     }
   },
   {
@@ -29187,7 +29241,8 @@
     "sourceExtract": "【釉里红凤舞缠枝菊花纹盖罐】时代：元代（公元1279-1368年）来源：荆州砖瓦厂出土级别：国家一级文物内涵：桃钮帽形盖，直口溜肩鼓腹，最大径在腹部，平底，腹中有一周明显的接痕，內施一层较薄影青色釉，器表施较厚一层釉，盖内及器底未施釉，器表主体纹饰为釉里红彩，大部分颜色较鲜艳，但局部纹饰有些发青发灰；主体纹饰为缠枝菊花凤鸟纹；在缠莲的菊花从中有两只对称的凤鸟呈展翅欲飞状，上下陪衬纹为一周变体莲瓣纹。胎质...",
     "motifs": [
       "凤鸟",
-      "花卉"
+      "花卉",
+      "几何"
     ],
     "crafts": [
       "釉下彩",
@@ -29241,14 +29296,17 @@
     "site": "荆州砖瓦厂发现地",
     "evidence": "釉里红凤舞缠枝菊花纹盖罐。盖罐呈桃形钮、溜肩鼓腹，主体以釉里红绘缠枝菊花和两只对称展翅的凤鸟，上下另配变体莲瓣纹。。官网记录主体纹饰为缠枝菊花凤鸟纹，两只凤鸟在花枝间对称布局。。【釉里红凤舞缠枝菊花纹盖罐】时代：元代（公元1279-1368年）来源：荆州砖瓦厂出土级别：国家一级文物内涵：桃钮帽形盖，直口溜肩鼓腹，最大径在腹部，平底，腹中有一周明显的接痕，內施一层较薄影青色釉，器表施较厚一层釉，盖内及器底未施釉，器表主体纹饰为釉里红彩，大部分颜色较鲜艳，但局部纹饰有些发青发灰；主体纹饰为缠枝菊花凤鸟纹；在缠莲的菊花从中有两只对称的凤鸟呈展翅欲飞状，上下陪衬纹为一周变体莲瓣纹。胎质...",
     "motifReview": {
-      "reviewed": "2026-10-11",
+      "reviewed": "2026-10-18",
       "scope": "器表纹饰；排除单纯器形、陶塑动物、文字书体与地名",
       "source": "http://www.jzmsm.org/news-351.html",
       "motifs": [
         "凤鸟",
-        "花卉"
+        "花卉",
+        "几何"
       ],
-      "photoBased": false
+      "photoBased": true,
+      "basis": "馆方题名、书内图像及器表局部对照；只记录可见纹线",
+      "photoSource": "http://www.jzmsm.org/news-351.html"
     }
   },
   {

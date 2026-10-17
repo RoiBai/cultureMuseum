@@ -1,0 +1,1037 @@
+{
+  "reviewed": "2026-10-18",
+  "screenedObjects": 70,
+  "closeReviewObjects": 15,
+  "rejectedExperiments": [
+    {
+      "objectId": "hb-4835",
+      "reason": "低分辨率且纹带提取后断裂，仅余零散短线。"
+    },
+    {
+      "objectId": "jz-353",
+      "reason": "此鱼纹提取版本不完整且混入杯边；不以已有四叶纹重复计数。"
+    }
+  ],
+  "method": "新增馆藏漆器照片逐张审看，筛选明确可见的器表彩绘线纹，不将动物器形当作纹饰。",
+  "entries": [
+    {
+      "id": "hb-4816-paired-scroll-expand-20261018",
+      "objectId": "hb-4816",
+      "title": "漆木方鉴",
+      "motif": "云气",
+      "label": "方鉴器壁相对卷曲纹",
+      "note": "器壁斜向纹带中相对卷入的彩绘曲线；不取木质器形轮廓。",
+      "view": "detail",
+      "rect": [
+        0.44807121661721067,
+        0.3,
+        0.2433234421364985,
+        0.14545454545454545
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4816.html",
+      "photo": "cutouts/hb-4816-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4816.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4816.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4816-paired-scroll-expand-20261018.png",
+      "width": 680,
+      "height": 290,
+      "sourcePixels": [
+        82,
+        32
+      ],
+      "sourceSHA256": "3291ac3b58dd707fc697af8ee901855ebdd5f86f478a7f545c26c3c803f64f08",
+      "assetSHA256": "054d66effb9e5393383b799a690c8d59aadbb685062923f461b72b190b1f1b02",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-hb-4816-paired-scroll-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4816-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.44807121661721067,
+          0.3,
+          0.2433234421364985,
+          0.14545454545454545
+        ],
+        "label": "方鉴器壁相对卷曲纹",
+        "note": "器壁斜向纹带中相对卷入的彩绘曲线；不取木质器形轮廓。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4816.html",
+        "sourceImage": "cutouts/hb-4816-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "originalPhoto": "assets/catalogue-hb-4816.jpeg",
+      "originalPhotoSHA256": "5b5e351db0f9a57d562a2a1e34c3ba4f04405b45c18a38d9b9b09febe880638d"
+    },
+    {
+      "id": "hb-4962-paired-scroll-expand-20261018",
+      "objectId": "hb-4962",
+      "title": "漆木鬲",
+      "motif": "云气",
+      "label": "漆鬲器腹双卷纹",
+      "note": "器腹正面两道相向盘卷的彩绘线条，保留原图中的弧度和残损。",
+      "view": "detail",
+      "rect": [
+        0.14583333333333334,
+        0.2153846153846154,
+        0.2881944444444444,
+        0.2
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4962.html",
+      "photo": "cutouts/hb-4962-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4962.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4962.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4962-paired-scroll-expand-20261018.png",
+      "width": 680,
+      "height": 341,
+      "sourcePixels": [
+        83,
+        39
+      ],
+      "sourceSHA256": "940f21997c7c6fdfd3f0d264e0a109bdd29ee0a02e2484e44d3df79bff7b0c24",
+      "assetSHA256": "f1a6ab3d09b522098a998068c071ff73b40d7b3861de33ae49a976c1961de109",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-hb-4962-paired-scroll-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4962-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.14583333333333334,
+          0.2153846153846154,
+          0.2881944444444444,
+          0.2
+        ],
+        "label": "漆鬲器腹双卷纹",
+        "note": "器腹正面两道相向盘卷的彩绘线条，保留原图中的弧度和残损。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4962.html",
+        "sourceImage": "cutouts/hb-4962-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "originalPhoto": "assets/catalogue-hb-4962.jpeg",
+      "originalPhotoSHA256": "a97c91918ab07a2d437e3e605afa4d4552349371f5bf6489a89add452743be77"
+    },
+    {
+      "id": "hb-4830-meander-expand-20261018",
+      "objectId": "hb-4830",
+      "title": "漆木豆",
+      "motif": "几何",
+      "label": "漆豆器壁回折纹",
+      "note": "豆盘器壁可见的方折与回旋线条；只提取器表绘纹。",
+      "view": "detail",
+      "rect": [
+        0.3419354838709677,
+        0.15450643776824036,
+        0.36129032258064514,
+        0.15450643776824036
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4830.html",
+      "photo": "cutouts/hb-4830-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4830.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4830.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4830-meander-expand-20261018.png",
+      "width": 680,
+      "height": 451,
+      "sourcePixels": [
+        56,
+        36
+      ],
+      "sourceSHA256": "f20190479c108cb2214edc17af476ac202525c3bded67d828106e2b5dee99c84",
+      "assetSHA256": "692a098c30503d2016f7ccba85648ff0d9950d8fa971338dc6f036a70d304fb2",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-hb-4830-meander-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4830-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.3419354838709677,
+          0.15450643776824036,
+          0.36129032258064514,
+          0.15450643776824036
+        ],
+        "label": "漆豆器壁回折纹",
+        "note": "豆盘器壁可见的方折与回旋线条；只提取器表绘纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4830.html",
+        "sourceImage": "cutouts/hb-4830-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "originalPhoto": "assets/catalogue-hb-4830.jpeg",
+      "originalPhotoSHA256": "97fe89cce4c3724bff036b56fdbe5e136307f008e2410e3fc7078e7607f1254b"
+    },
+    {
+      "id": "hb-4828-meander-expand-20261018",
+      "objectId": "hb-4828",
+      "title": "漆木方豆",
+      "motif": "几何",
+      "label": "方豆器壁回折纹",
+      "note": "方豆前壁的彩绘回折纹局部，保留照片的透视，不复制补齐缺失部分。",
+      "view": "detail",
+      "rect": [
+        0.35135135135135137,
+        0.46153846153846156,
+        0.30115830115830117,
+        0.14835164835164835
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4828.html",
+      "photo": "cutouts/hb-4828-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4828.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4828.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4828-meander-expand-20261018.png",
+      "width": 680,
+      "height": 262,
+      "sourcePixels": [
+        78,
+        27
+      ],
+      "sourceSHA256": "3163735e79a0b52e49252e194d1567a897c2af72e1cb7f002ff54eb49d42e3c3",
+      "assetSHA256": "419bbca69e7771799f96cbccf1550400f318b661b8ff0b1a4e1122aa2db5808d",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-hb-4828-meander-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4828-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.35135135135135137,
+          0.46153846153846156,
+          0.30115830115830117,
+          0.14835164835164835
+        ],
+        "label": "方豆器壁回折纹",
+        "note": "方豆前壁的彩绘回折纹局部，保留照片的透视，不复制补齐缺失部分。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4828.html",
+        "sourceImage": "cutouts/hb-4828-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "originalPhoto": "assets/catalogue-hb-4828.jpeg",
+      "originalPhotoSHA256": "e6da5ebd406b2e705a158fe68b619e18f907e5c334b389e91bafab328bc969ae"
+    },
+    {
+      "id": "hb-4788-scroll-band-expand-20261018",
+      "objectId": "hb-4788",
+      "title": "漆木俎",
+      "motif": "云气",
+      "label": "漆俎侧边卷曲纹带",
+      "note": "漆俎侧边可辨认的连续卷曲线纹。",
+      "view": "detail",
+      "rect": [
+        0.3345724907063197,
+        0.20454545454545456,
+        0.3382899628252788,
+        0.10454545454545454
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4788.html",
+      "photo": "cutouts/hb-4788-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4788.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4788.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4788-scroll-band-expand-20261018.png",
+      "width": 680,
+      "height": 202,
+      "sourcePixels": [
+        91,
+        23
+      ],
+      "sourceSHA256": "edff57f6d7cb0ad0a500ce10373b714ebb338fdf629b85f56c23339049fd2d44",
+      "assetSHA256": "d366d7d30a7aaa50b37de0d73cba7ff951e6dc6de425db264012464072455693",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-hb-4788-scroll-band-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4788-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.3345724907063197,
+          0.20454545454545456,
+          0.3382899628252788,
+          0.10454545454545454
+        ],
+        "label": "漆俎侧边卷曲纹带",
+        "note": "漆俎侧边可辨认的连续卷曲线纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4788.html",
+        "sourceImage": "cutouts/hb-4788-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "originalPhoto": "assets/catalogue-hb-4788.jpeg",
+      "originalPhotoSHA256": "0a457bea6e6a9ef6921ff6b5457fb8fd02c2cb004881382d4952db3839ebd1ed"
+    },
+    {
+      "id": "hb-4832-scroll-band-expand-20261018",
+      "objectId": "hb-4832",
+      "title": "漆木盖豆",
+      "motif": "云气",
+      "label": "盖豆盖沿卷曲纹",
+      "note": "盖豆盖沿的彩绘卷曲线条局部，不提取器盖外形。",
+      "view": "detail",
+      "rect": [
+        0.22641509433962265,
+        0.17695473251028807,
+        0.4968553459119497,
+        0.06995884773662552
+      ],
+      "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+      "photo": "cutouts/hb-4832.webp",
+      "photoSource": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+      "credit": null,
+      "era": "战国中晚期",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4832-scroll-band-expand-20261018.png",
+      "width": 680,
+      "height": 178,
+      "sourcePixels": [
+        79,
+        17
+      ],
+      "sourceSHA256": "64f882803e692cb6bf274f1fcb750c9c73cc77c0bb92066be2aa7b6efe501158",
+      "assetSHA256": "a86758d229061fc6c7d932fa5be5a8ea99b6599f4c6b35b68356cd3428b218e3",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-hb-4832-scroll-band-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4832-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.22641509433962265,
+          0.17695473251028807,
+          0.4968553459119497,
+          0.06995884773662552
+        ],
+        "label": "盖豆盖沿卷曲纹",
+        "note": "盖豆盖沿的彩绘卷曲线条局部，不提取器盖外形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+        "sourceImage": "cutouts/hb-4832.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "originalPhoto": "assets/hb-4832.jpeg",
+      "originalPhotoSHA256": "8349c7ee582557cd53e2e3ad25126d44ca3643156314fe492dde6dd81b7ee829"
+    },
+    {
+      "id": "hb-4981-painted-bird-expand-20261018",
+      "objectId": "hb-4981",
+      "title": "彩绘凤鸟双连杯",
+      "motif": "凤鸟",
+      "label": "双连杯器壁彩绘鸟首纹",
+      "note": "只取杯壁上的彩绘鸟首、眼部与喙的线条，和双连杯的鸟形构件分开记录。",
+      "view": "detail",
+      "rect": [
+        0.3003003003003003,
+        0.5714285714285714,
+        0.2072072072072072,
+        0.2
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+      "photo": "cutouts/hb-4981-catalogue.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/4981.html",
+      "credit": {
+        "author": "湖北省博物馆",
+        "provider": "馆方公开典藏",
+        "page": "https://www.hbww.org.cn/qmq/p/4981.html",
+        "changes": "仅去除摄影背景并裁切透明留白；保留原始照片及器物RGB，未重绘。",
+        "retrieved": "2026-10-11"
+      },
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": true,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/hb-4981-painted-bird-expand-20261018.png",
+      "width": 680,
+      "height": 559,
+      "sourcePixels": [
+        69,
+        56
+      ],
+      "sourceSHA256": "969b10edcbe008525a17f4ee2a22efe29f40095e4797a14ce378dc6eb272dfc6",
+      "assetSHA256": "713169c0727c1860e9d9d49c5dcfa5ca610b24e4d49154a999fe8a17452ceffa",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-hb-4981-painted-bird-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-hb-4981-painted-bird-expand-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.3003003003003003,
+          0.5714285714285714,
+          0.2072072072072072,
+          0.2
+        ],
+        "label": "双连杯器壁彩绘鸟首纹",
+        "note": "只取杯壁上的彩绘鸟首、眼部与喙的线条，和双连杯的鸟形构件分开记录。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+        "sourceImage": "cutouts/hb-4981-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.37,
+            0
+          ],
+          [
+            0.42,
+            0.17
+          ],
+          [
+            0.57,
+            0.6
+          ],
+          [
+            1,
+            0.77
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.6,
+            1
+          ],
+          [
+            0.34,
+            0.72
+          ],
+          [
+            0.1,
+            0.53
+          ],
+          [
+            0,
+            0.3
+          ]
+        ]
+      },
+      "sourcePolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          0.37,
+          0
+        ],
+        [
+          0.42,
+          0.17
+        ],
+        [
+          0.57,
+          0.6
+        ],
+        [
+          1,
+          0.77
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0.6,
+          1
+        ],
+        [
+          0.34,
+          0.72
+        ],
+        [
+          0.1,
+          0.53
+        ],
+        [
+          0,
+          0.3
+        ]
+      ],
+      "originalPhoto": "assets/catalogue-hb-4981.jpeg",
+      "originalPhotoSHA256": "97826fb5d70b28ec0f2139fe71d59118cfdd90fda2c42bf40c2bbe592ae397a3"
+    },
+    {
+      "id": "spoon-feather-band-expand-20261018",
+      "objectId": "spoon",
+      "title": "彩绘凤形漆勺",
+      "motif": "禽鸟",
+      "label": "凤形漆勺颈下鳞羽纹",
+      "note": "只取勺颈下方层叠弧线组成的羽饰，不取凤形漆勺的器形。",
+      "view": "detail",
+      "rect": [
+        0.14953271028037382,
+        0.6824034334763949,
+        0.18691588785046728,
+        0.16738197424892703
+      ],
+      "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+      "photo": "cutouts/spoon.webp",
+      "photoSource": "https://www.hbww.org.cn/qmq/p/5481.html",
+      "credit": null,
+      "era": "秦",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/spoon-feather-band-expand-20261018.png",
+      "width": 680,
+      "height": 664,
+      "sourcePixels": [
+        40,
+        39
+      ],
+      "sourceSHA256": "e5b2fecd196dc1b0d36035002331af4a29157102bf3dd2795e0e0c9732dda0fb",
+      "assetSHA256": "4ce8bd2a04d524538bad9216748d09b0b2eeb32e91f0e3fd353febed275a26bc",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-spoon-feather-band-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-spoon-feather-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "禽鸟",
+        "rect": [
+          0.14953271028037382,
+          0.6824034334763949,
+          0.18691588785046728,
+          0.16738197424892703
+        ],
+        "label": "凤形漆勺颈下鳞羽纹",
+        "note": "只取勺颈下方层叠弧线组成的羽饰，不取凤形漆勺的器形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+        "sourceImage": "cutouts/spoon.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.62,
+            0
+          ],
+          [
+            0.87,
+            0.52
+          ],
+          [
+            1,
+            0.73
+          ],
+          [
+            0.82,
+            1
+          ],
+          [
+            0.18,
+            1
+          ],
+          [
+            0,
+            0.7
+          ]
+        ]
+      },
+      "sourcePolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          0.62,
+          0
+        ],
+        [
+          0.87,
+          0.52
+        ],
+        [
+          1,
+          0.73
+        ],
+        [
+          0.82,
+          1
+        ],
+        [
+          0.18,
+          1
+        ],
+        [
+          0,
+          0.7
+        ]
+      ],
+      "originalPhoto": "assets/phoenix-spoon.jpeg",
+      "originalPhotoSHA256": "b73591692cc1c2a8daf72e851064f43ddf870239116ea1f6dc5556f38454db10"
+    },
+    {
+      "id": "jz-458-painted-scroll-expand-20261018",
+      "objectId": "jz-458",
+      "title": "漆木彩绘猪形酒具盒",
+      "motif": "云气",
+      "label": "猪形酒具盒器壁卷曲纹",
+      "note": "提取猪形酒具盒表面红漆卷曲纹，非猪形外轮廓或立体圆钮。",
+      "view": "detail",
+      "rect": [
+        0.5495420482930891,
+        0.5131868131868131,
+        0.16652789342214822,
+        0.09230769230769231
+      ],
+      "source": "http://www.jzmsm.org/news-458.html",
+      "photo": "cutouts/jz-458.webp",
+      "photoSource": "http://www.jzmsm.org/news-458.html",
+      "credit": null,
+      "era": "战国",
+      "material": "漆器",
+      "catalogueAdded": false,
+      "available": true,
+      "kind": "纹样拓影",
+      "surfaceVerified": true,
+      "evidence": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+      "reviewed": "2026-10-18",
+      "image": "rubbings/jz-458-painted-scroll-expand-20261018.png",
+      "width": 680,
+      "height": 309,
+      "sourcePixels": [
+        200,
+        84
+      ],
+      "sourceSHA256": "c18476b1dab7c9ad596535189fc5b749d5202989ba1a503226d9f3454c4cd0b3",
+      "assetSHA256": "7149119b46a0b4e07378c3b149a9ed57ea45854364e8cbfc5d807d5aaa06f2c2",
+      "method": "馆藏照片局部彩绘色层或边线分离、去除孤立噪点、平滑像素边缘；仅保留照片中可见线条，不补绘、不重构；非实物拓片。",
+      "qualityReview": "对照原照片与提取结果逐张核验；不把形制、木纹、锈迹和反光作为纹样。",
+      "regionId": "motif-jz-458-painted-scroll-expand-20261018",
+      "sourceRegion": {
+        "id": "motif-jz-458-painted-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.5495420482930891,
+          0.5131868131868131,
+          0.16652789342214822,
+          0.09230769230769231
+        ],
+        "label": "猪形酒具盒器壁卷曲纹",
+        "note": "提取猪形酒具盒表面红漆卷曲纹，非猪形外轮廓或立体圆钮。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "http://www.jzmsm.org/news-458.html",
+        "sourceImage": "cutouts/jz-458.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "originalPhoto": "assets/jz-458.png",
+      "originalPhotoSHA256": "c3652ab8c9e53a533761d990694895f7e0977f42313269aea8df6b8d3585cf68"
+    }
+  ],
+  "detailUpdates": [
+    {
+      "objectId": "hb-4816",
+      "region": {
+        "id": "motif-hb-4816-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.44807121661721067,
+          0.3,
+          0.2433234421364985,
+          0.14545454545454545
+        ],
+        "label": "方鉴器壁相对卷曲纹",
+        "note": "器壁斜向纹带中相对卷入的彩绘曲线；不取木质器形轮廓。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4816.html",
+        "sourceImage": "cutouts/hb-4816-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-4962",
+      "region": {
+        "id": "motif-hb-4962-paired-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.14583333333333334,
+          0.2153846153846154,
+          0.2881944444444444,
+          0.2
+        ],
+        "label": "漆鬲器腹双卷纹",
+        "note": "器腹正面两道相向盘卷的彩绘线条，保留原图中的弧度和残损。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4962.html",
+        "sourceImage": "cutouts/hb-4962-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-4830",
+      "region": {
+        "id": "motif-hb-4830-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.3419354838709677,
+          0.15450643776824036,
+          0.36129032258064514,
+          0.15450643776824036
+        ],
+        "label": "漆豆器壁回折纹",
+        "note": "豆盘器壁可见的方折与回旋线条；只提取器表绘纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4830.html",
+        "sourceImage": "cutouts/hb-4830-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-4828",
+      "region": {
+        "id": "motif-hb-4828-meander-expand-20261018",
+        "dimension": "motifs",
+        "value": "几何",
+        "rect": [
+          0.35135135135135137,
+          0.46153846153846156,
+          0.30115830115830117,
+          0.14835164835164835
+        ],
+        "label": "方豆器壁回折纹",
+        "note": "方豆前壁的彩绘回折纹局部，保留照片的透视，不复制补齐缺失部分。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4828.html",
+        "sourceImage": "cutouts/hb-4828-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-4788",
+      "region": {
+        "id": "motif-hb-4788-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.3345724907063197,
+          0.20454545454545456,
+          0.3382899628252788,
+          0.10454545454545454
+        ],
+        "label": "漆俎侧边卷曲纹带",
+        "note": "漆俎侧边可辨认的连续卷曲线纹。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4788.html",
+        "sourceImage": "cutouts/hb-4788-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-4832",
+      "region": {
+        "id": "motif-hb-4832-scroll-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.22641509433962265,
+          0.17695473251028807,
+          0.4968553459119497,
+          0.06995884773662552
+        ],
+        "label": "盖豆盖沿卷曲纹",
+        "note": "盖豆盖沿的彩绘卷曲线条局部，不提取器盖外形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://hbsbwg.cjyun.org/qmq/p/4832.html",
+        "sourceImage": "cutouts/hb-4832.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "hb-4981",
+      "region": {
+        "id": "motif-hb-4981-painted-bird-expand-20261018",
+        "dimension": "motifs",
+        "value": "凤鸟",
+        "rect": [
+          0.3003003003003003,
+          0.5714285714285714,
+          0.2072072072072072,
+          0.2
+        ],
+        "label": "双连杯器壁彩绘鸟首纹",
+        "note": "只取杯壁上的彩绘鸟首、眼部与喙的线条，和双连杯的鸟形构件分开记录。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/4981.html",
+        "sourceImage": "cutouts/hb-4981-catalogue.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.37,
+            0
+          ],
+          [
+            0.42,
+            0.17
+          ],
+          [
+            0.57,
+            0.6
+          ],
+          [
+            1,
+            0.77
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.6,
+            1
+          ],
+          [
+            0.34,
+            0.72
+          ],
+          [
+            0.1,
+            0.53
+          ],
+          [
+            0,
+            0.3
+          ]
+        ]
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "spoon",
+      "region": {
+        "id": "motif-spoon-feather-band-expand-20261018",
+        "dimension": "motifs",
+        "value": "禽鸟",
+        "rect": [
+          0.14953271028037382,
+          0.6824034334763949,
+          0.18691588785046728,
+          0.16738197424892703
+        ],
+        "label": "凤形漆勺颈下鳞羽纹",
+        "note": "只取勺颈下方层叠弧线组成的羽饰，不取凤形漆勺的器形。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "https://www.hbww.org.cn/qmq/p/5481.html",
+        "sourceImage": "cutouts/spoon.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6,
+        "sourcePolygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0.62,
+            0
+          ],
+          [
+            0.87,
+            0.52
+          ],
+          [
+            1,
+            0.73
+          ],
+          [
+            0.82,
+            1
+          ],
+          [
+            0.18,
+            1
+          ],
+          [
+            0,
+            0.7
+          ]
+        ]
+      },
+      "addMotif": null
+    },
+    {
+      "objectId": "jz-458",
+      "region": {
+        "id": "motif-jz-458-painted-scroll-expand-20261018",
+        "dimension": "motifs",
+        "value": "云气",
+        "rect": [
+          0.5495420482930891,
+          0.5131868131868131,
+          0.16652789342214822,
+          0.09230769230769231
+        ],
+        "label": "猪形酒具盒器壁卷曲纹",
+        "note": "提取猪形酒具盒表面红漆卷曲纹，非猪形外轮廓或立体圆钮。",
+        "view": "detail",
+        "basis": "照片观察：器表彩绘线纹清楚可见；名称为可见形态的描述，不将器形或木纹认定为纹样。",
+        "source": "http://www.jzmsm.org/news-458.html",
+        "sourceImage": "cutouts/jz-458.webp",
+        "rubbingEligible": true,
+        "rubbingMethod": "reviewed-line-expansion-20261018",
+        "revision": 6
+      },
+      "addMotif": null
+    }
+  ]
+}

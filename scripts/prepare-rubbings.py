@@ -7,8 +7,12 @@ import json,hashlib
 import cv2
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
+from rubbing_quality import reviewed_entry,preserve_reviewed
 ROOT=Path(__file__).resolve().parents[1];D=ROOT/'dist';OUT=D/'rubbings';OUT.mkdir(exist_ok=True)
 a=json.loads((D/'data/artifacts.json').read_text());details=json.loads((D/'data/detail-regions.json').read_text())['artifacts'];old=json.loads((D/'data/rubbings.json').read_text())['entries']
+quality_path=D/'data/rubbing-quality-review.json'
+reviews={e['id']:e for e in json.loads(quality_path.read_text())['entries']} if quality_path.exists() else {}
+previous_by_id={e['id']:e for e in old}
 old_by={}
 for e in old:old_by[(e['objectId'],e['motif'])]=e
 for id in ['jz-458','hb-4988','hb-6173','hb-6174','jz-354']:
@@ -21,6 +25,10 @@ for o in a:
   prior=old_by.get((o['id'],r['value']));rid=prior['id'] if prior else o['id']+'-surface-'+slug.get(r['value'],hashlib.sha1(r['value'].encode()).hexdigest()[:8])
   if rid in used:continue
   used.add(rid)
+  # A photograph's eligibility is not proof that its extracted lines are legible.
+  # Preserve the reviewed image (or withdrawal) before any file can be overwritten.
+  if rid in reviews and rid in previous_by_id:
+   entries.append(reviewed_entry(previous_by_id[rid],reviews[rid]));continue
   ready=bool(r.get('rubbingEligible')) and r['view']=='detail'
   e={'id':rid,'objectId':o['id'],'title':o['title'],'motif':r['value'],'label':r['label'],'note':r['note'],'view':r['view'],'rect':r['rect'],'source':o['source'],'photo':o['displayImage'],'credit':o.get('imageCredit'),'era':o['period'],'material':o['materialGroup'],'catalogueAdded':bool(o.get('catalogueReview')),'available':ready,'kind':'纹样拓影' if ready else '仅有纹饰记录','surfaceVerified':True,'evidence':r['basis'],'reviewed':'2026-10-11'}
   if not ready:e['unavailableReason']=r.get('rubbingReason','当前照片无法独立辨认该纹饰。');entries.append(e);continue
@@ -55,6 +63,7 @@ for o in a:
   out=Image.new('RGBA',(mask.width+24,mask.height+24),(237,228,212,0));paint=Image.new('RGBA',mask.size,(237,228,212,0));paint.putalpha(mask);out.alpha_composite(paint,(12,12));out.save(OUT/(rid+'.png'),optimize=True)
   e.update(image='rubbings/'+rid+'.png',width=out.width,height=out.height,sourcePixels=list(crop.size),sourceSHA256=hashlib.sha256((D/o['displayImage']).read_bytes()).hexdigest(),method='馆藏照片局部裁切；'+({'pigment':'彩绘色区分离与窄线提取','blue':'青花色区分离与窄线提取','dark':'深色绘画线条分离','line':'去噪后提取器表刻线/纹饰边缘'}[method])+'；排除器物轮廓，不补绘缺线，非实物拓片。')
   entries.append(e);new_assets.append((e,crop,out))
+entries=preserve_reviewed(entries,old,reviews,{o['id'] for o in a})
 manifest={'version':2,'description':'只提供已核对、在照片中可辨认的器表纹饰数字拓影；不把动物、人物或器物的整体轮廓当作纹样。非实物拓片。','entries':entries}
 (D/'data/rubbings.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 font=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial Unicode.ttf',13)

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const objects=read('dist/data/artifacts.json'),byId=new Map(objects.map(a=>[a.id,a]));
 const regions=read('dist/data/detail-regions.json').artifacts,entries=read('dist/data/rubbings.json').entries;
@@ -10,7 +11,20 @@ assert(byId.get('hb-5459').motifs.includes('凤鸟'),'Documented painted phoenix
 const available=entries.filter(e=>e.available);
 for(const e of available){
  const a=byId.get(e.objectId);assert(a&&a.motifs.includes(e.motif));assert(e.surfaceVerified&&e.view==='detail');assert(e.source===a.source&&e.rect.length===4);
- const r=regions[e.objectId].find(r=>r.dimension==='motifs'&&r.value===e.motif);assert(r?.rubbingEligible);
+ const r=e.regionId
+  ? (regions[e.objectId]?.find(r=>r.id===e.regionId) || e.sourceRegion)
+  : regions[e.objectId]?.find(r=>r.dimension==='motifs'&&r.value===e.motif);
+ assert(r?.rubbingEligible,e.id+' needs a verified surface region');
+ if(e.regionId){
+  assert.equal(r.id,e.regionId);assert.equal(r.dimension,'motifs');assert.equal(r.value,e.motif);
+  assert.equal(r.sourceImage,e.photo);assert.deepEqual(r.rect,e.rect);
+  const [x,y,w,h]=e.rect;
+  assert(x>=0&&y>=0&&w>0&&h>0&&x+w<=1&&y+h<=1,e.id+' crop must fit its source photo');
+  const photo=fs.readFileSync(new URL('../dist/'+e.photo,import.meta.url));
+  assert.equal(createHash('sha256').update(photo).digest('hex'),e.sourceSHA256,e.id+' source photo changed');
+  // Alternate-photo coordinates must not enter the displayImage-only detail viewer.
+  if(e.photo!==a.displayImage)assert(!regions[e.objectId]?.some(r=>r.id===e.regionId));
+ }
  assert(fs.existsSync(new URL('../dist/'+e.image,import.meta.url)));
 }
 assert(available.some(e=>e.catalogueAdded),'Reviewed new museum photos must enter the workshop');

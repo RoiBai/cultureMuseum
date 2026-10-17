@@ -3,6 +3,7 @@ import {museumForeground} from './foreground.js?v=20261011-review';
 import {arrangeArtifacts} from './layout.js?v=20261012-flat-copper';
 import {filterSample, glyphBody, materialPattern, materialSpec} from './visual-language.js?v=20261011-review';
 import {featureValues as values,isKnownFeature} from './feature-values.js?v=20261011-review';
+import {COLOUR_HUE_ENABLED,DEFAULT_COLOUR_VIEW,resolveColourView} from './colour-view-config.js?v=20261018';
 
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -15,10 +16,10 @@ const eraDefs=[
  ['song','宋','两宋时期','13'],['yuan','元','元代','14'],['ming','明','明代','15'],['qing','清','清代','16'],['modern','近现代','近现代','17']
 ];
 const dims=[
- {key:'crafts',name:'工艺',english:'CRAFT',open:false,preferred:['髹漆','彩绘','铸造','刺绣','透雕','雕琢','釉下彩','鎏金','贴金','镶嵌','错金','圆雕','浮雕','烧造','书写'],note:'虚线串联工艺图标；具体工艺依据见档案。'},
- {key:'colors',name:'色彩',english:'COLOUR',open:false,preferred:Object.keys(paletteColors),note:'仅按照片前景取色；馆方文字颜色另列于档案。'},
- {key:'functionGroup',name:'功能',english:'USE',open:false,preferred:functionCategories,note:'按器名与馆方用途记述归类，一件器物可以有多种用途。'},
- {key:'motifs',name:'纹样',english:'MOTIF',open:false,preferred:['凤鸟','龙蛇','虎豹','花卉','云雷','几何','鱼纹','兽面','人像','铭文','鹿角','禽鸟'],note:'只列有依据的器表纹饰，整体动物造型不作为纹样。'},
+ {key:'crafts',name:'工艺',english:'CRAFT',open:false,preferred:['髹漆','彩绘','铸造','刺绣','透雕','雕琢','釉下彩','鎏金','贴金','镶嵌','错金','圆雕','浮雕','烧造','书写']},
+ {key:'colors',name:'色彩',english:'COLOUR',open:false,preferred:Object.keys(paletteColors)},
+ {key:'functionGroup',name:'功能',english:'USE',open:false,preferred:functionCategories},
+ {key:'motifs',name:'纹样',english:'MOTIF',open:false,preferred:['凤鸟','龙蛇','虎豹','花卉','云雷','几何','鱼纹','兽面','人像','铭文','鹿角','禽鸟']},
  {key:'materialGroup',name:'材质',english:'MATERIAL',open:false},
  {key:'city',name:'出土地',english:'PLACE',open:false}
 ];
@@ -29,7 +30,7 @@ const photoCache=new Map();
 const spatialViews={},spatialLoads={};
 const enabledViews=['2d','3d','map','hue','colour','catalogue'];
 const topViews=['2d','3d','map','hue','catalogue'];
-let preferredColourView='hue';
+let preferredColourView=DEFAULT_COLOUR_VIEW;
 const label=(key,value)=>key==='era'?(eraDefs.find(e=>e[0]===value)?.[1]||value):value;
 function matches(a,except){return dims.every(d=>d.key===except||selected[d.key].size===0||values(a,d.key).some(v=>selected[d.key].has(v)))}
 function hasFilters(){return dims.some(d=>selected[d.key].size)}
@@ -53,7 +54,7 @@ function renderFilters(){
    let options=[...new Set(artifacts.flatMap(a=>values(a,d.key)))].filter(Boolean);
    const preferred=d.preferred||(d.key==='era'?eraDefs.map(e=>e[0]):d.key==='city'?cities.map(c=>c.name):[]);
    options.sort((a,b)=>(preferred.includes(a)?preferred.indexOf(a):999)-(preferred.includes(b)?preferred.indexOf(b):999));
-   return `<details class="filter-section" ${d.open?'open':''}><summary><span class="filter-title">${d.name}<small>${d.english}</small></span></summary><div class="filter-options options-${d.key}">${options.map(v=>`<button class="filter-chip chip-${d.key}" data-filter="${d.key}" data-value="${esc(v)}" aria-pressed="${selected[d.key].has(v)}">${filterSample(d.key,v,paletteColors)}<span>${esc(label(d.key,v))}</span><em>${artifacts.filter(a=>values(a,d.key).includes(v)).length}</em></button>`).join('')}</div>${d.note?`<p class="filter-note">${d.note}</p>`:''}</details>`;
+   return `<details class="filter-section" ${d.open?'open':''}><summary><span class="filter-title">${d.name}<small>${d.english}</small></span></summary><div class="filter-options options-${d.key}">${options.map(v=>`<button class="filter-chip chip-${d.key}" data-filter="${d.key}" data-value="${esc(v)}" aria-pressed="${selected[d.key].has(v)}">${filterSample(d.key,v,paletteColors)}<span>${esc(label(d.key,v))}</span><em>${artifacts.filter(a=>values(a,d.key).includes(v)).length}</em></button>`).join('')}</div></details>`;
  }).join('');
  updateEraNav();
 }
@@ -218,14 +219,16 @@ function syncThree(){
 }
 $('three-group').onchange=e=>{groupDimension=e.target.value;atlas3d?.setFilter({selected,matchedIds:matchIds,dimension:groupDimension})};
 async function switchView(next){
+ next=resolveColourView(next);
  if(next==='catalogue'){rememberAtlasContext();location.href='colours.html';return}
  if(!enabledViews.includes(next))next='2d';
  view=next;hideHover();document.body.dataset.view=next;
  $('site-section').textContent=({'2d':'二维图谱','3d':'3D 时间轴',map:'荆楚地图',hue:'颜色图谱',colour:'颜色图谱'})[next]||'器物图谱';
  const isColour=['hue','colour'].includes(next);
  if(isColour)preferredColourView=next;
- document.querySelector('.colour-mode-switch').hidden=!isColour;
- document.querySelectorAll('[data-colour-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.colourMode===next)));
+ document.querySelector('.colour-mode-switch').hidden=!isColour||!COLOUR_HUE_ENABLED;
+ document.querySelectorAll('[data-colour-mode]').forEach(b=>{b.hidden=b.dataset.colourMode==='hue'&&!COLOUR_HUE_ENABLED;b.setAttribute('aria-pressed',String(b.dataset.colourMode===next))});
+ $('view-hue').setAttribute('aria-controls','atlas-'+preferredColourView);
  $('sidebar').classList.remove('open');
  document.querySelectorAll('[role="tab"][data-view]').forEach(b=>{const active=b.dataset.view===(next==='colour'?'hue':next)&&!b.hidden;b.setAttribute('aria-selected',String(active));b.tabIndex=active?0:-1});
  $('atlas-scroll').hidden=next!=='2d';$('atlas-3d').hidden=next!=='3d';$('atlas-map').hidden=next!=='map';
@@ -236,7 +239,7 @@ async function switchView(next){
  if(next==='2d'){atlas3d?.setVisible(false);buildLayout();refresh();return}
  if(['xyz','particles','colour','hue'].includes(next)){
   if(!spatialLoads[next])spatialLoads[next]=(async()=>{
-   try{const mod=await import(next==='hue'?'./colour-hue.js?v=20261011-review':next==='colour'?(new URLSearchParams(location.search).get('colourStyle')==='legacy'?'./colour-cluster-legacy.js?v=20261011-review':'./colour-cluster.js?v=20261011-review'):next==='xyz'?'./xyz-atlas.js?v=20261011-review':'./particle-cloud.js?v=20261011-review'),Constructor=next==='hue'?mod.ColourHue:next==='colour'?mod.ColourCluster:next==='xyz'?mod.XYZAtlas:mod.ParticleCloud;
+   try{const mod=await import(next==='hue'?'./colour-hue.js?v=20261011-review':next==='colour'?(new URLSearchParams(location.search).get('colourStyle')==='legacy'?'./colour-cluster-legacy.js?v=20261011-review':'./colour-cluster.js?v=20261018-rhythm'):next==='xyz'?'./xyz-atlas.js?v=20261011-review':'./particle-cloud.js?v=20261011-review'),Constructor=next==='hue'?mod.ColourHue:next==='colour'?mod.ColourCluster:next==='xyz'?mod.XYZAtlas:mod.ParticleCloud;
     spatialViews[next]=new Constructor($('atlas-'+next),{artifacts,eraDefs,cities,onDetail:detail,onEra:id=>{if(view===next)document.querySelectorAll('#era-nav [data-jump]').forEach(b=>{if(b.dataset.jump===id)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}});
    }catch(error){console.error(error);$('atlas-'+next).innerHTML='<div class="spatial-error">图谱暂时无法显示，请刷新重试。也可以返回二维图谱浏览。<button data-view="2d">返回二维图谱</button></div>';delete spatialLoads[next]}
   })();
